@@ -1,17 +1,12 @@
 # Become a Music Master
 
-**Music Master** is a powerful audio tool that puts sound in your hands and unleashes your creativity.  
-
-Built for Game Masters, it lets you craft **dynamic, event-driven soundscapes** that react to your story.  
-
-Layer tracks, automate fades, and trigger cinematic moments — all with a click.  
+**Music Master** is a powerful audio tool that puts sound in your hands and unleashes your creativity. Built for Game Masters, it lets you craft **dynamic, event-driven soundscapes** that react to your story. Layer tracks, automate fades, and trigger cinematic moments — all with a click.
 
 [🎧 Join the Closed Beta Tests](#Join-the-closed-beta-tests)  
 
 ---
 
 ## Music Master
-### by Midnordic
 
 Other apps give you canned soundboards.  
 **Music Master gives you complete creative control.**
@@ -57,7 +52,7 @@ Steal techniques from cinema and adapt them to RPGs:
 
 ## Join the Closed Beta Tests
 
-We’re currently running **closed beta tests** — and if you’re seeing this, you’re one of the chosen few!  
+We’re currently running closed beta tests — and if you’re seeing this, you’re one of the chosen few!  
 
 Join our Discord to try the app, share feedback, and help shape Music Master into the ultimate DM audio tool.  
 

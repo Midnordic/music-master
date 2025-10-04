@@ -99,7 +99,6 @@ body {
 .hero {
     padding: 8rem 0 6rem;
     background: linear-gradient(135deg, #fff5f5 0%, #fef5e7 100%);
-    text-align: center;
     position: relative;
 }
 
@@ -116,10 +115,17 @@ body {
 }
 
 .hero-content {
-    max-width: 800px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4rem;
+    align-items: center;
     position: relative;
     z-index: 1;
+}
+
+.hero-text {
+    text-align: left;
+    max-width: 600px;
 }
 
 .hero-title {
@@ -136,23 +142,33 @@ body {
 
 .hero-subtitle {
     font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: #4a5568;
-    font-weight: 500;
-}
-
-.hero-description {
-    font-size: 1.1rem;
     margin-bottom: 3rem;
-    color: #718096;
+    color: #4a5568;
+    font-weight: 400;
     line-height: 1.7;
 }
 
 .hero-actions {
     display: flex;
     gap: 1rem;
-    justify-content: center;
     flex-wrap: wrap;
+}
+
+.hero-image {
+    flex-shrink: 0;
+}
+
+.manual-image {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.manual-image:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(111, 66, 193, 0.15);
 }
 
 /* Buttons */
@@ -406,24 +422,24 @@ body {
 }
 
 .features-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
     margin-top: 3rem;
 }
 
 .feature-card {
     background: #ffffff;
-    padding: 2.5rem;
+    padding: 2rem;
     border-radius: 12px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid #e2e8f0;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     position: relative;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 3rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .feature-card::before {
@@ -449,55 +465,33 @@ body {
     opacity: 1;
 }
 
-.feature-content {
+.feature-header {
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .feature-icon {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
     display: block;
-}
-
-.feature-card h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #2d3748;
-    margin-bottom: 1rem;
-}
-
-.feature-card p {
-    color: #718096;
-    line-height: 1.6;
-    font-size: 1.1rem;
-}
-
-.feature-video {
-    width: 640px;
-    height: 480px;
     flex-shrink: 0;
 }
 
-.video-placeholder {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border: 1px dashed #cbd5e0;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6c757d;
-    font-size: 0.875rem;
-    transition: all 0.3s ease;
-    overflow: hidden;
+.feature-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0;
 }
 
-.video-placeholder:hover {
-    background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
-    border-color: #6f42c1;
+.feature-description {
+    color: #718096;
+    line-height: 1.6;
+    font-size: 1rem;
+    max-width: 300px;
 }
 
 /* Techniques Section */
@@ -685,6 +679,10 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1300px) {
+    /* No longer needed for video sizing */
+}
+
 @media (max-width: 968px) {
     .about-content {
         grid-template-columns: 1fr;
@@ -699,6 +697,29 @@ body {
     .slideshow-container {
         width: 560px;
         height: 360px;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+    
+    .hero-text {
+        text-align: center;
+    }
+    
+    .hero-image {
+        justify-self: center;
+    }
+    
+    .manual-image {
+        width: 350px;
     }
 }
 
@@ -725,28 +746,24 @@ body {
         font-size: 1.1rem;
     }
     
-    .hero-description {
-        font-size: 1rem;
-    }
-    
     .section-title {
         font-size: 2rem;
     }
     
-    .feature-card {
+    .features-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    
+    .feature-header {
+        flex-direction: column;
+        gap: 0.5rem;
         text-align: center;
     }
     
-    .feature-content {
-        text-align: center;
-    }
-    
-    .feature-video {
+    .manual-image {
         width: 100%;
         max-width: 400px;
-        margin: 0 auto;
     }
     
     .techniques-grid {
@@ -811,8 +828,17 @@ body {
         padding: 1.5rem;
     }
     
-    .feature-video {
-        height: 150px;
+    .feature-header {
+        margin-bottom: 1rem;
+    }
+    
+    .feature-description {
+        font-size: 0.95rem;
+    }
+    
+    .manual-image {
+        width: 100%;
+        max-width: 300px;
     }
     
     .nav-links {
@@ -846,22 +872,6 @@ body {
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
-}
-
-/* Loading Animation */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.fade-in-up {
-    animation: fadeInUp 0.6s ease-out;
 }
 
 /* Focus States for Accessibility */

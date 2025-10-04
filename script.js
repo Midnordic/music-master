@@ -2,7 +2,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all functionality
     initSmoothScrolling();
-    initScrollAnimations();
     initHeaderEffects();
     initInteractiveElements();
     initMobileMenu();
@@ -27,35 +26,6 @@ function initSmoothScrolling() {
                 });
             }
         });
-    });
-}
-
-// Scroll-triggered animations
-function initScrollAnimations() {
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in-up');
-                // Add staggered animation for grid items
-                if (entry.target.classList.contains('feature-card') || 
-                    entry.target.classList.contains('technique-card')) {
-                    const siblings = Array.from(entry.target.parentElement.children);
-                    const index = siblings.indexOf(entry.target);
-                    entry.target.style.animationDelay = `${index * 0.1}s`;
-                }
-            }
-        });
-    }, observerOptions);
-
-    // Observe elements for animation
-    const animateElements = document.querySelectorAll('.feature-card, .technique-card, .about-content, .beta-content');
-    animateElements.forEach(el => {
-        observer.observe(el);
     });
 }
 
@@ -383,3 +353,7 @@ preloadCriticalResources();
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = utils;
 }
+
+// Make functions globally available for onclick handlers
+window.changeSlide = changeSlide;
+window.currentSlide = currentSlide;
