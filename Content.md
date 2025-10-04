@@ -6,31 +6,16 @@
 
 ---
 
-## Music Master
-
-Other apps give you canned soundboards.  
-**Music Master gives you complete creative control.**
-
-- Import your own audio files.  
-- Layer multiple tracks and crossfade seamlessly.  
-- Automate pitch, tempo, and volume changes.  
-- Build custom triggers with the visual node editor.  
-- Edit on desktop, perform on tablet.  
-- Works fully offline.  
-- No subscriptions.  
-
----
-
-## Key Features
-
-- **Multi-Track Mixing** — Combine ambience, music, and SFX to create living soundscapes.  
-- **Track Cutting** — Cue precise moments in your tracks with ease.  
-- **Event-Based Control** — Create events and fire them with a single click.  
-- **User-Friendly UI** — Important controls always at your fingertips.  
-- **Cross-Platform Ready** — Seamlessly transfer projects between desktop and tablet.  
-- **Offline Friendly** — Works anywhere, even without internet.  
-- **One License to Rule Them All** — Use on multiple devices, or share with friends.  
-
+## Features
+- **Import Your Own Files** — Use your personal library of of tracks to create soundscapes that match your unique style.  
+- **Track Cutting** — Cue the exact moment you want in any track, effortlessly.  
+- **Multi-Track Mixing** — Blend ambience, music, and sound effects together for cinematic immersion.  
+- **Automation** — Automate fades, transitions, and even pitch/tempo changes with the powerful editor.  
+- **Event-Based Control** — Trigger music or effects instantly with custom events.  
+- **Cross-Platform Ready** — Build on desktop, perform on mobile. Your projects travel with you.  
+- **Offline Friendly** — Works at the table, even without internet.  
+- **One License to Rule Them All** — Buy once, use on multiple devices. Simple and fair.  
+- **No Subscriptions** — Own the app outright. No ongoing fees, no strings attached.  
 ---
 
 ## Bring Movie Magic to Your Table

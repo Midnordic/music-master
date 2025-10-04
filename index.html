@@ -30,9 +30,9 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <div class="hero-content">
+            <div class="hero-content">                
                 <div class="hero-text">
-                    <h1 class="hero-title">Become a Music Master</h1>
+                    <h1 class="hero-title">Become a Music Master!</h1>
                     <p class="hero-subtitle">
                         <strong>Music Master</strong> is a powerful audio tool that puts sound in your hands and unleashes your creativity. Built for Game Masters, it lets you craft <strong>dynamic, event-driven soundscapes</strong> that react to your story. Layer tracks, automate fades, and trigger cinematic moments — all with a click.
                     </p>
@@ -40,152 +40,125 @@
                         <a href="#beta" class="btn btn-primary btn-large">&#127911; Join the Closed Beta Tests</a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="assets/manuel.png" alt="Music Master Manual" class="manual-image">
-                </div>
+               <div class="hero-showcase">
+                   <img src="assets/showcase.png" />
+               </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about-section">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-main">
-                    <div class="about-header">
-                        <h2 class="section-title">Music Master</h2>
-                    </div>
-                    <div class="about-text">
-                        <p class="lead-text">
-                            Other apps give you canned soundboards.<br>
-                            <strong>Music Master gives you complete creative control.</strong>
-                        </p>
-                    </div>
-                    <div class="features-list">
-                        <div class="feature-item">
-                            <span class="feature-bullet">&bull;</span>
-                            <span>Import your own audio files.</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-bullet">&bull;</span>
-                            <span>Layer multiple tracks and crossfade seamlessly.</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-bullet">&bull;</span>
-                            <span>Automate pitch, tempo, and volume changes.</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-bullet">&bull;</span>
-                            <span>Build custom triggers with the visual node editor.</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-bullet">&bull;</span>
-                            <span>Edit on desktop, perform on tablet.</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-bullet">&bull;</span>
-                            <span>Works fully offline.</span>
-                        </div>
-                        <div class="feature-item">
-                            <span class="feature-bullet">&bull;</span>
-                            <span>No subscriptions.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-images">
-                    <div class="slideshow-container">
-                        <div class="slide active">
-                            <a href="assets/playlist.png" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/playlist.png" alt="Playlist Interface" class="about-image">
-                            </a>
-                        </div>
-                        <div class="slide">
-                            <a href="assets/editor.png" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/editor.png" alt="Editor Interface" class="about-image">
-                            </a>
-                        </div>                        
-						<div class="slide">
-                            <a href="assets/playlist2.png" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/playlist2.png" alt="Playlist Interface" class="about-image">
-                            </a>
-                        </div>
-						<div class="slide">
-                            <a href="assets/editor2.png" target="_blank" rel="noopener noreferrer">
-                                <img src="assets/editor2.png" alt="Editor Interface" class="about-image">
-                            </a>
-                        </div>
-						                        
-                        <!-- Navigation arrows -->
-                        <button class="slide-btn prev-btn" onclick="changeSlide(-1)">&lt;</button>
-                        <button class="slide-btn next-btn" onclick="changeSlide(1)">&gt;</button>
-                        
-                        <!-- Slide indicators -->
-                        <div class="slide-indicators">
-                            <button class="indicator active" onclick="currentSlide(1)"></button>
-                            <button class="indicator" onclick="currentSlide(2)"></button>
-							<button class="indicator" onclick="currentSlide(3)"></button>
-							<button class="indicator" onclick="currentSlide(4)"></button>
-                            <!-- Add more indicators for additional slides -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Key Features Section -->
+    <!-- Features Section -->
     <section id="features" class="features-section">
         <div class="container">
-            <h2 class="section-title">Key Features</h2>
+            <h2 class="section-title">Features</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon">&#127926;</div>
-                        <h3>Multi-Track Mixing</h3>
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#128193;</div>
+                            <h3>Import Your Own Files</h3>
+                        </div>
+                        <p class="feature-description">Use your personal library of tracks to create soundscapes that match your unique style.</p>
                     </div>
-                    <p class="feature-description">Combine ambience, music, and SFX to create living soundscapes.</p>
+                    <div class="feature-image">
+                        <img src="assets/features/importing.png" alt="Import Files">
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon">&#9986;</div>
-                        <h3>Track Cutting</h3>
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#9986;</div>
+                            <h3>Track Cutting</h3>
+                        </div>
+                        <p class="feature-description">Cue the exact moment you want in any track, effortlessly.</p>
                     </div>
-                    <p class="feature-description">Cue precise moments in your tracks with ease.</p>
+                    <div class="feature-image">
+                        <img src="assets/features/cutting.png" alt="Track Cutting">
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon">&#9889;</div>
-                        <h3>Event-Based Control</h3>
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#127926;</div>
+                            <h3>Multi-Track Mixing</h3>
+                        </div>
+                        <p class="feature-description">Blend ambience, music, and sound effects together for cinematic immersion.</p>
                     </div>
-                    <p class="feature-description">Create events and fire them with a single click.</p>
+                    <div class="feature-image">
+                        <img src="assets/features/mixing.png" alt="Multi-Track Mixing">
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon">&#128187;</div>
-                        <h3>User-Friendly UI</h3>
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#127899;</div>
+                            <h3>Automation</h3>
+                        </div>
+                        <p class="feature-description">Automate fades, transitions, and even pitch/tempo changes with the powerful editor.</p>
                     </div>
-                    <p class="feature-description">Important controls always at your fingertips.</p>
+                    <div class="feature-image">
+                        <img src="assets/features/automation.png" alt="Automation">
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon">&#128241;</div>
-                        <h3>Cross-Platform Ready</h3>
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#9889;</div>
+                            <h3>Event-Based Control</h3>
+                        </div>
+                        <p class="feature-description">Trigger music or effects instantly with custom events.</p>
                     </div>
-                    <p class="feature-description">Seamlessly transfer projects between desktop and tablet.</p>
+                    <div class="feature-image">
+                        <img src="assets/features/events.png" alt="Event-Based Control">
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon">&#127760;</div>
-                        <h3>Offline Friendly</h3>
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#128241;</div>
+                            <h3>Cross-Platform Ready</h3>
+                        </div>
+                        <p class="feature-description">Build on desktop, perform on mobile. Your projects travel with you.</p>
                     </div>
-                    <p class="feature-description">Works anywhere, even without internet.</p>
+                    <div class="feature-image">
+                        <img src="assets/features/cross-platform.png" alt="Cross-Platform">
+                    </div>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-header">
-                        <div class="feature-icon">&#128081;</div>
-                        <h3>One License to Rule Them All</h3>
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#127760;</div>
+                            <h3>Offline Friendly</h3>
+                        </div>
+                        <p class="feature-description">Works at the table, even without internet.</p>
                     </div>
-                    <p class="feature-description">Use on multiple devices, or share with friends.</p>
+                    <div class="feature-image">
+                        <img src="assets/features/offline.png" alt="Offline Mode">
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#128081;</div>
+                            <h3>One License to Rule Them All</h3>
+                        </div>
+                        <p class="feature-description">Buy once, use on multiple devices. Simple and fair.</p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="assets/features/license.png" alt="Multi-Device">
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">&#10060;</div>
+                            <h3>No Subscriptions</h3>
+                        </div>
+                        <p class="feature-description">Own the app outright. No ongoing fees, no strings attached.</p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="assets/features/subscriptions.png" alt="No Subscriptions">
+                    </div>
                 </div>
             </div>
         </div>
