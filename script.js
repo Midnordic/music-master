@@ -4,10 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScrolling();
     initHeaderEffects();
     initInteractiveElements();
-    initMobileMenu();
-    initSlideshow();
-    
-    console.log('Music Master website loaded successfully!');
 });
 
 // Smooth scrolling for navigation links
@@ -31,22 +27,17 @@ function initSmoothScrolling() {
 
 // Header scroll effects
 function initHeaderEffects() {
-    let lastScrollY = window.scrollY;
     const header = document.querySelector('.header');
 
     window.addEventListener('scroll', utils.debounce(() => {
         const currentScrollY = window.scrollY;
         
         if (currentScrollY > 100) {
-            header.style.transform = currentScrollY > lastScrollY ? 'translateY(-100%)' : 'translateY(0)';
             header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
             header.style.backdropFilter = 'blur(20px)';
         } else {
-            header.style.transform = 'translateY(0)';
             header.style.boxShadow = 'none';
         }
-        
-        lastScrollY = currentScrollY;
     }, 10));
 }
 
@@ -134,145 +125,6 @@ function createRippleEffect(element, event) {
     }, 600);
 }
 
-// Mobile menu functionality
-function initMobileMenu() {
-    const nav = document.querySelector('.nav');
-    const navLinks = document.querySelector('.nav-links');
-    
-    function createMobileMenuToggle() {
-        if (window.innerWidth <= 768 && !document.querySelector('.mobile-menu-toggle')) {
-            const toggleButton = document.createElement('button');
-            toggleButton.className = 'mobile-menu-toggle';
-            toggleButton.innerHTML = '&#9776;';
-            toggleButton.style.cssText = `
-                background: none;
-                border: none;
-                font-size: 1.5rem;
-                cursor: pointer;
-                color: #2d3748;
-                padding: 0.5rem;
-                border-radius: 4px;
-                transition: background-color 0.2s ease;
-            `;
-            
-            toggleButton.addEventListener('mouseover', () => {
-                toggleButton.style.backgroundColor = '#f7fafc';
-            });
-            
-            toggleButton.addEventListener('mouseout', () => {
-                toggleButton.style.backgroundColor = 'transparent';
-            });
-            
-            nav.appendChild(toggleButton);
-            
-            toggleButton.addEventListener('click', () => {
-                const isVisible = navLinks.style.display === 'flex';
-                navLinks.style.display = isVisible ? 'none' : 'flex';
-                navLinks.style.flexDirection = 'column';
-                navLinks.style.position = 'absolute';
-                navLinks.style.top = '100%';
-                navLinks.style.left = '0';
-                navLinks.style.right = '0';
-                navLinks.style.backgroundColor = 'white';
-                navLinks.style.padding = '1rem';
-                navLinks.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
-                navLinks.style.borderRadius = '0 0 8px 8px';
-                navLinks.style.zIndex = '1001';
-                toggleButton.innerHTML = isVisible ? '&#9776;' : '&#10005;';
-            });
-        } else if (window.innerWidth > 768) {
-            const toggle = document.querySelector('.mobile-menu-toggle');
-            if (toggle) {
-                toggle.remove();
-                navLinks.style.display = '';
-                navLinks.style.flexDirection = '';
-                navLinks.style.position = '';
-                navLinks.style.top = '';
-                navLinks.style.left = '';
-                navLinks.style.right = '';
-                navLinks.style.backgroundColor = '';
-                navLinks.style.padding = '';
-                navLinks.style.boxShadow = '';
-                navLinks.style.borderRadius = '';
-                navLinks.style.zIndex = '';
-            }
-        }
-    }
-
-    window.addEventListener('resize', createMobileMenuToggle);
-    createMobileMenuToggle();
-}
-
-// Slideshow functionality
-let currentSlideIndex = 0;
-let slideInterval;
-
-function initSlideshow() {
-    const slides = document.querySelectorAll('.slide');
-    const indicators = document.querySelectorAll('.indicator');
-    
-    if (slides.length === 0) return;
-    
-    // Start automatic slideshow
-    startSlideshow();
-    
-    // Pause on hover
-    const slideshowContainer = document.querySelector('.slideshow-container');
-    if (slideshowContainer) {
-        slideshowContainer.addEventListener('mouseenter', stopSlideshow);
-        slideshowContainer.addEventListener('mouseleave', startSlideshow);
-    }
-}
-
-function showSlide(index) {
-    const slides = document.querySelectorAll('.slide');
-    const indicators = document.querySelectorAll('.indicator');
-    
-    if (slides.length === 0) return;
-    
-    // Hide all slides
-    slides.forEach(slide => slide.classList.remove('active'));
-    indicators.forEach(indicator => indicator.classList.remove('active'));
-    
-    // Wrap around if necessary
-    if (index >= slides.length) currentSlideIndex = 0;
-    if (index < 0) currentSlideIndex = slides.length - 1;
-    
-    // Show current slide
-    slides[currentSlideIndex].classList.add('active');
-    if (indicators[currentSlideIndex]) {
-        indicators[currentSlideIndex].classList.add('active');
-    }
-}
-
-function changeSlide(direction) {
-    currentSlideIndex += direction;
-    showSlide(currentSlideIndex);        
-    stopSlideshow();    
-}
-
-function currentSlide(index) {
-    currentSlideIndex = index - 1; // Convert to 0-based index
-    showSlide(currentSlideIndex);
-    
-    // Restart the automatic slideshow
-    stopSlideshow();
-    startSlideshow();
-}
-
-function startSlideshow() {
-    slideInterval = setInterval(() => {
-        currentSlideIndex++;
-        showSlide(currentSlideIndex);
-    }, 4000); // Change slide every 4 seconds
-}
-
-function stopSlideshow() {
-    if (slideInterval) {
-        clearInterval(slideInterval);
-    }
-}
-
 // Utility functions
 const utils = {
     // Debounce function for performance
@@ -327,11 +179,6 @@ style.textContent = `
             transform: scale(2);
             opacity: 0;
         }
-    }
-    
-    .mobile-menu-toggle:focus {
-        outline: 2px solid #fd7e14;
-        outline-offset: 2px;
     }
 `;
 document.head.appendChild(style);
