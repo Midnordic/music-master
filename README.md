@@ -1,1 +1,0 @@
-# midnordic.github.io
