@@ -97,9 +97,11 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 8rem 0 6rem;
+    padding: 4rem 0 6rem;
     background: linear-gradient(135deg, #fff5f5 0%, #fef5e7 100%);
-    position: relative;
+    background-image: url('assets/manuel.png');
+    background-repeat: no-repeat;
+    background-position-x: -100px;
 }
 
 .hero::before {
@@ -153,6 +155,7 @@ body {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero-showcase {
@@ -164,15 +167,8 @@ body {
 
 .hero-showcase img {
     width: 500px;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: auto;    
     transition: all 0.3s ease;
-}
-
-.hero-showcase img:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 30px rgba(111, 66, 193, 0.15);
 }
 
 /* Buttons */
@@ -229,7 +225,7 @@ body {
 
 /* Features Section */
 .features-section {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background: #faf5ff;
 }
 
@@ -326,7 +322,7 @@ body {
 
 /* Techniques Section */
 .techniques-section {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background: #ffffff;
 }
 
@@ -341,54 +337,111 @@ body {
 }
 
 .techniques-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     margin-bottom: 3rem;
 }
 
 .technique-card {
     background: #f8f9fa;
-    padding: 2rem 1.5rem;
+    padding: 2rem;
     border-radius: 8px;
     border-left: 4px solid #fd7e14;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.technique-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, 
+        rgba(255, 255, 255, 1) 0%,         
+        rgba(255, 255, 255, 1) 20%,
+        rgba(255, 255, 255, 0.5) 50%, 
+        rgba(255, 255, 255, 0) 100%);
+    border-radius: inherit;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.technique-card[data-bg-image]::before {
+    opacity: 1;
+}
+
+.technique-card .technique-content,
+.technique-card .technique-image {
+    position: relative;
+    z-index: 2;
 }
 
 .technique-card:hover {
-    background: #ffffff;
+    background-color: #ffffff;
     border-left-color: #6f42c1;
     box-shadow: 0 8px 25px rgba(111, 66, 193, 0.1);
     transform: translateX(4px);
 }
 
+.technique-card[data-bg-image]:hover::before {
+    background: linear-gradient(to right, 
+        rgba(255, 255, 255, 1) 0%,         
+        rgba(255, 255, 255, 1) 20%,
+        rgba(255, 255, 255, 0.5) 50%, 
+        rgba(255, 255, 255, 0) 100%);
+}
+
+.technique-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.technique-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.technique-emoji {
+    font-size: 1.5rem;
+}
+
 .technique-card h3 {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #2d3748;
-    margin-bottom: 0.75rem;
+    margin: 0;
 }
 
-.technique-card p {
+.technique-description {
     color: #4a5568;
     line-height: 1.6;
-    font-size: 0.95rem;
+    font-size: 1rem;
+    margin: 0;
+    max-width: 460px;
 }
 
-.techniques-footer {
-    text-align: center;
-    margin-top: 3rem;
-}
-
-.techniques-footer p {
-    margin-bottom: 1.5rem;
-    color: #718096;
+.technique-link {
+    color: #6f42c1;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 /* Beta Section */
 .beta-section {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background: linear-gradient(135deg, #6f42c1 0%, #fd7e14 100%);
     color: white;
     text-align: center;
@@ -622,8 +675,21 @@ body {
         max-width: 400px;
     }
     
-    .techniques-grid {
+    .technique-card {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    
+    .technique-content {
+        text-align: center;
+    }
+    
+    .technique-image {
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+        margin: 0 auto;
     }
     
     .footer-content {
@@ -681,7 +747,7 @@ body {
         height: 150px;
     }
     
-    .hero-showcase img {
+    .hero_showcase	img {
         width: 100%;
         max-width: 300px;
     }
