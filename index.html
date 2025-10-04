@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Music Master - Midnordic</title>
+    <meta name="description" content="Music Master is a powerful audio tool that allows you to take music into your own hands and unleash your creativity. Built for Game Masters.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Music Master</h1>
+                <span class="brand-subtitle">by Midnordic</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#techniques" class="nav-link">Techniques</a>
+                <a href="#beta" class="nav-link">Beta</a>
+                <a href="#" class="nav-link">Blog</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Become a Music Master</h1>
+                <p class="hero-subtitle">
+                    Music Master is a powerful audio tool that allows you to take music into your own hands and unleash your creativity.
+                </p>
+                <p class="hero-description">
+                    It's built for Game Masters, allowing to craft dynamic, event-driven soundscapes that react to your story. 
+                    Layer tracks, automate fades, and trigger cinematic moments with a click.
+                </p>
+                <div class="hero-actions">
+                    <a href="#beta" class="btn btn-primary btn-large">Join the closed beta tests</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="about-header">
+                        <h2 class="section-title">Music Master</h2>                        
+                    </div>
+                    <div class="about-text">
+                        <p class="lead-text">
+                            Other apps give you canned soundboards.<br>
+                            <strong>Music Master gives you full creative control.</strong>
+                        </p>
+                    </div>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="feature-bullet">&bull;</span>
+                            <span>Import your own MP3/WAV/OGG files.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">&bull;</span>
+                            <span>Layer tracks and crossfade seamlessly.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">&bull;</span>
+                            <span>Automate pitch, tempo, and volume changes.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">&bull;</span>
+                            <span>Build custom triggers with the visual node editor.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">&bull;</span>
+                            <span>Edit on desktop, play on tablet.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">&bull;</span>
+                            <span>Works fully offline.</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-bullet">&bull;</span>
+                            <span>No subscriptions.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-images">
+                    <div class="slideshow-container">
+                        <div class="slide active">
+                            <a href="assets/playlist.png" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/playlist.png" alt="Playlist Interface" class="about-image">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="assets/editor.png" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/editor.png" alt="Editor Interface" class="about-image">
+                            </a>
+                        </div>                        
+						<div class="slide">
+                            <a href="assets/playlist2.png" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/playlist2.png" alt="Playlist Interface" class="about-image">
+                            </a>
+                        </div>
+						<div class="slide">
+                            <a href="assets/editor2.png" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/editor2.png" alt="Editor Interface" class="about-image">
+                            </a>
+                        </div>
+						                        
+                        <!-- Navigation arrows -->
+                        <button class="slide-btn prev-btn" onclick="changeSlide(-1)">&lt;</button>
+                        <button class="slide-btn next-btn" onclick="changeSlide(1)">&gt;</button>
+                        
+                        <!-- Slide indicators -->
+                        <div class="slide-indicators">
+                            <button class="indicator active" onclick="currentSlide(1)"></button>
+                            <button class="indicator" onclick="currentSlide(2)"></button>
+							<button class="indicator" onclick="currentSlide(3)"></button>
+							<button class="indicator" onclick="currentSlide(4)"></button>
+                            <!-- Add more indicators for additional slides -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon">&#127926;</div>
+                        <h3>Multi-Track Mixing</h3>
+                        <p>Play ambience, music, and SFX all at once to create rich, layered soundscapes that bring your world to life.</p>
+                    </div>
+                    <div class="feature-video">
+                        <div class="video-placeholder">
+                            <img src="assets/multi_track_mixing.gif" alt="Multi-Track Mixing Demo">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon">&#9986;</div>
+                        <h3>Track Cutting</h3>
+                        <p>Cue precise moments in your tracks effortlessly and jump to exactly the right mood at the perfect time.</p>
+                    </div>
+                    <div class="feature-video">
+                        <div class="video-placeholder">
+                            <img src="assets/track_cutting.gif" alt="Track Cutting Demo">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon">&#9889;</div>
+                        <h3>Event-Based Control</h3>
+                        <p>Create your own custom events and trigger them with a single click when the story demands it.</p>
+                    </div>
+                    <div class="feature-video">
+                        <div class="video-placeholder">
+                            <img src="assets/events.gif" alt="Event-Based Control Demo">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon">&#127899;</div>
+                        <h3>Automation</h3>
+                        <p>Fade, crossfade, and change pitch or speed over time to create dynamic, evolving soundscapes.</p>
+                    </div>
+                    <div class="feature-video">
+                        <div class="video-placeholder">
+                            <img src="assets/crossfade.gif" alt="Automation Demo">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon">&#128241;</div>
+                        <h3>Cross-Platform Ready</h3>
+                        <p>Seamlessly transfer projects between desktop and tablet so you can edit anywhere and play everywhere.</p>
+                    </div>
+                    <div class="feature-video">
+                        <div class="video-placeholder">
+                            <img src="assets/cross_platform.gif" alt="Cross-Platform Demo">
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon">&#127760;</div>
+                        <h3>Offline Friendly</h3>
+                        <p>Works anywhere, even without the Internet, so your game night is never interrupted by connectivity issues.</p>
+                    </div>                    
+                </div>
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon">&#128081;</div>
+                        <h3>One to Rule Them All</h3>
+                        <p>Single license works on multiple devices, or share with friends to create collaborative audio experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Techniques Section -->
+    <section id="techniques" class="techniques-section">
+        <div class="container">
+            <h2 class="section-title">Use techniques from movies</h2>
+            <p class="section-description">Steal tricks used in movies and introduce them to your table!</p>
+            
+            <div class="techniques-grid">
+                <div class="technique-card">
+                    <h3>&#127917; Crossfades</h3>
+                    <p>Change mood by crossfading between two tracks.</p>
+                </div>
+                <div class="technique-card">
+                    <h3>&#127748; Soundscapes</h3>
+                    <p>Create your own ambient environments.</p>
+                </div>
+                <div class="technique-card">
+                    <h3>&#128561; Creeping dread overlay</h3>
+                    <p>When your laidback scene suddenly transforms into a horror.</p>
+                </div>
+                <div class="technique-card">
+                    <h3>&#129335; Silent aftershock</h3>
+                    <p>Introduce silence as way to shock your players.</p>
+                </div>
+                <div class="technique-card">
+                    <h3>&#127916; SFX sequencing</h3>
+                    <p>Create a sequence of effects, that will tell a story.</p>
+                </div>
+                <div class="technique-card">
+                    <h3>&#9200; Slow-mo</h3>
+                    <p>Slow down the whole scene, to emphasis on important details.</p>
+                </div>
+                <div class="technique-card">
+                    <h3>&#128560; Unnerving moment</h3>
+                    <p>A short moment of revelation, that twists the whole plot around.</p>
+                </div>
+                <div class="technique-card">
+                    <h3>&#127753; Sound bridge</h3>
+                    <p>Change scenes using a bridging sound, just like in the movies.</p>
+                </div>
+            </div>
+            
+            <div class="techniques-footer">
+                <p>Learn more techniques on our blog.</p>
+                <a href="#" class="btn btn-outline">Visit the Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beta Section -->
+    <section id="beta" class="beta-section">
+        <div class="container">
+            <div class="beta-content">
+                <h2 class="section-title">Join the closed beta tests</h2>
+                <p class="beta-description">
+                    Currently we are conducting closed beta tests.<br>
+                    And if you are seeing this, that means you are one of the chosen few!
+                </p>
+                <p class="beta-call-to-action">
+                    Join our Discord to try the app, leave your feedback and <strong>help us shape Music Master to your liking</strong>.
+                </p>
+                <p class="beta-slogan">Become Music Master yourself!</p>
+                <div class="beta-actions">
+                    <a href="#" class="btn btn-primary btn-large">Join our Discord</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Midnordic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
