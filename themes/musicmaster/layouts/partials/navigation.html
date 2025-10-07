@@ -16,7 +16,7 @@
                         <a href="{{ $.Site.BaseURL }}{{ .Lang }}/" 
                             class="language-link" 
                             title="Switch to {{ .LanguageName }}">
-                            <img src="{{ $iconPath }}" 
+                            <img src="{{ $iconPath | relURL }}" 
                                     alt="{{ .LanguageName }} flag" 
                                     class="language-flag">
                         </a>                                    
