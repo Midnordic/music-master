@@ -1,6 +1,6 @@
 baseURL = 'https://midnordic.github.io/music-master'
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 title = 'Music Master'
 theme = 'musicmaster'
 
@@ -14,17 +14,22 @@ theme = 'musicmaster'
   
 [menu]
   [[menu.main]]
-    name = "nav_home"
-    url = "/"
+    name = "nav_home"    
     weight = 10
+    [menu.main.params]
+    relPage = ""
+
   [[menu.main]]
-    name = "nav_blog"
-    url = "/blog/"
+    name = "nav_blog"    
     weight = 20
+    [menu.main.params]
+    relPage = "blog"
+
   [[menu.main]]
-    name = "nav_beta"
-    url = "/#beta"
+    name = "nav_beta"    
     weight = 30
+    [menu.main.params]
+    relPage = "#beta"
 
 [languages]
   [languages.en]

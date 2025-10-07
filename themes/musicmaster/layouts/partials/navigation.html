@@ -5,23 +5,28 @@
             <h1>{{ .Site.Title }}</h1>
         </div>
         <div class="nav-links">
+            {{ $baseUrlWithLang := "" | relLangURL }}
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL | relLangURL }}" class="nav-link">{{ T .Name }}</a>
+            <a href="{{ $baseUrlWithLang }}{{ .Params.relPage }}" class="nav-link">{{ T .Name }}</a>
             {{ end }}
-            
+
             <!-- Language Switcher -->
-            <div class="language-switcher">
-                {{ range .Site.Languages }}                    
-                    {{ $iconPath := index $.Site.Params.languageicons .Lang }}                    
-                        <a href="{{ $.Site.BaseURL }}{{ .Lang }}/" 
-                            class="language-link" 
-                            title="Switch to {{ .LanguageName }}">
-                            <img src="{{ $iconPath | relURL }}" 
-                                    alt="{{ .LanguageName }} flag" 
-                                    class="language-flag">
-                        </a>                                    
-                {{ end }}
-            </div>
+        <div class="language-switcher">
+            {{ $url := .Permalink }}
+            {{ range .Site.Languages }}
+            {{ $iconPath := index $.Site.Params.languageicons .Lang }}
+            {{ $value := .Lang }}
+            {{ $newUrl := $url | replaceRE "(/music-master/)([a-zA-Z-]+)(/)" (printf "${1}%s${3}" $value) }}
+
+            <a href="{{ $newUrl }}"
+               class="language-link"
+               title="Switch to {{ .LanguageName }}">
+                <img src="{{ $iconPath | relURL }}"
+                     alt="{{ .LanguageName }} flag"
+                     class="language-flag">
+            </a>
+            {{ end }}
+        </div>
         </div>
     </nav>
 </header>
