@@ -3,7 +3,7 @@ title: "Cichy wstrząs – potężna siła... ciszy"
 subtitle: "Wzmocnij dramatyczne momenty za pomocą ciszy."
 date: 2025-10-07
 author: "Manuel"
-thumbnail: "blog/silent-aftershock/thumbnail.jpg"
+thumbnail: "en/blog/silent-aftershock/thumbnail.jpg"
 ---
 
 ## Co to takiego?

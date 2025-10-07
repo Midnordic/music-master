@@ -3,7 +3,7 @@ title: "Creeping Dread - Horror Distortion"
 subtitle: "Transform a well-known, peaceful track into a nightmare."
 date: 2025-10-05
 author: "Manuel"
-thumbnail: "blog/creeping-dread/thumbnail.jpg"
+thumbnail: "en/blog/creeping-dread/thumbnail.jpg"
 ---
 
 ## What is it?

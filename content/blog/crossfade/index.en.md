@@ -3,7 +3,7 @@ title: "Crossfade - Gradual Mood Change"
 subtitle: "Create natural shifts from peaceful moments to intense encounters."
 date: 2025-10-06
 author: "Manuel"
-thumbnail: "blog/crossfade/thumbnail.jpg"
+thumbnail: "en/blog/crossfade/thumbnail.jpg"
 ---
 
 ## What is it?

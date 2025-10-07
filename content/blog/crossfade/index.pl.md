@@ -3,7 +3,7 @@ title: "Crossfade – stopniowa zmiana nastroju"
 subtitle: "Twórz naturalne przejścia od spokojnych chwil do intensywnych starć."
 date: 2025-10-06
 author: "Manuel"
-thumbnail: "blog/crossfade/thumbnail.jpg"
+thumbnail: "en/blog/crossfade/thumbnail.jpg"
 ---
 
 ## Co to takiego?
