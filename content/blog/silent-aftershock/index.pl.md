@@ -1,5 +1,5 @@
 ﻿---
-title: "Cichy wstrząs – siła... ciszy"
+title: "Cichy wstrząs – potężna siła... ciszy"
 subtitle: "Wzmocnij dramatyczne momenty za pomocą ciszy."
 date: 2025-10-07
 author: "Manuel"

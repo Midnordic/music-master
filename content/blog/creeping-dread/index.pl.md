@@ -1,6 +1,6 @@
 ---
-title: "Pełzający niepokój - koszmarne zniekształcenie"
-subtitle: "Przekształć spokojny kawałek w istny koszmar."
+title: "Pełzający niepokój - niespodziewana transformacja utworu"
+subtitle: "Przekształć spokojny, znany graczom kawałek w istny koszmar."
 date: 2025-10-05
 author: "Manuel"
 thumbnail: "blog/creeping-dread/thumbnail.jpg"
