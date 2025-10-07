@@ -18,7 +18,7 @@ One of the best examples comes from ***Saving Private Ryan (1998)***, during the
 
 **That silence says more than any soundtrack could; it's confusion, fear, and shock captured in sound.**
 
-{{< iframe src="https://www.youtube.com/embed/XijMMhs55oc" title="Saving Private Ryan" >}}
+{{< iframe src="https://www.youtube.com/embed/XijMMhs55oc?start=280" title="Saving Private Ryan" >}}
 
 ## What to use it for?
 

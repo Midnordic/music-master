@@ -18,7 +18,7 @@ In ***The Naked Gun (2025)*** snowman scene, this transformation happens right b
 
 Before you realize it, the cozy moment has **morphed into dread**. The music didn’t stop — it just turned against you.
 
-{{< iframe src="https://www.youtube.com/embed/9_TprYlgb7s" title="Naked Gun snowman scene" >}}
+{{< iframe src="https://www.youtube.com/embed/9_TprYlgb7s?start=48" title="Naked Gun snowman scene" >}}
 
 ## What to use it for?
 

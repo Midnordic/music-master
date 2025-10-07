@@ -16,7 +16,7 @@ A great example comes from ***The Terminator (1984)***, in the nightclub scene w
 
 **Without a single line of dialogue, the tone changes - the fun club vibe turns into dread.**
 
-{{< iframe src="https://www.youtube.com/embed/VW559CxdE5k" title="Terminator 1 club scene" >}}
+{{< iframe src="https://www.youtube.com/embed/VW559CxdE5k?start=50" title="Terminator 1 club scene" >}}
 
 ## What to use it for?
 
