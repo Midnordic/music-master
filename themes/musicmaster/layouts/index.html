@@ -1,20 +1,20 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 
 <!-- Hero Section -->
 <section class="hero" id="home">
     <div class="container">
         <div class="hero-content">                
             <div class="hero-text">
-                <h1 class="hero-title">{{ .Site.Params.hero_title | default "Become a Music Master!" }}</h1>
+                <h1 class="hero-title">{{ .Params.hero.title | default .Site.Params.hero_title}}</h1>
                 <p class="hero-subtitle">
-                    {{ .Site.Params.hero_subtitle | default .Site.Params.description | markdownify }}
+                    {{ (.Params.hero.subtitle | default .Site.Params.hero_subtitle | default .Site.Params.description) | markdownify }}
                 </p>
                 <div class="hero-actions">
-                    <a href="#beta" class="btn btn-primary btn-large">&#127911; Join the Beta</a>
+                    <a href="#beta" class="btn btn-primary btn-large">&#10024; {{ .Params.hero.cta_text }}</a>
                 </div>
             </div>
            <div class="hero-showcase">
-               <img src="{{ "images/showcase.png" | relURL }}" alt="Music Master Showcase" />
+               <img src="{{ (.Params.hero.showcase_image | default "images/showcase.png") | relURL }}" alt="{{ .Params.hero.showcase_alt }}" />
            </div>
         </div>
     </div>
@@ -23,21 +23,38 @@
 <!-- Features Section -->
 <section id="features" class="features-section">
     <div class="container">
-        <h2 class="section-title">Key features</h2>            
+        <h2 class="section-title">{{ .Params.features.title }}</h2>            
         <div class="features-grid">
-            {{ range .Site.Data.features.features }}
-            <div class="feature-card">
-                <div class="feature-content">
-                    <div class="feature-header">
-                        <div class="feature-icon">{{ .icon | safeHTML }}</div>
-                        <h3>{{ .title }}</h3>
+            {{ if .Params.features.items }}
+                {{ range .Params.features.items }}
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">{{ .icon | safeHTML }}</div>
+                            <h3>{{ .title }}</h3>
+                        </div>
+                        <p class="feature-description">{{ .description }}</p>
                     </div>
-                    <p class="feature-description">{{ .description }}</p>
+                    <div class="feature-image">
+                        <img src="{{ .image | relURL }}" alt="{{ .title }}">
+                    </div>
                 </div>
-                <div class="feature-image">
-                    <img src="{{ .image | relURL }}" alt="{{ .title }}">
+                {{ end }}
+            {{ else if .Params.features.show_data_features }}
+                {{ range .Site.Data.features.features }}
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-header">
+                            <div class="feature-icon">{{ .icon | safeHTML }}</div>
+                            <h3>{{ .title }}</h3>
+                        </div>
+                        <p class="feature-description">{{ .description }}</p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="{{ .image | relURL }}" alt="{{ .title }}">
+                    </div>
                 </div>
-            </div>
+                {{ end }}
             {{ end }}
         </div>
     </div>
@@ -46,18 +63,19 @@
 <!-- Blog Top Picks Section -->
 <section id="blog" class="features-section">
     <div class="container">
-        <h2 class="section-title">{{ .Site.Params.blog_title }}</h2>
-        <p class="section-description">{{ .Site.Params.blog_description }}</p>
+        <h2 class="section-title">{{ .Params.blog.title | default .Site.Params.blog_title }}</h2>
+        <p class="section-description">{{ .Params.blog.description | default .Site.Params.blog_description }}</p>
         
         <div class="blog-grid">
-            {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+            {{ $count := .Params.blog.show_count | default 3 }}
+            {{ range first $count (where .Site.RegularPages "Section" "blog") }}
             {{ partial "blog-post-card.html" . }}
             {{ end }}
         </div>
 
         <!-- Read More Link -->
         <div style="text-align: center; margin-top: 3rem;">
-            <a href="{{ "blog" | relURL }}" class="btn btn-outline">Read more on our blog</a>
+            <a href="{{ "blog" | relURL }}" class="btn btn-outline">{{ .Params.blog.read_more_text }}</a>
         </div>
     </div>
 </section>
@@ -66,13 +84,13 @@
 <section id="beta" class="beta-section">
     <div class="container">
         <div class="beta-content">
-            <h2 class="section-title">{{ .Site.Params.beta_title | default "Join the Beta" }}</h2>
+            <h2 class="section-title">&#10024; {{ .Params.beta.title | default .Site.Params.beta_title }}</h2>
             <p class="beta-description">
-                {{ .Site.Params.beta_description | default "We're currently running open beta tests. Join our Discord to try the app, share feedback, and help shape Music Master into the ultimate DM audio tool." }}
+                {{ .Params.beta.description | default .Site.Params.beta_description }}
             </p>                
-            <p class="beta-slogan">{{ .Site.Params.beta_slogan | default "Become a Music Master yourself!" }}</p>
+            <p class="beta-slogan">{{ .Params.beta.slogan | default .Site.Params.beta_slogan }}</p>
             <div class="beta-actions">
-                <a href="{{ .Site.Params.discord_url | default "#" }}" class="btn btn-primary btn-large">&#128172; Join Our Discord</a>
+                <a href="{{ (.Params.beta.discord_url | default .Site.Params.discord_url) | default "#" }}" class="btn btn-primary btn-large">&#128172; {{ .Params.beta.cta_text }}</a>
             </div>
         </div>
     </div>
