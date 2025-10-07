@@ -28,15 +28,15 @@ theme = 'musicmaster'
   
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "nav_home"
     url = "/"
     weight = 10
   [[menu.main]]
-    name = "Blog"
+    name = "nav_blog"
     url = "/blog/"
     weight = 20
   [[menu.main]]
-    name = "Join the Beta"
+    name = "nav_beta"
     url = "/#beta"
     weight = 30
 
