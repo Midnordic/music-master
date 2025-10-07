@@ -11,7 +11,7 @@
         {{ end }}
         <div class="blog-post-meta-header">
             <span class="blog-post-author">{{ .Params.author | default .Site.Params.author }}</span>
-            <span class="blog-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+            <span class="blog-post-date">{{ .Date | time.Format ":date_long" }}</span>
         </div>
     </div>
 </section>
@@ -26,8 +26,8 @@
                         
             <!-- Back to Blog Navigation -->
             <div class="back-to-blog">
-                <a href="{{ "blog" | relURL }}" class="back-link">&#8592; Back to Blog</a>
-                <a href="{{ .Site.BaseURL }}#beta" class="btn btn-primary btn-large">&#127911; Join the Beta</a>
+                <a href="{{ "blog" | relURL }}" class="back-link">&#8592; {{ T "link_back_to_blog" }}</a>
+                <a href="{{ .Site.BaseURL }}#beta" class="btn btn-primary btn-large">&#127911; {{ T "link_join_beta" }}</a>
             </div>
         </article>
     </div>

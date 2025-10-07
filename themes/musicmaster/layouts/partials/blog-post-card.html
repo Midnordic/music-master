@@ -19,7 +19,7 @@
             </p>
             <div class="blog-post-meta">
                 <span class="blog-post-author">{{ .Params.author | default .Site.Params.author }}</span>
-                <span class="blog-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+                <span class="blog-post-date">{{ .Date | time.Format ":date_long" }}</span>
             </div>
         </div>
     </article>
