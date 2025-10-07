@@ -1,54 +1,54 @@
 ---
-title: "Creeping Dread - Horror Distortion"
-subtitle: "Transform a peaceful track into a nightmare."
+title: "Pełzający niepokój - koszmarne zniekształcenie"
+subtitle: "Przekształć spokojny kawałek w istny koszmar."
 date: 2025-10-06
 author: "Manuel"
 thumbnail: "blog/creeping-dread/thumbnail.jpg"
 ---
 
-## What is it?
+## Co to takiego?
 
-The **creeping dread** technique is about twisting something normal into something deeply unsettling. It begins with a perfectly ordinary or even cheerful track — a love song, a calm piano tune — and slowly corrupts it.
+Technika **pełzającego niepokoju** *(ang. creeping dread)* polega na przekształceniu czegoś zwyczajnego w coś głęboko niepokojącego. Zaczyna się od zupełnie normalnego, a nawet radosnego utworu — piosenki o miłości, spokojnej melodii na pianino — który stopniowo zostaje „skażony”.
 
-The tempo drops, the pitch lowers, the singer’s voice stretches and warps until it sounds wrong. Add a low drone underneath, maybe a faint metallic screech or distorted whisper, and **suddenly the once-harmless melody feels sinister.**
+Tempo spada, tonacja się obniża, głos wokalisty wydłuża się i zniekształca, aż zaczyna brzmieć nieprawidłowo. Dodaj do tego niski, jednostajny dźwięk w tle, może delikatny metaliczny zgrzyt lub zniekształcony szept, i **nagle niegroźna melodia staje się złowroga.**
 
-## Movie example
+## Przykład filmowy
 
-In ***The Naked Gun (2025)*** snowman scene, this transformation happens right before your ears. It starts as a lighthearted, romantic winter tune — soft vocals and warm holiday vibe. But as the scene lingers, the song begins to drag. The singer’s voice deepens and bends out of key, the instruments stretch unnaturally, and strange sounds creep into the background — wind turning into a low rumble. 
+W scenie z bałwanem z filmu ***The Naked Gun (2025)*** ta transformacja dzieje się wyraźnie na twoich oczach. Zaczyna się jako lekka, romantyczna zimowa piosenka — delikatny wokal i ciepły, świąteczny klimat. Ale w miarę jak scena trwa, piosenka zaczyna się rozciągać. Głos wokalisty spowalnia i pogłębia się, instrumenty brzmią nienaturalnie, a w tle zaczynają pojawiać się dziwne dźwięki — wiatr zamieniający się w niski pomruk.  
 
-Before you realize it, the cozy moment has **morphed into dread**. The music didn’t stop — it just turned against you.
+Zanim się zorientujesz, przytulny moment **zamienia się w grozę**. Muzyka nie przestała grać — po prostu obróciła się przeciwko tobie.
 
 {{< iframe src="https://www.youtube.com/embed/9_TprYlgb7s?start=48" title="Naked Gun snowman scene" >}}
 
-## What to use it for?
+## Do czego to wykorzystać?
 
-As a Game Master, distorted music is a perfect tool for signaling a **sudden shift from safety to fear**. 
+Jako Mistrz Gry, zniekształcona muzyka to doskonałe narzędzie do sygnalizowania **nagłego przejścia ze spokojnej sytuacji w niebezpieczną.**
 
-Imagine your players celebrating in a tavern while a cheerful folk tune plays. Without warning, you lower the tempo and pitch — the laughter slows, the singer’s voice turns monstrous, and a haunting reverb rises underneath. 
+Wyobraź sobie, że twoi gracze świętują w karczmie przy wesołej, ludowej melodii. Nagle obniżasz tempo i tonację — śmiechy cichną, głos śpiewaka staje się potworny, a w tle narasta złowrogi pogłos.
 
-**The change tells them that something is wrong before you even describe it.**
+**Muzyka mówi, że coś jest nie tak, zanim zdążysz to opisać.**
 
-Use this technique for:
-- psychological horror
-- supernatural revelation
-- dreamlike dissonance
+Używaj tej techniki do:
+- horroru psychologicznego  
+- nadprzyrodzonych objawień  
+- onirycznego dysonansu  
 
-It’s especially effective when your players feel safe — that’s when the twist hits the hardest. **Because they know that melody, and now it’s betraying them.**
+Jest szczególnie skuteczna, gdy twoi gracze czują się bezpiecznie — wtedy uderza najmocniej. **Bo przekształcasz znany im, spokojny utwór w koszmar.**
 
-## Do it with Music Master!
+## Zrób to z Music Masterem!
 
 {{< samplepanel sample="Creeping Dread Overlay" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="The final result. Transition starts around 0:26, then smoothly reverts." caption2="'Let Me Call You Sweetheart' by Henry Burr and the Peerless Quartet; 'Horror Suspense' by David Krulic" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Ostateczny efekt. Przejście zaczyna się około 0:26, po czym płynnie powraca do normalności." caption2="'Let Me Call You Sweetheart' Henry’ego Burra i Peerless Quartet; 'Horror Suspense' Davida Krulica" >}}
 
-1. **Add two tracks**: the calm one and the other one for eerie overlay. Keep in mind that the effect is best suitable for tracks with vocals, as it distorts them in the most creepy way.
-1. Open the Editor and add a **Fixed Value node**. Now connect the output with volume and speed values from the calm track. {{< figure src="figure1.jpg" link="figure1.jpg" caption="Fig. 1 - First Fixed Value node" class="blog-post-section-img" target="_blank" >}}
-1. Add a **second Fixed Value node** and connect it with the eerie overlay track. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Fig. 2 - Second Fixed Value Node" class="blog-post-section-img" target="_blank" >}}
-1. Those two Fixed Value nodes will control the tempo and volume of the tracks. We need to **set proper values** for each node. For the **first track** let's set those values to 1.00 (starting value) and 0.75 (modified value). That means that the first track will be played at 100% volume and speed, until we change it - then it will slow down to 75%. Set transition time for both values to 5 seconds.
-1. For the **second track** let's set 0.00 (starting value) and 0.30 (modified value). Connecting it to the volume means that we want to start on mute, and then increase the volume gradually. Set transition time for both values to 5 seconds.
-1. All that's left is **adding events**. Add two events: one for starting the main track, and second one for transitioning into dread. Connect them to tracks (to play them) and Fixed Value nodes to switch to different values on trigger. That's it! {{< figure src="figure3.jpg" link="figure3.jpg" caption="Fig. 3 - Events" class="blog-post-section-img" target="_blank" >}}
-1. Now you can move the two events to any playlist and trigger it anytime. {{< figure src="figure4.jpg" link="figure4.jpg" caption="Fig. 4 - Playlist" class="blog-post-section-img" target="_blank" >}}
+1. **Dodaj dwa utwory**: jednej spokojny i drugi niepokojący. Pamiętaj, że efekt najlepiej działa w przypadku utworów z wokalem, ponieważ to właśnie głos ulega najbardziej niepokojącemu zniekształceniu.  
+1. Otwórz Edytor i dodaj **węzeł Fixed Value**. Następnie połącz jego wyjście z wartościami głośności i prędkości z głównego (spokojnego) utworu. {{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Pierwszy węzeł Fixed Value" class="blog-post-section-img" target="_blank" >}}
+1. Dodaj **drugi węzeł Fixed Value** i połącz go z drugim utworem. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Rys. 2 – Drugi węzeł Fixed Value" class="blog-post-section-img" target="_blank" >}}
+1. Te dwa węzły będą kontrolować tempo i głośność utworów. Musimy **ustawić odpowiednie wartości** dla każdego z nich. Dla **pierwszego utworu** ustaw wartości 1.00 (wartość początkowa) i 0.75 (wartość zmodyfikowana). Oznacza to, że pierwszy utwór będzie odtwarzany przy 100% głośności i prędkości, dopóki nie dokonamy zmiany – wtedy zwolni do 75%. Ustaw czas przejścia dla obu wartości na 5 sekund.  
+1. Dla **drugiego utworu** ustaw 0.00 (wartość początkowa) i 0.30 (wartość zmodyfikowana). Połączenie z głośnością oznacza, że zaczynamy od ciszy, a następnie stopniowo zwiększamy głośność. Ustaw czas przejścia na 5 sekund.  
+1. Pozostaje tylko **dodanie zdarzeń**. Dodaj dwa zdarzenia: jedno do uruchomienia głównego utworu, drugie do transformacji. Połącz je z utworami (aby je odtworzyć) i węzłami Fixed Value, aby przełączyć wartości po wyzwoleniu. To wszystko! {{< figure src="figure3.jpg" link="figure3.jpg" caption="Rys. 3 – Zdarzenia" class="blog-post-section-img" target="_blank" >}}
+1. Teraz możesz przenieść oba zdarzenia do dowolnej playlisty i uruchamiać je w każdej chwili. {{< figure src="figure4.jpg" link="figure4.jpg" caption="Rys. 4 – Playlisty" class="blog-post-section-img" target="_blank" >}}
 
-## Ready when you are
+## Gotowy, aby spróbować?
 
-Turn calm moments into creeping nightmares — download Music Master and start bending familiar tunes into unforgettable horror.
+Zamień spokojne chwile w istne koszmary — pobierz Music Master i wypacz znaną graczom melodie w niezapomniany koszmar.
