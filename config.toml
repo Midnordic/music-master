@@ -13,7 +13,7 @@ theme = 'musicmaster'
   
   # Beta section
   beta_title = "Join the Beta"
-  beta_description = "We're currently running open beta tests. Join our Discord to try the app, share feedback, and help shape Music Master into the ultimate DM audio tool."
+  beta_description = "We're currently running open beta tests. Join our Discord to try the app, share feedback, and help shape Music Master into the ultimate GM audio tool."
   beta_slogan = "Become a Music Master yourself!"
   discord_url = "https://discord.gg/pDFEwaccK2"
   

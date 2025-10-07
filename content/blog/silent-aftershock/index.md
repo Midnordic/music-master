@@ -8,7 +8,7 @@ thumbnail: "blog/silent-aftershock/thumbnail.jpg"
 
 ## What is it?
 
-The silent aftershock is one of the most powerful tools in cinematic sound design - **not because of what you hear, but because of what you don't**. 
+The silent aftershock is one of the most powerful tools in cinematic sound design - **not because of what you hear, but because of what you can't hear**. 
 
 After an explosion, a gunshot, or a scream, the sound suddenly drops out, leaving near-total silence or muffled ringing. That brief emptiness gives the audience space to process the shock, mirroring how a character might experience disorientation or trauma. When the world finally fades back in - distant screams, wind, or debris falling - it feels raw and real.
 
@@ -22,11 +22,11 @@ One of the best examples comes from ***Saving Private Ryan (1998)***, during the
 
 ## What to use it for?
 
-As a Game Master, you can use this technique to hit your players with emotional impact. When a major event happens - a devastating spell, a sudden betrayal, an explosion in the middle of battle - **cut everything!**. 
+As a Game Master, you can use this technique to hit your players with emotional impact. When a major event happens - a devastating spell, a sudden betrayal, an explosion in the middle of the battle - **cut everything!** 
 
 Silence the music, stop the ambience, and let that emptiness hang for a few seconds. The contrast between chaos and nothingness will speak volumes.
 
-After a short pause, bring back faint sounds - echoing wind, flickering fire, or a low drone - to rebuild the mood and show that the world is still standing, even if changed. The silence acts as a reset button for emotion, letting the players feel the gravity of what just happened.
+After a short pause, bring back faint sounds - echoing wind, flickering fire, or a low drone - to rebuild the mood and show that the world is still standing, even if it's changed. The silence acts as a reset button for emotion, letting the players feel the gravity of what just happened.
 
 **It's not just quiet; it's storytelling through absence.**
 
@@ -48,4 +48,4 @@ This one might seem a bit more complex, but after you understand the whole flow,
 
 ## Ready when you are
 
-Master the art of emotional impact in your next session - sometimes the most powerful soundtrack is silence.
+Master the art of emotional impact and use it during your next session - sometimes the most powerful soundtrack is silence.

@@ -8,7 +8,7 @@ thumbnail: "blog/crossfade/thumbnail.jpg"
 
 ## What is it?
 
-A crossfade is one of those subtle movie tricks you might not even notice, but it shapes how you feel a scene. It's when one piece of music slowly fades out while another fades in, keeping the transition smooth and immersive. Instead of a hard stop or sudden change, the two tracks overlap - creating a **shift in tone** that feels natural and emotional.
+A crossfade is one of those subtle movie tricks you might not even notice, but it shapes how you feel a scene. It's when one piece of music slowly fades out while another fades in, keeping the transition smooth and immersive. Instead of a hard stop or sudden change, the two tracks overlap - creating a **tone shift** that feels natural and emotional.
 
 ## Movie example
 
@@ -24,14 +24,14 @@ As a Game Master, you can use the same trick to control tension in your sessions
 
 **The shift will hit your players subconsciously before they even realize why they feel uneasy.**
 
-Crossfades are great for **maintaining flow**. There's no sudden jolt or awkward silence - just a smooth slide from calm to chaos (or the other way around). 
+Crossfades are great for **maintaining flow**. There's no sudden jolt or awkward silence while you change the tracks - just a smooth slide from calm to chaos (or the other way around). 
 
 Use this technique for:
 - scene pacing
 - transitions between scenes
-- shift emotional tone mid-dialogue
+- shifting emotional tone mid-dialogue
 
-It's an invisible tool that keeps your players **immersed** and your session feeling cinematic.
+It's an invisible tool that keeps your players **immersed** and gives your session cinematic feeling.
 
 ## Do it with Music Master!
 

@@ -1,7 +1,7 @@
 ﻿features:
   - title: "Importing"
     icon: "📁"
-    description: "Use your personal library of tracks to create soundscapes that match your unique style."
+    description: "Use your personal library of tracks to create soundscapes that match your unique gaming style."
     image: "images/features/importing.png"
   
   - title: "Track Cutting"
@@ -26,17 +26,17 @@
   
   - title: "Cross-Platform"
     icon: "📱"
-    description: "Build on desktop, perform on mobile. Your projects travel with you."
+    description: "Build on desktop, perform on tablets. Your projects travel with you."
     image: "images/features/cross-platform.png"
   
   - title: "Offline Friendly"
     icon: "🌐"
-    description: "Works at the table, even without internet."
+    description: "It works at the table, even without the Internet."
     image: "images/features/offline.png"
   
   - title: "One License to Rule Them All"
     icon: "💍"
-    description: "Buy once, use multiple devices. Simple and fair."
+    description: "Buy once, use on multiple devices. Simple and fair."
     image: "images/features/license.png"
   
   - title: "No Subscriptions"
