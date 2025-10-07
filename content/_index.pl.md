@@ -65,7 +65,7 @@ features:
 # Blog Section
 blog:
   title: "Polecane wpisy na blogu"
-  description: "Wykorzystaj filmowe techniki dźwiękowe w swojej grze."
+  description: "Wykorzystaj filmowe techniki dźwiękowe w swojej rozgrywce."
   show_count: 3
   read_more_text: "Więcej na naszym blogu"
 

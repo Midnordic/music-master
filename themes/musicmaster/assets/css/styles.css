@@ -452,20 +452,13 @@ h1, h2, h3, h4, h5, h6,
     margin-left: 200px;
 }
 
-.hero-text {
-    text-align: left;
-    max-width: 720px;
-}
-
 .hero-title {
     text-align: center;
     font-size: 3.5rem;
     font-weight: 800;
-    margin-bottom: 1.5rem;
-    line-height: 1.1;
+    margin-bottom: 1.5rem;    
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #6f42c1 0%, #fd7e14 100%);
-    -webkit-background-clip: text;
+    background: linear-gradient(135deg, #6f42c1 0%, #fd7e14 100%);    
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }

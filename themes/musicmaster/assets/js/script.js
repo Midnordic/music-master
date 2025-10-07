@@ -1,8 +1,5 @@
-// Music Master Website JavaScript
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize all functionality
-    initSmoothScrolling();
-    initHeaderEffects();
+document.addEventListener('DOMContentLoaded', function() {   
+    initSmoothScrolling();    
     initInteractiveElements();
 });
 
@@ -23,22 +20,6 @@ function initSmoothScrolling() {
             }
         });
     });
-}
-
-// Header scroll effects
-function initHeaderEffects() {
-    const header = document.querySelector('.header');
-
-    window.addEventListener('scroll', utils.debounce(() => {
-        const currentScrollY = window.scrollY;
-        
-        if (currentScrollY > 100) {
-            header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
-            header.style.backdropFilter = 'blur(20px)';
-        } else {
-            header.style.boxShadow = 'none';
-        }
-    }, 10));
 }
 
 // Interactive elements
