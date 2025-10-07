@@ -1,7 +1,7 @@
 ---
 title: "Silent Aftershock - The Power of... Silence"
 subtitle: "Amplify dramatic moments with silence."
-date: 2025-10-06
+date: 2025-10-07
 author: "Manuel"
 thumbnail: "blog/silent-aftershock/thumbnail.jpg"
 ---

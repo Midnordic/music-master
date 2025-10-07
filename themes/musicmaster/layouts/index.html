@@ -68,7 +68,9 @@
         
         <div class="blog-grid">
             {{ $count := .Params.blog.show_count | default 3 }}
-            {{ range first $count (where .Site.RegularPages "Section" "blog") }}
+            {{ $blogPosts := where .Site.RegularPages "Section" "blog" }}
+            {{ $sortedPosts := sort $blogPosts ".Params.date" "desc" }}
+            {{ range first $count $sortedPosts }}
             {{ partial "blog-post-card.html" . }}
             {{ end }}
         </div>

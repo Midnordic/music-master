@@ -18,7 +18,8 @@
 <section class="features-section">
     <div class="container">
         <div class="blog-grid">
-            {{ range .Pages }}
+            {{ $sortedPosts := sort .Pages ".Params.date" "desc" }}
+            {{ range $sortedPosts }}
             {{ partial "blog-post-card.html" . }}
             {{ end }}
         </div>
