@@ -3,12 +3,15 @@
 {{ $caption1 := .Get "caption1" }}
 {{ $caption2 := .Get "caption2" }}
 
+{{ $res := .Page.Resources.GetMatch $src }}
+{{ $url := cond $res $res.RelPermalink ($src | relURL) }}
+
 <figure>
     <div class="audio-panel">
         <audio controls preload="{{ $preload }}">
-            <source src="{{ $src }}" type="audio/mpeg">
+            <source src="{{ $url }}" type="audio/mpeg">
         </audio>
-        <figcaption>{{ $caption1 }}</figcaption>
-        <figcaption>{{ $caption2 }}</figcaption>
+        {{ with .Get "caption1" }}<figcaption>{{ . }}</figcaption>{{ end }}
+        {{ with .Get "caption2" }}<figcaption>{{ . }}</figcaption>{{ end }}
     </div>
 </figure>
