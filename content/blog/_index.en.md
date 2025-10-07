@@ -1,4 +1,4 @@
----
-title: "Blog"
-description: "Bring Movie Magic to Your Table - Steal techniques from cinema and adapt them to your tabletop game."
+﻿---
+title: "Blog - Bring Movie Magic to Your Table"
+description: "Use cinematic sound techniques in your game."
 ---
