@@ -1,5 +1,6 @@
 baseURL = 'https://midnordic.github.io/music-master'
-languageCode = 'en-us'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 title = 'Music Master'
 theme = 'musicmaster'
 
@@ -34,6 +35,14 @@ theme = 'musicmaster'
     name = "Join the Beta"
     url = "/#beta"
     weight = 30
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1    
+  [languages.pl]
+    languageName = "Polish"
+    weight = 2    
 
 [markup]
   [markup.goldmark]
