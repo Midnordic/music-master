@@ -22,6 +22,10 @@ theme = 'musicmaster'
   blog_title = "Top blog picks"
   blog_description = "Use cinematic sound techniques in your game."
 
+[params.languageIcons]
+  en = "images/english.png"
+  pl = "images/polish.png"
+  
 [menu]
   [[menu.main]]
     name = "Home"
@@ -42,7 +46,7 @@ theme = 'musicmaster'
     weight = 1    
   [languages.pl]
     languageName = "Polish"
-    weight = 2    
+    weight = 2
 
 [markup]
   [markup.goldmark]
