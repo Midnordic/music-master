@@ -39,7 +39,7 @@ Jest szczególnie skuteczna, gdy twoi gracze czują się bezpiecznie — wtedy u
 
 {{< samplepanel sample="Creeping Dread Overlay" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="Ostateczny efekt. Przejście zaczyna się około 0:26, po czym płynnie powraca do normalności." caption2="'Let Me Call You Sweetheart' Henry’ego Burra i Peerless Quartet; 'Horror Suspense' Davida Krulica" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Przejście zaczyna się około 0:26, po czym płynnie powraca do normalności." caption2="'Let Me Call You Sweetheart' Henry’ego Burra i Peerless Quartet; 'Horror Suspense' Davida Krulica" >}}
 
 1. **Dodaj dwa utwory**: jednej spokojny i drugi niepokojący. Pamiętaj, że efekt najlepiej działa w przypadku utworów z wokalem, ponieważ to właśnie głos ulega najbardziej niepokojącemu zniekształceniu.  
 1. Otwórz Edytor i dodaj **węzeł Fixed Value**. Następnie połącz jego wyjście z wartościami głośności i prędkości z głównego (spokojnego) utworu. {{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Pierwszy węzeł Fixed Value" class="blog-post-section-img" target="_blank" >}}

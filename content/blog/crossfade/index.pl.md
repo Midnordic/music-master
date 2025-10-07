@@ -37,7 +37,7 @@ To **niewidoczne narzędzie**, które utrzymuje graczy w **immersji** i nadaje t
 
 {{< samplepanel sample="Crossfade" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="Ostateczny efekt. Przejście zaczyna się około 0:16, po czym płynnie powraca do normalności." caption2="'Badass' autorstwa Chrisa Wolverine’a Matthew; 'Horror Mystery' Rafaela Kruxa" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Przejście zaczyna się około 0:16, po czym płynnie powraca do normalności." caption2="'Badass' autorstwa Chrisa Wolverine’a Matthew; 'Horror Mystery' Rafaela Kruxa" >}}
 
 1. **Dodaj dwa utwory** (lub więcej), między którymi chcesz płynnie przechodzić.  
 1. **Dodaj węzeł Crossfade** i połącz oba utwory z różnymi wyjściami. Ustaw odpowiednią długość przejścia (15 sekund w tym przykładzie). {{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Crossfade z dwoma połączonymi utworami" class="blog-post-section-img" target="_blank" >}}  

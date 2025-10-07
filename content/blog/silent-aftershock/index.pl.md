@@ -32,9 +32,9 @@ Po krótkiej pauzie przywróć delikatne dźwięki – szum wiatru, trzask ognia
 
 ## Zrób to z Music Masterem!
 
-{{< samplepanel sample="Silent aftershock" >}}
+{{< samplepanel sample="Silent Aftershock" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="Ostateczny efekt. Akcja zaczyna się około 0:20." caption2="'Bavarian Seascape' – Anonymus; 'Gunshots' – ShawnyBoy; 'Crowd Scream' – IENBA; 'Action Strike' – Rafael Krux" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Akcja zaczyna się około 0:20." caption2="'Bavarian Seascape' – Anonymus; 'Gunshots' – ShawnyBoy; 'Crowd Scream' – IENBA; 'Action Strike' – Rafael Krux" >}}
 
 Może to wyglądać skomplikowanie, ale gdy zrozumiesz cały proces, wszystko staje się proste i logiczne.
 

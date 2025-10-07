@@ -32,7 +32,7 @@ After a short pause, bring back faint sounds - echoing wind, flickering fire, or
 
 ## Do it with Music Master!
 
-{{< samplepanel sample="Silent aftershock" >}}
+{{< samplepanel sample="Silent Aftershock" >}}
 
 {{< audio preload="false" src="sample.mp3" caption1="The final result. Action starts around 0:20." caption2="'Bavarian Seascape' by Anonymus; 'Gunshots' by ShawnyBoy; 'Crowd Scream' by IENBA; 'Action Strike' by Rafael Krux" >}}
 
