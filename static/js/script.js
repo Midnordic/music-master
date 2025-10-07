@@ -63,7 +63,7 @@ function initInteractiveElements() {
     });
 
     // Enhanced hover effects for cards
-    const cards = document.querySelectorAll('.feature-card, .technique-card');
+    const cards = document.querySelectorAll('.feature-card, .blog-post-card');
     cards.forEach(card => {
         card.addEventListener('mouseenter', function() {
             this.style.transform = 'translateY(-8px) scale(1.02)';
@@ -72,25 +72,6 @@ function initInteractiveElements() {
         
         card.addEventListener('mouseleave', function() {
             this.style.transform = 'translateY(0) scale(1)';
-        });
-    });
-
-    // Feature list item hover effects
-    const featureItems = document.querySelectorAll('.feature-item');
-    featureItems.forEach(item => {
-        item.addEventListener('mouseenter', function() {
-            const bullet = this.querySelector('.feature-bullet');
-            if (bullet) {
-                bullet.style.transform = 'scale(1.2)';
-                bullet.style.transition = 'transform 0.2s ease';
-            }
-        });
-        
-        item.addEventListener('mouseleave', function() {
-            const bullet = this.querySelector('.feature-bullet');
-            if (bullet) {
-                bullet.style.transform = 'scale(1)';
-            }
         });
     });
 }
@@ -149,25 +130,6 @@ const utils = {
             rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
-    },
-
-    // Animate counter numbers (for future use)
-    animateCounter: (element, start, end, duration) => {
-        let startTimestamp = null;
-        const step = (timestamp) => {
-            if (!startTimestamp) startTimestamp = timestamp;
-            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-            element.innerText = Math.floor(progress * (end - start) + start);
-            if (progress < 1) {
-                window.requestAnimationFrame(step);
-            }
-        };
-        window.requestAnimationFrame(step);
-    },
-
-    // Generate random ID
-    generateId: () => {
-        return Math.random().toString(36).substr(2, 9);
     }
 };
 
@@ -182,25 +144,3 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
-
-// Performance optimization: Preload critical resources
-function preloadCriticalResources() {
-    // Preload fonts
-    const fontLink = document.createElement('link');
-    fontLink.rel = 'preload';
-    fontLink.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap';
-    fontLink.as = 'style';
-    document.head.appendChild(fontLink);
-}
-
-// Initialize preloading
-preloadCriticalResources();
-
-// Export utils for potential use in other scripts
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = utils;
-}
-
-// Make functions globally available for onclick handlers
-window.changeSlide = changeSlide;
-window.currentSlide = currentSlide;

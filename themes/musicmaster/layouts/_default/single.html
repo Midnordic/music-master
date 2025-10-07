@@ -1,0 +1,36 @@
+﻿{{ define "main" }}
+
+<!-- Blog Post Header -->
+<section class="blog-post-header">
+    <div class="container">
+        <h1 class="blog-post-title">{{ .Title }}</h1>
+        {{ if .Params.subtitle }}
+        <p class="blog-post-subtitle">
+            {{ .Params.subtitle }}
+        </p>
+        {{ end }}
+        <div class="blog-post-meta-header">
+            <span class="blog-post-author">{{ .Params.author | default .Site.Params.author }}</span>
+            <span class="blog-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Post Content -->
+<section class="blog-post-content">
+    <div class="container">
+        <article class="blog-post-article">
+            <div class="blog-post-section">
+                {{ .Content }}
+            </div>
+                        
+            <!-- Back to Blog Navigation -->
+            <div class="back-to-blog">
+                <a href="{{ "blog" | relURL }}" class="back-link">&#8592; Back to Blog</a>
+                <a href="{{ .Site.BaseURL }}#beta" class="btn btn-primary btn-large">&#127911; Join the Beta</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+{{ end }}

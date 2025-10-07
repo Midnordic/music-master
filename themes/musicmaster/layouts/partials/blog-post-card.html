@@ -1,0 +1,26 @@
+<!-- Blog Post Card Partial -->
+<a href="{{ .Permalink }}" class="blog-post-link">
+    <article class="blog-post-card">
+        <div class="blog-post-image">
+            {{ if .Params.thumbnail }}
+            <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
+            {{ else }}
+            <div style="width: 100%; height: 100%; background: #f7fafc; display: flex; align-items: center; justify-content: center; color: #a0aec0;">Featured Image</div>
+            {{ end }}
+        </div>
+        <div class="blog-post-content">
+            <h3 class="blog-post-title">{{ .Title }}</h3>
+            <p class="blog-post-excerpt">
+                {{ if .Params.subtitle }}
+                    {{ .Params.subtitle }}
+                {{ else }}
+                    {{ .Summary | truncate 100 }}
+                {{ end }}
+            </p>
+            <div class="blog-post-meta">
+                <span class="blog-post-author">{{ .Params.author | default .Site.Params.author }}</span>
+                <span class="blog-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+            </div>
+        </div>
+    </article>
+</a>

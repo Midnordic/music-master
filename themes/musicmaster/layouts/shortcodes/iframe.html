@@ -1,0 +1,21 @@
+<!-- Enhanced Iframe Shortcode -->
+{{ $src := .Get "src" }}
+{{ $width := .Get "width" | default "100%" }}
+{{ $height := .Get "height" | default "400" }}
+{{ $title := .Get "title" | default "Embedded video" }}
+
+<div class="video-container">
+    {{ if .Get "caption" }}
+    <div class="iframe-caption">{{ .Get "caption" }}</div>
+    {{ end }}
+    
+    <iframe 
+        src="{{ $src }}" 
+        width="{{ $width }}" 
+        height="{{ $height }}" 
+        title="{{ $title }}"
+        frameborder="0" 
+        allowfullscreen
+        loading="lazy">
+    </iframe>
+</div>

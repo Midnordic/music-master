@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Music Master"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = "A modern, responsive Hugo theme for Music Master - a powerful audio tool for Game Masters"
+homepage = "http://example.com/"
+tags = ["blog", "responsive", "audio", "gaming", "clean", "minimal"]
+features = ["responsive", "blog", "portfolio"]
+min_version = "0.80"
+
+[author]
+  name = "Midnordic"
+  homepage = "https://midnordic.com"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

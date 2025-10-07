@@ -1,0 +1,14 @@
+{{ $src := .Get "src" }}
+{{ $preload := .Get "preload" | default "false" }}
+{{ $caption1 := .Get "caption1" }}
+{{ $caption2 := .Get "caption2" }}
+
+<figure>
+    <div class="audio-panel">
+        <audio controls preload="{{ $preload }}">
+            <source src="{{ $src }}" type="audio/mpeg">
+        </audio>
+        <figcaption>{{ $caption1 }}</figcaption>
+        <figcaption>{{ $caption2 }}</figcaption>
+    </div>
+</figure>

@@ -1,0 +1,45 @@
+﻿features:
+  - title: "Importing"
+    icon: "📁"
+    description: "Use your personal library of tracks to create soundscapes that match your unique style."
+    image: "images/features/importing.png"
+  
+  - title: "Track Cutting"
+    icon: "✂️"
+    description: "Cue the exact moment you want in any track, effortlessly."
+    image: "images/features/cutting.png"
+  
+  - title: "Multi-Track Mixing"
+    icon: "🎶"
+    description: "Blend ambience, music, and sound effects together for cinematic immersion."
+    image: "images/features/mixing.png"
+  
+  - title: "Automation"
+    icon: "🎛️"
+    description: "Automate fades, transitions, and even pitch/tempo changes with the powerful editor."
+    image: "images/features/automation.png"
+  
+  - title: "Event-Based Control"
+    icon: "⚡"
+    description: "Trigger music or effects instantly with custom events."
+    image: "images/features/events.png"
+  
+  - title: "Cross-Platform"
+    icon: "📱"
+    description: "Build on desktop, perform on mobile. Your projects travel with you."
+    image: "images/features/cross-platform.png"
+  
+  - title: "Offline Friendly"
+    icon: "🌐"
+    description: "Works at the table, even without internet."
+    image: "images/features/offline.png"
+  
+  - title: "One License to Rule Them All"
+    icon: "💍"
+    description: "Buy once, use multiple devices. Simple and fair."
+    image: "images/features/license.png"
+  
+  - title: "No Subscriptions"
+    icon: "❌"
+    description: "Own the app outright. No ongoing fees, no strings attached."
+    image: "images/features/subscriptions.png"

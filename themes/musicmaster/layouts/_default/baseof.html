@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    {{ $style := resources.Get "css/styles.css" }}
+    {{ if $style }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ else }}
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+    {{ end }}
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    {{ if .Params.featured_image }}
+    <meta property="og:image" content="{{ .Params.featured_image | absURL }}">
+    {{ end }}
+</head>
+<body>
+    {{ partial "navigation.html" . }}
+
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "footer.html" . }}
+
+    {{ $script := resources.Get "js/script.js" }}
+    {{ if $script }}
+    <script src="{{ $script.Permalink }}"></script>
+    {{ else }}
+    <script src="{{ "js/script.js" | relURL }}"></script>
+    {{ end }}
+</body>
+</html>

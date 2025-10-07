@@ -1,0 +1,41 @@
+baseURL = 'https://midnordic.github.io/music-master'
+languageCode = 'en-us'
+title = 'Music Master'
+theme = 'musicmaster'
+
+[params]
+  description = "Music Master is a powerful audio tool that puts sound in your hands and unleashes your creativity. Built for Game Masters."
+  author = "Midnordic"
+  
+  # Hero section
+  hero_title = "Become a Music Master!"
+  hero_subtitle = "**Music Master** is a powerful audio tool that puts sound in your hands and unleashes your creativity. Built for Game Masters, it lets you craft **dynamic, event-driven soundscapes** that react to your story. Layer tracks, automate fades, and trigger cinematic moments - all with a click."
+  
+  # Beta section
+  beta_title = "Join the Beta"
+  beta_description = "We're currently running open beta tests. Join our Discord to try the app, share feedback, and help shape Music Master into the ultimate DM audio tool."
+  beta_slogan = "Become a Music Master yourself!"
+  discord_url = "https://discord.gg/pDFEwaccK2"
+  
+  # Blog section
+  blog_title = "Top blog picks"
+  blog_description = "Use cinematic sound techniques in your game."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+  [[menu.main]]
+    name = "Join the Beta"
+    url = "/#beta"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
