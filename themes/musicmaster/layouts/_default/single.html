@@ -26,8 +26,8 @@
                         
             <!-- Back to Blog Navigation -->
             <div class="back-to-blog">
-                <a href="{{ "blog" | relURL }}" class="back-link">&#8592; {{ T "link_back_to_blog" }}</a>
-                <a href="{{ .Site.BaseURL }}#beta" class="btn btn-primary btn-large">&#127911; {{ T "link_join_beta" }}</a>
+                <a href="{{ "blog" | relLangURL }}" class="back-link">&#8592; {{ T "link_back_to_blog" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}#beta" class="btn btn-primary btn-large">&#127911; {{ T "link_join_beta" }}</a>
             </div>
         </article>
     </div>
