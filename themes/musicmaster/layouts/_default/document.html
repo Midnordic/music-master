@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<!-- Blog Post Header -->
+<section class="blog-post-header">
+    <div class="container">
+        <h1 class="blog-post-title">{{ .Title }}</h1>
+        {{ if .Params.subtitle }}
+        <p class="blog-post-subtitle">
+            {{ .Params.subtitle }}
+        </p>
+        {{ end }}
+        <div class="blog-post-meta-header">
+            <span class="blog-post-author">{{ .Params.author | default .Site.Params.author }}</span>
+            <span class="blog-post-date">{{ .Date | time.Format ":date_long" }}</span>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Post Content -->
+<section class="blog-post-content">
+    <div class="container">
+        <article class="blog-post-article">
+            <div class="blog-post-section">
+                {{ .Content }}
+            </div>
+        </article>
+    </div>
+</section>
+
+{{ end }}
