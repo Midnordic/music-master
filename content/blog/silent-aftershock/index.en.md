@@ -14,11 +14,11 @@ After an explosion, a gunshot, or a scream, the sound suddenly drops out, leavin
 
 ## Movie example
 
-One of the best examples comes from ***Saving Private Ryan (1998)***, during the Omaha Beach landing. Amid the chaos, a shell explodes near Captain Miller, and everything goes quiet. The relentless gunfire and screams vanish, replaced by a low, muffled ringing. The camera lingers as he looks around - soldiers shouting, moving in slow motion - but we hear almost nothing. 
+You can see this used brilliantly in Quentin Tarantino's ***Inglourious Basterds (2009)***, during the Paris cinema scene. The evening begins with a glamorous movie premiere: upbeat swing music, champagne glasses clinking, and people laughing under camera flashes. It's elegant, even joyful. But when Shosanna's plot unfolds, the cheerful soundscape abruptly collapses. Gunshots ring out, and the music cuts mid-note. There's a moment of eerie silence as people realize what's happening - then chaos erupts. The audience screams, the room fills with smoke and fire, and the once-festive sound turns into pure terror.
 
 **That silence says more than any soundtrack could; it's confusion, fear, and shock captured in sound.**
 
-{{< iframe src="https://www.youtube.com/embed/XijMMhs55oc?start=280" title="Saving Private Ryan" >}}
+{{< iframe src="https://www.youtube.com/embed/hkzj8L5JT6U?start=110" title="Inglorious Basterds" >}}
 
 ## What to use it for?
 

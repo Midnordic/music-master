@@ -14,11 +14,13 @@ Po eksplozji, wystrzale lub krzyku, dźwięk nagle znika, pozostawiając niemal 
 
 ## Przykład filmowy
 
-Jeden z najlepszych przykładów pochodzi z filmu ***Szeregowiec Ryan (1998)***, w scenie lądowania na plaży Omaha. Pośród chaosu w pobliżu kapitana Millera wybucha pocisk – i nagle wszystko cichnie. Nieustanny huk wystrzałów i krzyki znikają, zastąpione niskim, stłumionym dzwonieniem. Kamera trwa na nim, gdy rozgląda się dookoła – żołnierze krzyczą, poruszają się w zwolnionym tempie – ale prawie nic nie słychać.  
+Można to zobaczyć w genialny sposób w filmie Quentina Tarantino ***Bękarty wojny (2009)***, podczas sceny w paryskim kinie. Wieczór zaczyna się od pełnej blasku premiery filmowej: radosna muzyka swingowa, brzęk kieliszków z szampanem, śmiech i błyski aparatów. Jest elegancko, wręcz beztrosko.  
+
+Ale gdy plan Shoshanny zaczyna się realizować, ten radosny pejzaż dźwiękowy nagle się rozpada. Rozbrzmiewają strzały, a muzyka urywa się w połowie nuty. Nastaje chwila złowrogiej ciszy, gdy ludzie uświadamiają sobie, co się dzieje — po czym wybucha chaos. Publiczność krzyczy, sala wypełnia się dymem i ogniem, a niegdyś świąteczny nastrój zamienia się w czysty horror.
 
 **Ta cisza mówi więcej niż jakakolwiek muzyka: to strach, dezorientacja i szok zamknięte w ciszy.**
 
-{{< iframe src="https://www.youtube.com/embed/XijMMhs55oc?start=280" title="Szeregowiec Ryan" >}}
+{{< iframe src="https://www.youtube.com/embed/hkzj8L5JT6U?start=110" title="Bękarty Wojny" >}}
 
 ## Do czego to wykorzystać?
 
