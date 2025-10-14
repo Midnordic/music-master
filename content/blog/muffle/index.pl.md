@@ -31,8 +31,25 @@ To prosty trik, który zamienia zwykłą scenę walki w filmowe przeżycie – p
 
 ## Zrób to z Music Masterem!
 
-(placeholder)
+{{< samplepanel sample="Muffle" >}}
+
+{{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Eksplozja zaczyna się od 00:07." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Explosion/Bomb/Cannon SFx' by TKhelkar" >}}
+
+Uważaj na dźwięk dzwonienia — może być nieprzyjemny dla ucha, więc lepiej **ścisz trochę głośność**.
+
+1. **Dodaj ścieżkę ambientową** dla pola bitwy i ustaw aby grała w pętli.  
+1. **Dodaj efekt dźwiękowy eksplozji.** Ma dość długie zakończenie, więc skróćmy ją nieco.  
+1. **Dodaj efekt dźwięku szumu.** Powinien uruchomić się zaraz po eksplozji. Ustaw jego głośność na 15% i połącz go z efektem eksplozji.  
+{{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Ambient, eksplozja i szum." class="blog-post-section-img" target="_blank" >}}  
+1. **Dodaj mikser efektów** i wyłącz go, odznaczając pole „Enabled”.  
+1. **Dodaj efekt „Muffle”** do miksera. Pozostaw jego parametry domyślne (możesz później z nimi poeksperymentować).  
+1. **Dodaj efekt „Amplify”** do miksera. Wzmocni on dźwięk po zastosowaniu efektu przytłumienia. Ustaw wartość na 24 dB.
+{{< figure src="figure2.jpg" link="figure2.jpg" caption="Rys. 2 – Mikser efektów z Muffle i Amplify." class="blog-post-section-img" target="_blank" >}}  
+1. **Połącz ścieżkę ambientową z mikserem efektów.** Zostanie ona przytłumiona dopiero po włączeniu miksera.  
+1. **Połącz ścieżkę szumu z mikserem efektów.** Gdy szum zacznie grać, włącz mikser – w ten sposób ambient zostanie przytłumiony. Kiedy szum się skończy, wyłącz mikser. Dzięki temu odtworzysz krótki moment szoku, trwający tyle, co dzwonienie w uszach.  
+{{< figure src="figure3.jpg" link="figure3.jpg" caption="Rys. 3 – Wszystko gotowe." class="blog-post-section-img" target="_blank" >}}  
+1. Odtwórz ścieżkę ambientową, a po chwili dźwięk eksplozji. **Reszta zadziała automatycznie!**
 
 ## Gotowy, aby spróbować?
 
-Pozwól swoim graczom usłyszeć świat oczami swoich postaci — użyj **Music Mastera**, by odtworzyć poruszający, immersyjny dźwięk szoku i przetrwania.
+Pozwól swoim graczom usłyszeć świat oczami swoich postaci — użyj **Music Mastera**, by zszokować swoich graczy i wywołać w nich uczucie walki o życie.
