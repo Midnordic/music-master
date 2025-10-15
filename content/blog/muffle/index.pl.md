@@ -31,7 +31,7 @@ To prosty trik, który zamienia zwykłą scenę walki w filmowe przeżycie – p
 
 ## Zrób to z Music Masterem!
 
-{{< samplepanel sample="Muffle" >}}
+{{< samplepanel sample="Shellshock Effect" >}}
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Eksplozja zaczyna się od 00:09." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Anime_explosion_blast_3.wav' by Euphrosyyn" >}}
 
