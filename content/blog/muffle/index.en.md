@@ -28,7 +28,7 @@ It's a simple trick that turns an ordinary action scene into a cinematic experie
 
 {{< samplepanel sample="Muffle" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="The final result. Explosion starts at 00:07." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Explosion/Bomb/Cannon SFx' by TKhelkar" >}}
+{{< audio preload="false" src="sample.mp3" caption1="The final result. Explosion starts at 00:09." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Anime_explosion_blast_3.wav' by Euphrosyyn" >}}
 
 Watch out for the ringing noise - it might be unpleasant to listen to, so turn down the volume a bit.
 

@@ -33,7 +33,7 @@ To prosty trik, który zamienia zwykłą scenę walki w filmowe przeżycie – p
 
 {{< samplepanel sample="Muffle" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Eksplozja zaczyna się od 00:07." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Explosion/Bomb/Cannon SFx' by TKhelkar" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Eksplozja zaczyna się od 00:09." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Anime_explosion_blast_3.wav' by Euphrosyyn" >}}
 
 Uważaj na dźwięk dzwonienia — może być nieprzyjemny dla ucha, więc lepiej **ścisz trochę głośność**.
 
@@ -48,7 +48,7 @@ Uważaj na dźwięk dzwonienia — może być nieprzyjemny dla ucha, więc lepie
 1. **Połącz ścieżkę ambientową z mikserem efektów.** Zostanie ona przytłumiona dopiero po włączeniu miksera.  
 1. **Połącz ścieżkę szumu z mikserem efektów.** Gdy szum zacznie grać, włącz mikser – w ten sposób ambient zostanie przytłumiony. Kiedy szum się skończy, wyłącz mikser. Dzięki temu odtworzysz krótki moment szoku, trwający tyle, co dzwonienie w uszach.  
 {{< figure src="figure3.jpg" link="figure3.jpg" caption="Rys. 3 – Wszystko gotowe." class="blog-post-section-img" target="_blank" >}}  
-1. Odtwórz ścieżkę ambientową, a po chwili dźwięk eksplozji. **Reszta zadziała automatycznie!**
+1. Odtwórz ścieżkę ambientową, a po chwili odtwórz dźwięk eksplozji. **Reszta zadziała automatycznie!**
 
 ## Gotowy, aby spróbować?
 
