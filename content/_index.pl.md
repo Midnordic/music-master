@@ -6,8 +6,7 @@ layout: "index"
 # Hero Section
 hero:
   title: "Zostań Mistrzem Muzyki!"
-  subtitle: "**Music Master** to praktyczne narzędzie do zarządzania muzyką i dźwiękiem podczas sesji. Pozwala Ci realizować kreatywne muzyczne pomysły i kontrolować to, co słyszą Twoi gracze.
-  
+  subtitle: "**Music Master** to praktyczne narzędzie do zarządzania muzyką i dźwiękiem podczas sesji. Pozwala Ci realizować kreatywne muzyczne pomysły i kontrolować to, co słyszą Twoi gracze.<br/><br/>  
   Aplikacja została stworzona z myślą o Mistrzach Gry i pozwala tworzyć **dynamiczne, sterowane wyzwalaczami pejzaże dźwiękowe** reagujące na fabularne elementy sesji. Możesz nakładać na siebie ścieżki dźwiękowe, automatyzować przejścia pomiędzy utworami i tworzyć filmowe sceny — a wszystko to jednym kliknięciem."
   cta_text: "Dołącz do bety"
   showcase_image: "images/showcase.png"

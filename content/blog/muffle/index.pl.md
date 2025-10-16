@@ -23,6 +23,7 @@ Jedno z najsłynniejszych zastosowań tego efektu pojawia się w filmie ***Szere
 ## Do czego to wykorzystać?
 
 Jako Mistrz Gry możesz użyć tego efektu, by oddać momenty przytłoczenia — chwile, gdy świat staje się zbyt intensywny, by go przetworzyć.  
+
 Efekt ten sprawdzi się po wielkiej eksplozji, niszczycielskim zaklęciu lub szokującym zwrocie akcji. Gracze natychmiast poczują, że coś jest nie tak — ich postacie są oszołomione, ogłuszone lub znajdują się w stanie szoku.
 
 Po kilku sekundach powoli przywróć normalne dźwięki: głosy towarzyszy, szczęk broni, trzask płomieni. To stopniowe „odzyskiwanie słuchu” sprawi, że moment stanie się bardziej realistyczny i da graczom chwilę na emocjonalny reset, zanim znów rzucą się w wir akcji. 
