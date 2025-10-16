@@ -63,7 +63,7 @@ function initInteractiveElements() {
     });
 
     // Enhanced hover effects for cards
-    const cards = document.querySelectorAll('.feature-card, .blog-post-card');
+    const cards = document.querySelectorAll('.blog-post-card');
     cards.forEach(card => {
         card.addEventListener('mouseenter', function() {
             this.style.transform = 'translateY(-8px) scale(1.02)';
