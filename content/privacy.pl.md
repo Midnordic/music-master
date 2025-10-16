@@ -24,7 +24,7 @@ Aby chronić przed nieautoryzowanym użyciem, **Music Master** generuje odcisk u
 
 Ten odcisk jest przechowywany lokalnie na Twoim urządzeniu, a jego zahaszowana wartość zapisywana jest w bazie danych dostawcy płatności w celu weryfikacji licencji.  
 
-Hash nie może zostać wykorzystany do zidentyfikowania Ciebie ani do odtworzenia szczegółów Twojego sprzętu.
+Hash nie może zostać wykorzystany do zidentyfikowania Ciebie, ani do odtworzenia szczegółów Twojego sprzętu.
 
 Służy on wyłącznie do potwierdzania ważności licencji i zapewnienia, że Twoja kopia aplikacji pozostaje aktywna.
 
@@ -46,7 +46,7 @@ Nie sprzedajemy, nie wymieniamy ani nie udostępniamy Twoich danych osobowych ż
 
 ## 7. Prywatność dzieci
 
-Aplikacja **Music Master** nie jest skierowana do dzieci poniżej 13 roku życia.  
+Aplikacja **Music Master** nie jest skierowana do dzieci poniżej 13. roku życia.  
 Nie zbieramy świadomie żadnych danych osobowych od dzieci.
 
 ## 8. Twoje prawa
