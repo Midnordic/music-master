@@ -578,7 +578,7 @@ h1, h2, h3, h4, h5, h6,
 .feature-header {
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     gap: 0.75rem;
     margin-bottom: 1rem;
 }
@@ -594,11 +594,13 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 800;
     color: #2d3748;
     margin: 0;
+    text-align: center;
 }
 
 .feature-description {    
     line-height: 1.6;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .feature-image {
@@ -1050,7 +1052,7 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .hero {
-        padding: 6rem 0 4rem;
+        padding: 2rem 0 4rem;
     }
     
     .hero-title {
@@ -1064,10 +1066,21 @@ h1, h2, h3, h4, h5, h6,
     .section-title {
         font-size: 2rem;
     }
-    
+
+    .features-section {
+        padding: 1rem 0;        
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
     .feature-card {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1rem;
+        padding: 1.5rem 2rem;
         text-align: center;
     }
     
@@ -1076,8 +1089,9 @@ h1, h2, h3, h4, h5, h6,
     }
 
     .feature-header {
-        flex-direction: column;
-        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.75rem;
         text-align: center;
     }
     
@@ -1140,11 +1154,16 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .feature-header {
+        justify-content: center;
+        align-items: center;
+        gap: 0.75rem;
         margin-bottom: 1rem;
+        text-align: center;
     }
     
     .feature-description {
         font-size: 0.85rem;
+        text-align: center;
     }
     
     .feature-image {
