@@ -6,7 +6,11 @@ weight: 60
 
 Za pomocą kolejki można ustawiać kolejność odtwarzania się utworów, jeden po drugim. Dzięki temu użytkownik nie musi pamiętać, aby przełączyć na następny utwór - następuje to automatycznie.
 
-Każda lista odtwarzania ma swoją osobną kolejkę, którą obsługuje się przyciskami znajdującymi się na górze listy odtwarzania. Przyciski te umożliwiają:
+## Przyciski kolejki
+
+Każda lista odtwarzania ma swoją osobną kolejkę, którą obsługuje się przyciskami znajdującymi się na górze listy odtwarzania. {{< figure src="queue_buttons.jpg" caption="Rys. 1 - Przyciski kolejki." class="docs-img" >}} 
+
+Przyciski te umożliwiają:
 - włączenie / wyłączenie odtwarzania w pętli (*repeat*)
 - włączenie / wyłączenie odtwarzania losowego (*shuffle*)
 - dodanie wszystkich utworów do kolejki
@@ -24,13 +28,19 @@ Aby uruchomić kolejkę, trzeba rozpocząć dowolny utwór, który **znajduje si
 
 ## Dodawanie i usuwanie utworu
 
-Aby dodać utwór na koniec kolejki, należy kliknąć ikonę pioruna "więcej opcji", z menu wybrać "Queue -> Add / Remove". Po tym utwór zostanie dodany do kolejki i stanie się widoczny jego numer w kolejce.
+Aby dodać utwór na koniec kolejki, należy na wybranym elemencie z listy odtwarzania, kliknąć ikonę pioruna "więcej opcji", z menu wybrać "Queue -> Add / Remove". Po tym utwór zostanie dodany do kolejki i stanie się widoczny jego numer w kolejce.
+
+{{< figure src="queue_add.jpg" caption="Rys. 2 - Przyciski zakolejkowania." class="docs-img" >}} 
 
 Aby usunąć utwór z kolejki, należy zrobić dokładnie to samo, co w podczas jego dodawania. Utwór zostanie usunięty z kolejki i jego numer w kolejce zniknie.
+
+{{< figure src="queue_order.jpg" caption="Rys. 3 - Zakolejkowane utwory." class="docs-img" >}} 
 
 ## Dodawanie utworu na początek kolejki
 
 Aby dodać utwór na sam początek kolejki, należy kliknąć ikonę pioruna "więcej opcji", z menu wybrać "Queue -> Add to Front". Wtedy dany utwór zostanie dodany na początek kolejki, a pozostałe utwory zostaną zepchnięte o do tyłu o jeden poziom.
+
+{{< figure src="queue_front.jpg" caption="Rys. 4 - Dodanie do początku kolejki." class="docs-img" >}} 
 
 ## Uwagi odnośnie kolejek
 

@@ -12,8 +12,9 @@ Zaraz po uruchomieniu programu zawsze wyświetlany jest widok kompoyzcji.
 
 Widok wyświetlany w tym oknie zależy od tego, co jest wybrane z menu bocznego. Menu boczne znajdujące się na lewej krawędzi okna umożliwia przełączanie się pomiędzy poszczególnymi widokami.
 
-## Menu boczne
+{{< figure src="main_window.jpg" link="main_window.jpg" target="_blank" caption="Rys. 1 - Widok kompozycji" class="docs-img" >}}
 
+## Menu boczne
 Menu boczne umożliwia przełączanie pomiędzy następującymi widokami:
 - Kompozycja
 - Odtwarzane Utwory

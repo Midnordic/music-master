@@ -11,21 +11,33 @@ Każda nowa kompozycja zawiera co najmniej jedną listę odtwarzania, do której
 
 Aby stworzyć nową listę odtwarzania, należy kliknąć na ikonę plusa, znajdującego się z prawej strony ostatniej listy.
 
-Zostanie utworzona nowa lista z domyślną nazwą. Aby zmienić nazwę, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Rename playlist", a następnie podać nazwę nowej playlisty. 
+{{< figure src="add_playlist_button.jpg" caption="Rys. 1 - Przycisk dodania nowej playlisty." class="docs-img" >}}
+
+Zostanie utworzona nowa lista z domyślną nazwą. 
+
+## Zmiana nazwy
+
+Aby zmienić nazwę, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Rename playlist", a następnie podać nazwę nowej playlisty. 
+
+{{< figure src="rename_playlist.jpg" caption="Rys. 2 - Zmiana nazwy listy." class="docs-img" >}}
 
 **UWAGA:** nazwy list muszą być unikatowe, tzn. nie mogą się powtarzać.
 
-## Usuwanie listy
+## Usuwanie
 
 Aby usunąć listę odtwarzania, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Delete playlist". Lista zostanie usunięta.
 
-## Kopiowanie (duplikowanie) listy
+{{< figure src="delete_playlist.jpg" caption="Rys. 3 - Usuwanie listy." class="docs-img" >}}
+
+## Kopiowanie (duplikowanie)
 
 Można skopiować listę odtwarzania ze wszystkimi jej elementami. Aby to zrobić, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Duplicate playlist". Lista zostanie skopiowana, a jej nazwa będzie mieć przyrostek "(copy)". 
 
-Można usunąć przyrostek zmieniając nazwę listy (patrz wyżej).
+Można usunąć przyrostek zmieniając nazwę listy.
 
-## Dodawanie elementów do listy
+{{< figure src="duplicate_playlist.jpg" caption="Rys. 4 - Kopiowanie listy." class="docs-img" >}}
+
+## Dodawanie elementów
 
 Elementy można przenosić na listę odtwarzania z widoku Kompozycji. Należy wybrać widok kompozycji z menu bocznego.
 
@@ -35,17 +47,23 @@ Można również zaznaczyć kilka elementów, poprzez kliknięcie na pole wyboru
 
 Kliknięcie na ikonę "zaznacz / odznacz wszystko" pozwala na szybkie zaznaczenie lub odznaczenie wszystkich elementów w kompozycji.
 
-## Usuwanie elementów z listy
+{{< figure src="adding_to_playlist.jpg" link="adding_to_playlist.jpg" target="_blank" caption="Rys. 5 - Dodawanie elementów do listy." class="docs-img" >}}
+
+## Usuwanie elementów
 
 Aby usunąć element z listy, należy kliknąć ikonę pioruna "więcej opcji", a następnie z rozwijanego menu wybrać "Remove".
 
 Spowoduje to usunięcie elementu tylko z danej listy. Jeśli ten element był w innych listach, ciągle w nich pozostanie. 
+
+{{< figure src="removing_from_playlist.jpg" link="removing_from_playlist.jpg" target="_blank" caption="Rys. 6 - Usuwanie elementu z listy." class="docs-img" >}}
 
 ## Zmienianie kolejności elementów
 
 Elementy na liście można ustawiać w dowolnej kolejności.
 
 Aby to zrobić, należy kliknąć na ikonę "chwytacza" z lewej strony elementu, przeciągnąć element na inną pozycję i puścić klawisz myszy. Element zostanie przeniesiony.
+
+{{< figure src="reorder_elements.jpg" caption="Rys. 7 - Zmiana kolejności elementów." class="docs-img" >}}
 
 # Masz pytania?
 

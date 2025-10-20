@@ -8,9 +8,12 @@ Na kompozycje składają się wszystkie elementy: utwory, wyzwalacze, listy utwo
 
 W widoku kompozycji (lewa strona) znajdują się dodane do kompozycji główne elementy, które można później przenieść do list utworów (prawa strona). Są to głównie utwory i wyzwalacze. 
 
+{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Rys. 1 - Kompozycja i wypełniona lista odtwarzania." class="docs-img" >}}
+
 ## Dodawanie utworów {#adding-tracks}
 
-Aby dodać utwór do kompozycji, należy kliknąć ikonę nutki z plusem. Pokaże się menu, które umożliwia:
+Aby dodać utwór do kompozycji, należy kliknąć ikonę nutki z plusem. {{< figure src="add_file_icon.png" caption="Rys. 2 - Ikona dodawania utworów." class="docs-img-icon" >}} Pokaże się menu, które umożliwia:
+
 - dodawanie pojedyńczych plików.
 - dodawanie całego folderu.
 - dodawanie całego folderu i wszystkich subfolderów.
@@ -34,7 +37,7 @@ Usunięcie utworu z kompozycji spowoduje usunięcie go również ze wszystkich i
 
 Każda kompozycja może zostać zapisana do pliku (z rozszerzeniem .mm) i odtworzona z niego później.
 
-Aby zapisać lub wczytać kompozycję, należy kliknąć ikonę dokumentu z nutką. Pokaże się menu, które umożliwi:
+Aby zapisać lub wczytać kompozycję, należy kliknąć ikonę dokumentu z nutką. {{< figure src="composition_icon.png" caption="Rys. 3 - Ikona kompozycji." class="docs-img-icon" >}} Pokaże się menu, które umożliwi:
 - wyczyszczenie kompozycji
 - zapisanie kompozycji do pliku
 - wczytanie kompozycji z pliku
