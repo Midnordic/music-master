@@ -1,87 +1,90 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 
-<!-- Documentation Header -->
-<section class="docs-page-header">
-    <div class="container">
-        <nav class="docs-breadcrumb">
-            <a href="{{ "docs" | relLangURL }}" class="breadcrumb-link">Documentation</a>
-            <span class="breadcrumb-separator">�</span>
-            <span class="breadcrumb-current">{{ .Title }}</span>
-        </nav>
-        
-        <div class="docs-page-title-section">
-            <h1 class="docs-page-title">{{ .Title }}</h1>
-            {{ if .Params.subtitle }}
-            <p class="docs-page-subtitle">{{ .Params.subtitle }}</p>
-            {{ end }}
-            
-            <div class="docs-page-meta">
-                {{ if .Params.difficulty }}
-                <span class="docs-difficulty docs-difficulty-{{ .Params.difficulty }}">
-                    {{ .Params.difficulty | title }} Level
-                </span>
-                {{ end }}
-                {{ if .Params.reading_time }}
-                <span class="docs-reading-time">{{ .Params.reading_time }}</span>
-                {{ else }}
-                <span class="docs-reading-time">{{ .ReadingTime }} min read</span>
-                {{ end }}
-                <span class="docs-last-updated">Updated {{ .Date | time.Format "January 2, 2006" }}</span>
+<div class="docs-container">
+    <!-- Sidebar -->
+    <aside class="docs-sidebar">
+        <div class="docs-sidebar-content">
+            <!-- Documentation Header -->
+            <div class="docs-sidebar-header">
+                <h2 class="docs-sidebar-title">
+                    <a href="{{ "docs" | relLangURL }}" class="docs-home-link">Documentation</a>
+                </h2>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Documentation Content -->
-<section class="docs-content-section">
-    <div class="container">
-        <div class="docs-layout">
-            <!-- Table of Contents -->
-            <aside class="docs-toc">
-                <div class="docs-toc-content">
-                    <h4 class="docs-toc-title">Table of Contents</h4>
-                    <div class="docs-toc-list">
-                        {{ .TableOfContents }}
-                    </div>
-                </div>
-            </aside>
             
-            <!-- Main Content -->
-            <article class="docs-article">
-                <div class="docs-content">
-                    {{ .Content }}
-                </div>
-                
-                <!-- Documentation Navigation -->
-                <nav class="docs-navigation">
-                    <div class="docs-nav-section">
-                        {{ with .PrevInSection }}
-                        <a href="{{ .Permalink }}" class="docs-nav-link docs-nav-prev">
-                            <span class="docs-nav-direction">? Previous</span>
-                            <span class="docs-nav-title">{{ .Title }}</span>
-                        </a>
+            <!-- Navigation List -->
+            <nav class="docs-nav">
+                <ul class="docs-nav-list">
+                    {{ $currentPage := . }}
+                    {{ with .Site.GetPage "section" "docs" }}
+                        {{ $sortedDocs := sort .Pages ".Weight" }}
+                        {{ range $sortedDocs }}
+                        <li class="docs-nav-item{{ if eq .Permalink $currentPage.Permalink }} docs-nav-item-active{{ end }}">
+                            <a href="{{ .Permalink }}" class="docs-nav-link">
+                                {{ if .Params.icon }}
+                                <span class="docs-nav-icon">{{ .Params.icon }}</span>
+                                {{ end }}
+                                <span class="docs-nav-text">{{ .Title }}</span>
+                                {{ if .Params.difficulty }}
+                                <span class="docs-nav-badge docs-nav-badge-{{ .Params.difficulty }}">
+                                    {{ .Params.difficulty }}
+                                </span>
+                                {{ end }}
+                            </a>
+                        </li>
                         {{ end }}
-                    </div>
-                    
-                    <div class="docs-nav-section">
-                        {{ with .NextInSection }}
-                        <a href="{{ .Permalink }}" class="docs-nav-link docs-nav-next">
-                            <span class="docs-nav-direction">Next ?</span>
-                            <span class="docs-nav-title">{{ .Title }}</span>
-                        </a>
-                        {{ end }}
-                    </div>
-                </nav>
-                
-                <!-- Back to Documentation -->
-                <div class="docs-back-section">
-                    <a href="{{ "docs" | relLangURL }}" class="docs-back-link">
-                        ? Back to Documentation
-                    </a>
-                </div>
-            </article>
+                    {{ end }}
+                </ul>
+            </nav>
         </div>
-    </div>
-</section>
+    </aside>
+    
+    <!-- Main Content -->
+    <main class="docs-main">
+        <div class="docs-content">
+            <!-- Page Header -->
+            <header class="docs-page-header-simple">
+                <div class="docs-breadcrumb">
+                    <a href="{{ "docs" | relLangURL }}" class="breadcrumb-link">Documentation</a>
+                    <span class="breadcrumb-separator"> → </span>
+                    <span class="breadcrumb-current">{{ .Title }}</span>
+                </div>
+                
+                <h1 class="docs-page-title-simple">{{ .Title }}</h1>                
+                <p class="docs-page-subtitle-simple">{{ .Params.description }}</p>
+                               
+            </header>
+                        
+            <!-- Article Content -->
+            <article class="docs-article-content">
+                {{ .Content }}
+            </article>
+            
+            <!-- Navigation Footer -->
+            <footer class="docs-page-footer">
+                <div class="docs-navigation-simple">
+                    {{ with .PrevInSection }}
+                    <a href="{{ .Permalink }}" class="docs-nav-btn docs-nav-prev">
+                        <span class="docs-nav-arrow">?</span>
+                        <div class="docs-nav-info">
+                            <span class="docs-nav-label">Previous</span>
+                            <span class="docs-nav-title">{{ .Title }}</span>
+                        </div>
+                    </a>
+                    {{ end }}
+                    
+                    {{ with .NextInSection }}
+                    <a href="{{ .Permalink }}" class="docs-nav-btn docs-nav-next">
+                        <div class="docs-nav-info">
+                            <span class="docs-nav-label">Next</span>
+                            <span class="docs-nav-title">{{ .Title }}</span>
+                        </div>
+                        <span class="docs-nav-arrow">?</span>
+                    </a>
+                    {{ end }}
+                </div>
+            </footer>
+        </div>
+    </main>
+</div>
 
 {{ end }}

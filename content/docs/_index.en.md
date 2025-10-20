@@ -1,6 +1,5 @@
 ---
 title: "Documentation"
-description: "Comprehensive guides and documentation for mastering our music application"
 ---
 
 Welcome to our comprehensive documentation center. Here you'll find everything you need to get started, master advanced techniques, and troubleshoot any issues you might encounter.
