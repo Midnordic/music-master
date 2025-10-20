@@ -4,8 +4,6 @@ description: "Dodawanie utworów i tworzenie list odtwarzania."
 weight: 80
 ---
 
-# Kompozycja
-
 Na kompozycje składają się wszystkie elementy: utwory, wyzwalacze, listy utworów, węzły i połączenia dodane z poziomu edytora. Po prostu jest to pewna całość, z którą w danej chwili pracujesz.
 
 W widoku kompozycji (lewa strona) znajdują się dodane do kompozycji główne elementy, które można później przenieść do list utworów (prawa strona). Są to głównie utwory i wyzwalacze. 

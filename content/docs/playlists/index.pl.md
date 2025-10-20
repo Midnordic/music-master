@@ -3,16 +3,11 @@ title: "Listy odtwarzania"
 description: "Tworzenie i wypełnianie list odtwarzania."
 weight: 70
 ---
-
-# Lista odtwarzania
-
 Listy odtwarzania (ang. *playlists*) służą do kategoryzowania elementów (utworów, wyzwalaczy) wedle potrzeb użytkownika. 
 
 Każda nowa kompozycja zawiera co najmniej jedną listę odtwarzania, do której można dodawać elementy.
 
-## Tworzenie, usuwanie i kopiowanie list
-
-### Tworzenie nowej listy
+## Tworzenie nowej listy
 
 Aby stworzyć nową listę odtwarzania, należy kliknąć na ikonę plusa, znajdującego się z prawej strony ostatniej listy.
 
@@ -20,11 +15,11 @@ Zostanie utworzona nowa lista z domyślną nazwą. Aby zmienić nazwę, należy 
 
 **UWAGA:** nazwy list muszą być unikatowe, tzn. nie mogą się powtarzać.
 
-### Usuwanie listy
+## Usuwanie listy
 
 Aby usunąć listę odtwarzania, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Delete playlist". Lista zostanie usunięta.
 
-### Kopiowanie listy
+## Kopiowanie (duplikowanie) listy
 
 Można skopiować listę odtwarzania ze wszystkimi jej elementami. Aby to zrobić, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Duplicate playlist". Lista zostanie skopiowana, a jej nazwa będzie mieć przyrostek "(copy)". 
 
@@ -51,18 +46,6 @@ Spowoduje to usunięcie elementu tylko z danej listy. Jeśli ten element był w 
 Elementy na liście można ustawiać w dowolnej kolejności.
 
 Aby to zrobić, należy kliknąć na ikonę "chwytacza" z lewej strony elementu, przeciągnąć element na inną pozycję i puścić klawisz myszy. Element zostanie przeniesiony.
-
-# Kolejka odtwarzania
-
-Za pomocą kolejki można ustawiać kolejność odtwarzania się utworów, jeden po drugim. Dzięki temu użytkownik nie musi pamiętać, aby przełączyć na następny utwór - następuje to automatycznie.
-
-Każda lista odtwarzania ma swoją osobną kolejkę, którą obsługuje się przyciskami znajdującymi się na górze listy odtwarzania. Przyciski te umożliwiają:
-- włączenie / wyłączenie odtwarzania w pętli (*repeat*)
-- włączenie / wyłączenie odtwarzania losowego (*shuffle*)
-- dodanie wszystkich utworów do kolejki
-- usunięcie wszystkich zakolejkowanych utworów
-
-## 
 
 # Masz pytania?
 

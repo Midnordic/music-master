@@ -4,8 +4,6 @@ description: "Przedstawienie interfejsu i podstawowych możliwości aplikacji."
 weight: 90
 ---
 
-# Interfejs
-
 ## Główne okno
 
 Po uruchomieniu aplikacji ukazuje się główne okno programu.
@@ -26,9 +24,7 @@ Menu boczne umożliwia przełączanie pomiędzy następującymi widokami:
 
 Wybranie ostatniej opcji (Wyjście) zamknie aplikację. Jeśli bieżąca kompozycja nie została zapisana, aplikacja zapyta, czy jej nie zapisać.
 
-# Możliwości aplikacji
-
-### Podstawowe funkcje
+## Podstawowe funkcje
 
 Aplikację można używać jako zwykłego odtwarzacza muzyki. Zobacz jak:
 - [dodawać i usuwać utwory](docs/composition#adding-tracks)
@@ -37,7 +33,7 @@ Aplikację można używać jako zwykłego odtwarzacza muzyki. Zobacz jak:
 - [kolejkować utwory]()
 - [odtwarzać utwory]()
 
-### Zaawansowane funkcje (edytor)
+## Zaawansowane funkcje (edytor)
 
 Ale to nie wszystko. Aplikacja posiada potężny edytor, który umożliwia zastosowanie wyzwalaczy, efektów dźwiękowych i automatyzacji. Sprawdź jak:
 - [pracować z edytorem]()
@@ -45,9 +41,11 @@ Ale to nie wszystko. Aplikacja posiada potężny edytor, który umożliwia zasto
 - [operować na wyzwalaczach utworów]()
 - [dodawać efekty dźwiękowe]()
 
-### Filmowe techniki dla Mistrzów Gry
+## Filmowe techniki dla Mistrzów Gry
 
-Music Master powstał z myślą o Mistrzach Gry, którzy chcą dodać do swoich sesji muzykę i efekty dźwiękowe, opierając się na filmowych technikach. Sprawdź naszego **[bloga](blog/)** aby zobaczyć, jak w kreatywny i prosty sposób użyć aplikacji do odtwarzania filmowych momentów podczas rozgrywki.
+Music Master powstał z myślą o Mistrzach Gry, którzy chcą dodać do swoich sesji muzykę i efekty dźwiękowe, opierając się na filmowych technikach. 
+
+Sprawdź naszego **[bloga](blog/)** aby zobaczyć, jak w kreatywny i prosty sposób użyć aplikacji do odtwarzania filmowych momentów podczas rozgrywki.
 
 # Masz pytania?
 
