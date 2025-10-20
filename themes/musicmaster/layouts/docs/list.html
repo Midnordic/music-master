@@ -8,8 +8,30 @@
     <main class="docs-main">
         <div class="docs-content">
             <!-- Introduction -->
-            <section class="docs-intro">
-                {{ .Content }}
+            <section class="docs-intro">                
+                    {{ .Content }}
+            </section>
+            
+            <!-- Table of Contents -->
+            <section class="docs-toc-main">                
+                <div class="docs-toc-grid">
+                    {{ $sortedDocs := sort .Pages ".Weight" "desc" }}
+                    {{ range $sortedDocs }}
+                    <div class="docs-toc-card">
+                        <a href="{{ .Permalink }}" class="docs-toc-card-link">
+                            <div class="docs-toc-card-header">
+                                {{ if .Params.icon }}
+                                <span class="docs-toc-card-icon">{{ .Params.icon }}</span>
+                                {{ end }}
+                                <h3 class="docs-toc-card-title">{{ .Title }}</h3>
+                            </div>
+                            <p class="docs-toc-card-description">
+                                {{ .Params.description | default .Summary | truncate 150 }}
+                            </p>                            
+                        </a>
+                    </div>
+                    {{ end }}
+                </div>
             </section>
         </div>
     </main>

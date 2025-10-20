@@ -1,6 +1,6 @@
 ﻿---
 title: "Kompozycja"
-description: "Dodawanie utworów i tworzenie list odtwarzania."
+description: "Wyjaśnienie czym jest kompozycja i jak dodawać utwory."
 weight: 80
 ---
 
@@ -21,6 +21,8 @@ Obsługiwane formaty plików audio:
 - .ogg
 
 **UWAGA:** ten sam plik audio można dodać wielokrotnie do tej samej kompozycji. Aby uniknąć pomyłek, nalepiej zmieniać nazwy takich utworów po ich dodaniu do kompozycji. Wystarczy dwukrotnie kliknąć lewym przyciskiem myszy (lub raz prawym) na nazwę utworu i wpisać nową wartość.
+
+Można też dodać dowolny utwór lub cały folder klikając na nim i przeciągając go do okna aplikacji.
 
 ## Usuwanie utworów
 
