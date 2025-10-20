@@ -272,6 +272,7 @@ html {
     flex: 1;
     margin-left: 320px;
     background: #ffffff;
+    min-height: calc(100vh - 80px);
 }
 
 .docs-content {
@@ -279,6 +280,11 @@ html {
     margin: 0 auto;
     padding: 2rem 2rem 4rem 2rem;
     line-height: 1.7;
+}
+
+/* Ensure footer is visible in docs layout */
+.docs-container + .footer {
+    margin-left: 320px;
 }
 
 /* ========================================
@@ -884,6 +890,10 @@ html {
         margin-left: 0;
     }
     
+    .docs-container + .footer {
+        margin-left: 0;
+    }
+    
     .docs-content {
         padding: 2rem 1.5rem 4rem 1.5rem;
     }
@@ -896,6 +906,10 @@ html {
     }
     
     .docs-main {
+        margin-left: 0;
+    }
+    
+    .docs-container + .footer {
         margin-left: 0;
     }
     
