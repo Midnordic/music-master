@@ -1,7 +1,7 @@
 ﻿---
 title: "Instalacja i aktywacja"
 description: "Jak zainstalować i aktytować Music Mastera w kilku prostych krokach."
-weight: 1
+weight: 100
 ---
 
 # Instalacja aplikacji

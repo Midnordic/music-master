@@ -1,0 +1,36 @@
+<!-- Docs Nav Sidebar -->
+<aside class="docs-sidebar">
+    <div class="docs-sidebar-content">
+        <!-- Documentation Header -->
+        <div class="docs-sidebar-header">
+            <h2 class="docs-sidebar-title">
+                <a href="{{ "docs" | relLangURL }}" class="docs-home-link">{{ i18n "text_docs_documentation" | safeHTML }}</a>
+            </h2>
+        </div>
+
+        <!-- Navigation List -->
+        <nav class="docs-nav">
+            <ul class="docs-nav-list">
+                {{ $currentPage := . }}
+                {{ with .Site.GetPage "section" "docs" }}
+                {{ $sortedDocs := sort .Pages ".Weight" "desc" }}
+                {{ range $sortedDocs }}
+                <li class="docs-nav-item{{ if eq .Permalink $currentPage.Permalink }} docs-nav-item-active{{ end }}">
+                    <a href="{{ .Permalink }}" class="docs-nav-link">
+                        {{ if .Params.icon }}
+                        <span class="docs-nav-icon">{{ .Params.icon }}</span>
+                        {{ end }}
+                        <span class="docs-nav-text">{{ .Title }}</span>
+                        {{ if .Params.difficulty }}
+                        <span class="docs-nav-badge docs-nav-badge-{{ .Params.difficulty }}">
+                            {{ .Params.difficulty }}
+                        </span>
+                        {{ end }}
+                    </a>
+                </li>
+                {{ end }}
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</aside>

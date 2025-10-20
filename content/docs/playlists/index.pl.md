@@ -1,7 +1,7 @@
 ﻿---
 title: "Listy odtwarzania"
 description: "Tworzenie i wypełnianie list odtwarzania."
-weight: 4
+weight: 70
 ---
 
 # Lista odtwarzania

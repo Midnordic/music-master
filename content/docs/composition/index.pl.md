@@ -1,7 +1,7 @@
 ﻿---
 title: "Kompozycja"
 description: "Dodawanie utworów i tworzenie list odtwarzania."
-weight: 3
+weight: 80
 ---
 
 # Kompozycja

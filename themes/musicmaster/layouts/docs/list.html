@@ -1,63 +1,15 @@
 {{ define "main" }}
 
 <div class="docs-container">
-    <!-- Sidebar -->
-    <aside class="docs-sidebar">
-        <div class="docs-sidebar-content">
-            <!-- Documentation Header -->
-            <div class="docs-sidebar-header">
-                <h2 class="docs-sidebar-title">{{ .Title }}</h2>                
-            </div>
-            
-            <!-- Navigation List -->
-            <nav class="docs-nav">
-                <ul class="docs-nav-list">
-                    {{ $sortedDocs := sort .Pages ".Weight" }}
-                    {{ range $sortedDocs }}
-                    <li class="docs-nav-item">
-                        <a href="{{ .Permalink }}" class="docs-nav-link">                            
-                            <span class="docs-nav-text">{{ .Title }}</span>
-                            {{ if .Params.difficulty }}
-                            <span class="docs-nav-badge docs-nav-badge-{{ .Params.difficulty }}">
-                                {{ .Params.difficulty }}
-                            </span>
-                            {{ end }}
-                        </a>
-                    </li>
-                    {{ end }}
-                </ul>
-            </nav>
-        </div>
-    </aside>
-    
+
+    {{ partial "docs-nav-sidebar.html" . }}
+
     <!-- Main Content -->
     <main class="docs-main">
         <div class="docs-content">
             <!-- Introduction -->
             <section class="docs-intro">
-                {{ if .Content }}
-                    {{ .Content }}
-                {{ else }}
-                <h1>Welcome to Documentation</h1>
-                <p>Welcome to our comprehensive documentation center. Here you'll find detailed guides, tutorials, and reference materials to help you master every aspect of our application.</p>
-                <p>Browse through the documentation sections in the sidebar to find the information you need, or use your browser's search functionality to quickly locate specific topics.</p>
-                {{ end }}
-            </section>
-            
-            <!-- Getting Started Section -->
-            <section class="docs-getting-started">
-                <h2>Quick Start</h2>
-                <p>New to our application? Start with these essential guides:</p>
-                <ul class="docs-quick-links">
-                    {{ range first 3 (sort .Pages ".Weight") }}
-                    <li>
-                        <a href="{{ .Permalink }}" class="docs-quick-link">
-                            {{ if .Params.icon }}{{ .Params.icon }} {{ end }}{{ .Title }}
-                        </a>
-                        <p>{{ .Params.description | default .Summary | truncate 100 }}</p>
-                    </li>
-                    {{ end }}
-                </ul>
+                {{ .Content }}
             </section>
         </div>
     </main>

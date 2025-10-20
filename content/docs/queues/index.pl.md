@@ -1,7 +1,7 @@
 ﻿---
 title: "Kolejki odtwarzania"
 description: "Używanie kolejek w celu automatycznego odtwarzania utworów."
-weight: 5
+weight: 60
 ---
 
 # Kolejka odtwarzania

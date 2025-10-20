@@ -1,7 +1,7 @@
 ﻿---
 title: "Wprowadzenie"
 description: "Przedstawienie interfejsu i podstawowych możliwości aplikacji."
-weight: 2
+weight: 90
 ---
 
 # Interfejs
