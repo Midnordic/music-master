@@ -6,11 +6,9 @@ weight: 100
 
 ## Instalacja aplikacji
 
-Link do pobrania nowej wersji aplikacji znajduje się w mailu, który dostałeś po zakupie. Sprawdź swoją pocztę i upewnij się, że wiadomość nie wylądowała w folderze SPAM.
-
-Po ściągnięciu pliku .zip wystarczy wypakować go do dowolnego folderu na dysku.
-
-Aby uruchomić aplikację należy uruchomić plik "MusicMaster.exe".
+1. Link do pobrania nowej wersji aplikacji znajduje się w **mailu**, który dostałeś po zakupie. Sprawdź swoją pocztę i upewnij się, że wiadomość nie wylądowała w folderze SPAM.
+1. Po ściągnięciu pliku .zip wystarczy wypakować go do dowolnego folderu na dysku.
+1. Aby uruchomić aplikację należy uruchomić plik "MusicMaster.exe". {{< figure src="/images/docs/exe_file.jpg" caption="Rys. 3 - Plik .exe" class="blog-post-section-img" >}}
 
 ## Aktywacja programu
 
