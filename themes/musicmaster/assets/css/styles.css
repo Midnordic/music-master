@@ -310,38 +310,6 @@ li code {
     margin-bottom: 0.5rem;
 }
 
-/* Reset and Base Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Merriweather', serif;
-    line-height: 1.6;
-    color: black;
-    background: #ffffff;
-    font-weight: 400;
-    padding-top: 80px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
-/* Headers */
-h1, h2, h3, h4, h5, h6,
-.hero-title,
-.section-title,
-.nav-brand h1,
-.feature-card h3,
-.technique-card h3 {
-    font-family: 'Cormorant Garamond', serif;
-}
-
 /* Header */
 .header {        
     position: fixed;
@@ -1317,5 +1285,3 @@ strong {
 .language-link:active {
     transform: translateY(0);
 }
-
-/* Header */

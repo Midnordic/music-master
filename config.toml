@@ -26,6 +26,12 @@ theme = 'musicmaster'
     relPage = "blog"
 
   [[menu.main]]
+    name = "nav_docs"    
+    weight = 25
+    [menu.main.params]
+    relPage = "docs"
+
+  [[menu.main]]
     name = "nav_beta"    
     weight = 30
     [menu.main.params]

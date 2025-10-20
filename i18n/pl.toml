@@ -1,5 +1,6 @@
 nav_home = "Główna"
 nav_blog = "Blog"
+nav_docs = "Dokumentacja"
 nav_beta = "Dołącz do Bety"
 link_back_to_blog = "Powrót do Bloga"
 link_join_beta = "Dołącz do Bety"

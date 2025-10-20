@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<!-- Documentation Hero Section -->
+<section class="hero docs-hero">
+    <div class="container">
+        <div class="hero-content" style="grid-template-columns: 1fr; text-align: center; margin-left: 0;">
+            <div class="hero-text">
+                <h1 class="hero-title">{{ .Title }}</h1>
+                <p class="hero-subtitle">
+                    {{ .Description | default "Comprehensive documentation and guides for getting the most out of our app." }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Documentation Introduction -->
+<section class="docs-intro-section">
+    <div class="container">
+        <div class="docs-intro">
+            {{ if .Content }}
+                {{ .Content }}
+            {{ else }}
+            <p>Welcome to our comprehensive documentation center. Here you'll find detailed guides, tutorials, and reference materials to help you master every aspect of our application.</p>
+            <p>Browse through the documentation sections below to find the information you need, or use the search functionality to quickly locate specific topics.</p>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!-- Documentation Grid -->
+<section class="docs-section">
+    <div class="container">
+        <div class="docs-grid">
+            {{ $sortedDocs := sort .Pages ".Weight" }}
+            {{ range $sortedDocs }}
+            <div class="docs-card">
+                <div class="docs-card-content">
+                    <div class="docs-card-header">
+                        {{ if .Params.icon }}
+                        <span class="docs-card-icon">{{ .Params.icon }}</span>
+                        {{ end }}
+                        <h3 class="docs-card-title">
+                            <a href="{{ .Permalink }}" class="docs-card-link">{{ .Title }}</a>
+                        </h3>
+                    </div>
+                    <p class="docs-card-description">
+                        {{ .Params.description | default .Summary | truncate 120 }}
+                    </p>
+                    <div class="docs-card-meta">
+                        {{ if .Params.difficulty }}
+                        <span class="docs-difficulty docs-difficulty-{{ .Params.difficulty }}">
+                            {{ .Params.difficulty | title }}
+                        </span>
+                        {{ end }}
+                        {{ if .Params.reading_time }}
+                        <span class="docs-reading-time">{{ .Params.reading_time }}</span>
+                        {{ else }}
+                        <span class="docs-reading-time">{{ .ReadingTime }} min read</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ end }}

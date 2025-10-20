@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
     {{ end }}
     
+    <!-- Load docs.css for documentation pages -->
+    {{ if or (eq .Type "docs") (in .RelPermalink "/docs/") }}
+    {{ $docsStyle := resources.Get "css/docs.css" }}
+    {{ if $docsStyle }}
+    <link rel="stylesheet" href="{{ $docsStyle.Permalink }}">
+    {{ else }}
+    <link rel="stylesheet" href="{{ "css/docs.css" | relURL }}">
+    {{ end }}
+    {{ end }}
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">

@@ -1,5 +1,6 @@
 nav_home = "Home"
 nav_blog = "Blog"
+nav_docs = "Docs"
 nav_beta = "Join the Beta"
 link_back_to_blog = "Back to Blog"
 link_join_beta = "Join the Beta"
