@@ -9,6 +9,21 @@
     background: #ffffff;
 }
 
+/* Scroll padding to account for fixed header */
+html {
+    scroll-padding-top: 100px;
+}
+
+/* Alternative method for anchor links */
+.docs-article-content h1,
+.docs-article-content h2,
+.docs-article-content h3,
+.docs-article-content h4,
+.docs-article-content h5,
+.docs-article-content h6 {
+    scroll-margin-top: 100px;
+}
+
 /* ========================================
    SIDEBAR STYLES
    ======================================== */
@@ -358,8 +373,7 @@
 
 .docs-page-header-simple {
     margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 2px solid #f7fafc;
+    border-bottom: 3px solid #6f42c1;    
 }
 
 .docs-breadcrumb {
@@ -558,9 +572,7 @@
     font-size: 1.875rem;
     font-weight: 600;
     color: #2d3748;
-    margin: 2.5rem 0 1.25rem 0;
-    padding-bottom: 0.25rem;
-    border-bottom: 2px solid #fd7e14;
+    margin: 2.5rem 0 0 0;        
 }
 
 .docs-article-content h3 {
@@ -605,7 +617,7 @@
 }
 
 .docs-article-content em {
-    color: #fd7e14;
+    color: #2d3748;
     font-style: italic;
 }
 
