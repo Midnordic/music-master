@@ -1,4 +1,4 @@
-<!-- Docs Nav Sidebar -->
+﻿<!-- Docs Nav Sidebar -->
 <aside class="docs-sidebar">
     <div class="docs-sidebar-content">
         <!-- Documentation Header -->
@@ -16,17 +16,36 @@
                 {{ $sortedDocs := sort .Pages ".Weight" "desc" }}
                 {{ range $sortedDocs }}
                 <li class="docs-nav-item{{ if eq .Permalink $currentPage.Permalink }} docs-nav-item-active{{ end }}">
-                    <a href="{{ .Permalink }}" class="docs-nav-link">
-                        {{ if .Params.icon }}
-                        <span class="docs-nav-icon">{{ .Params.icon }}</span>
+                    <div class="docs-nav-main">
+                        <a href="{{ .Permalink }}" class="docs-nav-link docs-nav-title-link">
+                            {{ if .Params.icon }}
+                            <span class="docs-nav-icon">{{ .Params.icon }}</span>
+                            {{ end }}
+                            <span class="docs-nav-text">{{ .Title }}</span>
+                            {{ if .Params.difficulty }}
+                            <span class="docs-nav-badge docs-nav-badge-{{ .Params.difficulty }}">
+                                {{ .Params.difficulty }}
+                            </span>
+                            {{ end }}
+                        </a>
+                        {{ $toc := .TableOfContents }}
+                        {{ if $toc }}
+                        <button class="docs-nav-toggle" aria-label="Toggle sections">
+                            <span class="docs-nav-toggle-icon">⏷</span>
+                        </button>
                         {{ end }}
-                        <span class="docs-nav-text">{{ .Title }}</span>
-                        {{ if .Params.difficulty }}
-                        <span class="docs-nav-badge docs-nav-badge-{{ .Params.difficulty }}">
-                            {{ .Params.difficulty }}
-                        </span>
-                        {{ end }}
-                    </a>
+                    </div>
+                    
+                    <!-- Show H2 headers for all pages -->
+                    {{ if $toc }}
+                    <div class="docs-nav-toc">
+                        <div class="docs-nav-toc-content">
+                            {{ $tocString := $toc | safeHTML }}
+                            {{ $pageUrl := .Permalink }}
+                            {{ $tocString | replaceRE `href="#([^"]*)"` (printf `href="%s#$1"` $pageUrl) | safeHTML }}
+                        </div>
+                    </div>
+                    {{ end }}
                 </li>
                 {{ end }}
                 {{ end }}
