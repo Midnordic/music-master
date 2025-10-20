@@ -92,7 +92,7 @@
             </p>                
             <p class="beta-slogan">{{ .Params.beta.slogan | default .Site.Params.beta_slogan }}</p>
             <div class="beta-actions">
-                <a href="{{ (.Params.beta.discord_url | default .Site.Params.discord_url) | default "#" }}" class="btn btn-primary btn-large">&#128172; {{ .Params.beta.cta_text }}</a>
+                <a href="{{ .Site.Params.discord_url }}" class="btn btn-primary btn-large">&#128172; {{ .Params.beta.cta_text }}</a>
             </div>
         </div>
     </div>

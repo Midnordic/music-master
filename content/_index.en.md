@@ -74,5 +74,4 @@ beta:
   description: "We're currently running open beta tests. Join our Discord to try the app, share feedback, and help shape Music Master into the ultimate GM audio tool."
   slogan: "Become a Music Master yourself!"
   cta_text: "Join Our Discord"  
-  discord_url: "https://discord.gg/pDFEwaccK2"
 ------

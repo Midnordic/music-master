@@ -51,4 +51,4 @@ Music Master powstał z myślą o Mistrzach Gry, którzy chcą dodać do swoich 
 
 # Masz pytania?
 
-Jeśli masz jakieś pytania, skontaktuj się z nami przez komunikator Discord.
+{{< docs-contact >}}

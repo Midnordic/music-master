@@ -43,4 +43,4 @@ Aby zapisać lub wczytać kompozycję, należy kliknąć ikonę dokumentu z nutk
 
 # Masz pytania?
 
-Jeśli masz jakieś pytania, skontaktuj się z nami przez komunikator Discord.
+{{< docs-contact >}}

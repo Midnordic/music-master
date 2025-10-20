@@ -27,4 +27,4 @@ Jeśli wszystko pójdzie dobrze, od razu pokaże się główne okno aplikacji.
 
 # Masz pytania?
 
-Jeśli masz jakieś pytania, skontaktuj się z nami przez komunikator Discord.
+{{< docs-contact >}}

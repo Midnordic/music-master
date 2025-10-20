@@ -7,6 +7,7 @@ theme = 'musicmaster'
 [params]
   description = "Music Master is a powerful audio tool that puts sound in your hands and unleashes your creativity. Built for Game Masters."
   author = "Midnordic"
+  discord_url = 'https://discord.gg/p3TraAhmJu'
 
 [params.languageIcons]
   en = "images/english.png"

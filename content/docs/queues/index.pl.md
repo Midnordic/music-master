@@ -24,7 +24,7 @@ Kolejki działają w następujący sposób:
 - jeśli odtwarzanie w pętli jest włączone, po ostatnim utworze znowu odegra się pierwszy utwór.
 - jeśli odtwarzanie losowe jest włączone, utwory nie będą ogdrywały się po kolei, ale w losowej kolejności.
 
-Aby uruchomić kolejkę, trzeba rozpocząć dowolny utwór, który **znajduje się w kolejce.** Oznacza to, że jeśli stworzyliśmy kolejkę z kilkoma utworami, ale obecnie odgrywany utwór nie jest w tej kolejce, to po jego zakończeniu kolejka nie odegra żadnego utworu. 
+Aby uruchomić kolejkę, trzeba rozpocząć dowolny utwór, który **znajduje się w kolejce.** Oznacza to, że jeśli stworzyliśmy kolejkę z kilkoma utworami, ale obecnie odgrywany utwór nie jest w tej kolejce, to po jego zakończeniu kolejka nie uruchomi się. 
 
 ## Każda kolejka jest niezależna
 
@@ -34,4 +34,4 @@ Należy na to uważać, aby nie wprowadzić niepotrzebnego zamieszania do swojej
 
 # Masz pytania?
 
-Jeśli masz jakieś pytania, skontaktuj się z nami przez komunikator Discord.
+{{< docs-contact >}}

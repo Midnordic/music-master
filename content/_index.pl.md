@@ -75,6 +75,5 @@ beta:
   title: "Dołącz do bety"
   description: "Aktualnie prowadzimy otwarte beta testy. Dołącz do naszego Discorda, aby wypróbować aplikację, wyrazić swoją opinię i pomóc nam ukształtować Music Mastera, aby stał się najlepszym narzędziem audio dla MG."
   slogan: "Zostań Mistrzem Muzyki!"
-  cta_text: "Dołącz na Discordzie"
-  discord_url: "https://discord.gg/pDFEwaccK2"
+  cta_text: "Dołącz na Discordzie"  
 ---
