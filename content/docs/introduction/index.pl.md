@@ -39,8 +39,8 @@ Aplikację można używać jako zwykłego odtwarzacza muzyki. Zobacz jak:
 Ale to nie wszystko. Aplikacja posiada potężny edytor, który umożliwia zastosowanie wyzwalaczy, efektów dźwiękowych i automatyzacji. Sprawdź jak:
 - [pracować z edytorem](docs/editor-basics)
 - [operować na wyzwalaczach utworów](docs/playback-events)
-- [tworzyć własne wyzwalacze](docs/events)
-- [automatyzować przejścia](docs/providers)
+- [tworzyć własne zdarzenia](docs/events)
+- [używać sterowników](docs/providers)
 - [dodawać efekty dźwiękowe](docs/effects)
 
 ## Filmowe techniki dla Mistrzów Gry
