@@ -1,7 +1,7 @@
 ﻿---
 title: "Kolejki odtwarzania"
 description: "Używanie kolejek w celu automatycznego odtwarzania utworów."
-weight: 60
+weight: 50
 ---
 
 Za pomocą kolejki można ustawiać kolejność odtwarzania się utworów, jeden po drugim. Dzięki temu użytkownik nie musi pamiętać, aby przełączyć na następny utwór - następuje to automatycznie.
