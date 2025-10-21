@@ -1,5 +1,6 @@
 ﻿---
 title: "Wprowadzenie"
+icon: "✨"
 description: "Przedstawienie interfejsu i podstawowych możliwości aplikacji."
 weight: 90
 ---

@@ -1,5 +1,6 @@
 ﻿---
 title: "Zdarzenia"
+icon: "💥"
 description: "Przekonaj się w jaki sposób zdarzenia pozwalają tworzyć elastyczne przejścia i automatyzacje."
 weight: 38
 ---

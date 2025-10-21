@@ -1,5 +1,6 @@
 ﻿---
 title: "Odgrywanie utworów"
+icon: "▶️"
 description: "Utwory można odgrywać z kliku miejsc - dowiedz się jak."
 weight: 60
 ---

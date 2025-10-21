@@ -1,5 +1,6 @@
 ﻿---
 title: "Wyzwalacze utworów"
+icon: "⚡"
 description: "Dowiedz się, czym są wyzwalacze utworów i jak dzięki nim tworzyć własne automatyzacje."
 weight: 39
 ---

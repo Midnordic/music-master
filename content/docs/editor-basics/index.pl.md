@@ -1,5 +1,6 @@
 ﻿---
 title: "Podstawy edytora"
+icon: "🔗"
 description: "Naucz się używać edytora, aby tworzyć płynne przejścia i automatyzacje."
 weight: 40
 ---

@@ -1,5 +1,6 @@
 ﻿---
 title: "Kompozycja"
+icon: "🧩"
 description: "Wyjaśnienie czym jest kompozycja i jak dodawać utwory."
 weight: 80
 ---

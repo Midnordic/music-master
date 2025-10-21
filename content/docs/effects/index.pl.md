@@ -1,44 +1,47 @@
 ﻿---
 title: "Efekty dźwiękowe"
+icon: "🔊"
 description: "Zmiksuj efekty dźwiękowe ze swoimi utworami, aby zapewnić niesamowite doznania muzyczne."
 weight: 36
 ---
 ## Czym są efekty dźwiękowe?
 
-**Efekty dźwiękowe** to wszelkie maści modyfikatory dźwięku: od prosty zmieniających tonację, po bardziej skomplikowane symulujące rozchodzenie się dźwięku w dużej sali, echa i inne.
+**Efekty dźwiękowe** to różnego rodzaju modyfikatory dźwięku — od prostych, zmieniających tonację, po bardziej złożone, symulujące akustykę pomieszczeń, echo czy pogłos.  
 
-**Mikser efektów dźwiękowych** (ang. *Effect Mixer*) jest elementem pozwalającym na dodanie efektów dźwiękowych do utworów. Po dodaniu do niego efektów dźwiękowych i połączeniu ich z utworem, zostaną one do niego zastosowane podczas odgrywania.
+**Mikser efektów dźwiękowych** (ang. *Effect Mixer*) to element, który pozwala dodawać efekty dźwiękowe do utworów.  
+
+Po wybraniu efektów, ustawieniu ich parametrów i połączeniu miksera z utworem, efekty te zostaną zastosowane podczas odtwarzania.
 
 Dostępne rodzaje efektów dźwiękowych:
-- **Amplify** - zmiana głośności utworu.
-- **Echo** - dodanie echa.
-- **Chamber echo** - efekt dźwięku rozchodzącego się w dużym pomieszczeniu (ang. *reverb*).
-- **Swirler** - efekt "pulsowania" dźwięku.
-- **Pitch Shift** - zmiana tonu utworu.
-- **Old radio** - efekt starego radia lub krótkofalówki.
-- **Muffle** - wytłumienie dźwięków.
+- **Amplify** – zmienia głośność utworu.  
+- **Echo** – dodaje efekt echa.  
+- **Chamber Echo** – symuluje rozchodzenie się dźwięku w dużym pomieszczeniu (*reverb*).  
+- **Swirler** – tworzy efekt pulsowania dźwięku.  
+- **Pitch Shift** – zmienia ton utworu.  
+- **Old Radio** – nadaje brzmienie starego radia lub krótkofalówki.  
+- **Muffle** – wytłumia wysokie częstotliwości, nadając dźwiękowi miękkości.  
 
-{{< figure src="mixer.jpg" caption="Rys. 1 - Mikser efektów dźwiękowych" class="docs-img" >}}
+{{< figure src="mixer.jpg" caption="Rys. 1 – Mikser efektów dźwiękowych." class="docs-img" >}}
 
 ## Jak działa mikser efektów dźwiękowych?
 
-**Mikser efektów dźwiękowych** dodajemy do edytora, następnie wybieramy efekty, ustawiamy ich parametry oraz łączymy mikser z utworami.
+Aby skorzystać z miksera, dodaj go do edytora, wybierz efekty, ustaw ich parametry, a następnie połącz mikser z wybranymi utworami.
 
-**Kolejność efektów jest ważna**, ponieważ są one stosowane jeden po drugim, tzn. poprzedni efekt ma wpływ na kolejne.
+**Kolejność efektów ma znaczenie** – są one stosowane kolejno, jeden po drugim, więc wcześniejsze efekty wpływają na działanie kolejnych.
 
-- **Add effect** - przycisk wywołujący menu, z którego można wybrać efekt dźwiękowy do dodania do miksera.
-- **Enabled** - przycisk włączający / wyłączający misker. Wyłączony mikser nie stosuje efektów dźwiękowych do utworów.
-- **Input (węzeł)** - węzeł połączenia z utworem. Można łączyć wiele utworów jednocześnie.
-- **Enable (wyzwalacz)** - powoduje włączenie miksera podczas aktywacji.
-- **Disable (wyzwalacz)** - powoduje wyłączenie miksera podczas aktywacji.
+- **Add Effect** – otwiera menu, z którego można wybrać efekt do dodania do miksera.  
+- **Enabled** – włącza lub wyłącza mikser. Gdy mikser jest wyłączony, efekty nie są stosowane.  
+- **Input (węzeł)** – umożliwia połączenie miksera z utworem. Można połączyć wiele utworów jednocześnie.  
+- **Enable (wyzwalacz)** – aktywuje mikser.  
+- **Disable (wyzwalacz)** – dezaktywuje mikser.  
 
-{{< figure src="mixer_track.jpg" caption="Rys. 2 - Mikser połączony z utworem." class="docs-img" >}}
+{{< figure src="mixer_track.jpg" caption="Rys. 2 – Mikser połączony z utworem." class="docs-img" >}}
 
 ## Przykłady
 
-Wiele przykładów użycia zdarzeń i sterowników opisujemy na naszym **[blogu](blog/)**. 
+Wiele przykładów użycia efektów, sterowników i zdarzeń znajdziesz na naszym **[blogu](blog/)**.  
 
-Zajrzyj tam, by zobaczyć, jak można je kreatywnie wykorzystać w praktyce i jak ułatwiają tworzenie płynnych, dynamicznych scen dźwiękowych.
+Zajrzyj tam, aby zobaczyć, jak można je kreatywnie wykorzystać w praktyce i jak pomagają tworzyć płynne, dynamiczne sceny dźwiękowe.
 
 # Masz pytania?
 

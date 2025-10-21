@@ -1,9 +1,9 @@
 ﻿---
 title: "Instalacja i aktywacja"
-description: "Jak zainstalować i aktywować Music Mastera w kilku prostych krokach."
+icon: "⚙️"
+description: "Jak w kilku prostych krokach zainstalować i aktywować Music Mastera."
 weight: 100
 ---
-
 ## Instalacja aplikacji
 
 1. Link do pobrania nowej wersji aplikacji znajduje się w **mailu**, który dostałeś po zakupie. Sprawdź swoją pocztę i upewnij się, że wiadomość nie wylądowała w folderze SPAM.
@@ -14,10 +14,10 @@ weight: 100
 
 Po uruchomieniu aplikacji po raz pierwszy, zostaniesz poproszony o podanie adresu email oraz klucza licencyjnego. 
 
-- Klucz licencyjny znajduje się w mailu, którego dostałeś po zakupie.
-- Email powiązany z kluczem to ten, który podałeś podczas zakupu aplikacji.
-
-Wprowadź adres email oraz klucz licencyjny w odpowiednie pola. Musisz również zaakceptować licencję użytkowania aplikacji (EULA).
+1. Klucz licencyjny znajduje się w mailu, którego dostałeś po zakupie.
+1. Email powiązany z kluczem to ten, który podałeś podczas zakupu aplikacji.
+1. Wprowadź adres email oraz klucz licencyjny w odpowiednie pola. 
+1. Musisz również zaakceptować licencję użytkowania aplikacji (EULA).
 
 {{< figure src="figure3.jpg" link="figure3.jpg" target="_blank" caption="Rys. 3 - Aktywacja programu" class="docs-img" >}}
 

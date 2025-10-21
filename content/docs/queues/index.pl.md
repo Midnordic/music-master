@@ -1,5 +1,6 @@
 ﻿---
 title: "Kolejki odtwarzania"
+icon: "🔢"
 description: "Używanie kolejek w celu automatycznego odtwarzania utworów."
 weight: 50
 ---

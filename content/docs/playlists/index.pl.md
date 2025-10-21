@@ -1,5 +1,6 @@
 ﻿---
 title: "Listy odtwarzania"
+icon: "🎶"
 description: "Tworzenie i wypełnianie list odtwarzania."
 weight: 70
 ---

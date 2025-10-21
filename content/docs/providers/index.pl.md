@@ -1,5 +1,6 @@
 ﻿---
 title: "Sterowniki"
+icon: "🎛️"
 description: "Prosty sposób na automatyczną zmianę parametrów utworu."
 weight: 37
 ---
