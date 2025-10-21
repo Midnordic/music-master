@@ -1,4 +1,4 @@
-baseURL = 'https://midnordic.github.io/music-master'
+baseURL = "https://www.midnordic.net/music-master/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 title = 'Music Master'
