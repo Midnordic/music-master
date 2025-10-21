@@ -7,7 +7,7 @@ Listy odtwarzania (ang. *playlists*) służą do kategoryzowania elementów (utw
 
 Każda nowa kompozycja zawiera co najmniej jedną listę odtwarzania, do której można dodawać elementy.
 
-## Tworzenie nowej listy
+## Tworzenie nowej listy {#new-list}
 
 Aby stworzyć nową listę odtwarzania, należy kliknąć na ikonę plusa, znajdującego się z prawej strony ostatniej listy.
 

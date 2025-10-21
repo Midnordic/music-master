@@ -30,17 +30,18 @@ Wybranie ostatniej opcji (Wyjście) zamknie aplikację. Jeśli bieżąca kompozy
 Aplikację można używać jako zwykłego odtwarzacza muzyki. Zobacz jak:
 - [dodawać i usuwać utwory](docs/composition#adding-tracks)
 - [zapisywać i wczytywać kompozycje](docs/composition#saving)
-- [tworzyć listy odtwarzania]()
-- [kolejkować utwory]()
-- [odtwarzać utwory]()
+- [tworzyć listy odtwarzania](docs/playlists#new-list)
+- [kolejkować utwory](docs/queues#enqueue)
+- [odgrywać utwory](docs/play)
 
 ## Zaawansowane funkcje (edytor)
 
 Ale to nie wszystko. Aplikacja posiada potężny edytor, który umożliwia zastosowanie wyzwalaczy, efektów dźwiękowych i automatyzacji. Sprawdź jak:
-- [pracować z edytorem]()
-- [tworzyć wyzwalacze]()
-- [operować na wyzwalaczach utworów]()
-- [dodawać efekty dźwiękowe]()
+- [pracować z edytorem](docs/editor-basics)
+- [operować na wyzwalaczach utworów](docs/playback-events)
+- [tworzyć własne wyzwalacze](docs/events)
+- [automatyzować przejścia](docs/providers)
+- [dodawać efekty dźwiękowe](docs/effects)
 
 ## Filmowe techniki dla Mistrzów Gry
 
