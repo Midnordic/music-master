@@ -77,7 +77,7 @@ Podczas przejścia wybrany zestaw jest podgłaśniany, a pozostałe zestawy wyci
 
 ## Przykłady
 
-Wiele przykładów użycia sterowników opisujemy na naszym **[blogu](blog/)**.  
+Wiele przykładów użycia zdarzeń i sterowników opisujemy na naszym **[blogu](blog/)**. 
 
 Zajrzyj tam, by zobaczyć, jak można je kreatywnie wykorzystać w praktyce i jak ułatwiają tworzenie płynnych, dynamicznych scen dźwiękowych.
 

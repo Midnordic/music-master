@@ -21,7 +21,9 @@ Wprowadź adres email oraz klucz licencyjny w odpowiednie pola. Musisz również
 
 {{< figure src="figure3.jpg" link="figure3.jpg" target="_blank" caption="Rys. 3 - Aktywacja programu" class="docs-img" >}}
 
-Kliknij przycisk "Activate" i poczekaj chwilę, aż serwer sprawdzi czy podany email oraz klucz licencyjny są prawidłowe. Konieczne jest połączenie z internetem!
+Kliknij przycisk "Activate" i poczekaj chwilę, aż serwer sprawdzi czy podany email oraz klucz licencyjny są prawidłowe. 
+
+**Konieczne jest połączenie z internetem!**
 
 Jeśli wszystko pójdzie dobrze, od razu pokaże się główne okno aplikacji.
 

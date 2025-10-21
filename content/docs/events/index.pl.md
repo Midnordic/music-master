@@ -65,6 +65,12 @@ Dzięki temu można tworzyć przeróżne kombinacje!
 
 {{< figure src="trigger_example.jpg" caption="Rys. 5 – połączenie pomiędzy wyzwalaczem zdarzenia a wyzwalaczem utworu." class="docs-img" >}}
 
+## Przykłady
+
+Wiele przykładów użycia zdarzeń i sterowników opisujemy na naszym **[blogu](blog/)**. 
+
+Zajrzyj tam, by zobaczyć, jak można je kreatywnie wykorzystać w praktyce i jak ułatwiają tworzenie płynnych, dynamicznych scen dźwiękowych.
+
 # Masz pytania?
 
 {{< docs-contact >}}
