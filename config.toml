@@ -21,16 +21,16 @@ theme = 'musicmaster'
     relPage = ""
 
   [[menu.main]]
-    name = "nav_blog"    
+    name = "nav_docs"    
     weight = 20
     [menu.main.params]
-    relPage = "blog"
+    relPage = "docs"
 
   [[menu.main]]
-    name = "nav_docs"    
+    name = "nav_blog"    
     weight = 25
     [menu.main.params]
-    relPage = "docs"
+    relPage = "blog"
 
   [[menu.main]]
     name = "nav_beta"    

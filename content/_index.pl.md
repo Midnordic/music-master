@@ -22,7 +22,7 @@ features:
       description: "Korzystaj z własnej biblioteki utworów, aby tworzyć ścieżkę dźwiękową dopasowaną do Twojego unikatowego stylu gry."
       image: "images/features/importing.png"
     
-    - title: "Cięcie ścieżek"
+    - title: "Cięcie utworów"
       icon: "✂️"
       description: "Bez problemu ustaw dokładny moment rozpoczęcia i zakończenia utworu."
       image: "images/features/cutting.png"
@@ -47,7 +47,7 @@ features:
       description: "Twórz na komputerze, odtwarzaj na tablecie. Twoje projekty mogą wyruszyć w drogę razem z zebraną drużyną."
       image: "images/features/cross-platform.png"
     
-    - title: "Działanie offline"
+    - title: "Działa offline"
       icon: "🌐"
       description: "Music Master działa nawet bez dostępu do Internetu."
       image: "images/features/offline.png"

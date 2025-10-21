@@ -1,6 +1,6 @@
 nav_home = "Główna"
 nav_blog = "Blog"
-nav_docs = "Dokumentacja"
+nav_docs = "Instrukcja"
 nav_beta = "Dołącz do Bety"
 link_back_to_blog = "Powrót do Bloga"
 link_join_beta = "Dołącz do Bety"
@@ -8,4 +8,4 @@ text_sample = "Gotowy przykład {{ .Sample }} znajduje się w plikach dołączon
 text_docs_questions = "Masz pytania? Skontaktuj się z nami poprzez <a href='{{ .Discord }}'>Discord</a>."
 text_docs_next = "Następny"
 text_docs_previous = "Poprzedni"
-text_docs_documentation = "Dokumentacja"
+text_docs_documentation = "Instrukcja"

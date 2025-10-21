@@ -1,6 +1,6 @@
 ﻿---
-title: "Dokumentacja"
+title: "Instrukcja obsługi"
 ---
 
-## Dokumentacja
-Wszelkie informacje odnośnie instalacji, aktywowania i używania aplikacji Music Master znajdziesz tutaj.
+# Instrukcja obsługi
+## Wszelkie informacje odnośnie instalacji, aktywowania i używania aplikacji Music Master znajdziesz tutaj.
