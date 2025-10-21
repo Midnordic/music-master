@@ -3,78 +3,83 @@ title: "Sterowniki"
 description: "Prosty sposób na automatyczną zmianę parametrów utworu."
 weight: 37
 ---
-
 ## Czym są sterowniki?
 
-**Sterowniki** (ang. *Controller*) to elementy automatycznie sterujące parametrami utworów.  
+**Sterowniki** (ang. *Controllers*) to elementy, które automatycznie sterują parametrami utworów.  
+Pozwalają one na zautomatyzowaną zmianę takich parametrów jak **głośność** czy **prędkość**, reagując na zdarzenia lub wyzwalacze.
 
-Umożliwiają one zmianę parametrów utwory w sposób zautomatyzowany, regując na zdarzenia lub wyzwalacze utworów.
-
-Każdy sterownik posiada jedno lub więcej **wyjść**, które można łączyć z parametrami utworu (głośność / prędkość).
+Każdy sterownik posiada jedno lub więcej **wyjść**, które można łączyć z parametrami utworu.
 
 Dostępne rodzaje sterowników:
-- **Fixed Value** - ustawia zadaną wartość w przeciągu określonego czasu.
-- **Randomizer** - losuje wartość.
-- **Fade In/Out** - stopniowo pogłaśnia i wycisza utwór.
-- **Crossfade** - pozwala na płynne przejścia pomiędzy utworami.
+- **Fixed Value** – ustawia zadaną wartość w określonym czasie.  
+- **Randomizer** – losuje wartość z podanego zakresu.  
+- **Fade In/Out** – stopniowo pogłaśnia i wycisza utwór.  
+- **Crossfade** – umożliwia płynne przejścia pomiędzy zestawami utworów.
 
 ## Jak działają sterowniki?
 
-Sterowniki kontrolują parametry utwory (głośność / prędkość) automatycznie. 
+Sterowniki automatycznie kontrolują parametry utworu (takie jak głośność czy prędkość).  
 
-**UWAGA:** Jeśli sterownik połączony jest z parametrem utworu, to nie można bezpośrednio zmienić tego parametru, ponieważ jest kontrolowany przez sterownik. Ostatnia wartość ustawiona przez użytkownika będzie oznaczona pionową kreską na pasku wartości danego parametru. Niektóre sterowniki (np. crossfade) potrafią dostosować się do wartości ustawionej przez użytkownika i zmiana parametrów utworu, gdy podpięty jest sterownik, przyniesie oczekiwane zmiany.
+**Uwaga:**  
+Jeśli sterownik jest połączony z parametrem utworu, nie można zmieniać tego parametru ręcznie — jest on wtedy kontrolowany przez sterownik. Ostatnia wartość ustawiona przez użytkownika jest oznaczona **pionową kreską** na pasku wartości danego parametru. Niektóre sterowniki (np. *Crossfade*) potrafią dostosować się do wartości ustawionej ręcznie — w takim przypadku zmiana parametru nadal przyniesie oczekiwany efekt.
 
-{{< figure src="connected_provider.jpg" caption="Rys. 1 - Sterownik połączony z parametrem utworu." class="docs-img" >}}
+{{< figure src="connected_provider.jpg" caption="Rys. 1 – Sterownik połączony z parametrem utworu." class="docs-img" >}}
 
 ## Fixed Value
 
-{{< figure src="provider_fixed.jpg" caption="Rys. 2 - Sterownik Fixed Value." class="docs-img" >}}
+{{< figure src="provider_fixed.jpg" caption="Rys. 2 – Sterownik Fixed Value." class="docs-img" >}}
 
-Sterownik ten ma kilka indeksów (1, 2, 3, ...), pomiędzy którymi można się przełączać. Pole z lewej strony oznacza wartość danego indeksu, pole z prawej czas przejścia, po którym dana wartość zostanie osiągnięta.
+Sterownik **Fixed Value** pozwala na szybkie przełączanie pomiędzy kilkoma zdefiniowanymi wartościami.  
+Każdy wiersz (indeks) określa wartość i czas, po którym dana wartość ma zostać osiągnięta.
 
-- **1, 2, 3** - indeksy z polami: wartość (0.0 - 2.0) i czas przejścia (w sekundach).
-- **Using index** - numer indeksu, który jest obecnie używany.
-- **Use Index 1 (wyzwalacz)** - wyzwalacz, który przełącza na pierwszy indeks.
-- **Use Index 2 (wyzwalacz)** - wyzwalacz, który przełącza na drugi indeks.
-- **Use Index 3 (wyzwalacz)** - wyzwalacz, który przełącza na trzeci indeks
+- **1, 2, 3...** – indeksy z polami: *wartość* (0.0–2.0) i *czas przejścia* (w sekundach).  
+- **Using index** – numer aktualnie używanego indeksu.  
+- **Use Index 1/2/3 (wyzwalacz)** – wyzwalacz, który przełącza na wybrany indeks.  
+
+Dzięki temu możesz szybko zmieniać poziom głośności lub prędkości w zależności od sytuacji w grze.
 
 ## Randomizer
 
-{{< figure src="provider_randomizer.jpg" caption="Rys. 3 - Sterownik Randomizer." class="docs-img" >}}
+{{< figure src="provider_randomizer.jpg" caption="Rys. 3 – Sterownik Randomizer." class="docs-img" >}}
 
-Randomizer losuje wartość pomiędzy min - max. Można go ustawić, żeby losował wartość co określony czas, lub tylko raz.
+Sterownik **Randomizer** losuje wartość z określonego zakresu.  
 
-- **Min** - minimalna wartość wylosowanej liczby.
-- **Max** - maksymalna wartość wylosowanej liczby.
-- **Continous** - jeśli to pole jest zaznaczone, sterownik losuję liczbę co **Delta** sekund.
-- **Delta** - ilość czasu (w sekundach) po którym zostanie wylosowana kolejna liczba.
-- **Randomize (wyzwalacz)** - jeśli zostanie aktywowany, natychmiast zostanie wylosowana nowa liczba.
+Można ustawić, by losowanie następowało **cyklicznie** lub **tylko raz**.
 
-Randomizera można używać, aby wprowadzić elementy losowe podczas odtwarzania np. losową zmianę prędkości utworu, wprowadzając nieco chaosu do odtwarzania.
+- **Min** – minimalna możliwa wartość.  
+- **Max** – maksymalna możliwa wartość.  
+- **Continuous** – jeśli zaznaczone, sterownik losuje nową wartość co określony czas.  
+- **Delta** – odstęp czasowy (w sekundach) między kolejnymi losowaniami.  
+- **Randomize (wyzwalacz)** – po aktywacji natychmiast losuje nową wartość.
+
+Randomizer świetnie nadaje się do wprowadzania nieprzewidywalnych zmian — np. subtelnych fluktuacji głośności lub tempa, które dodają naturalności i “życia” do odtwarzania.
 
 ## Fade In/Out
 
-{{< figure src="provider_fadeinout.jpg" caption="Rys. 4 - Sterownik Fade In/Out." class="docs-img" >}}
+{{< figure src="provider_fadeinout.jpg" caption="Rys. 4 – Sterownik Fade In/Out." class="docs-img" >}}
 
-Fade In/Out należy używać do automatycznego pogłaśniania / wyciszania utworu, podczas jego rozpoczynania i kończenia. Jeśli podłączymy ten sterownik do głośności utworu, to stopniowo się pogłośni podczas rozpoczęcia, a przy zakończeniu będzie stopniowo się wyciszał.
+Sterownik **Fade In/Out** automatycznie pogłaśnia lub wycisza utwór na jego początku i końcu.  
+Po podłączeniu do głośności utworu spowoduje on płynne narastanie dźwięku przy starcie i stopniowe wyciszanie przy zakończeniu.
 
-- **Fade In** - długość od początku utworu, przez które będzie się pogłaśniał od zera.
-- **Fade Out** - długość od końca utworu, przez które będzie się on wyciszał do zera.
+- **Fade In** – długość od początku utworu (w sekundach), w której głośność rośnie od 0 do wcześniej ustawionej.  
+- **Fade Out** – długość od końca utworu (w sekundach), w której głośność maleje do zera.
 
 ## Crossfade
 
-{{< figure src="provider_crossfade.jpg" caption="Rys. 5 - Sterownik Crossfade." class="docs-img" >}}
+{{< figure src="provider_crossfade.jpg" caption="Rys. 5 – Sterownik Crossfade." class="docs-img" >}}
 
-Crossfade zapewnia płynne przejście pomiędzy kilkoma utworami: jeden z nich się stopniowo wycisza, a drugim w tym czasie pogłaśnia. Dzięki temu przejścia pomiędzy utworami są płynne i niemal niezauważalne. 
+Sterownik **Crossfade** umożliwia płynne przejścia między kilkoma **zestawami utworów**. Sterownik posiada wiele wyjść (A, B, C...), co pozwala tworzyć przejścia pomiędzy różnymi zestawami. Do każdego wyjścia może być podłączone więcej niż jeden utwór, tworząc "zestaw".
 
-Sterownik ten ma wiele wyjść, dzięki czemu można tworzyć przejścia pomiędzy wieloma zestawami utworów.
+Podczas przejścia wybrany zestaw jest podgłaśniany, a pozostałe zestawy wyciszane. Dzięki temu zmiany muzyki są płynne i niemal niezauważalne.
 
-- **Length** - długość przejścia w sekundach.
-- **Fade to A, B, C... (wyzwalacze)** - po ich aktywacji następuje przejście do danego zestawu, wyciszając wszystkie inne.
+- **Length** – długość przejścia (w sekundach).  
+- **Fade to A, B, C... (wyzwalacze)** – po ich aktywacji następuje przejście do wybranego zestawu utworów, wyciszając pozostałe.
 
 ## Przykłady
 
-Wiele przykładów użycia sterowników opisujemy na naszym **[blogu](blog/)**. Zajrzyj tam, aby zobaczyć jak sterowniki są używane w praktyce i aby zaczerpnąć inspirację dla własnych, kreatywnych rozwiązań.
+Wiele przykładów użycia sterowników opisujemy na naszym **[blogu](blog/)**.  
+
+Zajrzyj tam, by zobaczyć, jak można je kreatywnie wykorzystać w praktyce i jak ułatwiają tworzenie płynnych, dynamicznych scen dźwiękowych.
 
 # Masz pytania?
 
