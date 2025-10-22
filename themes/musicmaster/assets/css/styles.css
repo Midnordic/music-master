@@ -390,10 +390,8 @@ li code {
 /* Hero Section */
 .hero {
     padding: 2rem 0 4rem 0;
-    background: linear-gradient(135deg, #fff5f5 0%, #fef5e7 100%);
-    background-image: url('../images/manuel.png');
-    background-repeat: no-repeat;
-    background-position-x: -100px;
+    background: linear-gradient(135deg, #fff5f5 0%, #fef5e7 100%);    
+    background-repeat: no-repeat;    
     position: relative;
 }
 
@@ -421,8 +419,7 @@ li code {
 }
 
 .hero-text {    
-    backdrop-filter: blur(10px);
-    padding-left: 2rem;
+    backdrop-filter: blur(10px);    
     z-index: 2;
 }
 
@@ -450,19 +447,6 @@ li code {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.hero-showcase {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-showcase img {
-    width: 500px;
-    height: auto;    
-    transition: all 0.3s ease;
 }
 
 /* Buttons */
@@ -928,11 +912,7 @@ li code {
 }
 
 /* Responsive Design */
-@media (max-width: 1200px) {
-    .hero {
-        background-image: none;
-    }
-    
+@media (max-width: 1200px) {        
     .hero-content {
         grid-template-columns: 1fr;
         gap: 3rem;

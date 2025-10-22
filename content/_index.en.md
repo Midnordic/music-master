@@ -8,8 +8,6 @@ hero:
   title: "Become a Music Master!"
   subtitle: "**Music Master** is a powerful audio tool that puts sound in your hands and unleashes your creativity.<br/><br/>Built for Game Masters, it lets you craft **dynamic, event-driven soundscapes** that react to your story. Layer tracks, automate fades, and trigger cinematic moments - all with a click."
   cta_text: "Join the Beta"  
-  showcase_image: "images/showcase.png"
-  showcase_alt: "Music Master Showcase"
 
 # Features Section
 features:
