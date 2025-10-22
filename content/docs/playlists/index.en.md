@@ -9,7 +9,7 @@ Playlists are used to organize elements (tracks, events) according to the user�
 
 Each new composition contains at least one playlist to which elements can be added.
 
-## Creating a New Playlist {#new-list}
+## Creating a new Playlist {#new-list}
 
 To create a new playlist, click the **plus icon** located to the right of the last playlist tab.
 
@@ -41,7 +41,7 @@ You can rename it afterward if you wish.
 
 {{< figure src="duplicate_playlist.jpg" caption="Fig. 4 - Duplicating a playlist." class="docs-img" >}}
 
-## Adding Elements
+## Adding elements
 
 Elements can be moved to a playlist from the **Composition View**.  
 Select the Composition view from the side menu.
@@ -54,7 +54,7 @@ Clicking the **“select / deselect all”** icon allows you to quickly select o
 
 {{< figure src="adding_to_playlist.jpg" link="adding_to_playlist.jpg" target="_blank" caption="Fig. 5 - Adding elements to a playlist." class="docs-img" >}}
 
-## Removing Elements
+## Removing elements
 
 To remove an element from a playlist, click the **lightning / more options icon**, then select **“Remove”** from the dropdown menu.
 
@@ -63,7 +63,7 @@ If the same element appears in other playlists, it will remain there.
 
 {{< figure src="removing_from_playlist.jpg" link="removing_from_playlist.jpg" target="_blank" caption="Fig. 6 - Removing an element from a playlist." class="docs-img" >}}
 
-## Changing the Order of Elements
+## Changing the order of elements
 
 Elements in a playlist can be arranged in any order.
 
@@ -71,6 +71,6 @@ To change the order, click the **drag handle** icon on the left side of the elem
 
 {{< figure src="reorder_elements.jpg" caption="Fig. 7 - Reordering playlist elements." class="docs-img" >}}
 
-# Have Questions?
+# Have questions?
 
 {{< docs-contact >}}

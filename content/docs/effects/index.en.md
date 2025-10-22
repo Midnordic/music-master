@@ -5,7 +5,7 @@ description: "Mix sound effects with your tracks to create an immersive musical 
 weight: 36
 ---
 
-## What Are Sound Effects?
+## What are sound effects?
 
 **Sound effects** are various types of audio modifiers — from simple pitch changes to more complex simulations of room acoustics, echo, or reverb.  
 
@@ -24,7 +24,7 @@ Available sound effect types:
 
 {{< figure src="mixer.jpg" caption="Fig. 1 – Sound Effect Mixer." class="docs-img" >}}
 
-## How Does the Sound Effect Mixer Work?
+## How does the Effect Mixer work?
 
 To use the mixer, add it to the editor, choose your desired effects, set their parameters, and then connect the mixer to selected tracks.
 
@@ -32,9 +32,9 @@ To use the mixer, add it to the editor, choose your desired effects, set their p
 
 - **Add Effect** – opens a menu where you can choose an effect to add to the mixer.  
 - **Enabled** – turns the mixer on or off. When disabled, effects are not applied.  
-- **Input (node)** – connects the mixer to one or more tracks.  
-- **Enable (input node)** – activates the mixer.  
-- **Disable (input node)** – deactivates the mixer.  
+- **Input (slot)** – connects the mixer to one or more tracks.  
+- **Enable (input slot)** – activates the mixer.  
+- **Disable (input slot)** – deactivates the mixer.  
 
 {{< figure src="mixer_track.jpg" caption="Fig. 2 – Mixer connected to a track." class="docs-img" >}}
 
@@ -44,6 +44,6 @@ You can find many examples of using effects, controllers, and events on our **[b
 
 Visit it to see how they can be used creatively in practice and how they help build smooth, dynamic audio scenes.
 
-# Have Questions?
+# Have questions?
 
 {{< docs-contact >}}

@@ -6,11 +6,12 @@ weight: 40
 ---
 
 **The editor is the heart of Music Master.**  
+
 While basic functions can be used entirely without it, you’ll need to understand the editor to take full advantage of the app’s advanced capabilities.
 
 All posts on the **[blog](blog/)** are based on proper use of the editor.
 
-## Editor View
+## Editor view
 
 To open the editor view, click the **editor icon** in the side menu.
 
@@ -33,7 +34,7 @@ Using the top menu, you can (in order):
 
 You can also zoom in and out using the mouse wheel, or by pinching with two fingers on mobile devices.
 
-## Adding Elements
+## Adding elements
 
 Elements are added via the context menu. To open the context menu:
 - **Desktop:** right-click an empty space in the editor.  
@@ -44,7 +45,7 @@ Elements are added via the context menu. To open the context menu:
 From the context menu, choose the element you want to add to the editor.  
 The element will appear where the menu was opened, but it can easily be moved elsewhere.
 
-## Adding Tracks
+## Adding tracks
 
 To add a track (or an entire folder), select **“Add Track(s)”** or **“Add Folder...”** from the context menu.
 
@@ -52,7 +53,7 @@ A file selection window will appear. Choose the files (or folders) you wish to a
 
 {{< figure src="tracks_added.jpg" caption="Fig. 5 - Tracks added to the editor." class="docs-img" >}}
 
-## Selecting and Moving Elements
+## Selecting and moving elements
 
 To move an element in the editor, first select it by clicking on it. The top bar of the element will change to a lighter color.
 
@@ -61,21 +62,21 @@ To move an element in the editor, first select it by clicking on it. The top bar
 You can then freely move the element anywhere on the editor canvas.  
 Click and hold the left mouse button, drag the element, and release the button to drop it.
 
-## Creating Connections
+## Creating connections
 
-Each element in the editor has **nodes** that can be connected to other nodes. These connections enable automation of many processes occurring during track playback. You can read more about automation [here](/docs/playback-events). For now, let’s focus on the simple action of connecting two nodes together.
+Each element in the editor has **slots** that can be connected to other slots. These connections enable automation of many processes occurring during track playback. You can read more about automation [here](/docs/events). For now, let’s focus on the simple action of connecting two slots together.
 
-To **create a connection** between two nodes, click the first node (a large dot), hold the mouse button, drag it to another node in a different element, and release. This creates a connection between the two nodes.
+To **create a connection** between two slots, click the first slot (a large dot), hold the mouse button, drag it to another slot in a different element, and release. This creates a connection between the two slots.
 
 {{< figure src="connections.jpg" caption="Fig. 7 - Connection between two tracks." class="docs-img" >}}
 
-To **break a connection**, simply click on the right node of the connection, drag it slightly away, and release the mouse button.
+To **break a connection**, simply click on the right slot of the connection, drag it slightly away, and release the mouse button.
 
-## Next Steps
+## Next steps
 
-This article only explains how to navigate the editor and work with its elements.  
+This article only explains how to navigate the editor and work with its elements.
 To learn how to use specific editor elements, continue with the following articles.
 
-# Have Questions?
+# Have questions?
 
 {{< docs-contact >}}

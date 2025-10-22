@@ -5,15 +5,15 @@ description: "Discover how events let you create flexible transitions and automa
 weight: 39
 ---
 
-## What Are Events?
+## What are Events?
 
 An **event** is a moment when a specific reaction occurs.
 
-Reactions to an event are configured through **nodes** available in that event by creating connections between the nodes of other elements.
+Reactions to an event are configured through **slots** available in that event by creating connections between the slots of other elements.
 
 Each event contains:
-- zero or more **input nodes** (on the left side) that modify the event’s behavior,  
-- at least one **output node** (on the right side) that triggers connected actions when the event is activated.
+- zero or more **input slots** (on the left side) that modify the event’s behavior,  
+- at least one **output slot** (on the right side) that triggers connected actions when the event is activated.
 
 Available event types:
 - **Event** – a standard manually activated event.  
@@ -38,13 +38,12 @@ Available event types:
 - **Max** – defines the maximum number of seconds to wait.  
 - **Enabled** – when checked, the event is active and waiting for its next trigger.  
 - **Trigger Once** – when checked, the event runs only once and then disables itself.  
-- **Enable (input node)** – turns the event on so it starts triggering cyclically.  
-- **Disable (input node)** – turns the event off, preventing it from triggering again.  
+- **Enable (input slot)** – turns the event on so it starts triggering cyclically.  
+- **Disable (input slot)** – turns the event off, preventing it from triggering again.  
 
 The activation time is randomized between the Min and Max values. To make the event trigger at a fixed interval, set both values to the same number.
 
-**NOTE:** The event always starts disabled, even after loading a composition. You must enable it manually, for example, using the **Enable** node.  
-This is intentional to prevent time-based events from starting unexpectedly after loading a composition.
+**NOTE:** The event always starts disabled, even after loading a composition. You must enable it manually, for example, using the **Enable** slot. This is intentional to prevent time-based events from starting unexpectedly after loading a composition.
 
 {{< figure src="timer_activate.jpg" caption="Fig. 3 – Activating a timer event." class="docs-img" >}}
 
@@ -52,21 +51,21 @@ This is intentional to prevent time-based events from starting unexpectedly afte
 
 {{< figure src="event_stopall.jpg" caption="Fig. 4 – Stop All Tracks event." class="docs-img" >}}
 
-- This event can be triggered **manually** or through an input node.  
-- **Stop All (input node)** – stops all currently playing tracks.  
-- **On Stop All (output node)** – activates when the “Stop All” event is triggered.  
+- This event can be triggered **manually** or through an input slot.  
+- **Stop All (input slot)** – stops all currently playing tracks.  
+- **On Stop All (output slot)** – activates when the “Stop All” event is triggered.  
 
 This event can be used to stop all tracks at once without needing direct connections to each of them.
 
-## Connecting with Other Elements
+## Connecting with other elements
 
-Events can be connected to other events, for example, [track events](docs/playback-events), using nodes.
+Events can be connected to other events, for example, [track events](docs/playback-events), using slots.
 
-As a rule of thumb: **if nodes share the same color (e.g., pink), they can be connected.**
+As a rule of thumb: **if slots share the same color (e.g., pink), they can be connected.**
 
 This allows for endless creative combinations!
 
-{{< figure src="trigger_example.jpg" caption="Fig. 5 – Connection between an event node and a track node." class="docs-img" >}}
+{{< figure src="trigger_example.jpg" caption="Fig. 5 – Connection between an event and a track." class="docs-img" >}}
 
 ## Examples
 
@@ -74,6 +73,6 @@ You can find many examples of using events and controllers on our **[blog](blog/
 
 Visit it to see how they can be used creatively in practice and how they help build smooth, dynamic sound scenes.
 
-# Have Questions?
+# Have questions?
 
 {{< docs-contact >}}

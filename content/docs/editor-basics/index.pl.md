@@ -5,7 +5,9 @@ description: "Naucz się używać edytora, aby tworzyć płynne przejścia i aut
 weight: 40
 ---
 
-**Edytor jest sercem Music Mastera.** O ile podstawowych funkcji można używać całkowicie z jego pominięciem, to należy zapoznać się z edytorem, aby w pełni skorzystać z zaawansowanych możliwości aplikacji.
+**Edytor jest sercem Music Mastera.** 
+
+O ile podstawowych funkcji można używać całkowicie z jego pominięciem, to należy zapoznać się z edytorem, aby w pełni skorzystać z zaawansowanych możliwości aplikacji.
 
 Wszystkie wpisy na **[blogu](blog/)** opierają się właśnie na odpowiednim użyciu edytora.
 
@@ -62,7 +64,7 @@ Taki element można dowolnie przesuwać po całym płótnie edytora. Wystarczy z
 
 ## Tworzenie połączeń
 
-Każdy element na edytorze posiada tzw. **węzły**, które można łączyć z innymi węzłami. Połączenia te umożliwiają automatyzacje wielu procesów zachodzących podczas odgrywania utworów. Więcej na temat automatyzacji można przeczytać [tutaj](/docs/playback-events). Teraz zajmiemy się prostą czynnością łączenia dwóch węzłów razem.
+Każdy element na edytorze posiada tzw. **węzły**, które można łączyć z innymi węzłami. Połączenia te umożliwiają automatyzacje wielu procesów zachodzących podczas odgrywania utworów. Więcej na temat automatyzacji można przeczytać [tutaj](/docs/events). Teraz zajmiemy się prostą czynnością łączenia dwóch węzłów razem.
 
 Aby **utworzyć połączenie** pomiędzy dwoma węzłami, należy kliknąć na pierwszy węzeł (duża kropka) i trzymając klawisz myszki przesunąć go do drugiego węzła w innym elemencie, a następnie puścić klawisz myszki. Spowoduje to utworzenie połączenia pomiędzy tymi dwoma węzłami. 
 

@@ -5,7 +5,7 @@ description: "How to install and activate Music Master in a few simple steps."
 weight: 100
 ---
 
-## Installing the Application
+## Installing the application
 
 1. The download link for the latest version of the app is included in the **email** you received after purchase. Check your inbox and make sure the message didn’t end up in the SPAM folder.  
 1. After downloading the `.zip` file, simply extract it to any folder on your drive.  
@@ -13,7 +13,7 @@ weight: 100
 1. To launch the app, open the file **MusicMaster.exe**.  
    {{< figure src="figure2.jpg" caption="Fig. 2 - The .exe file" class="docs-img" >}}
 
-## Activating the Application
+## Activating the application
 
 When you start the app for the first time, you’ll be asked to enter your email address and license key.
 
@@ -30,6 +30,6 @@ Click **Activate** and wait a moment while the server verifies your email and li
 
 If everything goes well, the main application window will appear immediately.
 
-# Have Questions?
+# Have questions?
 
 {{< docs-contact >}}
