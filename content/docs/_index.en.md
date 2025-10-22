@@ -1,5 +1,6 @@
 ---
-title: "Documentation"
+title: "User Manual"
 ---
 
-@TODO
+# User Manual
+## Here you'll find all the information about installing, activating, and using the Music Master application.
