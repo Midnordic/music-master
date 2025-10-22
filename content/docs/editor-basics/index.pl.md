@@ -5,7 +5,7 @@ description: "Naucz się używać edytora, aby tworzyć płynne przejścia i aut
 weight: 40
 ---
 
-**Edytor jest sercem Music Mastera.** O ile podstawowych funkcji można używać całkowicie z jego pominięciem, to należy zapoznać się z edytorem, aby odblokować zaawansowane możliwości aplikacji.
+**Edytor jest sercem Music Mastera.** O ile podstawowych funkcji można używać całkowicie z jego pominięciem, to należy zapoznać się z edytorem, aby w pełni skorzystać z zaawansowanych możliwości aplikacji.
 
 Wszystkie wpisy na **[blogu](blog/)** opierają się właśnie na odpowiednim użyciu edytora.
 
@@ -15,7 +15,7 @@ Aby włączyć widok edytora, należy kilknąć w **ikonę edytora** z bocznego 
 
 {{< figure src="editor_icon.png" caption="Rys. 1 - Ikona edytora." class="docs-img-icon" >}}
 
-Edytor można sobie wyobrazić jako kawałek "płótna", na które będziemy dodawać poszczególne elementy kompozycji i łączy je ze sobą. Jeśli kompozycja jest pusta, to edytor nie zawiera żadnych elementów.
+Edytor można sobie wyobrazić jako kawałek "płótna", na które będziemy dodawać poszczególne elementy kompozycji i łączyć je ze sobą. Jeśli kompozycja jest pusta, to edytor nie zawiera żadnych elementów.
 
 {{< figure src="editor_view.jpg" link="editor_view.jpg" target="_blank" caption="Rys. 2 - Widok edytora." class="docs-img" >}}
 
@@ -27,14 +27,14 @@ Za pomocą górnego menu można (w kolejności):
 - zmiejszać przybliżenie
 - resetować przybliżenie do 100%
 - zwiększać przybliżenie
-- włączać / wyłączać mini-mapę
+- włączać / wyłączać mini-mapę (pokazującą się w prawym dolnym rogu)
 - ustawić wybrane elementy pionowo
 
 Przybliżać i oddalać widok można również za pomocą przewijania rolki myszki, lub "rozszerzania" widoku dwoma palcami na urządzeniach mobilnych.
 
 ## Dodawanie elementów
 
-Dodawanie elementów odbywa się poprzez menu podręczne. Aby wywołac menu podręczne należy:
+Dodawanie elementów odbywa się poprzez menu podręczne. Aby wywołać menu podręczne należy:
 - komputery: przycisnąć prawym klawiszem myszy w wolne miejsce na edytorze.
 - tablety: doktnąć wolne miejsce na edytorze i przytrzymać przez chwilę.
 

@@ -4,13 +4,13 @@ icon: "🎶"
 description: "Tworzenie i wypełnianie list odtwarzania."
 weight: 70
 ---
-Listy odtwarzania (ang. *playlists*) służą do kategoryzowania elementów (utworów, wyzwalaczy) wedle potrzeb użytkownika. 
+Listy odtwarzania (ang. *playlists*) służą do kategoryzowania elementów (utworów, zdarzeń) wedle potrzeb użytkownika. 
 
 Każda nowa kompozycja zawiera co najmniej jedną listę odtwarzania, do której można dodawać elementy.
 
 ## Tworzenie nowej listy {#new-list}
 
-Aby stworzyć nową listę odtwarzania, należy kliknąć na ikonę plusa, znajdującego się z prawej strony ostatniej listy.
+Aby stworzyć nową listę odtwarzania, należy kliknąć na ikonę plusa, znajdującą się po prawej stronie zakładki z ostatnią listą.
 
 {{< figure src="add_playlist_button.jpg" caption="Rys. 1 - Przycisk dodania nowej playlisty." class="docs-img" >}}
 
@@ -32,9 +32,9 @@ Aby usunąć listę odtwarzania, należy kliknąć na ikonę wielokropka i z roz
 
 ## Kopiowanie (duplikowanie)
 
-Można skopiować listę odtwarzania ze wszystkimi jej elementami. Aby to zrobić, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Duplicate playlist". Lista zostanie skopiowana, a jej nazwa będzie mieć przyrostek "(copy)". 
+Można skopiować listę odtwarzania ze wszystkimi jej elementami. Aby to zrobić, należy kliknąć na ikonę wielokropka i z rozwijanego menu wybrać "Duplicate playlist". Lista zostanie skopiowana, a jej nazwa będzie mieć na końcu słowo "(copy)". 
 
-Można usunąć przyrostek zmieniając nazwę listy.
+Można je usunąć zmieniając nazwę listy.
 
 {{< figure src="duplicate_playlist.jpg" caption="Rys. 4 - Kopiowanie listy." class="docs-img" >}}
 
@@ -44,7 +44,7 @@ Elementy można przenosić na listę odtwarzania z widoku Kompozycji. Należy wy
 
 Następnie, aby przenieść element z kompozycji do listy odtwarzania, należy kliknąć na niego i przeciągnąć go na listę odtwarzania po prawej stronie okna.
 
-Można również zaznaczyć kilka elementów, poprzez kliknięcie na pole wyboru z lewej strony elementu, oraz przenieść je wszystkie razem na listę. 
+Można również zaznaczyć kilka elementów, poprzez kliknięcie na pole wyboru z lewej strony elementu, a potem przenieść je wszystkie razem na listę. 
 
 Kliknięcie na ikonę "zaznacz / odznacz wszystko" pozwala na szybkie zaznaczenie lub odznaczenie wszystkich elementów w kompozycji.
 

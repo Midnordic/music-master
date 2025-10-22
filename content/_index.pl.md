@@ -7,7 +7,7 @@ layout: "index"
 hero:
   title: "Zostań Mistrzem Muzyki!"
   subtitle: "**Music Master** to praktyczne narzędzie do zarządzania muzyką i dźwiękiem podczas sesji. Pozwala Ci realizować kreatywne muzyczne pomysły i kontrolować to, co słyszą Twoi gracze.<br/><br/>  
-  Aplikacja została stworzona z myślą o Mistrzach Gry i pozwala tworzyć **dynamiczne, sterowane wyzwalaczami pejzaże dźwiękowe** reagujące na fabularne elementy sesji. Możesz nakładać na siebie ścieżki dźwiękowe, automatyzować przejścia pomiędzy utworami i tworzyć filmowe sceny — a wszystko to jednym kliknięciem."
+  Aplikacja została stworzona z myślą o Mistrzach Gry i pozwala tworzyć **dynamiczne, sterowane zdarzeniami pejzaże dźwiękowe** reagujące na fabularne elementy sesji. Możesz nakładać na siebie ścieżki dźwiękowe, automatyzować przejścia pomiędzy utworami i tworzyć filmowe sceny — a wszystko to jednym kliknięciem."
   cta_text: "Dołącz do bety"
   showcase_image: "images/showcase.png"
   showcase_alt: "Podgląd Music Master"
@@ -37,9 +37,9 @@ features:
       description: "Automatyzuj wyciszenia, przejścia, a nawet zmiany tempa i wysokości dźwięku za pomocą funkcjonalnego edytora."
       image: "images/features/automation.png"
     
-    - title: "Sterowanie za pomocą wyzwalaczy"
+    - title: "Sterowanie za pomocą zdarzeń"
       icon: "⚡"
-      description: "Włączaj muzykę lub uruchamiaj efekty jednym kliknięciem korzystając z wyzwalaczy."
+      description: "Włączaj muzykę lub uruchamiaj efekty jednym kliknięciem korzystając ze zdarzeń."
       image: "images/features/events.png"
     
     - title: "Wieloplatformowość"

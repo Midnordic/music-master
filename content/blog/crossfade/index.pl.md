@@ -40,9 +40,9 @@ To **niewidoczne narzędzie**, które utrzymuje graczy w **immersji** i nadaje t
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Przejście zaczyna się około 0:16, po czym płynnie powraca do normalności." caption2="'Badass' autorstwa Chrisa Wolverine’a Matthew; 'Horror Mystery' Rafaela Kruxa" >}}
 
 1. **Dodaj dwa utwory** (lub więcej), między którymi chcesz płynnie przechodzić.  
-1. **Dodaj węzeł Crossfade** i połącz oba utwory z różnymi wyjściami. Ustaw odpowiednią długość przejścia (15 sekund w tym przykładzie). {{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Crossfade z dwoma połączonymi utworami" class="blog-post-section-img" target="_blank" >}}  
-1. **Dodaj dwa wyzlwalacze** – każdy z nich uruchomi dany utwór i zmieni na ten, do którego będzie za chwilę przechodzić. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Rys. 2 – Połączone zdarzenia" class="blog-post-section-img" target="_blank" >}}  
-1. To wszystko! Teraz uruchom pierwszy wyzwalacz, aby odtworzyć pierwszy utwór (lub do niego wrócić), a drugi, by płynnie przejść do drugiego utworu.
+1. **Dodaj sterownik Crossfade** i połącz oba utwory z różnymi wyjściami. Ustaw odpowiednią długość przejścia (15 sekund w tym przykładzie). {{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Sterownik Crossfade z dwoma połączonymi utworami" class="blog-post-section-img" target="_blank" >}}  
+1. **Dodaj dwa zdarzenia** – każdy z nich uruchomi dany utwór i zmieni na ten, do którego będzie za chwilę przechodzić. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Rys. 2 – Połączone zdarzenia" class="blog-post-section-img" target="_blank" >}}  
+1. To wszystko! Teraz uruchom pierwsze zdarzenie, aby odtworzyć pierwszy utwór (lub do niego wrócić), i drugie zdarzenie, by płynnie przejść do drugiego utworu.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

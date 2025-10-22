@@ -7,9 +7,9 @@ weight: 37
 ## Czym są sterowniki?
 
 **Sterowniki** (ang. *Controllers*) to elementy, które automatycznie sterują parametrami utworów.  
-Pozwalają one na zautomatyzowaną zmianę takich parametrów jak **głośność** czy **prędkość**, reagując na zdarzenia lub wyzwalacze.
+Reagując na zdarzenia, pozwalają one na zautomatyzowaną zmianę takich parametrów jak **głośność** czy **prędkość**.
 
-Każdy sterownik posiada jedno lub więcej **wyjść**, które można łączyć z parametrami utworu.
+Każdy sterownik posiada jedno lub więcej **węzłów wyjściowych**, które można łączyć z parametrami utworu.
 
 Dostępne rodzaje sterowników:
 - **Fixed Value** – ustawia zadaną wartość w określonym czasie.  
@@ -35,7 +35,7 @@ Każdy wiersz (indeks) określa wartość i czas, po którym dana wartość ma z
 
 - **1, 2, 3...** – indeksy z polami: *wartość* (0.0–2.0) i *czas przejścia* (w sekundach).  
 - **Using index** – numer aktualnie używanego indeksu.  
-- **Use Index 1/2/3 (wyzwalacz)** – wyzwalacz, który przełącza na wybrany indeks.  
+- **Use Index 1/2/3 (węzły wejściowe)** – przełączają na wybrany indeks.
 
 Dzięki temu możesz szybko zmieniać poziom głośności lub prędkości w zależności od sytuacji w grze.
 
@@ -51,7 +51,7 @@ Można ustawić, by losowanie następowało **cyklicznie** lub **tylko raz**.
 - **Max** – maksymalna możliwa wartość.  
 - **Continuous** – jeśli zaznaczone, sterownik losuje nową wartość co określony czas.  
 - **Delta** – odstęp czasowy (w sekundach) między kolejnymi losowaniami.  
-- **Randomize (wyzwalacz)** – po aktywacji natychmiast losuje nową wartość.
+- **Randomize (węzeł wejściowy)** – po aktywacji natychmiast losuje nową wartość.
 
 Randomizer świetnie nadaje się do wprowadzania nieprzewidywalnych zmian — np. subtelnych fluktuacji głośności lub tempa, które dodają naturalności i “życia” do odtwarzania.
 
@@ -69,12 +69,12 @@ Po podłączeniu do głośności utworu spowoduje on płynne narastanie dźwięk
 
 {{< figure src="provider_crossfade.jpg" caption="Rys. 5 – Sterownik Crossfade." class="docs-img" >}}
 
-Sterownik **Crossfade** umożliwia płynne przejścia między kilkoma **zestawami utworów**. Sterownik posiada wiele wyjść (A, B, C...), co pozwala tworzyć przejścia pomiędzy różnymi zestawami. Do każdego wyjścia może być podłączone więcej niż jeden utwór, tworząc "zestaw".
+Sterownik **Crossfade** umożliwia płynne przejścia między kilkoma **zestawami utworów**. Sterownik posiada wiele węzłów wyjściowych (A, B, C...), co pozwala tworzyć przejścia pomiędzy różnymi zestawami. Do każdego węzła wyjściowego można podłączyć więcej niż jeden utwór, tworząc "zestaw".
 
 Podczas przejścia wybrany zestaw jest podgłaśniany, a pozostałe zestawy wyciszane. Dzięki temu zmiany muzyki są płynne i niemal niezauważalne.
 
 - **Length** – długość przejścia (w sekundach).  
-- **Fade to A, B, C... (wyzwalacze)** – po ich aktywacji następuje przejście do wybranego zestawu utworów, wyciszając pozostałe.
+- **Fade to A, B, C... (węzły wejściowe)** – po ich aktywacji następuje przejście do wybranego zestawu utworów, a pozostałe zostają wyciszone.
 
 ## Przykłady
 

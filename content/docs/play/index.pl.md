@@ -5,7 +5,7 @@ description: "Utwory można odgrywać z kliku miejsc - dowiedz się jak."
 weight: 60
 ---
 
-Kontrola nad odgrywanie utworów odbywa się najczęściej z listy odtwarzania oraz z widoku "Odtwarzane Utwory".
+Kontrola nad odgrywaniem utworów odbywa się najczęściej z listy odtwarzania oraz z widoku "Odtwarzane Utwory".
 
 ## Odgrywanie utworów z listy odtwarzania
 
@@ -19,14 +19,14 @@ Przycisk zapauzowania pojawia się gdy utwór jest odgrywany.
 
 W widoku "Odtwarzane Utwory" znajdują się wszystkie aktualnie odgrywane utwory. Przy każdym z nich znajdują się przyciski służące do kontroli nad utworem, w taki sam sposób jak na liście odtwarzania.
 
-{{< figure src="nowplaying_buttons.jpg" caption="Rys. 2 - Utwór na widoku 'Odtwarzanie Utwory'." class="docs-img" >}}
+{{< figure src="nowplaying_buttons.jpg" caption="Rys. 2 - Utwór w widoku 'Odtwarzane Utwory'." class="docs-img" >}}
 
 ## Odgrywanie wielu utworów na raz
 
 Na górze widoku "Odtwarzane Utwory" znajdują się również przyciski służące do manipulacji wszystkimi utworami, które są obecnie na liście odtwarzanych utworów. Pozwalają one na:
-- wznowić wszystkie zapauzowane utwory
+- wznowić odgrywani wszystkich zapauzowanych utworów
 - zapauzować wszystkie utwory
-- zastopować wszystkie utwory
+- zatrzymać wszystkie utwory
 
 {{< figure src="nowplaying_buttons_global.jpg" caption="Rys. 3 - Przyciski do manipulacji wszystkimi utworami." class="docs-img" >}}
 

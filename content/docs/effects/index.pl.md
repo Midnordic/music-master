@@ -32,8 +32,8 @@ Aby skorzystać z miksera, dodaj go do edytora, wybierz efekty, ustaw ich parame
 - **Add Effect** – otwiera menu, z którego można wybrać efekt do dodania do miksera.  
 - **Enabled** – włącza lub wyłącza mikser. Gdy mikser jest wyłączony, efekty nie są stosowane.  
 - **Input (węzeł)** – umożliwia połączenie miksera z utworem. Można połączyć wiele utworów jednocześnie.  
-- **Enable (wyzwalacz)** – aktywuje mikser.  
-- **Disable (wyzwalacz)** – dezaktywuje mikser.  
+- **Enable (węzeł wejściowy)** – aktywuje mikser.  
+- **Disable (węzeł wejściowy)** – dezaktywuje mikser.  
 
 {{< figure src="mixer_track.jpg" caption="Rys. 2 – Mikser połączony z utworem." class="docs-img" >}}
 
