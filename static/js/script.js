@@ -4,7 +4,75 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScrolling();
     initHeaderEffects();
     initInteractiveElements();
+    initHamburgerMenu();
 });
+
+// Hamburger menu functionality
+function initHamburgerMenu() {
+    const hamburgerButton = document.querySelector('.hamburger-menu');
+    const mobileNavMenu = document.querySelector('.mobile-nav-menu');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+    
+    if (!hamburgerButton || !mobileNavMenu) return;
+    
+    // Toggle mobile menu
+    hamburgerButton.addEventListener('click', function() {
+        const isActive = hamburgerButton.classList.contains('active');
+        
+        if (isActive) {
+            closeMobileMenu();
+        } else {
+            openMobileMenu();
+        }
+        
+        // Update aria-expanded attribute for accessibility
+        hamburgerButton.setAttribute('aria-expanded', !isActive);
+    });
+    
+    // Close menu when clicking on a link
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            closeMobileMenu();
+        });
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        const isClickInsideNav = event.target.closest('.nav');
+        const isMenuActive = mobileNavMenu.classList.contains('active');
+        
+        if (!isClickInsideNav && isMenuActive) {
+            closeMobileMenu();
+        }
+    });
+    
+    // Close menu on escape key
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && mobileNavMenu.classList.contains('active')) {
+            closeMobileMenu();
+        }
+    });
+    
+    // Close menu on window resize to desktop size
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768 && mobileNavMenu.classList.contains('active')) {
+            closeMobileMenu();
+        }
+    });
+    
+    function openMobileMenu() {
+        hamburgerButton.classList.add('active');
+        mobileNavMenu.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when menu is open
+    }
+    
+    function closeMobileMenu() {
+        hamburgerButton.classList.remove('active');
+        mobileNavMenu.classList.remove('active');
+        hamburgerButton.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = ''; // Restore scrolling
+    }
+}
 
 // Smooth scrolling for navigation links
 function initSmoothScrolling() {

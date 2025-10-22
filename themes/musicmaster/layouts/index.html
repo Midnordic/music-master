@@ -24,38 +24,44 @@
 <section id="features" class="features-section">
     <div class="container">
         <h2 class="section-title">{{ .Params.features.title }}</h2>            
-        <div class="features-grid">
-            {{ if .Params.features.items }}
-                {{ range .Params.features.items }}
-                <div class="feature-card">
-                    <div class="feature-content">
-                        <div class="feature-header">
-                            <div class="feature-icon">{{ .icon | safeHTML }}</div>
-                            <h3>{{ .title }}</h3>
-                        </div>
-                        <p class="feature-description">{{ .description }}</p>
+        <div class="features-grid">           
+            {{ range .Params.features.items }}
+            <div class="feature-card">
+                <div class="feature-content">
+                    <div class="feature-header">
+                        <div class="feature-icon">{{ .icon | safeHTML }}</div>
+                        <h3>{{ .title }}</h3>
                     </div>
-                    <div class="feature-image">
-                        <img src="{{ .image | relURL }}" alt="{{ .title }}">
-                    </div>
+                    <p class="feature-description">{{ .description }}</p>
                 </div>
-                {{ end }}
-            {{ else if .Params.features.show_data_features }}
-                {{ range .Site.Data.features.features }}
-                <div class="feature-card">
-                    <div class="feature-content">
-                        <div class="feature-header">
-                            <div class="feature-icon">{{ .icon | safeHTML }}</div>
-                            <h3>{{ .title }}</h3>
-                        </div>
-                        <p class="feature-description">{{ .description }}</p>
-                    </div>
-                    <div class="feature-image">
-                        <img src="{{ .image | relURL }}" alt="{{ .title }}">
-                    </div>
+                <div class="feature-image">
+                    <img src="{{ .image | relURL }}" alt="{{ .title }}">
                 </div>
-                {{ end }}
-            {{ end }}
+            </div>
+            {{ end }}           
+        </div>
+    </div>
+</section>
+
+<!-- Simple Rules Section -->
+<section id="simple-rules" class="features-section">
+    <div class="container">
+        <h2 class="section-title">{{ .Params.simple_rules.title }}</h2>            
+        <div class="features-grid">           
+            {{ range .Params.simple_rules.items }}
+            <div class="feature-card">
+                <div class="feature-content">
+                    <div class="feature-header">
+                        <div class="feature-icon">{{ .icon | safeHTML }}</div>
+                        <h3>{{ .title }}</h3>
+                    </div>
+                    <p class="feature-description">{{ .description }}</p>
+                </div>
+                <div class="feature-image">
+                    <img src="{{ .image | relURL }}" alt="{{ .title }}">
+                </div>
+            </div>
+            {{ end }}           
         </div>
     </div>
 </section>

@@ -44,7 +44,11 @@ features:
       icon: "📱"
       description: "Twórz na komputerze, odtwarzaj na tablecie. Twoje projekty mogą wyruszyć w drogę razem z zebraną drużyną."
       image: "images/features/cross-platform.png"
-    
+
+# Simple Rules Section
+simple_rules:
+  title: "Proste zasady"
+  items:
     - title: "Działa offline"
       icon: "🌐"
       description: "Music Master działa nawet bez dostępu do Internetu."
@@ -60,11 +64,9 @@ features:
       description: "Używaj aplikacji bez stałych opłat i bez dalszych zobowiązań."
       image: "images/features/subscriptions.png"
 
-
 # Blog Section
 blog:
-  title: "Polecane wpisy na blogu"
-  description: "Wykorzystaj filmowe techniki muzyczno-dźwiękowe w swojej rozgrywce."
+  title: "Polecane wpisy na blogu"  
   show_count: 3
   read_more_text: "Więcej na blogu"
 

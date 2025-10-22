@@ -43,7 +43,11 @@ features:
       icon: "📱"
       description: "Build on desktop, perform on tablets. Your projects travel with you."
       image: "images/features/cross-platform.png"
-    
+
+# Simple Rules Section
+simple_rules:
+  title: "Simple rules"
+  items:
     - title: "Offline Friendly"
       icon: "🌐"
       description: "It works at the table, even without the Internet."

@@ -6,14 +6,9 @@
                 <img src="{{ "images/logo_small.png" | relURL }}" alt="{{ .Site.Title }}" class="nav-logo">
             </a>
         </div>
-        <div class="nav-links">
-            {{ $baseUrlWithLang := "" | relLangURL }}
-            {{ range .Site.Menus.main }}
-            <a href="{{ $baseUrlWithLang }}{{ .Params.relPage }}" class="nav-link">{{ T .Name }}</a>
-            {{ end }}
 
-            <!-- Language Switcher -->
-        <div class="language-switcher">
+        <!-- Mobile Language Switcher (shown only on mobile) -->
+        <div class="mobile-language-switcher">
             {{ $url := .Permalink }}
             {{ range .Site.Languages }}
             {{ $iconPath := index $.Site.Params.languageicons .Lang }}
@@ -29,6 +24,48 @@
             </a>
             {{ end }}
         </div>
+
+        <!-- Hamburger Menu Button (Mobile Only) -->
+        <button class="hamburger-menu" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links desktop-nav">
+            {{ $baseUrlWithLang := "" | relLangURL }}
+            {{ range .Site.Menus.main }}
+            <a href="{{ $baseUrlWithLang }}{{ .Params.relPage }}" class="nav-link">{{ T .Name }}</a>
+            {{ end }}
+
+            <!-- Desktop Language Switcher -->
+            <div class="language-switcher desktop-language-switcher">
+                {{ $url := .Permalink }}
+                {{ range .Site.Languages }}
+                {{ $iconPath := index $.Site.Params.languageicons .Lang }}
+                {{ $value := .Lang }}
+                {{ $newUrl := $url | replaceRE "(/music-master/)([a-zA-Z-]+)(/)" (printf "${1}%s${3}" $value) }}
+
+                <a href="{{ $newUrl }}"
+                   class="language-link"
+                   title="Switch to {{ .LanguageName }}">
+                    <img src="{{ $iconPath | relURL }}"
+                         alt="{{ .LanguageName }} flag"
+                         class="language-flag">
+                </a>
+                {{ end }}
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav-menu">
+            <div class="mobile-nav-links">
+                {{ $baseUrlWithLang := "" | relLangURL }}
+                {{ range .Site.Menus.main }}
+                <a href="{{ $baseUrlWithLang }}{{ .Params.relPage }}" class="mobile-nav-link">{{ T .Name }}</a>
+                {{ end }}
+            </div>
         </div>
     </nav>
 </header>
