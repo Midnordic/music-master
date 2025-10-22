@@ -40,6 +40,11 @@ features:
       description: "Włączaj muzykę lub uruchamiaj efekty jednym kliknięciem korzystając ze zdarzeń."
       image: "images/features/events.png"
     
+    - title: "Efekty dźwiękowe"
+      icon: "🔊"
+      description: "Zmiksuj efekty dźwiękowe ze swoimi utworami, aby zapewnić niesamowite doznania muzyczne."
+      image: "images/features/effects.png"
+
     - title: "Wieloplatformowość"
       icon: "📱"
       description: "Twórz na komputerze, odtwarzaj na tablecie. Twoje projekty mogą wyruszyć w drogę razem z zebraną drużyną."

@@ -39,6 +39,11 @@ features:
       description: "Trigger music or effects instantly with custom events."
       image: "images/features/events.png"
     
+    - title: "Sound Effects"
+      icon: "🔊"
+      description: "Mix sound effects with your tracks to create an immersive musical experience."
+      image: "images/features/effects.png"
+
     - title: "Cross-Platform"
       icon: "📱"
       description: "Build on desktop, perform on tablets. Your projects travel with you."
