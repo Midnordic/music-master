@@ -339,6 +339,29 @@ li code {
     align-items: flex-start;
 }
 
+.nav-brand-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.nav-brand-link:hover {
+    transform: scale(1.05);
+}
+
+.nav-logo {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    transition: filter 0.3s ease;
+}
+
+.nav-logo:hover {
+    filter: drop-shadow(0 2px 8px rgba(111, 66, 193, 0.3));
+}
+
 .nav-brand h1 {
     font-size: 2.0rem;
     font-weight: 800;
@@ -1013,6 +1036,10 @@ li code {
         text-align: center;
     }
     
+    .nav-logo {
+        height: 40px;
+    }
+    
     .nav-links {
         gap: 2rem;
         flex-wrap: wrap;
@@ -1130,6 +1157,10 @@ li code {
     
     .logo-image {
         max-width: 220px;
+    }
+    
+    .nav-logo {
+        height: 35px;
     }
     
     .section-title {

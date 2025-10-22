@@ -2,7 +2,9 @@
 <header class="header">
     <nav class="nav">
         <div class="nav-brand">
-            <h1>{{ .Site.Title }}</h1>
+            <a href="{{ "" | relLangURL }}" class="nav-brand-link">
+                <img src="{{ "images/logo_small.png" | relURL }}" alt="{{ .Site.Title }}" class="nav-logo">
+            </a>
         </div>
         <div class="nav-links">
             {{ $baseUrlWithLang := "" | relLangURL }}
