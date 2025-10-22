@@ -9,3 +9,5 @@ text_docs_questions = "Questions? Contact us on <a href='{{ .Discord }}'>Discord
 text_docs_next = "Next"
 text_docs_previous = "Previous"
 text_docs_documentation = "Manual"
+text_footer_privacy_policy = "Privacy Policy"
+text_footer_all_rights = "All rights reserved."

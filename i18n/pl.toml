@@ -9,3 +9,5 @@ text_docs_questions = "Masz pytania? Skontaktuj się z nami poprzez <a href='{{ 
 text_docs_next = "Następny"
 text_docs_previous = "Poprzedni"
 text_docs_documentation = "Instrukcja"
+text_footer_privacy_policy = "Polityka Prywatności"
+text_footer_all_rights = "Wszelkie prawa zastrzeżone."
