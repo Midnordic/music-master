@@ -57,3 +57,8 @@ theme = 'musicmaster'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[privacy]
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = true

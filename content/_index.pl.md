@@ -12,7 +12,8 @@ hero:
 
 # Features Section
 features:
-  title: "Najważniejsze funkcje"
+  title: "Poznaj możliwości Music Mastera"
+  description: "Zobacz, jak działa Music Master i odkryj jego potężne możliwości."
   show_data_features: true
   items:
     - title: "Importowanie"

@@ -20,25 +20,39 @@
     </div>
 </section>
 
-<!-- Features Section -->
-<section id="features" class="features-section">
+<!-- Feature Showcase Section -->
+<section id="feature-showcase" class="feature-showcase-section">
     <div class="container">
-        <h2 class="section-title">{{ .Params.features.title }}</h2>            
-        <div class="features-grid">           
-            {{ range .Params.features.items }}
-            <div class="feature-card">
-                <div class="feature-content">
-                    <div class="feature-header">
-                        <div class="feature-icon">{{ .icon | safeHTML }}</div>
-                        <h3>{{ .title }}</h3>
+        <h2 class="section-title">{{ .Params.features.title }}</h2>
+        <p class="section-description">{{ .Params.features.description }}</p>
+        
+        <div class="feature-showcase-content">
+            <!-- Features on the left -->
+            <div class="showcase-features">                
+                <ul class="features-list">
+                    {{ range .Params.features.items }}
+                    <li class="feature-item">
+                        <span class="feature-icon">{{ .icon | safeHTML }}</span>
+                        <span class="feature-text"><strong>{{ .title }}</strong> - {{ .description }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <!-- Video on the right -->
+            <div class="showcase-video">
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/Qg5nOr_KXpc" 
+                            title="Music Master Feature Showcase" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
-                    <p class="feature-description">{{ .description }}</p>
-                </div>
-                <div class="feature-image">
-                    <img src="{{ .image | relURL }}" alt="{{ .title }}">
                 </div>
             </div>
-            {{ end }}           
         </div>
     </div>
 </section>

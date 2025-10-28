@@ -11,7 +11,8 @@ hero:
 
 # Features Section
 features:
-  title: "Key features"
+  title: "Feature showcase"
+  description: "Watch how Music Master works and explore its powerful features."
   show_data_features: true
   items:
     - title: "Importing"
