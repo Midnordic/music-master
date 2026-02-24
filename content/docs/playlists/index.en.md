@@ -56,7 +56,9 @@ To rename a playlist, click the **ellipsis icon** and select **“Rename playlis
 
 {{< figure src="rename_playlist.jpg" caption="Fig. 3 - Renaming a playlist." class="docs-img" >}}
 
-**NOTE:** Playlist names must be unique and cannot be duplicated.
+{{< tip icon="shock" title="Oops!" >}}
+Playlist names must be unique.
+{{< /tip >}}
 
 ## Deleting
 

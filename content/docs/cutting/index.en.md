@@ -11,7 +11,9 @@ weight: 45
 
 A trimmed track will play only the part that has been selected.
 
-**NOTE:** To split a track into multiple different parts, duplicate it several times and trim each copy separately.
+{{< tip icon="ok" title="Hint" >}}
+To split a track into multiple different parts, duplicate it several times and trim each copy separately.
+{{< /tip >}}
 
 ## How to Trim a Track
 

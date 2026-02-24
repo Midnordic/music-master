@@ -5,7 +5,9 @@ description: "Learn how to use the editor to create smooth transitions and autom
 weight: 40
 ---
 
-**The editor is the heart of Music Master.**  
+{{< tip icon="ok" title="Hint" >}}
+**The editor is the heart of Music Master.**
+{{< /tip >}}
 
 While basic functions can be used entirely without it, you’ll need to understand the editor to take full advantage of the app’s advanced capabilities.
 

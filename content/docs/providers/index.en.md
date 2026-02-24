@@ -22,10 +22,9 @@ Available controller types:
 
 Controllers automatically manage a track’s parameters (such as volume or speed).  
 
-**Note:**  
-When a controller is connected to a track parameter, that parameter cannot be changed manually — it is controlled by the controller.  
-The last manually set value is marked by a **vertical line** on the parameter’s slider.  
-Some controllers (e.g. *Crossfade*) can adapt to manually set values — in that case, manual changes will still work as expected.
+{{< tip icon="question" title="Watch out!" >}}
+When a controller is connected to a track parameter, that parameter cannot be changed manually — it is controlled by the controller. The last manually set value is marked by a **vertical line** on the parameter’s slider. Some controllers (e.g. *Crossfade*) can adapt to manually set values — in that case, manual changes will still work as expected.
+{{< /tip >}}
 
 {{< figure src="connected_provider.jpg" caption="Fig. 1 – Controller connected to a track parameter." class="docs-img" >}}
 

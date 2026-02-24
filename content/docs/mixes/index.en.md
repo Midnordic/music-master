@@ -52,7 +52,9 @@ To **save** a preset, click the 💾 button.
 
 To adjust the transition time between presets, set the value in the **“Transition duration”** field (in seconds).
 
-**NOTE:** Don’t forget to save the preset after adjusting track volumes!
+{{< tip icon="ok" title="Hint" >}}
+Don’t forget to save the preset after adjusting track volumes!
+{{< /tip >}}
 
 {{< figure src="mix_ambient_editor.jpg" link="mix_ambient_editor.jpg" caption="Fig. 3 - Ambient mix with attached tracks." class="docs-img" >}}
 
@@ -92,7 +94,9 @@ It transforms a familiar track into something unsettling by:
 - slowing down the main track  
 - layering a second, disturbing audio track on top  
 
-**NOTE:** This mix supports only two tracks.
+{{< tip icon="ok" title="Hint" >}}
+This mix supports only two tracks.
+{{< /tip >}}
 
 {{< figure src="mix_dread_editor.jpg" link="mix_dread_editor.jpg" caption="Fig. 7 - Creeping Dread mix with attached tracks." class="docs-img" >}}
 

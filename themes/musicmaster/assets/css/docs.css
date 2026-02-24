@@ -1038,11 +1038,11 @@ html {
 .tip-box {
     width: 80%;
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 1rem auto;
     background: linear-gradient(135deg, #faf5ff 0%, #f0e7ff 100%);
     border: 2px solid #6f42c1;
     border-radius: 8px;
-    padding: 1.25rem 1.5rem;
+    padding: 1rem 1rem;
     box-shadow: 0 2px 8px rgba(111, 66, 193, 0.1);
     transition: all 0.3s ease;
 }
@@ -1055,7 +1055,7 @@ html {
 .tip-content {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: start;
 }
 
@@ -1063,8 +1063,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
-    min-width: 100px;
+    gap: 0;
+    min-width: 128px;
 }
 
 .tip-icon-img {
@@ -1075,27 +1075,27 @@ html {
 
 .tip-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #2d3748;
-    line-height: 1.2;
+    line-height: 0.75;
     text-align: center;
     word-break: break-word;
 }
 
 .tip-description {
     color: #4a5568;
-    font-size: 0.95rem;
-    line-height: 1.7;
+    font-size: 1.1rem;
+    line-height: 1.75;
     align-self: center;
 }
 
 .tip-description p {
-    margin-bottom: 0.75rem;
+    margin: 0;
 }
 
 .tip-description p:last-child {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .tip-description strong {
@@ -1137,16 +1137,7 @@ html {
     .tip-left {
         min-width: 80px;
     }
-    
-    .tip-icon-img {
-        width: 56px;
-        height: 56px;
-    }
-    
-    .tip-title {
-        font-size: 1rem;
-    }
-    
+            
     .tip-description {
         font-size: 0.9rem;
     }
@@ -1170,12 +1161,12 @@ html {
     }
     
     .tip-icon-img {
-        width: 48px;
-        height: 48px;
+        width: 96px;
+        height: 96px;
     }
     
     .tip-title {
-        font-size: 0.95rem;
+        font-size: 1.5rem;
     }
     
     .tip-description {

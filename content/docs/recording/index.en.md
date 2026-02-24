@@ -21,7 +21,9 @@ The following recording window will open.
 
 From the **“Recording with:”** dropdown list, select the device you want to use for recording (microphone).
 
-**NOTE:** Only dual-channel microphones are supported. Selecting a different type of microphone may cause the application to freeze.
+{{< tip icon="shock" title="Oops!" >}}
+Only dual-channel microphones are supported. Selecting a different type of microphone may cause the application to freeze.
+{{< /tip >}}
 
 ## Adding Effects
 

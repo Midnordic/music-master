@@ -108,7 +108,9 @@ The following track parameters can be changed during playback:
 
 Arrow buttons reset parameters to their default values.
 
-**NOTE:** Changing playback speed also changes pitch. To change speed without affecting pitch, use sound effects.
+{{< tip icon="ok" title="Hint" >}}
+Changing playback speed also changes pitch. To change speed without affecting pitch, use sound effects.
+{{< /tip >}}
 
 You can also enable looping by checking the **“Loop”** box.  
 The number of repetitions can be set from 0 (infinite) to 100×.
