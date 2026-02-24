@@ -9,14 +9,13 @@ A composition consists of all the elements: tracks, events, playlists, controlle
 
 In the composition view (left side), you can see the main elements added to the composition, which can later be moved into playlists (right side). These are mainly tracks and events.
 
-{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Fig. 1 - Composition and a filled playlist." class="docs-img" >}}
+{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Fig. 1 - Composition and filled playlists." class="docs-img" >}}
 
 ## Adding tracks {#adding-tracks}
 
-To add a track to the composition, click the note-with-plus icon (near the top-left corner). {{< figure src="add_file_icon.png" caption="Fig. 2 - Add track icon." class="docs-img-icon" >}} A menu will appear allowing you to:
-- add individual files  
-- add an entire folder  
-- add an entire folder including all subfolders  
+To add a track to the composition, click the main menu button (top-left corner). After menu expands, select "Add tracks..." or "Add folder..." options. Then select the appropriate files or folders you want to add.
+
+{{< figure src="add_tracks.jpg" caption="Fig. 2 - Main menu." class="docs-img" >}}
 
 Supported audio file formats:
 - .wav  
@@ -25,22 +24,24 @@ Supported audio file formats:
 
 **NOTE:** The same audio file can be added multiple times to the same composition. To avoid confusion, it’s best to rename such tracks after adding them. Simply double-click (or right-click once) the track’s name and enter a new one.
 
-You can also add any track or entire folder by clicking and dragging it into the application window.
+**TIP:** You can also add any track or entire folder by clicking and dragging it into the application window.
 
-## Removing tracks
+## Removing tracks {#removing-tracks}
 
 To remove a track from the composition, click the "trash" icon located to its right.
 
-Removing a track from the composition will also remove it from all other places — playlists, the editor, and playback. All connections to and from that element will be lost.
+{{< figure src="delete_track.jpg" caption="Fig. 3 - Deleting a track." class="docs-img" >}}
+
+**NOTE:** Removing a track from the composition will also remove it from all other places — playlists, the editor, and playback. All connections to and from that element will be lost.
 
 ## Saving and loading Compositions {#saving}
 
 Each composition can be saved to a file (with the .mm extension) and later reloaded from it.
 
-To save or load a composition, click the note-with-document icon (near the top-left corner). {{< figure src="composition_icon.png" caption="Fig. 3 - Composition icon." class="docs-img-icon" >}} A menu will appear allowing you to:
-- clear the composition  
-- save the composition to a file  
-- load the composition from a file  
+Use the main menu on the top-left to:
+- **"New Composition..."** -> create new (clear) the composition
+- **"Save Composition..."** -> save the composition to a file  
+- **"Load Composition..."** -> load the composition from a file  
 
 **NOTE:** The file stores relative paths to the audio files. This means that if you move any track to a different folder, the composition containing it will not load correctly. To avoid this issue, it’s best to save the composition in the same folder as your audio files.
 

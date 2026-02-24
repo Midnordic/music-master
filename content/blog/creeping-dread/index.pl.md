@@ -1,5 +1,5 @@
 ---
-title: "Wkradający się niepokój - niespodziewana transformacja utworu"
+title: "Pełzająca groza - niespodziewana transformacja utworu"
 subtitle: "Przemień spokojny, znany graczom kawałek w istny koszmar."
 date: 2025-10-05
 author: "Manuel"
@@ -8,7 +8,7 @@ thumbnail: "en/blog/creeping-dread/thumbnail.jpg"
 
 ## Co to takiego?
 
-Technika **wkradającego się niepokoju** *(ang. creeping dread)* polega na przekształceniu czegoś zwyczajnego w coś głęboko niepokojącego. Zaczyna się od zupełnie normalnego, a nawet radosnego utworu — piosenki o miłości, spokojnej melodii granej na pianinie — który stopniowo zostaje „skażony”.
+Technika **pełzającej grozy** *(ang. creeping dread)* polega na przekształceniu czegoś zwyczajnego w coś głęboko niepokojącego. Zaczyna się od zupełnie normalnego, a nawet radosnego utworu — piosenki o miłości, spokojnej melodii granej na pianinie — który stopniowo zostaje „skażony”.
 
 Tempo zwalnia, tonacja się obniża, głos wokalisty wydłuża się i zniekształca, aż zaczyna brzmieć nienaturalnie. Dodaj do tego niski, jednostajny dźwięk w tle, może delikatny metaliczny zgrzyt lub zniekształcony szept, i **nagle niegroźna melodia staje się bardzo złowroga.**
 

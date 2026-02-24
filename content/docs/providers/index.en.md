@@ -1,6 +1,6 @@
 ﻿---
 title: "Controllers"
-icon: "🎛️"
+icon: "🎚️"
 description: "An easy way to automatically change track parameters."
 weight: 37
 ---
@@ -57,16 +57,6 @@ It can be configured to randomize **continuously** or **only once**.
 - **Randomize (input slot)** – triggers an immediate randomization.  
 
 The Randomizer is perfect for introducing subtle unpredictability — such as slight fluctuations in volume or tempo that make playback sound more natural and “alive.”
-
-## Fade In/Out
-
-{{< figure src="provider_fadeinout.jpg" caption="Fig. 4 – Fade In/Out controller." class="docs-img" >}}
-
-The **Fade In/Out** controller automatically fades a track in at the start and out at the end.  
-When connected to a track’s volume, it smoothly increases sound at the beginning and gradually fades it out at the end.
-
-- **Fade In** – time (in seconds) from the start of the track during which volume rises from 0 to the preset level.  
-- **Fade Out** – time (in seconds) from the end of the track during which volume decreases to 0.
 
 ## Crossfade
 

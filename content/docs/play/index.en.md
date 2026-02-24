@@ -1,73 +1,120 @@
 ﻿---
 title: "Playing Tracks"
 icon: "▶️"
-description: "Tracks can be played from several places — learn how."
+description: "Tracks can be played in several ways — learn how."
 weight: 60
 ---
 
-Control over track playback is usually handled from the **playlist** or the **Now Playing** view.
+A track can be played in multiple ways:
+- from the main playlist  
+- from the sound effects playlist  
+- using events  
+- from the editor view  
+- from the “Now Playing” view  
 
-## Playing tracks from a playlist
+Tracks are played in three different modes:
+- exclusive  
+- layered  
+- single  
 
-Tracks in a playlist have buttons for **play**, **pause**, and **stop** — just like in most music players.
+Each mode behaves differently and offers different possibilities.
 
-The **pause button** appears when the track is currently playing.
+## Playback Modes {#modes}
 
-{{< figure src="playlist_buttons.jpg" caption="Fig. 1 - Play button in the playlist view." class="docs-img" >}}
+### Exclusive (Main Playlists)
 
-## Playing tracks from the “Now Playing” view
+Only one track can play in this mode at a time.  
 
-The **Now Playing** view lists all currently playing tracks.  
-Each track has its own control buttons, functioning exactly like those in the playlist.
+When you start a new track, all other tracks using this mode will be stopped.
 
-{{< figure src="nowplaying_buttons.jpg" caption="Fig. 2 - Track in the 'Now Playing' view." class="docs-img" >}}
+This mode is used by the main playlists to simulate the behavior of a traditional music player.
 
-## Playing multiple tracks at once
+### Layered (Sound Effects Playlists)
 
-At the top of the **Now Playing** view, there are buttons that control **all currently playing tracks**.  
+Any number of tracks can play simultaneously in this mode.  
+
+Starting a new track will not stop others using this mode.
+
+This mode is used by the sound effects playlists. It allows you to play the same sound effect multiple times, layering them on top of each other.
+
+### Single
+
+Only one instance of a given track can play at a time.  
+
+Starting that track again will not stop other tracks using this mode.
+
+This mode is used by the editor and events. It supports more complex logic and enables advanced sound design operations.
+
+## Playing Tracks from the Main Playlist (Exclusive Mode) {#playlist}
+
+Tracks in the playlist have buttons for play, pause, and stop — just like in other music players.
+
+The pause button appears when the track is currently playing.
+
+{{< figure src="playlist_buttons.jpg" caption="Fig. 1 - Play button in the main playlist." class="docs-img" >}}
+
+## Playing Tracks from the Sound Effects Playlist (Layered Mode) {#sfx}
+
+Tracks in the sound effects playlist appear as symbol buttons. 
+
+To play a track, simply press its corresponding button.
+
+{{< figure src="playlist_buttons2.jpg" caption="Fig. 2 - Buttons in the sound effects playlist." class="docs-img" >}}
+
+## Playing Tracks Using Events (Single Mode) {#events}
+
+Events can be added to both the main playlist and the sound effects playlist.
+
+If an event is added to the main playlist, it includes a **“Trigger”** button that allows you to activate it manually.  
+
+If the event is configured to start a track, that track will begin playing.
+
+{{< figure src="playlist_buttons3.jpg" caption="Fig. 3 - Event trigger button in the main playlist." class="docs-img" >}}
+
+## Playing Tracks from the Editor View (Single Mode)
+
+Every track can also be found in the editor, represented as a node (block).  
+
+Click the **“Play”** icon on the node to play the track in single mode.
+
+{{< figure src="editor_buttons.jpg" caption="Fig. 4 - Play button on a track node in the editor." class="docs-img" >}}
+
+## Playing Tracks from the “Now Playing” View {#nowplaying}
+
+The **Now Playing** view shows all currently playing tracks.  
+
+Each track includes playback control buttons, similar to those in the playlist.
+
+{{< figure src="nowplaying_buttons.jpg" caption="Fig. 5 - Track in the 'Now Playing' view." class="docs-img" >}}
+
+## Controlling All Playing Tracks {#nowplaying2}
+
+At the top of the **Now Playing** view, there are global control buttons that affect all currently playing tracks.  
 They allow you to:
 - resume all paused tracks  
 - pause all tracks  
 - stop all tracks  
 
-{{< figure src="nowplaying_buttons_global.jpg" caption="Fig. 3 - Global playback control buttons." class="docs-img" >}}
+{{< figure src="nowplaying_buttons_global.jpg" caption="Fig. 6 - Global playback control buttons." class="docs-img" >}}
 
-These buttons are useful when you want to stop everything at once without clicking each track individually.
+These buttons are useful when you want to stop everything at once without managing each track individually.
 
-## Track volume and speed
+## Track Parameters {#parameters}
 
-You can adjust a track’s **volume** and **playback speed**:
-- Volume range: 0–100%  
-- Speed range: 0.1–2.0× (10–200%)
+The following track parameters can be changed during playback:
+- volume (0–100%)  
+- speed (0.1–2.0×)  
+- panning (left speaker only – both speakers – right speaker only)  
 
-The **“R” buttons** reset values to their defaults.
+Arrow buttons reset parameters to their default values.
 
-{{< figure src="volume_speed.jpg" caption="Fig. 4 - Track volume and speed controls." class="docs-img" >}}
+**NOTE:** Changing playback speed also changes pitch. To change speed without affecting pitch, use sound effects.
 
-**NOTE:** Changing the playback speed also changes the pitch.  
-To alter speed without affecting pitch, use sound effects.
+You can also enable looping by checking the **“Loop”** box.  
+The number of repetitions can be set from 0 (infinite) to 100×.
 
-## Looping a track
+{{< figure src="track_params.jpg" caption="Fig. 7 - Track parameters." class="docs-img" >}}
 
-Looping is disabled by default.  
-To loop a track, enable the **“Loop”** checkbox.
-
-{{< figure src="loop.jpg" caption="Fig. 5 - Looping a track." class="docs-img" >}}
-
-You can set the number of repetitions between **0 and 100×**.  
-
-**NOTE:** If looping is enabled and repetitions are set to **0×**, the track will loop **indefinitely**.
-
-## Changing position in a track
-
-The yellow indicator shows the current playback position.  
-
-You can manually change it by clicking anywhere on the waveform preview — the track will immediately jump to that position.
-
-The current position and total track length are displayed below the waveform.
-
-{{< figure src="position.jpg" caption="Fig. 6 - Track preview and playback position." class="docs-img" >}}
-
-# Have questions?
+# Have Questions?
 
 {{< docs-contact >}}

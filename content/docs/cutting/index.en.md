@@ -1,36 +1,40 @@
 ﻿---
 title: "Trimming Tracks"
 icon: "✂️"
-description: "Quickly and easily trim your tracks."
-weight: 41
+description: "Quickly and easily trim tracks."
+weight: 45
 ---
 
-## What is track trimming?
+## What Is Track Trimming?
 
-**Track trimming** means using only a selected part of a track instead of the entire file.
+**Track trimming** means using only a selected portion of a track instead of the entire file.
 
-A trimmed track will only play the portion you’ve chosen.
+A trimmed track will play only the part that has been selected.
 
-**NOTE:** To split a track into multiple parts, add it several times and trim each version separately.
+**NOTE:** To split a track into multiple different parts, duplicate it several times and trim each copy separately.
 
-## How to trim a track
+## How to Trim a Track
 
-Trimming tracks is done from the **Editor view**. To open it, click the **Editor icon** from the side menu.
+Track trimming is available in the **Editor view**.  
+
+To open the editor, click the **Editor icon** in the side menu.
 
 {{< figure src="editor_icon.png" caption="Fig. 1 - Editor icon." class="docs-img-icon" >}}
 
-Each added track shows a waveform preview. Below it are controls for the **start** and **end** points.
+Each added track displays a waveform preview.  
+
+Next to it are controls for the **start** and **end** points of the track.
 
 You can trim a track in two ways:
-- **(Desktop):** hold **Ctrl** and click the waveform with the left or right mouse button. The **left button** sets the start, and the **right button** sets the end of the track.  
-- **(Desktop & Mobile):** adjust the **start** and **end** values using the numeric controls.  
+- By dragging the **colored handles** on the waveform preview. The left handle sets the start, and the right handle sets the end of the track.  
+- By changing the values in the **start** and **end** controls manually.  
 
-In both cases, the start point must come before the end point.
+In both cases, the start position must come before the end position.
 
-The green area on the waveform indicates the trimmed section that will be played.
+The trimmed section is marked with a different color on the waveform preview.
 
-{{< figure src="cutted_track.webp" caption="Fig. 2 - Trimmed track." class="docs-img" >}}
+{{< figure src="cutted_track.jpg" caption="Fig. 2 - Trimmed track." class="docs-img" >}}
 
-# Have questions?
+# Have Questions?
 
 {{< docs-contact >}}

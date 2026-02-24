@@ -1,6 +1,6 @@
 ﻿---
 title: "Sterowniki"
-icon: "🎛️"
+icon: "🎚️"
 description: "Prosty sposób na automatyczną zmianę parametrów utworu."
 weight: 37
 ---
@@ -54,16 +54,6 @@ Można ustawić, by losowanie następowało **cyklicznie** lub **tylko raz**.
 - **Randomize (węzeł wejściowy)** – po aktywacji natychmiast losuje nową wartość.
 
 Randomizer świetnie nadaje się do wprowadzania nieprzewidywalnych zmian — np. subtelnych fluktuacji głośności lub tempa, które dodają naturalności i “życia” do odtwarzania.
-
-## Fade In/Out
-
-{{< figure src="provider_fadeinout.jpg" caption="Rys. 4 – Sterownik Fade In/Out." class="docs-img" >}}
-
-Sterownik **Fade In/Out** automatycznie pogłaśnia lub wycisza utwór na jego początku i końcu.  
-Po podłączeniu do głośności utworu spowoduje on płynne narastanie dźwięku przy starcie i stopniowe wyciszanie przy zakończeniu.
-
-- **Fade In** – długość od początku utworu (w sekundach), w której głośność rośnie od 0 do wcześniej ustawionej.  
-- **Fade Out** – długość od końca utworu (w sekundach), w której głośność maleje do zera.
 
 ## Crossfade
 

@@ -31,6 +31,7 @@ Using the top menu, you can (in order):
 - increase zoom
 - toggle the mini-map (displayed in the bottom-right corner)
 - align selected elements vertically
+- revert elements position
 
 You can also zoom in and out using the mouse wheel, or by pinching with two fingers on mobile devices.
 

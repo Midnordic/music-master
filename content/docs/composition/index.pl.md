@@ -5,45 +5,45 @@ description: "Wyjaśnienie czym jest kompozycja i jak dodawać utwory."
 weight: 80
 ---
 
-Na kompozycje składają się wszystkie elementy: utwory, zdarzenia, listy odtwarzania, węzły i połączenia między nimi. Po prostu jest to pewna całość, z którą w danej chwili pracujesz.
+Kompozycja składa się ze wszystkich elementów: utworów, zdarzeń, list odtwarzania, sterowników oraz połączeń między nimi. Jest to po prostu całość, nad którą aktualnie pracujesz.
 
-W widoku kompozycji (lewa strona) znajdują się dodane do kompozycji główne elementy, które można później przenieść do list utworów (prawa strona). Są to głównie utwory i zdarzenia. 
+W widoku kompozycji (lewa strona) widoczne są główne elementy dodane do kompozycji, które można później przenosić do list odtwarzania (prawa strona). Są to przede wszystkim utwory i zdarzenia.
 
-{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Rys. 1 - Kompozycja i wypełniona lista odtwarzania." class="docs-img" >}}
+{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Rys. 1 - Kompozycja i wypełnione listy odtwarzania." class="docs-img" >}}
 
 ## Dodawanie utworów {#adding-tracks}
 
-Aby dodać utwór do kompozycji, należy kliknąć ikonę nutki z plusem (blisko lewego górnego rogu). {{< figure src="add_file_icon.png" caption="Rys. 2 - Ikona dodawania utworów." class="docs-img-icon" >}} Pokaże się wtedy menu, które umożliwia:
+Aby dodać utwór do kompozycji, kliknij przycisk menu głównego (lewy górny róg). Po rozwinięciu menu wybierz opcję „Add tracks...” lub „Add folder...”, a następnie wskaż odpowiednie pliki lub foldery.
 
-- dodawanie pojedynczych plików.
-- dodawanie całego folderu.
-- dodawanie całego folderu i wszystkich subfolderów.
+{{< figure src="add_tracks.jpg" caption="Rys. 2 - Menu główne." class="docs-img" >}}
 
 Obsługiwane formaty plików audio:
-- .wav 
-- .mp3
-- .ogg
+- .wav  
+- .mp3  
+- .ogg  
 
-**UWAGA:** ten sam plik audio można dodać wielokrotnie do tej samej kompozycji. Aby uniknąć pomyłek, najlepiej zmieniać nazwy takich utworów po ich dodaniu do kompozycji. Wystarczy dwukrotnie kliknąć lewym przyciskiem myszy (lub raz prawym) na nazwę utworu i wpisać ją na nowo.
+**UWAGA:** Ten sam plik audio można dodać wielokrotnie do tej samej kompozycji. Aby uniknąć pomyłek, warto zmienić nazwę takiego utworu po jego dodaniu. Wystarczy dwukrotnie kliknąć (lub kliknąć prawym przyciskiem myszy) nazwę utworu i wpisać nową.
 
-Można też dodać dowolny utwór lub cały folder klikając na nim i przeciągając go do okna aplikacji.
+**WSKAZÓWKA:** Możesz również dodać utwór lub cały folder, przeciągając go bezpośrednio do okna aplikacji.
 
-## Usuwanie utworów
+## Usuwanie utworów {#removing-tracks}
 
-Aby usunąć utwór z kompozycji, należy kliknąć ikonę "kosz" znajdującą się po jego prawej stronie.
+Aby usunąć utwór z kompozycji, kliknij ikonę „kosza” znajdującą się po jego prawej stronie.
 
-Usunięcie utworu z kompozycji spowoduje usunięcie go również ze wszystkich innych miejsc - list utworów, edytora, oraz odtwarzania. Wszystkie połączenia z tym elementem zostaną zerwane.
+{{< figure src="delete_track.jpg" caption="Rys. 3 - Usuwanie utworu." class="docs-img" >}}
+
+**UWAGA:** Usunięcie utworu z kompozycji spowoduje jego usunięcie ze wszystkich miejsc — list odtwarzania, edytora oraz odtwarzania. Wszystkie połączenia do i z tego elementu zostaną utracone.
 
 ## Zapisywanie i wczytywanie kompozycji {#saving}
 
-Każda kompozycja może zostać zapisana do pliku (z rozszerzeniem .mm), a potem można ją z niego odtworzyć.
+Każdą kompozycję można zapisać do pliku (z rozszerzeniem .mm), a następnie wczytać ponownie.
 
-Aby zapisać lub wczytać kompozycję, należy kliknąć ikonę dokumentu z nutką (blisko lewego górnego rogu). {{< figure src="composition_icon.png" caption="Rys. 3 - Ikona kompozycji." class="docs-img-icon" >}} Pokaże się menu, które umożliwi:
-- wyczyszczenie kompozycji
-- zapisanie kompozycji do pliku
-- wczytanie kompozycji z pliku
+Za pomocą menu głównego (lewy górny róg) możesz:
+- **"New Composition..."** -> utworzyć nową (wyczyścić) kompozycję 
+- **"Save Composition..."** -> zapisać kompozycję do pliku 
+- **"Load Composition..."** -> wczytać kompozycję z pliku
 
-**UWAGA:** w pliku zapisywane są ścieżki względne do plików z utworami. Oznacza to, że jeśli przeniesiemy jakiś utwór do innego katalogu, to przy wczytaniu kompozycji zawierającej ten utwór, nie zostanie on odnaleziony i kompozycja nie wczyta się. Aby uniknąć tego błędu, najlepiej zapisywać kompozycję w folderze z plikami audio.
+**UWAGA:** W pliku zapisywane są ścieżki względne do plików audio. Oznacza to, że jeśli przeniesiesz utwór do innego folderu, kompozycja zawierająca ten utwór nie wczyta się poprawnie. Aby uniknąć problemów, najlepiej zapisywać kompozycję w tym samym folderze co pliki audio.
 
 # Masz pytania?
 
