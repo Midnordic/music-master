@@ -21,8 +21,9 @@ Dostępne rodzaje sterowników:
 
 Sterowniki automatycznie kontrolują parametry utworu (takie jak głośność czy prędkość).  
 
-**Uwaga:**  
+{{< tip icon="question" title="Uważaj!" >}}
 Jeśli sterownik jest połączony z parametrem utworu, nie można zmieniać tego parametru ręcznie — jest on wtedy kontrolowany przez sterownik. Ostatnia wartość ustawiona przez użytkownika jest oznaczona **pionową kreską** na pasku wartości danego parametru. Niektóre sterowniki (np. *Crossfade*) potrafią dostosować się do wartości ustawionej ręcznie — w takim przypadku zmiana parametru nadal przyniesie oczekiwany efekt.
+{{< /tip >}}
 
 {{< figure src="connected_provider.jpg" caption="Rys. 1 – Sterownik połączony z parametrem utworu." class="docs-img" >}}
 

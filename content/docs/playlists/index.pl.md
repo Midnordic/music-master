@@ -55,7 +55,9 @@ Aby zmienić nazwę, należy kliknąć na ikonę wielokropka i z rozwijanego men
 
 {{< figure src="rename_playlist.jpg" caption="Rys. 3 - Zmiana nazwy listy." class="docs-img" >}}
 
-**UWAGA:** nazwy list muszą być unikatowe, tzn. nie mogą się powtarzać.
+{{< tip icon="shock" title="Ups!" >}}
+Nazwy list muszą być unikatowe, tzn. nie mogą się powtarzać.
+{{< /tip >}}
 
 ## Usuwanie
 

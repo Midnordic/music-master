@@ -17,14 +17,18 @@ Aby dodać utwór do kompozycji, kliknij przycisk menu głównego (lewy górny r
 
 {{< figure src="add_tracks.jpg" caption="Rys. 2 - Menu główne." class="docs-img" >}}
 
+{{< tip icon="ok" title="Wskazówka" >}}
+Możesz również dodać utwór lub cały folder, przeciągając go bezpośrednio do okna aplikacji.
+{{< /tip >}}
+
 Obsługiwane formaty plików audio:
 - .wav  
 - .mp3  
 - .ogg  
 
-**UWAGA:** Ten sam plik audio można dodać wielokrotnie do tej samej kompozycji. Aby uniknąć pomyłek, warto zmienić nazwę takiego utworu po jego dodaniu. Wystarczy dwukrotnie kliknąć (lub kliknąć prawym przyciskiem myszy) nazwę utworu i wpisać nową.
-
-**WSKAZÓWKA:** Możesz również dodać utwór lub cały folder, przeciągając go bezpośrednio do okna aplikacji.
+{{< tip icon="question" title="Uważaj!" >}}
+Ten sam plik audio można dodać wielokrotnie do tej samej kompozycji. Aby uniknąć pomyłek, warto zmienić nazwę takiego utworu po jego dodaniu. Wystarczy dwukrotnie kliknąć (lub kliknąć prawym przyciskiem myszy) nazwę utworu i wpisać nową.
+{{< /tip >}}
 
 ## Usuwanie utworów {#removing-tracks}
 
@@ -32,7 +36,9 @@ Aby usunąć utwór z kompozycji, kliknij ikonę „kosza” znajdującą się p
 
 {{< figure src="delete_track.jpg" caption="Rys. 3 - Usuwanie utworu." class="docs-img" >}}
 
-**UWAGA:** Usunięcie utworu z kompozycji spowoduje jego usunięcie ze wszystkich miejsc — list odtwarzania, edytora oraz odtwarzania. Wszystkie połączenia do i z tego elementu zostaną utracone.
+{{< tip icon="shock" title="Ups!" >}}
+Usunięcie utworu z kompozycji spowoduje jego usunięcie ze wszystkich miejsc — list odtwarzania, edytora oraz odtwarzania. Wszystkie połączenia do i z tego elementu zostaną utracone.
+{{< /tip >}}
 
 ## Zapisywanie i wczytywanie kompozycji {#saving}
 
@@ -43,7 +49,9 @@ Za pomocą menu głównego (lewy górny róg) możesz:
 - **"Save Composition..."** -> zapisać kompozycję do pliku 
 - **"Load Composition..."** -> wczytać kompozycję z pliku
 
-**UWAGA:** W pliku zapisywane są ścieżki względne do plików audio. Oznacza to, że jeśli przeniesiesz utwór do innego folderu, kompozycja zawierająca ten utwór nie wczyta się poprawnie. Aby uniknąć problemów, najlepiej zapisywać kompozycję w tym samym folderze co pliki audio.
+{{< tip icon="question" title="Uważaj!" >}}
+W pliku zapisywane są ścieżki względne do plików audio. Oznacza to, że jeśli przeniesiesz utwór do innego folderu, kompozycja zawierająca ten utwór nie wczyta się poprawnie. Aby uniknąć problemów, najlepiej zapisywać kompozycję w tym samym folderze co pliki audio.
+{{< /tip >}}
 
 # Masz pytania?
 

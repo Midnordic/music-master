@@ -92,7 +92,9 @@ Poniższe parametry utworu można zmieniać w trakcie odtwarzania.
 - pozycja (tylko lewy głośnik - oba głośniki - tylko prawy głośnik)
 Przyciski ze strzałkami służą do powracania do wartości domyślnych.
 
-**UWAGA:** zmiana prędkości zmienia również wysokość dźwięku. Aby zmienić samą prędkość, bez zmiany wysokości dźwięku, trzeba użyć efektów dźwiękowych.
+{{< tip icon="ok" title="Wskazówka" >}}
+Zmiana prędkości zmienia również wysokość dźwięku. Aby zmienić samą prędkość, bez zmiany wysokości dźwięku, trzeba użyć efektów dźwiękowych.
+{{< /tip >}}
 
 Można również zapętlić utwór. Aby to zrobić, trzeba zaznaczyć pole wyboru "Loop". Można ustawić ilość powtórzeń w zakresie 0 (nieskończoność) - 100x. 
 

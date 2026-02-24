@@ -47,7 +47,9 @@ Aby **zapisać** stan, należy kliknąć w przycisk 💾.
 
 Aby zmienić czas przejścia pomiędzy stanami, należy ustawić odpowiednią wartość w polu **"Transition duration"** w sekundach.
 
-**UWAGA:** nie zapomnij zapisać stanu po zmianie głośności utworów!
+{{< tip icon="shock" title="Ups!" >}}
+Nie zapomnij zapisać stanu po zmianie głośności utworów!
+{{< /tip >}}
 
 {{< figure src="mix_ambient_editor.jpg" link="mix_ambient_editor.jpg" caption="Rys. 3 - Ambientowy miks z podpiętymi utworami." class="docs-img" >}}
 
@@ -83,7 +85,9 @@ Z tego widoku mamy dostęp do wszystkich możliwości miksu, poza zmianą podpi�
 
 Miks grozy powstał, aby wesprzeć efekt Pełzającej Grozy (*Creeping Dread*). Polega on na transformacji dobrze znanego utworu w istny koszmar. Dzieje się to poprzez: spowolnienie głównego utworu, oraz równoczesne nałożenie drugiej, niepokojącej ścieżki dźwiękowej.
 
-**UWAGA:** ten miks wspiera tylko dwa utwory.
+{{< tip icon="ok" title="Wskazówka" >}}
+Ten miks wspiera tylko dwa utwory.
+{{< /tip >}}
 
 {{< figure src="mix_dread_editor.jpg" link="mix_dread_editor.jpg" caption="Rys. 7 - Miks pełzającej grozy z podpiętymi utworami." class="docs-img" >}}
 

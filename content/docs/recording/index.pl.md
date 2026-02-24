@@ -21,7 +21,9 @@ Otworzy się poniższe okno nagrywania dźwięku.
 
 Z rozwijanej listy **"Recording with:"** należy wybrać urządzenie do nagrywania dźwięku (mikrofon).
 
-**UWAGA:** tylko dwukanałowe mikrofony są obsługiwane. Wybranie innego mikrofonu z listy może spowodować zawieszenie się aplikacji.
+{{< tip icon="shock" title="Ups!" >}}
+Tylko dwukanałowe mikrofony są obsługiwane. Wybranie innego mikrofonu z listy może spowodować zawieszenie się aplikacji.
+{{< /tip >}}
 
 ## Dodanie efektów
 

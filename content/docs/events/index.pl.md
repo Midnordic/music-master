@@ -42,7 +42,9 @@ Dostępne zdarzenia:
 
 Czas aktywacji jest losowany pomiędzy wartościami Min i Max. Jeśli chcemy, aby zdarzenie zawsze uruchamiało się w takim samym odstępie czasu, należy ustawić te pola na tą samą wartość.
 
-**UWAGA:** zdarzenie zawsze zaczyna jako wyłączone, nawet po wczytaniu kompozycji. Dlatego za każdym razem trzeba włączać je ręcznie, poprzez np. włączenie go za pomocą węzła Enable. Jest to celowe działanie, mające na celu zapobiegnięcie sytuacji, kiedy po wczytaniu kompozycji zdarzenie czasowe niespodziewanie się aktywuje.
+{{< tip icon="question" title="Uważaj!" >}}
+Zdarzenie zawsze zaczyna jako wyłączone, nawet po wczytaniu kompozycji. Dlatego za każdym razem trzeba włączać je ręcznie, poprzez np. włączenie go za pomocą węzła Enable. Jest to celowe działanie, mające na celu zapobiegnięcie sytuacji, kiedy po wczytaniu kompozycji zdarzenie czasowe niespodziewanie się aktywuje.
+{{< /tip >}}
 
 {{< figure src="timer_activate.jpg" caption="Rys. 3 – Włączenie zdarzenia czasowego." class="docs-img" >}}
 

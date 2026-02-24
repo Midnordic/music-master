@@ -10,7 +10,9 @@ weight: 45
 
 Przycięty utwór będzie odtwarzał tylko tą część, która została wybrana.
 
-**UWAGA:** aby pociąć utwór na wiele różnych części, należy skopiować go kilkukrotnie i pociąć każdą kopię z osobna.
+{{< tip icon="ok" title="Wskazówka" >}}
+Aby pociąć utwór na wiele różnych części, należy skopiować go kilkukrotnie i pociąć każdą kopię z osobna.
+{{< /tip >}}
 
 ## Jak przyciąć utwór?
 
