@@ -1,0 +1,25 @@
+{{ $icon := .Get "icon" | default "ok" }}
+{{ $title := .Get "title" | default "Tip" }}
+
+{{ $iconPath := "" }}
+{{ if eq $icon "ok" }}
+  {{ $iconPath = "images/emoji_ok.png" }}
+{{ else if eq $icon "question" }}
+  {{ $iconPath = "images/emoji_question.png" }}
+{{ else if eq $icon "shock" }}
+  {{ $iconPath = "images/emoji_shock.png" }}
+{{ else }}
+  {{ $iconPath = "images/emoji_ok.png" }}
+{{ end }}
+
+<div class="tip-box">
+    <div class="tip-content">
+        <div class="tip-left">
+            <img src="{{ $iconPath | relURL }}" alt="{{ $icon }}" class="tip-icon-img">
+            <span class="tip-title">{{ $title }}</span>
+        </div>
+        <div class="tip-description">
+            {{ .Inner | markdownify }}
+        </div>
+    </div>
+</div>

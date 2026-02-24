@@ -22,7 +22,11 @@ Supported audio file formats:
 - .mp3  
 - .ogg  
 
-**NOTE:** The same audio file can be added multiple times to the same composition. To avoid confusion, it’s best to rename such tracks after adding them. Simply double-click (or right-click once) the track’s name and enter a new one.
+{{< tip icon="question" title="Watch out!" >}}
+The same audio file can be added multiple times to the same composition. To avoid confusion, it’s best to rename such tracks after adding them. Simply double-click (or right-click once) the track’s name and enter a new one.
+{{< /tip >}}
+
+
 
 **TIP:** You can also add any track or entire folder by clicking and dragging it into the application window.
 
