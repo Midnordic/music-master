@@ -15,14 +15,21 @@ weight: 100
 
 ## Activating the application
 
-When you start the app for the first time, you’ll be asked to enter your email address and license key.
+When you start the app for the first time, you’ll see the welcome screen. Simply click "Next" to proceed.
+
+{{< figure src="figure3.jpg" link="figure3.jpg" target="_blank" caption="Fig. 3 - Welcome screen" class="docs-img" >}}
+
+Next, you'll be asked to read the EULA (end user license agreement) and accept it. Click on the "I accept EULA" checkbox, then click "Next".
+
+{{< figure src="figure4.jpg" link="figure4.jpg" target="_blank" caption="Fig. 4 - EULA screen" class="docs-img" >}}
+
+On the last screen, you'll be asked to enter your email address and license key.
 
 1. The license key is included in the email received after purchase.  
 1. The email address linked to the key is the one you provided during purchase.  
 1. Enter both your email address and license key into the appropriate fields.  
-1. You must also accept the End User License Agreement (EULA).  
 
-{{< figure src="figure3.jpg" link="figure3.jpg" target="_blank" caption="Fig. 3 - Application activation" class="docs-img" >}}
+{{< figure src="figure5.jpg" link="figure5.jpg" target="_blank" caption="Fig. 5 - Activation screen" class="docs-img" >}}
 
 Click **Activate** and wait a moment while the server verifies your email and license key.
 

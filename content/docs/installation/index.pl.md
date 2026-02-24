@@ -12,14 +12,21 @@ weight: 100
 
 ## Aktywacja programu
 
-Po uruchomieniu aplikacji po raz pierwszy, pojawi się prośba o podanie adresu e-mail oraz klucza licencyjnego. 
+Po uruchomieniu aplikacji po raz pierwszy, pojawi się okno powitalne. Naciśnij przycisk "Next" aby przejść dalej.
+
+{{< figure src="figure3.jpg" link="figure3.jpg" target="_blank" caption="Fig. 3 - Okno powitalne" class="docs-img" >}}
+
+Następnie zostaniesz poproszony o przeczytanie umowy licencyjnej (EULA) i jej zaakceptowanie. Kliknij na przycisk "I accept EULA", a następnie na przycisk "Next".
+
+{{< figure src="figure4.jpg" link="figure4.jpg" target="_blank" caption="Fig. 4 - Okno umowy licencyjnej" class="docs-img" >}}
+
+W ostatnim oknie pojawi się prośba o podanie adresu e-mail oraz klucza licencyjnego. 
 
 1. Klucz licencyjny znajduje się w mailu otrzymanym po zakupie.
 1. E-mail powiązany z kluczem to ten podany podczas zakupu aplikacji.
 1. Wprowadź adres e-mail oraz klucz licencyjny w odpowiednie pola. 
-1. Musisz również zaakceptować licencję użytkowania aplikacji (EULA).
 
-{{< figure src="figure3.jpg" link="figure3.jpg" target="_blank" caption="Rys. 3 - Aktywacja programu" class="docs-img" >}}
+{{< figure src="figure5.jpg" link="figure5.jpg" target="_blank" caption="Fig. 5 - Aktywacja programu" class="docs-img" >}}
 
 Kliknij przycisk "Activate" i poczekaj chwilę, aż serwer sprawdzi czy podany e-mail oraz klucz licencyjny są prawidłowe. 
 
