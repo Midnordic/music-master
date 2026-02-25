@@ -1,5 +1,5 @@
 ﻿---
-title: "Silent Aftershock - The Power of... Silence"
+title: "Silent Aftershock"
 subtitle: "Amplify dramatic moments with silence."
 date: 2025-10-07
 author: "Manuel"

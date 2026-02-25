@@ -1,5 +1,5 @@
 ﻿---
-title: "Crossfade – stopniowa zmiana nastroju"
+title: "Crossfade"
 subtitle: "Twórz naturalne przejścia od spokojnych chwil do intensywnych przeżyć."
 date: 2025-10-06
 author: "Manuel"

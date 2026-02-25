@@ -1,9 +1,9 @@
 ﻿---
 title: "Efekt szoku"
-subtitle: "Spraw, aby gracze doświadczyli szoku."
+subtitle: "Zanurz postacie graczy w szokującej chwili."
 date: 2025-10-13
 author: "Manuel"
-thumbnail: "en/blog/muffle/thumbnail.jpg"
+thumbnail: "en/blog/shellshock/thumbnail.jpg"
 ---
 
 ## Co to takiego?

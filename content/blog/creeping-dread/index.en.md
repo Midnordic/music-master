@@ -1,5 +1,5 @@
 ---
-title: "Creeping Dread - Horror Distortion"
+title: "Creeping Dread"
 subtitle: "Transform a well-known, peaceful track into a nightmare."
 date: 2025-10-05
 author: "Manuel"

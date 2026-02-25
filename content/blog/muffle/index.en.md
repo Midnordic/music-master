@@ -1,56 +1,30 @@
 ﻿---
-title: "Shellshock Effect"
-subtitle: "Immerse your players in the shock of the moment."
-date: 2025-10-13
+title: "Muffle Effect"
+subtitle: "Makes everything feel like listening underwater or through a closed door."
+date: 2026-01-07
 author: "Manuel"
 thumbnail: "en/blog/muffle/thumbnail.jpg"
 ---
 
 ## What is it?
 
-The Shellshock Effect is a classic cinematic way to simulate disorientation and trauma. It usually follows a loud, violent event - like an explosion or crash - when the sound doesn't cut out completely but instead becomes distant and dull, as if heard underwater. It mirrors how our ears react to extreme noise in real life, and it instantly puts the audience in the character's head, letting them feel the confusion and fear that follows the blast.
+Muffle is a transformation that twists clear, readable sound into something smothered and uncertain, like the world has been wrapped in cloth. It corrupts the comfort of hearing exactly what is happening by stripping away sharp edges and leaving only the heavy parts behind.
 
 ## Movie example
 
-One of the most famous uses of this effect appears in ***Saving Private Ryan (1998)***, during the Omaha Beach landing. As Captain Miller and his men storm the shore, chaos reigns: gunfire, explosions, and screams everywhere. Then a shell detonates close to Miller, and everything changes. The sound drops to a low, muffled hum - gunshots fade to distant thumps, voices blur into echoes, and his breathing becomes the only clear noise. For a few moments, the audience shares his stunned, disoriented state before the real world crashes back in.
+In **Saving Private Ryan on Omaha Beach**, the muffling is not just an audio filter, it is a survival perspective. The scene throws you into overwhelming noise, then rips away the intelligible part of it. When the muffle hits, the sharpness of gunfire and shouted commands collapses. What is left is pressure: low thuds, distant rumbles, and the heavy slap of impacts that feel more like vibration than sound.
+
+And yes, it is the same scene again. Last time it was the shellshock angle, and now it is muffle, because this sequence is basically a Swiss Army knife of "how to torture a nervous system with sound." Steal that practicality. Use muffle as a switch you can throw right after a blast, a breach, or a plunge underwater. Let the players feel the insult: they are still in danger, but their ears have stopped helping. Then, when you restore clarity, do it like a wound reopening: suddenly the world is too loud, too sharp, and too real.
 
 {{< iframe src="https://www.youtube.com/embed/XijMMhs55oc?start=280" title="Saving Private Ryan" >}}
 
 ## What to use it for?
 
-As a Game Master, this effect is perfect for showing overwhelming moments - times when the world becomes too much to process. You can use it after a massive explosion, a powerful spell, or a shocking twist. Players will instinctively feel that something is wrong - their characters are dazed, stunned, or in shock.
+As a Game Master, your players are in a normal, safe setting: a small office where they finally found the file they needed, a warm lamp on the desk, rain against the window, coffee cooling between them. Then the sound changes first. A door down the hall closes and suddenly the world muffles, like thick wood and carpet ate the air. Their voices still exist, but they are hard to parse. Footsteps outside become blunt, directionless knocks. The building feels bigger, emptier, and closer all at once. Someone tries to listen for the guard. They cannot tell if he is ten feet away or ten rooms away. The scene turns wrong without anything visible changing.
 
-After a few seconds, slowly bring the normal sound back: the voices of allies, the ringing of weapons, the crackle of fire. That gradual recovery makes the moment feel real and gives players a chance to emotionally reset before diving back into the chaos.
+Use this technique for:
+- Simulating doors, walls, underwater, helmets, gas masks, or heavy cover
+- Conveying concussion, disorientation, or "your senses are failing you"
+- Forcing players to act with partial information during a sudden escalation
+- It works because clarity dies, and the players have to move anyway.
 
-It's a simple trick that turns an ordinary action scene into a cinematic experience - a reminder that even heroes can be shaken.
-
-## Do It with Music Master!
-
-{{< samplepanel sample="Shellshock Effect" >}}
-
-{{< audio preload="false" src="sample.mp3" caption1="Final effect. The explosion starts at 00:09." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Anime_explosion_blast_3.wav' by Euphrosyyn" >}}
-
-⚠️ Be careful with the ringing sound — it can be unpleasant to the ear, so it’s best to **lower the volume a bit**.
-
-1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
-1. Choose the **“Shellshock Effect”** technique by clicking the **“Select”** button.  
-{{< figure src="effect.jpg" caption="Fig. 1 – Shellshock Effect." class="blog-post-section-img" target="_blank" >}}
-1. In the next window, fill in the following fields:  
-   1. **Backdrop track (required)** – the track playing in the background during the entire scene. It will be muffled during the effect.  
-   1. **Explosion track (required)** – a short sound effect that triggers the transformation. Usually an explosion sound.  
-   1. **Noise track (required)** – a longer sound effect played while the muffling is active. Usually a ringing-in-the-ears sound.  
-1. (Optional) If you don’t have suitable tracks, click **“Use Samples”** and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
-1. Click the **“Create”** button.  
-1. You will be taken to the Composition view. It should look like this:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 – Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
-1. Now trigger the event **“Shellshock #1 - Play Backdrop”** by pressing the **“Trigger”** button. The background track will start playing.  
-1. At the right moment, trigger the second event **“Shellshock #1 - Play Explosion”**.  
-   The explosion sound will play, followed by the ringing noise, during which the background track will be muffled.  
-1. When the ringing sound ends, everything will return to normal.  
-1. This is how it looks in the editor:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 – Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
-1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
-
-## Ready when you are
-
-Let your players hear the world through their character's ears - use Music Master to recreate the haunting, immersive sound of shock and survival.

@@ -1,5 +1,5 @@
 ﻿---
-title: "Crossfade - Gradual Mood Change"
+title: "Crossfade"
 subtitle: "Create natural shifts from peaceful moments to intense encounters."
 date: 2025-10-06
 author: "Manuel"

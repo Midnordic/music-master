@@ -1,6 +1,6 @@
 ﻿---
-title: "Cichy wstrząs – potęga... ciszy"
-subtitle: "Zaakcentuj dramatyczne chwile dzięki ciszy."
+title: "Cichy wstrząs"
+subtitle: "Zaakcentuj dramatyczne chwile dzięki potędze ciszy."
 date: 2025-10-07
 author: "Manuel"
 thumbnail: "en/blog/silent-aftershock/thumbnail.jpg"

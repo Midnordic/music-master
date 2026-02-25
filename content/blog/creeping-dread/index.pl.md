@@ -1,5 +1,5 @@
 ---
-title: "Pełzająca groza - koszmarna transformacja"
+title: "Pełzająca groza"
 subtitle: "Przemień spokojny, znany graczom kawałek w istny koszmar."
 date: 2025-10-05
 author: "Manuel"
