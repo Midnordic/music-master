@@ -1,4 +1,4 @@
----
+﻿---
 title: "Silent Aftershock - The Power of... Silence"
 subtitle: "Amplify dramatic moments with silence."
 date: 2025-10-07
@@ -30,21 +30,32 @@ After a short pause, bring back faint sounds - echoing wind, flickering fire, or
 
 **It's not just quiet; it's storytelling through absence.**
 
-## Do it with Music Master!
+## Do It with Music Master!
 
 {{< samplepanel sample="Silent Aftershock" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="The final result. Action starts around 0:20." caption2="'Bavarian Seascape' by Anonymus; 'Gunshots' by ShawnyBoy; 'Crowd Scream' by IENBA; 'Action Strike' by Rafael Krux" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Final effect. The action starts around 0:20." caption2="'Bavarian Seascape' – Anonymus; 'Gunshots' – ShawnyBoy; 'Crowd Scream' – IENBA; 'Action Strike' – Rafael Krux" >}}
 
-This one might seem a bit more complex, but after you understand the whole flow, it becomes easy and clear.
-
-1. **Add a happy track** first. We will stop this track abruptly with gunshot sounds.
-1. **Add gunshots**, that will shock the players once they play.
-1. **Add trigger event** and make it stop the main track and play gunshots sfx. You should trigger it when the players least suspect it. {{< figure src="figure1.jpg" link="figure1.jpg" caption="Fig. 1 - Track, gunshots and event" class="blog-post-section-img" target="_blank" >}}
-1. **Add a timer event** to introduce the silence. Set it to a few seconds (5 seconds in the example). Enable it when the gunshot track finished playing, and make the timer event trigger only once. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Fig. 2 - Introducing silence with timer event" class="blog-post-section-img" target="_blank" >}}
-1. **Add rest of the tracks**, in our case: screaming sounds and an intense music. Make them play when the timer event triggers after delay.
-1. **(Optional) add fade in/out** to the music track, to make it enter the scene gradually. {{< figure src="figure3.jpg" link="figure3.jpg" caption="Fig. 3 - Playing tracks after silence" class="blog-post-section-img" target="_blank" >}}
-1. **That's it**. Now simply play the happy track from the playlist (or Editor), and trigger the first event when you want to shock your players with gunshots! The rest will follow automatically. {{< figure src="figure4.jpg" link="figure4.jpg" caption="Fig. 4 - The whole setup" class="blog-post-section-img" target="_blank" >}}
+1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
+1. Choose the **“Silent Aftershock”** technique by clicking the **“Select”** button.  
+{{< figure src="effect.jpg" caption="Fig. 1 – Silent Aftershock." class="blog-post-section-img" target="_blank" >}}
+1. In the next window, fill in the following fields:  
+   1. **Backdrop track (required)** – the first track that will play in the background. Usually something calm or cheerful.  
+   1. **Trigger track (required)** – a sound effect that triggers the silence, e.g., gunshots.  
+   1. **After event 1 (required)** – the main track that will play after the silence. Typically action music.  
+   1. **Silence (seconds)** – set the duration of the silence in seconds.  
+   1. **After event 2** – another track (optional) that will play after the silence, e.g., crowd screams.  
+   1. **After event 3** – an additional track (optional) that will play after the silence.  
+1. (Optional) If you don’t have suitable tracks, click the **“Use Samples”** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
+1. Click the **“Create”** button.  
+1. You will be taken to the Composition view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 – Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. Now trigger the event **“Silent Aftershock #1 - Play Backdrop”** by pressing the **“Trigger”** button. The background track will begin playing.  
+1. At the right moment, trigger the second event **“Silent Aftershock #1 - Trigger Aftershock”**. The gunshot sound will play, followed by silence...  
+1. After a short silence, all remaining tracks will play — for example, crowd screams and action music.  
+1. This is how it looks in the editor:  
+{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 – Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
 
 ## Ready when you are
 

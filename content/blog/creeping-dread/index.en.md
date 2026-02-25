@@ -35,19 +35,29 @@ Use this technique for:
 
 It’s especially effective when your players feel safe — that’s when the twist hits the hardest. **Because they know that melody, and now it’s betraying them.**
 
-## Do it with Music Master!
+## Do It with Music Master!
 
 {{< samplepanel sample="Creeping Dread Overlay" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="The final result. Transition starts around 0:26, then smoothly reverts." caption2="'Let Me Call You Sweetheart' by Henry Burr and the Peerless Quartet; 'Horror Suspense' by David Krulic" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Final effect. The transition starts around 0:26, then smoothly returns to normal." caption2="'Let Me Call You Sweetheart' by Henry Burr and Peerless Quartet; 'Horror Suspense' by David Krulic" >}}
 
-1. **Add two tracks**: the calm one and the other one for eerie overlay. Keep in mind that the effect is best suitable for tracks with vocals, as it distorts them in the most creepy way.
-1. Open the Editor and add a **Fixed Value controller**. Now connect the output with volume and speed values from the calm track. {{< figure src="figure1.jpg" link="figure1.jpg" caption="Fig. 1 - First Fixed Value controller" class="blog-post-section-img" target="_blank" >}}
-1. Add a **second Fixed Value controller** and connect it with the eerie overlay track. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Fig. 2 - Second Fixed Value Node" class="blog-post-section-img" target="_blank" >}}
-1. Those two Fixed Value's will control the tempo and volume of the tracks. We need to **set proper values** for each controller. For the **first track** let's set those values to 1.00 (starting value) and 0.75 (modified value). That means that the first track will be played at 100% volume and speed, until we change it - then it will slow down to 75%. Set transition time for both values to 5 seconds.
-1. For the **second track** let's set 0.00 (starting value) and 0.30 (modified value). Connecting it to the volume means that we want to start on mute, and then increase the volume gradually. Set transition time for both values to 5 seconds.
-1. All that's left is **adding events**. Add two events: one for starting the main track, and second one for transitioning into dread. Connect them to tracks (to play them) and to Fixed Value's to switch to different values on trigger. That's it! {{< figure src="figure3.jpg" link="figure3.jpg" caption="Fig. 3 - Events" class="blog-post-section-img" target="_blank" >}}
-1. Now you can move the two events to any playlist and trigger it anytime. {{< figure src="figure4.jpg" link="figure4.jpg" caption="Fig. 4 - Playlist" class="blog-post-section-img" target="_blank" >}}
+1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
+1. Choose the **“Creeping Dread”** technique by clicking the **“Select”** button.  
+{{< figure src="effect.jpg" caption="Fig. 1 – Creeping Dread." class="blog-post-section-img" target="_blank" >}}
+1. In the next window, provide the following tracks:  
+   1. **Song track (required)** – the main track that will be transformed. The best results are achieved when the track contains vocals.  
+   1. **Dread overlay track (required)** – a tension-building, horror-style track that will play simultaneously with the main track.  
+1. (Optional) If you don’t have suitable tracks, click the **“Use Samples”** button and choose one of the available examples. The required fields will be filled automatically with tracks included in the program.  
+1. Click the **“Create”** button.  
+1. You will be taken to the Composition view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 – Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. Start playback of the main track by clicking the **“Play”** button on **“Creeping Dread Mix #1”**.  
+1. Go to the **“Now Playing”** window — the playing mix will be visible there.  
+1. To begin the nightmarish transformation, click the **“Activate”** button.  
+1. To reverse the transformation, click the **“Deactivate”** button.  
+1. This is how the effect looks in the editor:  
+{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 – Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
 
 ## Ready when you are
 

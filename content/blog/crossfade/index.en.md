@@ -1,4 +1,4 @@
----
+﻿---
 title: "Crossfade - Gradual Mood Change"
 subtitle: "Create natural shifts from peaceful moments to intense encounters."
 date: 2025-10-06
@@ -33,16 +33,25 @@ Use this technique for:
 
 It's an invisible tool that keeps your players **immersed** and gives your session cinematic feeling.
 
-## Do it with Music Master!
+## Do It with Music Master!
 
 {{< samplepanel sample="Crossfade" >}}
 
-{{< audio preload="false" src="sample.mp3" caption1="The final result. Transition starts around 0:16, then smoothly reverts." caption2="'Badass' by Chris Wolverine Matthew; 'Horror Mystery' by Rafael Krux" >}}
+{{< audio preload="false" src="sample.mp3" caption1="Final effect. The transition starts around 0:16, then smoothly returns to normal." caption2="'Badass' by Chris Wolverine Matthew; 'Horror Mystery' by Rafael Krux" >}}
 
-1. **Add two tracks** (or more) that you want to fade between.
-1. **Add a Crossfade controller**, and connect both tracks to different outputs. Set appropriate fade length (15 seconds in this example). {{< figure src="figure1.jpg" link="figure1.jpg" caption="Fig. 1 - Crossfade with two tracks connected" class="blog-post-section-img" target="_blank" >}}
-1. **Add two events**: each event will start a track and change the track that's being fade to. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Fig. 2 - Events connected" class="blog-post-section-img" target="_blank" >}}
-1. That's it! Now triger the first event to play the first track (or revert to it), and the second event to fade to second track.
+1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
+1. Choose the **“Crossfade Mix”** technique by clicking the **“Select”** button.  
+{{< figure src="effect.jpg" caption="Fig. 1 – Crossfade Mix." class="blog-post-section-img" target="_blank" >}}
+1. In the next window, provide at least two tracks (marked as *required*) between which you will switch. You can use up to 6 tracks in total.  
+1. (Optional) If you don’t have suitable tracks, click the **“Use Samples”** button and select one of the available examples. The required fields will be filled automatically with tracks included in the program.  
+1. Click the **“Create”** button.  
+1. You will be taken to the Composition view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 – Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. To start playback, click the **“Play”** button on **“Crossfade Mix #1”**.  
+1. When you want to switch to another track, go to the **“Now Playing”** view and click the two-arrows icon next to the track you want to hear.  
+1. This is how it looks in the editor:  
+{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 – Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
 
 ## Ready when you are
 

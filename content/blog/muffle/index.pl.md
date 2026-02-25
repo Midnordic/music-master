@@ -36,20 +36,26 @@ To prosty trik, który zamienia zwykłą scenę walki w filmowe przeżycie, a ta
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Eksplozja zaczyna się od 00:09." caption2="'World War 1 Trench warfare battlefield sounds' by paulbogush; 'Anime_explosion_blast_3.wav' by Euphrosyyn" >}}
 
-Uważaj na dźwięk dzwonienia — może być nieprzyjemny dla ucha, więc lepiej **ścisz trochę głośność**.
+⚠️ Uważaj na dźwięk dzwonienia — może być nieprzyjemny dla ucha, więc lepiej **ścisz trochę głośność**.
 
-1. **Dodaj ścieżkę ambientową** dla pola bitwy i ustaw, aby grała w pętli.  
-1. **Dodaj efekt dźwiękowy eksplozji.** Ma dość długie zakończenie, więc trochę go skrócimy.  
-1. **Dodaj efekt dźwiękowy szumu.** Powinien uruchomić się zaraz po eksplozji. Ustaw jego głośność na 15% i połącz go z efektem eksplozji.  
-{{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Ambient, eksplozja i szum." class="blog-post-section-img" target="_blank" >}}  
-1. **Dodaj mikser efektów** i wyłącz go, odznaczając pole „Enabled”.  
-1. **Dodaj efekt „Muffle”** do miksera. Pozostaw jego parametry domyślne (możesz później z nimi poeksperymentować).  
-1. **Dodaj efekt „Amplify”** do miksera. Wzmocni on dźwięk po zastosowaniu efektu przytłumienia. Ustaw wartość na 24 dB.
-{{< figure src="figure2.jpg" link="figure2.jpg" caption="Rys. 2 – Mikser efektów z Muffle i Amplify." class="blog-post-section-img" target="_blank" >}}  
-1. **Połącz ścieżkę ambientową z mikserem efektów.** Zostanie ona przytłumiona dopiero po włączeniu miksera.  
-1. **Połącz ścieżkę szumu z mikserem efektów.** Gdy szum zacznie grać, włącz mikser – w ten sposób ambient zostanie przytłumiony. Kiedy szum się skończy, wyłącz mikser. Dzięki temu odtworzysz krótki moment szoku, trwający tyle, co dzwonienie w uszach.  
-{{< figure src="figure3.jpg" link="figure3.jpg" caption="Rys. 3 – Wszystko gotowe." class="blog-post-section-img" target="_blank" >}}  
-1. Odtwórz ścieżkę ambientową, a po chwili odtwórz dźwięk eksplozji. **Reszta zadziała automatycznie!**
+1. Z menu głównego wybierz opcję **"Create Cinematique..."**. Pojawi się okno asystenta technik filmowych.
+1. Wybierz technikę **"Shellshock Effect"** klikając przycisk **"Select"**.
+{{< figure src="effect.jpg" caption="Rys. 1 – Shellshock Effect." class="blog-post-section-img" target="_blank" >}}  
+
+1. W kolejnym oknie uzupełnij następujące pola:
+	1. **Bakcdrop track (required)** - utwór grający w tle podczas całej sceny. Zostanie on wytłumiony.
+	1. **Explosion track (required)** - krótki efekt dźwiękowy, po którym zostanie włączony efekt. Zwykle jest to dźwięk wybuchu.
+	1. **Noise track (required)** - długi efekt dźwiękowy, podczas którego będzie włączone wytłumienie. Zwykle jest to tzw. dźwięk dzwonienia w uszach.
+1. (opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij na przycisk **Use Samples** i wybierz z listy jeden z przykładów. Powyższe pola zostaną automatycznie wypełnione utworami dołączonymi do programu.
+1. Kliknij przycisk **"Create"**.
+1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:
+{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 – Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}  
+1. Teraz wystarczy wywołać zdarzenie **"Shellshock #1 - Play Backdrop"** poprzez naciśnięcie przycisku **"Trigger"**. Utwór tła rozpocznie odgrywanie.
+1. W odpowiednim momencie wywołaj drugie zdarzenie **"Shellshock #1 - Play Explosion"**. Zostanie odegrany efekt wybuchu, po nim odegra się dzwonienie w uszach, w trakcie którego utwór tła będzie wytłumiony.
+1. Gdy dźwięk dzwonienia w uszach ustanie, wszystko wróci do normy.
+1. A tak wygląda to w edytorze:
+{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 – Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}  
+1. Za pomocą edytora możesz dopasować efekt do swoich upodobań. Spróbuj poeksperymentować!
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

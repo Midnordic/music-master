@@ -1,5 +1,5 @@
 ---
-title: "Pełzająca groza - niespodziewana transformacja utworu"
+title: "Pełzająca groza - koszmarna transformacja"
 subtitle: "Przemień spokojny, znany graczom kawałek w istny koszmar."
 date: 2025-10-05
 author: "Manuel"
@@ -41,13 +41,24 @@ Jest szczególnie skuteczna, gdy twoi gracze czują się bezpiecznie — wtedy t
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Przejście zaczyna się około 0:26, po czym płynnie powraca do normalności." caption2="'Let Me Call You Sweetheart' Henry’ego Burra i Peerless Quartet; 'Horror Suspense' Davida Krulica" >}}
 
-1. **Dodaj dwa utwory**: jednej spokojny i drugi niepokojący. Pamiętaj, że efekt najlepiej działa w przypadku utworów z wokalem, ponieważ to właśnie głos ulega najbardziej niepokojącemu zniekształceniu.  
-1. Otwórz edytor i dodaj **sterownik Fixed Value**. Następnie połącz jego wyjście z wartościami głośności i prędkości z głównego (spokojnego) utworu. {{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Pierwszy sterownik Fixed Value" class="blog-post-section-img" target="_blank" >}}
-1. Dodaj **drugi sterownik Fixed Value** i połącz go z drugim utworem. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Rys. 2 – Drugi sterownik Fixed Value" class="blog-post-section-img" target="_blank" >}}
-1. Te dwa sterowniki będą kontrolować tempo i głośność utworów. Musimy **ustawić odpowiednie wartości** dla każdego z nich. Dla **pierwszego utworu** ustaw wartości 1.00 (wartość początkowa) i 0.75 (wartość zmodyfikowana). Oznacza to, że pierwszy utwór będzie odtwarzany przy 100% głośności i prędkości, dopóki nie dokonamy zmiany – wtedy zwolni do 75%. Ustaw czas przejścia dla obu wartości na 5 sekund.  
-1. Dla **drugiego utworu** ustaw 0.00 (wartość początkowa) i 0.30 (wartość zmodyfikowana). Połączenie z głośnością oznacza, że zaczynamy od ciszy, a następnie stopniowo zwiększamy głośność. Ustaw czas przejścia na 5 sekund.  
-1. Pozostaje tylko **dodanie zdarzeń**. Dodaj dwa zdarzenia: jeden do uruchomienia głównego utworu, drugi do transformacji. Połącz je z utworami (aby je odtworzyć) i węzłami Fixed Value, aby przełączyć wartości po ich uruchomieniu. To wszystko! {{< figure src="figure3.jpg" link="figure3.jpg" caption="Rys. 3 – Zdarzenia" class="blog-post-section-img" target="_blank" >}}
-1. Teraz możesz przenieść oba zdarzenia do dowolnej listy odtwarzania i uruchomić je w każdej chwili. {{< figure src="figure4.jpg" link="figure4.jpg" caption="Rys. 4 – Lista utworów" class="blog-post-section-img" target="_blank" >}}
+1. Z menu głównego wybierz opcję **"Create Cinematique..."**. Pojawi się okno asystenta technik filmowych.
+1. Wybierz technikę **"Creeping Dread"** klikając przycisk **"Select"**.
+{{< figure src="effect.jpg" caption="Rys. 1 – Creeping Dread." class="blog-post-section-img" target="_blank" >}}  
+
+1. W kolejnym oknie podaj następujące utwory:
+	1. **Song track (required)** - główny utwór, który zostanie zniekształcony. Najlepszy efekt osiąga się, gdy w utworze występuje wokal.
+	1. **Dread overlay track (required)** - utwór wprowadzający napięcie i horror. Będzie on grać równocześnie z głównym utworem.
+1. (opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij na przycisk **Use Samples** i wybierz z listy jeden z przykładów. Powyższe pola zostaną automatycznie wypełnione utworami dołączonymi do programu.
+1. Kliknij przycisk **"Create"**.
+1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:
+{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 – Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}  
+1. Rozpocznij odgrywanie głównego utworu poprzez kliknięcie na przycisk **"Play"** ma miksie **"Creeping Dread Mix #1"**.
+1. Przejdź do okna "Teraz Odtwarzane" *(Now Playing)*, będzie tam widoczny odtwarzany miks.
+1. Aby zacząć koszmarną transformację, kliknij na przycisk **"Activate"**.
+1. Aby cofnąć trasnformację, kliknij na przycisk **"Deactivate"**.
+1. A tak efekt wygląda w edytorze:
+{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 – Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}  
+1. Za pomocą edytora możesz dopasować efekt do swoich upodobań. Spróbuj poeksperymentować!
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

@@ -38,15 +38,26 @@ Po krótkiej pauzie przywróć delikatne dźwięki – szum wiatru, trzask ognia
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Akcja zaczyna się około 0:20." caption2="'Bavarian Seascape' – Anonymus; 'Gunshots' – ShawnyBoy; 'Crowd Scream' – IENBA; 'Action Strike' – Rafael Krux" >}}
 
-Na pierwszy rzut oka może to wyglądać na skomplikowaną procedurę, ale gdy zrozumiesz cały proces, wszystko staje się proste i logiczne.
-
-1. **Dodaj radosny utwór** jako pierwszy. Zatrzymamy go gwałtownie, uruchamiając dźwięki wystrzałów.  
-1. **Dodaj efekt dźwiękowy wystrzałów**, które zaskoczą graczy, gdy je usłyszą.  
-1. **Dodaj zdarzenie** – ma ono zatrzymać główny utwór i odtworzyć efekt wystrzałów. Uruchom je, gdy gracze najmniej się tego spodziewają. {{< figure src="figure1.jpg" link="figure1.jpg" caption="Rys. 1 – Utwór, strzały i zdarzenie" class="blog-post-section-img" target="_blank" >}}  
-1. **Dodaj zdarzenie czasowe**, które sprawi, że nastanie cisza. Ustaw je na kilka sekund (5 sekund w przykładzie). Aktywuj je, gdy ścieżka z wystrzałami skończy się odtwarzać i ustaw tak, żeby zadziałało tylko raz. {{< figure src="figure2.jpg" link="figure2.jpg" caption="Rys. 2 – Wprowadzenie ciszy z wykorzystaniem zdarzenia czasowego" class="blog-post-section-img" target="_blank" >}}  
-1. **Dodaj pozostałe utwory**, w naszym przypadku: krzyki tłumu i intensywną muzykę. Po uruchomieniu zdarzenia czasowego, zostaną one odtworzone z kilkuseukndowym opóźnieniem (w przykładzie będzie to po 5 sekundach).  
-1. **(Opcjonalnie)** dodaj sterownik Fade In / Out do muzyki, aby wprowadzać ją stopniowo. {{< figure src="figure3.jpg" link="figure3.jpg" caption="Rys. 3 – Odtwarzanie utworów po ciszy" class="blog-post-section-img" target="_blank" >}}  
-1. **I to wszystko!** Teraz po prostu odtwórz radosny utwór z listy utworów (lub edytora) i uruchom pierwsze zdarzenie, gdy chcesz zaskoczyć graczy wystrzałami! Reszta zadziała automatycznie. {{< figure src="figure4.jpg" link="figure4.jpg" caption="Rys. 4 – Cała konfiguracja" class="blog-post-section-img" target="_blank" >}}
+1. Z menu głównego wybierz opcję **"Create Cinematique..."**. Pojawi się okno asystenta technik filmowych.
+1. Wybierz technikę **"Silent Aftershock"** klikając przycisk **"Select"**.
+{{< figure src="effect.jpg" caption="Rys. 1 – Silent Aftershock." class="blog-post-section-img" target="_blank" >}}  
+1. W kolejnym oknie uzupełnij następujące pola:
+	1. **Backdrop track (required)** - pierwszy utwór, który będzie odgrywany w tle. Zwykle jakiś wesoły kawałek.
+	1. **Trigger track (required)** - efekt dźwiękowy, po którym nastąpi cisza np. dźwięk wystrzałów z broni palnej.
+	1. **After event 1 (required)** - główny utwór, który zostanie odegrany po ciszy. Zazwyczaj jest to muzyka do akcji.
+	1. **Silence (seconds)** - ustaw długość ciszy w sekundach.
+	1. **After event 2** - kolejny utwór (opcjonalnie), który zostanie odegrany po ciszy. Mogą to być efekty dźwiękowe np. krzyki tłumu.
+	1. **After event 3** - kolejny utwór (opcjonalnie), który zostanie odegrany po ciszy.
+1. (opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij na przycisk **Use Samples** i wybierz z listy jeden z przykładów. Powyższe pola zostaną automatycznie wypełnione utworami dołączonymi do programu.
+1. Kliknij przycisk **"Create"**.
+1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:
+{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 – Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}  
+1. Teraz wystarczy wywołać zdarzenie **"Silent Aftershock #1 - Play Backdrop"** poprzez naciśnięcie przycisku **"Trigger"**. Utwór tła rozpocznie odgrywanie.
+1. W odpowiednim momencie wywołaj drugie zdarzenie **"Silent Aftershock #1 - Trigger Aftershock"**. Odegrany zostanie efekt wystrzałów, a po nim nastąpi cisza...
+1. Po krótkiej ciszy odegrają się wszystkie pozostałę utwory np. krzyki tłumu oraz muzyka.
+1. A tak wygląda to w edytorze:
+{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 – Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}  
+1. Za pomocą edytora możesz dopasować efekt do swoich upodobań. Spróbuj poeksperymentować!
 
 ## Chcesz wypróbować tę nową sztuczkę?
 
