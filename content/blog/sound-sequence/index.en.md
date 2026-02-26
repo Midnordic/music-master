@@ -31,10 +31,30 @@ As a Game Master, you drop the party into a safe, normal space-warm lights, soft
 ...and strangely, sound lands a little too hard, a little too close. The room doesn't change, but the air does. Players begin scanning NPC faces, tracking exits, re-reading sentences that were fine ten seconds ago. The sequence repeats with one new element each time soft throat-clear that becomes a wheeze, a friendly bell that becomes a warning tone, a laugh that ends half a beat too late. When the final sound hits  everyone at the table knows: something irreversible just happened, and it happened **in order**.
 
 Use this technique for:
-- A "safe" location gradually revealing itself as controlled, watched, or staged
-- Building dread before an ambush without using obvious combat music
+- Building tension before an ambush without using obvious combat music
+- Signaling a boss's presence before they appear
 - Turning a routine social scene into a pressure cooker of suspicion
-- Signaling a boss's presence before they appear, like a ritual arriving step-by-step
-- Making a single action (a decision, a punch, a betrayal) feel like the inevitable last beat in a chain
 
-It works because the familiar becomes a trap - comfort is still on the surface, but the sequence proves the floor is falling out from under them.
+## Do It with Music Master!
+
+{{< samplepanel sample="Sound Sequence" >}}
+
+{{< audio preload="false" src="sample.mp3" caption1="Final effect." >}}
+
+1. From the main menu, select **"Create Cinematique..."**. The Cinematic Techniques Assistant window will appear.  
+1. Choose the **"Sound Sequence"** technique by clicking the **"Select"** button.  
+{{< figure src="effect.jpg" caption="Fig. 1 - Sound Sequence." class="blog-post-section-img" target="_blank" >}}
+1. In the next window, fill in the all of the tracks you want. They will be played one after another. It is required to use at least two tracks.
+1. (Optional) If you don't have suitable tracks, click the **"Use Samples"** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
+1. Click the **"Create"** button.  
+1. You will be taken to the Composition view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 - Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. Now trigger the event **"Sound Sequence #1 - Start Sequence"** by pressing the **"Trigger"** button.
+1. The sequence will start. After ending one track, the next one is played automatically.
+1. This is how it looks in the editor:  
+{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 - Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
+
+## Ready when you are
+
+Surprise your players with an exciting event by chaining sounds together. Download Music Master and check for yourself!

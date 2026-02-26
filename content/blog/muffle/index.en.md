@@ -28,3 +28,31 @@ Use this technique for:
 - Forcing players to act with partial information during a sudden escalation
 - It works because clarity dies, and the players have to move anyway.
 
+## Do It with Music Master!
+
+{{< samplepanel sample="Muffle" >}}
+
+{{< audio preload="false" src="sample.mp3" caption1="Final effect. Transition starts at 00:16, and reverts at 0:28." >}}
+
+1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
+1. Choose the **“Muffle Effect”** technique by clicking the **“Select”** button.  
+{{< figure src="effect.jpg" caption="Fig. 1 – Muffle Effect." class="blog-post-section-img" target="_blank" >}}
+1. In the next window, fill in the following fields:  
+	1. **Backdrop track (required)** – the track playing in the background during the entire scene. It will be muffled during the effect.     
+	1. **Muffle gain (dB)** - how much volume to add to the effect. Keep it high if you don't want to lower the volume too much.
+	1. **Transition duration** - transformation time in seconds.
+1. (Optional) If you don’t have suitable tracks, click the **“Use Samples”** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
+1. Click the **“Create”** button.  
+1. You will be taken to the Composition view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 – Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. Now trigger the event **“Muffle #1 - Play Backdrop”** by pressing the **“Trigger”** button. The background track will begin playing.
+1. At the right moment, trigger the event **“Muffle #1 - Enable”**. That will trigger the muffle transition.
+1. During the transition duration the effect power will be increase up to 100%.
+1. Trigger the second event **"Muffle #1 - Disable"** to gradually turn off the effect.
+1. This is how it looks in the editor:  
+{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 – Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
+
+## Ready when you are
+
+Use this and other cinematic effects with Music Master. Try it out now!

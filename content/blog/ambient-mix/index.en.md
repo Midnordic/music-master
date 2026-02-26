@@ -28,3 +28,27 @@ Use this technique for:
 - Making safe locations feel conditional, like comfort that can be revoked.
 - Stretching tension during investigation scenes without adding new threats.
 - Foreshadowing surveillance, pursuit, or unseen presence through sound alone.
+
+## Do It with Music Master!
+
+{{< samplepanel sample="Ambient Mix" >}}
+
+{{< audio preload="false" src="sample.mp3" caption1="Final effect. There are two presets that swap between each other. First transition starts around 00:20." >}}
+
+1. From the main menu, select **"Create Cinematique..."**. The Cinematic Techniques Assistant window will appear.  
+1. Choose the **"Ambient Mix"** technique by clicking the **"Select"** button.  
+{{< figure src="effect.jpg" caption="Fig. 1 - Ambient Mix." class="blog-post-section-img" target="_blank" >}}
+1. In the next window, fill in the all of the tracks you want. They will be played simultaniously. It is required to use at least one track.
+1. (Optional) If you don't have suitable tracks, click the **"Use Samples"** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
+1. Click the **"Create"** button.  
+1. You will be taken to the Composition view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 - Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. Now play the mix called **"Ambient Mix #1"** from the playlist by pressing the **"Play"** button.
+1. The mix will start. In the **"Now Playing"** view you can adjust the track volumes and set presets.
+1. This is how it looks in the editor:  
+{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 - Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
+
+## Ready when you are
+
+Use this and other cinematic effects with Music Master. Try it out now!
