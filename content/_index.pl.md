@@ -8,7 +8,7 @@ hero:
   title: "Zostań Mistrzem Muzyki!"
   subtitle: "**Music Master** to praktyczne narzędzie umożliwiające przejęcie pełnej kontroli nad muzyką i dźwiękiem podczas sesji.<br/><br/>  
   Aplikacja została stworzona z myślą o Mistrzach Gry i pozwala tworzyć **dynamiczne, sterowane zdarzeniami pejzaże dźwiękowe** reagujące na fabularne elementy sesji. Możesz nakładać na siebie ścieżki dźwiękowe, automatyzować przejścia pomiędzy utworami i tworzyć filmowe sceny — a wszystko to jednym kliknięciem."
-  cta_text: "Dołącz do bety"  
+  cta_text: "Pobierz"  
 
 # Features Section
 features:
@@ -21,6 +21,10 @@ features:
       description: "Korzystaj z własnej biblioteki utworów, aby tworzyć ścieżkę dźwiękową dopasowaną do Twojego unikatowego stylu gry."
       image: "images/features/importing.png"
     
+    - title: "Darmowe utwory"
+      icon: "😍"
+      description: "Korzystaj ze starannie wybranej listy utworów muzycznych, ambientów i efektów dźwiękowych dostępnych ZA DARMO w aplikacji!"
+
     - title: "Cięcie utworów"
       icon: "✂️"
       description: "Bez problemu ustaw dokładny moment rozpoczęcia i zakończenia utworu."
@@ -62,7 +66,7 @@ simple_rules:
     
     - title: "Jedna licencja, by wszystkimi rządzić"
       icon: "💍"
-      description: "Kup raz, używaj na wielu urządzeniach. Prosto i bez żadnych haczyków."
+      description: "Używaj na wielu urządzeniach. Prosto i bez żadnych haczyków."
       image: "images/features/license.png"
     
     - title: "Bez subskrypcji"
@@ -78,8 +82,9 @@ blog:
 
 # Beta Section
 beta:
-  title: "Dołącz do bety"
-  description: "Aktualnie prowadzimy otwarte beta testy. Dołącz do naszego Discorda, aby wypróbować aplikację, wyrazić swoją opinię i pomóc nam ukształtować Music Mastera, aby stał się najlepszym narzędziem audio dla MG."
+  title: "Pobierz najnowszą wersję"
+  description: "Dołącz do naszego Discorda, aby pobrać aplikację ZA DARMO."
+  description2: "Aplikacja zawiera ciągle rosnącą listę DARMOWYCH utworów muzycznych, ambientów i efektów dźwiękowych."
   slogan: "Zostań Mistrzem Muzyki!"
-  cta_text: "Dołącz na Discordzie"  
+  cta_text: "Discord"  
 ---

@@ -56,4 +56,4 @@ To **niewidoczne narzędzie**, które utrzymuje graczy w **immersji** i nadaje t
 
 ## Chcesz wypróbować tę nową sztuczkę?
 
-Wprowadź filmową jakość przejść muzycznych do swojej następnej sesji — dołącz do beta testów Music Mastera.
+Wprowadź filmową jakość przejść muzycznych do swojej następnej sesji — pobierz Music Mastera.

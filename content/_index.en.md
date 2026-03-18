@@ -7,7 +7,7 @@ layout: "index"
 hero:
   title: "Become a Music Master!"
   subtitle: "**Music Master** is a powerful audio tool that puts sound in your hands and unleashes your creativity.<br/><br/>Built for Game Masters, it lets you craft **dynamic, event-driven soundscapes** that react to your story. Layer tracks, automate fades, and trigger cinematic moments - all with a click."
-  cta_text: "Join the Beta"  
+  cta_text: "Download"  
 
 # Features Section
 features:
@@ -20,6 +20,10 @@ features:
       description: "Use your personal library of tracks to create soundscapes that match your unique gaming style."
       image: "images/features/importing.png"
     
+    - title: "Samples pack"
+      icon: "😍"
+      description: "Use a curated list of music tracks, ambience and sound effects provided for FREE with the app!"
+
     - title: "Track Cutting"
       icon: "✂️"
       description: "Cue the exact moment you want in any track, effortlessly."
@@ -61,11 +65,11 @@ simple_rules:
     
     - title: "One License to Rule Them All"
       icon: "💍"
-      description: "Buy once, use on multiple devices. Simple and fair."
+      description: "Use on multiple devices. Simple and fair."
       image: "images/features/license.png"
     
     - title: "No Subscriptions"
-      icon: "❌"
+      icon: "👍"
       description: "Own the app outright. No ongoing fees, no strings attached."
       image: "images/features/subscriptions.png"
 
@@ -76,10 +80,11 @@ blog:
   show_count: 3
   read_more_text: "Read more on our blog"
 
-# Beta Section
+# Download Section
 beta:
-  title: "Join the Beta"
-  description: "We're currently running open beta tests. Join our Discord to try the app, share feedback, and help shape Music Master into the ultimate GM audio tool."
+  title: "Get the Latest Version"
+  description: "Join our Discord to get the app for FREE!"
+  description2: "The app comes with a growing list of FREE music, ambient and sfx tracks!"
   slogan: "Become a Music Master yourself!"
-  cta_text: "Join Our Discord"  
+  cta_text: "Discord"  
 ------

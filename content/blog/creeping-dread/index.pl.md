@@ -62,4 +62,4 @@ Jest szczególnie skuteczna, gdy twoi gracze czują się bezpiecznie — wtedy t
 
 ## Chcesz wypróbować tę nową sztuczkę?
 
-Zamień spokojne chwile w horror — dołącz do beta testów Music Mastera i wypaczaj znane graczom melodie tworząc niezapomniane koszmary.
+Zamień spokojne chwile w horror — pobierz Music Mastera i wypaczaj znane graczom melodie tworząc niezapomniane koszmary.

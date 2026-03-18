@@ -13,7 +13,7 @@
                     {{ (.Params.hero.subtitle | default .Site.Params.hero_subtitle | default .Site.Params.description) | markdownify }}
                 </p>
                 <div class="hero-actions">
-                    <a href="#beta" class="btn btn-primary btn-large">&#10024; {{ .Params.hero.cta_text }}</a>
+                    <a href="#beta" class="btn btn-primary btn-large">{{ .Params.hero.cta_text }}</a>
                 </div>
             </div>           
         </div>
@@ -64,16 +64,16 @@
         <div class="features-grid">           
             {{ range .Params.simple_rules.items }}
             <div class="feature-card">
+                <div class="feature-image">
+                    <img src="{{ .image | relURL }}" alt="{{ .title }}">
+                </div>
                 <div class="feature-content">
-                    <div class="feature-header">
-                        <div class="feature-icon">{{ .icon | safeHTML }}</div>
+                    <div class="feature-header">                        
                         <h3>{{ .title }}</h3>
                     </div>
                     <p class="feature-description">{{ .description }}</p>
                 </div>
-                <div class="feature-image">
-                    <img src="{{ .image | relURL }}" alt="{{ .title }}">
-                </div>
+                
             </div>
             {{ end }}           
         </div>
@@ -102,14 +102,18 @@
     </div>
 </section>
 
-<!-- Beta Section -->
+<!-- Download Section -->
 <section id="beta" class="beta-section">
     <div class="container">
         <div class="beta-content">
-            <h2 class="section-title">&#10024; {{ .Params.beta.title | default .Site.Params.beta_title }}</h2>
+            <h2 class="section-title">{{ .Params.beta.title | default .Site.Params.beta_title }}</h2>
             <p class="beta-description">
-                {{ .Params.beta.description | default .Site.Params.beta_description }}
-            </p>                
+                {{ .Params.beta.description }}
+            </p>
+            <p class="beta-description">
+                {{ .Params.beta.description2 }}
+            </p>
+
             <p class="beta-slogan">{{ .Params.beta.slogan | default .Site.Params.beta_slogan }}</p>
             <div class="beta-actions">
                 <a href="{{ .Site.Params.discord_url }}" class="btn btn-primary btn-large">&#128172; {{ .Params.beta.cta_text }}</a>
