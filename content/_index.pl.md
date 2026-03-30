@@ -52,39 +52,36 @@ features:
 
     - title: "Wieloplatformowość"
       icon: "📱"
-      description: "Twórz na komputerze, odtwarzaj na tablecie. Twoje projekty mogą wyruszyć w drogę razem z zebraną drużyną."
+      description: "Twórz na komputerze, odtwarzaj na tablecie. Twoje projekty mogą wyruszyć w drogę razem z Tobą."
       image: "images/features/cross-platform.png"
 
-# Simple Rules Section
-simple_rules:
-  title: "Proste zasady"
-  items:
-    - title: "Działa offline"
-      icon: "🌐"
-      description: "Music Master działa nawet bez dostępu do Internetu."
-      image: "images/features/offline.png"
-    
-    - title: "Jedna licencja, by wszystkimi rządzić"
-      icon: "💍"
-      description: "Używaj na wielu urządzeniach. Prosto i bez żadnych haczyków."
-      image: "images/features/license.png"
-    
-    - title: "Bez subskrypcji"
-      icon: "❌"
-      description: "Używaj aplikacji bez stałych opłat i bez dalszych zobowiązań."
-      image: "images/features/subscriptions.png"
+# Download Section
+download:
+  title: "Pobierz najnowszą wersję"
+  demo:
+    title: "Wersja DEMO"
+    description: "Wypróbuj Demo aby zobaczyć, jak działa aplikacja."
+    features:
+      - "Ograniczone niektóre funkcje."
+      - "Bez subskrypcji."
+      - "Działa offline."
+      - "Tylko do użytku prywatnego."
+    button_text: "Pobierz DEMO"
+  full:
+    title: "PEŁNA wersja"
+    description: "Dołącz do naszego Discorda aby dostać pełną wersję ZA DARMO. Oferta jest ograniczona czasowo!"
+    features:
+      - "Pełna funkcjonalność."
+      - "Bez subskrypcji."
+      - "Działa offline."
+      - "Do użytku prywatnego i komercyjnego."
+      - "Jedna licencja na kilka urządzeń."
+      - "Wsparcie techniczne."
+    button_text: "Dołącz do Discord"
 
 # Blog Section
 blog:
   title: "Polecane wpisy na blogu"  
   show_count: 3
   read_more_text: "Więcej na blogu"
-
-# Beta Section
-beta:
-  title: "Pobierz najnowszą wersję"
-  description: "Dołącz do naszego Discorda, aby pobrać aplikację ZA DARMO."
-  description2: "Aplikacja zawiera ciągle rosnącą listę DARMOWYCH utworów muzycznych, ambientów i efektów dźwiękowych."
-  slogan: "Zostań Mistrzem Muzyki!"
-  cta_text: "Discord"  
 ---

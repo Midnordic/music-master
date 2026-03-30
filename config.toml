@@ -8,6 +8,7 @@ theme = 'musicmaster'
   description = "Music Master is a powerful audio tool that puts sound in your hands and unleashes your creativity. Built for Game Masters."
   author = "Midnordic"
   discord_url = 'https://discord.gg/p3TraAhmJu'
+  demo_url = 'https://midnordic.itch.io/music-master-demo'
 
 [params.languageIcons]
   en = "images/english.png"

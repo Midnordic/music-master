@@ -932,6 +932,90 @@ li code {
     border: 0;    
 }
 
+/* Download Section */
+.download-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.download-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;    
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.download-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(111, 66, 193, 0.15);
+    border-color: #6f42c1;
+}
+
+.download-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.download-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.download-card:hover .download-image img {
+    transform: scale(1.05);
+}
+
+.download-header {
+    width: 100%;
+}
+
+.download-card h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #2d3748;
+    margin: 0;
+}
+
+.download-description {
+    color: #4a5568;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.download-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.download-actions {
+    width: 100%;
+}
+
+.download-actions .btn {
+    width: 100%;
+    justify-content: center;
+}
+
 /* Blog Styles */
 .section-description {
     text-align: center;
@@ -1112,71 +1196,6 @@ li code {
     color: #5a2d91;
 }
 
-/* Beta Section */
-.beta-section {
-    padding: 3rem 0;
-    background: linear-gradient(135deg, #6f42c1 0%, #fd7e14 100%);
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-.beta-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(111, 66, 193, 0.9) 0%, rgba(253, 126, 20, 0.9) 100%);
-    z-index: 1;
-}
-
-.beta-content {
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-
-.beta-section .section-title {
-    color: white;
-    margin-bottom: 2rem;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.beta-description {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
-    line-height: 1.7;
-}
-
-.beta-slogan {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 2.5rem;
-    color: #fff5f0;
-}
-
-.beta-actions {
-    margin-top: 2rem;
-    text-align: center;
-}
-
-.beta-section .btn-primary {
-    background: white;
-    color: #6f42c1;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-}
-
-.beta-section .btn-primary:hover {
-    background: #f8f9fa;
-    color: #6f42c1;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
 /* Footer */
 .footer {    
     padding: 1rem 0 2rem;
@@ -1312,6 +1331,11 @@ li code {
     .feature-image {
         width: 250px;
         height: 160px;
+    }
+    
+    .download-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
     
     .blog-grid {

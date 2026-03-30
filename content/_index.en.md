@@ -54,24 +54,29 @@ features:
       description: "Build on desktop, perform on tablets. Your projects travel with you."
       image: "images/features/cross-platform.png"
 
-# Simple Rules Section
-simple_rules:
-  title: "Simple rules"
-  items:
-    - title: "Offline Friendly"
-      icon: "🌐"
-      description: "It works at the table, even without the Internet."
-      image: "images/features/offline.png"
-    
-    - title: "One License to Rule Them All"
-      icon: "💍"
-      description: "Use on multiple devices. Simple and fair."
-      image: "images/features/license.png"
-    
-    - title: "No Subscriptions"
-      icon: "👍"
-      description: "Own the app outright. No ongoing fees, no strings attached."
-      image: "images/features/subscriptions.png"
+# Download Section
+download:
+  title: "Get Latest Version"
+  demo:
+    title: "DEMO Version"
+    description: "Try the Demo to see how the app works. It's FREE!"
+    features:
+      - "Limited feature set."
+      - "No subscriptions."
+      - "Works offline."      
+      - "Personal use only."      
+    button_text: "Download from Itch.io"
+  full:
+    title: "FULL Version"
+    description: "Join our Discord to get the full version for free. This is a time limited offer!"
+    features:
+      - "Full feature set!"      
+      - "No subscriptions."
+      - "Works offline."
+      - "Personal and commercial use."
+      - "One license for multiple devices."      
+      - "Priority support."
+    button_text: "Join our Discord"
 
 # Blog Section
 blog:
@@ -79,12 +84,4 @@ blog:
   description: "Use cinematic sound techniques in your game."
   show_count: 3
   read_more_text: "Read more on our blog"
-
-# Download Section
-beta:
-  title: "Get the Latest Version"
-  description: "Join our Discord to get the app for FREE!"
-  description2: "The app comes with a growing list of FREE music, ambient and sfx tracks!"
-  slogan: "Become a Music Master yourself!"
-  cta_text: "Discord"  
 ------

@@ -13,7 +13,7 @@
                     {{ (.Params.hero.subtitle | default .Site.Params.hero_subtitle | default .Site.Params.description) | markdownify }}
                 </p>
                 <div class="hero-actions">
-                    <a href="#beta" class="btn btn-primary btn-large">{{ .Params.hero.cta_text }}</a>
+                    <a href="#feature-showcase" class="btn btn-primary btn-large">{{ .Params.hero.cta_text }}</a>
                 </div>
             </div>           
         </div>
@@ -57,25 +57,56 @@
     </div>
 </section>
 
-<!-- Simple Rules Section -->
-<section id="simple-rules" class="features-section">
+<!-- Get Latest Version Section -->
+<section id="download" class="features-section">
     <div class="container">
-        <h2 class="section-title">{{ .Params.simple_rules.title }}</h2>            
-        <div class="features-grid">           
-            {{ range .Params.simple_rules.items }}
-            <div class="feature-card">
-                <div class="feature-image">
-                    <img src="{{ .image | relURL }}" alt="{{ .title }}">
-                </div>
-                <div class="feature-content">
-                    <div class="feature-header">                        
-                        <h3>{{ .title }}</h3>
+        <h2 class="section-title">{{ .Params.download.title }}</h2>            
+        <div class="download-grid">           
+            <!-- DEMO Version Card -->
+            <div class="download-card">
+                <div class="download-content">
+                    <div class="download-image">
+                        <img src="{{ "images/SplashDemo.webp" | relURL }}" alt="{{ .Params.download.demo.title }}">
                     </div>
-                    <p class="feature-description">{{ .description }}</p>
+                    <div class="download-header">
+                        <h3>{{ .Params.download.demo.title }}</h3>
+                    </div>
+                    <div class="download-actions">
+                        <a href="{{ .Site.Params.demo_url }}" target="_blank" class="btn btn-primary btn-large">{{ .Params.download.demo.button_text }}</a>
+                    </div>
+                    <p class="download-description">{{ .Params.download.demo.description }}</p>
+                    {{ if .Params.download.demo.features }}
+                    <ul class="download-features">
+                        {{ range .Params.download.demo.features }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
                 </div>
-                
             </div>
-            {{ end }}           
+            
+            <!-- FULL Version Card -->
+            <div class="download-card">
+                <div class="download-content">
+                    <div class="download-image">
+                        <img src="{{ "images/SplashFull.webp" | relURL }}" alt="{{ .Params.download.full.title }}">
+                    </div>
+                    <div class="download-header">
+                        <h3>{{ .Params.download.full.title }}</h3>
+                    </div>
+                    <div class="download-actions">
+                        <a href="{{ .Site.Params.discord_url }}" target="_blank" class="btn btn-primary btn-large">{{ .Params.download.full.button_text }}</a>
+                    </div>
+                    <p class="download-description">{{ .Params.download.full.description }}</p>
+                    {{ if .Params.download.full.features }}
+                    <ul class="download-features">
+                        {{ range .Params.download.full.features }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -98,26 +129,6 @@
         <!-- Read More Link -->
         <div style="text-align: center; margin-top: 3rem;">
             <a href="{{ "blog" | relLangURL }}" class="btn btn-outline">{{ .Params.blog.read_more_text }}</a>
-        </div>
-    </div>
-</section>
-
-<!-- Download Section -->
-<section id="beta" class="beta-section">
-    <div class="container">
-        <div class="beta-content">
-            <h2 class="section-title">{{ .Params.beta.title | default .Site.Params.beta_title }}</h2>
-            <p class="beta-description">
-                {{ .Params.beta.description }}
-            </p>
-            <p class="beta-description">
-                {{ .Params.beta.description2 }}
-            </p>
-
-            <p class="beta-slogan">{{ .Params.beta.slogan | default .Site.Params.beta_slogan }}</p>
-            <div class="beta-actions">
-                <a href="{{ .Site.Params.discord_url }}" class="btn btn-primary btn-large">&#128172; {{ .Params.beta.cta_text }}</a>
-            </div>
         </div>
     </div>
 </section>
