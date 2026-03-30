@@ -66,7 +66,7 @@ download:
       - "Bez subskrypcji."
       - "Działa offline."
       - "Tylko do użytku prywatnego."
-    button_text: "Pobierz DEMO"
+    button_text: "Pobierz z Itch.io"
   full:
     title: "PEŁNA wersja"
     description: "Dołącz do naszego Discorda aby dostać pełną wersję ZA DARMO. Oferta jest ograniczona czasowo!"
