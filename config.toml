@@ -9,6 +9,7 @@ theme = 'musicmaster'
   author = "Midnordic"
   discord_url = 'https://discord.gg/p3TraAhmJu'
   demo_url = 'https://midnordic.itch.io/music-master-demo'
+  facebook_url = 'https://www.facebook.com/profile.php?id=61577534844024'
 
 [params.languageIcons]
   en = "images/english.png"
