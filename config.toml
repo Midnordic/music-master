@@ -38,7 +38,7 @@ theme = 'musicmaster'
     name = "nav_beta"    
     weight = 30
     [menu.main.params]
-    relPage = "#beta"
+    relPage = "#download"
 
 [languages]
   [languages.en]
