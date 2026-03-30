@@ -28,40 +28,50 @@ Hash nie może zostać wykorzystany do zidentyfikowania Ciebie, ani do odtworzen
 
 Służy on wyłącznie do potwierdzania ważności licencji i zapewnienia, że Twoja kopia aplikacji pozostaje aktywna.
 
-## 4. Usługi zewnętrzne
+## 4. Dostęp do mikrofonu / nagrywanie dźwięku
+
+Music Master może poprosić o dostęp do mikrofonu urządzenia wyłącznie wtedy, gdy użytkownik korzysta z funkcji nagrywania dźwięku.
+
+Nagrany dźwięk jest wykorzystywany wyłącznie do działania tej funkcji. Nagrania są przechowywane jedynie na urządzeniu użytkownika.
+
+Music Master nie przesyła, nie udostępnia ani nie sprzedaje nagrań dźwiękowych podmiotom trzecim.
+
+Dostęp do mikrofonu jest opcjonalny i używany tylko wtedy, gdy użytkownik sam zainicjuje nagrywanie.
+
+## 5. Usługi zewnętrzne
 
 Podczas zakupu **Music Master** transakcja jest obsługiwana przez zewnętrznego operatora płatności. Zapoznaj się z ich własną polityką prywatności, aby dowiedzieć się, jak przetwarzają Twoje dane.
 
 Nie kontrolujemy ani nie ponosimy odpowiedzialności za sposób, w jaki podmioty trzecie przetwarzają Twoje dane.
 
-## 5. Pliki cookie i śledzenie
+## 6. Pliki cookie i śledzenie
 
 Nasza strona internetowa **nie używa plików cookie ani technologii śledzących**.  
 
 Jeśli odwiedzasz stronę aplikacji w sklepie (np. platformę sprzedażową), ta platforma może stosować pliki cookie zgodnie ze swoją polityką prywatności.
 
-## 6. Udostępnianie danych
+## 7. Udostępnianie danych
 
 Nie sprzedajemy, nie wymieniamy ani nie udostępniamy Twoich danych osobowych żadnym podmiotom trzecim.
 
-## 7. Prywatność dzieci
+## 8. Prywatność dzieci
 
 Aplikacja **Music Master** nie jest skierowana do dzieci poniżej 13. roku życia.  
 Nie zbieramy świadomie żadnych danych osobowych od dzieci.
 
-## 8. Twoje prawa
+## 9. Twoje prawa
 
 Ponieważ sami **nie przechowujemy żadnych danych osobowych**, nie ma danych użytkownika, do których można by uzyskać dostęp, które można by poprawić lub usunąć.  
 
 W przypadku danych związanych z płatnością (np. adres e-mail powiązany z zakupem) prosimy o bezpośredni kontakt z dostawcą płatności.
 
-## 9. Zmiany w niniejszej polityce
+## 10. Zmiany w niniejszej polityce
 
 Możemy od czasu do czasu aktualizować niniejszą Politykę Prywatności, aby odzwierciedlić zmiany prawne lub techniczne.  
 
 Aktualizacje zawsze będą publikowane na tej stronie, z wyraźnie zaznaczoną datą ostatniej rewizji.
 
-## 10. Kontakt
+## 11. Kontakt
 
 Jeśli masz jakiekolwiek pytania dotyczące tej Polityki Prywatności lub sposobu, w jaki przetwarzamy dane, możesz się z nami skontaktować pod adresem:  
-📧 **contact@midnordic.com**
+📧 **contact@midnordic.net**
