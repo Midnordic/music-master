@@ -9,20 +9,20 @@ Music Master umożliwia nagrywanie dźwięku. Dzięki temu możesz nagrać swój
 
 ## Okno nagrywania dźwięku
 
-Z głównego menu wybierz opcję **"Add Recording..."**. 
+Z menu importu wybierz opcję **"Import Recording..."**. 
 
-{{< figure src="menu.jpg" link="menu.jpg" caption="Rys. 1 - Pozycja w głównym menu." class="docs-img" >}}
+{{< figure src="menu.jpg" link="menu.jpg" caption="Menu importu." class="docs-img" >}}
 
 Otworzy się poniższe okno nagrywania dźwięku. 
 
-{{< figure src="window.jpg" link="window.jpg" caption="Rys. 2 - Okno nagrywania dźwięku." class="docs-img" >}}
+{{< figure src="window.jpg" link="window.jpg" caption="Okno nagrywania dźwięku." class="docs-img" >}}
 
 ## Wybór mikrofonu
 
 Z rozwijanej listy **"Recording with:"** należy wybrać urządzenie do nagrywania dźwięku (mikrofon).
 
 {{< tip icon="shock" title="Ups!" >}}
-Tylko dwukanałowe mikrofony są obsługiwane. Wybranie innego mikrofonu z listy może spowodować zawieszenie się aplikacji.
+Tylko dwukanałowe mikrofony są obsługiwane. Wybranie innego może spowodować błędy w nagraniu.
 {{< /tip >}}
 
 ## Dodanie efektów
@@ -31,11 +31,11 @@ Przed rozpoczęciem nagrywania można wybrać efekty, które zostaną nałożone
 
 Aby to zrobić, należy nacisnąć przycisk **"Add Effect"** i wybrać pożądany efekt z menu.
 
-{{< figure src="effects.jpg" link="effects.jpg" caption="Rys. 3 - Menu efektów." class="docs-img" >}}
+{{< figure src="effects.jpg" link="effects.jpg" caption="Menu efektów." class="docs-img" >}}
 
 Po wybraniu efektu zostanie on dodany do listy. Można dodać dowolną ilość efektów. Nakładają się one na siebie w kolejności ich dodania.
 
-{{< figure src="effects_added.jpg" link="effects_added.jpg" caption="Rys. 4 - Dodane efekty." class="docs-img" >}}
+{{< figure src="effects_added.jpg" link="effects_added.jpg" caption="Dodane efekty." class="docs-img" >}}
 
 Parametry efektów można modyfikować. Poeksperymentuj z różnymi wartościami.
 
@@ -53,7 +53,7 @@ Gotowe nagranie można odsłuchać poprzez naciśnięcie przycisku **"Play"**.
 
 Aby dodać nagranie do kompozycji, trzeba je najpierw zapisać na dysku. W tym celu klikamy na przycisk **"Save"**, w kolejnym oknie wybieramy katalog, nazwę pliku i zapisujemy plik z rozszerzeniem ".wav".
 
-Po zapisaniu pliku, nagranie zostanie automatycznie dodane do kompozycji.
+Po zapisaniu pliku, nagranie zostanie automatycznie dodane do projektu.
 
 # Masz Pytania?
 

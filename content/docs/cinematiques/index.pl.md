@@ -6,67 +6,51 @@ weight: 41
 ---
 Music Master umożliwia używanie technik filmowych, o których piszemy na **[blogu](blog/)**. Pozwalają one wyzwolić drzemiące w graczach emocje i podkręcić dramatyczny efekt danej sceny.
 
-Aby w prosty sposób użyć danej techniki filmowej, wystarczy uruchomić okno **asystenta technik filmowych**.
+## Dodawanie technik filmowych do projektu {#window}
 
-## Asystent technik filmowych {#window}
+Aby dodać technikę filmową do projektu, należy kliknąć w ikonę plusa w zakładce "Cinematiques".
 
-Aby otworzyć okno asystenta technik filmowych, należy z głównego menu wybrać **"Create Cinematiques..."**.
- 
-{{< figure src="menu.jpg" link="menu.jpg" caption="Rys. 1 - Pozycja w głównym menu." class="docs-img" >}}
+Pojawi się okno z listą technik filmowych do wyboru.
 
-Pojawi się **okienko asystenta** z listą technik filmowych do wyboru.
+{{< figure src="window.jpg" link="window.jpg" caption="Okno technik filmowych." class="docs-img" >}}
 
-{{< figure src="window.jpg" link="window.jpg" caption="Rys. 2 - Okno asystenta." class="docs-img" >}}
+Aby przeczytać więcej o danej technice, wystarczy kliknąć w przycisk **"READ MORE"**. Zostanie otworzone okno przeglądarki, ze stroną bloga opisującą daną technikę.
 
-Aby przeczytać więcej o danej technice, wystarczy kliknąć w **link "READ MORE"**. Zostanie otworzone okno przeglądarki, ze stroną bloga opisującą daną technikę.
+Następnie należy zaznaczyć techniki, które chcemy dodać i kliknąć w przycisk **"Add"**.
 
-Aby wybrać technikę i przejść dalej, należy kliknąć w **przycisk "Select"**.
+Techniki zostaną dodane do projektu i pokazane na dolnej liście.
+
+{{< figure src="added.jpg" link="added.jpg" caption="Dodane techniki filmowe." class="docs-img" >}}
 
 ## Wypełnianie parametrów {#params}
 
-Pojawi się okno, w którym należy wypełnić potrzebne parametry. Każda technika ma inny zestaw parametrów.
+Każdą technikę filmową można dowolnie zmieniać w następujący sposób:
+- wybierać utwory, których używa.
+- zmieniać parametry.
 
-{{< figure src="details.jpg" link="details.jpg" caption="Rys. 3 - Okno z parametrami." class="docs-img" >}}
+Aby to zrobić, należy zaznaczyć daną technikę z listy. Inspektor wyświetli szczegóły danej techniki. Każda technika ma inny zestaw parametrów.
 
 Parametry oznaczone jako **(required)** są wymagane i nie mogą pozostać puste.
 
-Aby wybrać utwór i przypisać go do parametru, można wybrać go z listy lub kliknąć na ikonę katalogu i wybrać plik z dysku.
+Aby wybrać utwór, należy kliknąć na przycisk "Select track..." i wybrać go z listy utworów dodanych do projektu.
 
-Gdy wszystkie potrzebne parametry zostaną ustawione, będzie można nacisnąć **przycisk "Create"** i dodać technikę do kompozycji.
+{{< figure src="selecting_tracks.jpg" link="selecting_tracks.jpg" caption="Wybór utworu." class="docs-img" >}}
 
-## Używanie przykładów {#samples}
+## Używanie techniki filmowych {#using}
 
-Jeśli chcemy tylko sprawdzić, jak działa i brzmi dana technika, możemy skorzystać z gotowych przykładów.
+Techniki filmowe można użyć z poziomu widoku Teraz Odtwarzane. Znajdują się w prawej kolumnie. Wystarczy nacisnąć przycisk danej techniki i zostanie ona uruchomiona.
 
-Aby to zrobić, należy nacisnąć **przycisk "Use samples..."**. Pojawi się podręczne menu, z którego możemy wybrać jeden z kilku przykładów. Każda technika ma co najmniej jeden gotowy przykład. 
+{{< figure src="ready.jpg" caption="Gotowe techniki filmowe." class="docs-img" >}}
 
-{{< figure src="sample_button.jpg" link="sample_button.jpg" caption="Rys. 4 - Przycisk z przykładami." class="docs-img" >}}
+Nie wszystkie techniki można ze sobą mieszać. Przyciski niektórych techniki mogą być nieaktywne z tego powodu.
 
-Po wybraniu przykładu wszystkie parametry zostaną uzupełnione automatycznie. Wystarczy kliknąć przycisk "Create", aby dodać technikę do kompozycji.
-
-## Używanie techniki z list odtwarzania {#using}
-
-Jeśli pole wyboru **"Add to active playlist"** jest zaznaczone, utworzona technika zostanie automatycznie dodana do ostatnio widocznych list odtwarzania. W przeciwnym razie należy to zrobić ręcznie, poprzez przeciągnięcie nowo dodanych encji z widoku kompozycji.
-
-Poniżej przykład użycia techniki "Slowmo" i dodania jej do list odtwarzania, zarówno do głównej listy jak i do listy efektów dźwiękowych.
-
-{{< figure src="created.jpg" link="created.jpg" caption="Rys. 5 - Technika gotowa do użycia." class="docs-img" >}}
-
-Techniki filmowe automatycznie ustawiają następujące rzeczy:
-- dodają niezbędne elementy do kompozycji (utwory, zdarzenia, itp.).
-- tworzą połączenia w edytorze (żebyś ty nie musiał).
-- tworzą zdarzenia lub miksy, których można wygodnie używać jednym kliknięciem.
-- dodają potrzebne rzeczy do list odtwarzania.
-
-Aby użyć danej techniki, należy albo **wyzwolić zdarzenia**, albo odtworzyć **miks**. Zdarzenia wyzwala się przyciskiem **"Trigger"**, a miksy uruchamia się tak samo jak zwykłe utwory. 
-
-Każde zdarzenie i miks mają odpowiednie nazwy, aby można było rozpoznać ich funkcję.
+Niektóre techniki mają też określony czas aktywacji / dezaktywacji, co jest odzwierciedlone za pomocą paska postępu na przycisku danej techniki.
 
 ## Dalsze kroki
 
 Techniki filmowe automatycznie ustawiają wiele rzeczy w edytorze. W dowolnej chwili można przełączyć się na widok edytora i zobaczyć, jak dana technika została w nim skomponowana.
 
-Na ich przykładzie można zrozumieć działanie edytora i tworzyć własne techniki. Ogranicza nas tylko nasza wyobraźnia!... I drobne ograniczenia techniczne 😉.
+Na ich przykładzie można zrozumieć działanie edytora i tworzyć własne techniki i wyzwalać je za pomocą zdarzeń. Ogranicza nas tylko nasza wyobraźnia!... I drobne ograniczenia techniczne 😉.
 
 # Masz pytania?
 

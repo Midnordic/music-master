@@ -21,7 +21,7 @@ Dostępne zdarzenia:
 
 ## Event (zwykłe zdarzenie)
 
-{{< figure src="event_triggerable.jpg" caption="Rys. 1 – zwykłe zdarzenie." class="docs-img" >}}
+{{< figure src="event_triggerable.jpg" caption="Zwykłe zdarzenie." class="docs-img" >}}
 
 - Zdarzenie to aktywuje się **ręcznie**. 
 - Można je aktywować z poziomu edytora lub listy odwtarzania, używając przycisku "trigger".
@@ -30,7 +30,7 @@ Dostępne zdarzenia:
 
 ## Timer Event (zdarzenie czasowe)
 
-{{< figure src="event_timer.jpg" caption="Rys. 2 – zdarzenie czasowe." class="docs-img" >}}
+{{< figure src="event_timer.jpg" caption="Zdarzenie czasowe." class="docs-img" >}}
 
 - Zdarzenie uruchamia się **cyklicznie** co jakiś czas.
 - **Min** - określa minimalną ilość sekund, którą trzeba odczekać.
@@ -46,11 +46,11 @@ Czas aktywacji jest losowany pomiędzy wartościami Min i Max. Jeśli chcemy, ab
 Zdarzenie zawsze zaczyna jako wyłączone, nawet po wczytaniu kompozycji. Dlatego za każdym razem trzeba włączać je ręcznie, poprzez np. włączenie go za pomocą węzła Enable. Jest to celowe działanie, mające na celu zapobiegnięcie sytuacji, kiedy po wczytaniu kompozycji zdarzenie czasowe niespodziewanie się aktywuje.
 {{< /tip >}}
 
-{{< figure src="timer_activate.jpg" caption="Rys. 3 – Włączenie zdarzenia czasowego." class="docs-img" >}}
+{{< figure src="timer_activate.jpg" caption="Włączenie zdarzenia czasowego." class="docs-img" >}}
 
 ## Stop All Tracks Event (zdarzenie zatrzymujące wszystkie utwory)
 
-{{< figure src="event_stopall.jpg" caption="Rys. 4 – Zdarzenie zatrzymujące wszystkie utwory." class="docs-img" >}}
+{{< figure src="event_stopall.jpg" caption="Zdarzenie zatrzymujące wszystkie utwory." class="docs-img" >}}
 
 - Zdarzenie to aktywuje się **ręcznie** lub za pomocą węzła wejściowego.
 - **Stop All (węzeł wejściowy)** - zatrzymuje wszystkie grające w danym momencie utwory.
@@ -65,7 +65,7 @@ Co do zasady - **jeśli węzły innych elementów mają ten sam kolor (np. róż
 
 Dzięki temu można tworzyć przeróżne kombinacje!
 
-{{< figure src="trigger_example.jpg" caption="Rys. 5 – Połączenie pomiędzy węzłem zdarzenia a węzłem utworu." class="docs-img" >}}
+{{< figure src="trigger_example.jpg" caption="Połączenie pomiędzy węzłem zdarzenia a węzłem utworu." class="docs-img" >}}
 
 ## Przykłady
 

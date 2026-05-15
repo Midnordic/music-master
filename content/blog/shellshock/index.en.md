@@ -34,21 +34,21 @@ It's a simple trick that turns an ordinary action scene into a cinematic experie
 
 1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
 1. Choose the **“Shellshock Effect”** technique by clicking the **“Select”** button.  
-{{< figure src="effect.jpg" caption="Fig. 1 – Shellshock Effect." class="blog-post-section-img" target="_blank" >}}
+{{< figure src="effect.jpg" caption="Shellshock Effect." class="blog-post-section-img" target="_blank" >}}
 1. In the next window, fill in the following fields:  
    1. **Backdrop track (required)** – the track playing in the background during the entire scene. It will be muffled during the effect.  
    1. **Explosion track (required)** – a short sound effect that triggers the transformation. Usually an explosion sound.  
    1. **Noise track (required)** – a longer sound effect played while the muffling is active. Usually a ringing-in-the-ears sound.  
 1. (Optional) If you don’t have suitable tracks, click **“Use Samples”** and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
 1. Click the **“Create”** button.  
-1. You will be taken to the Composition view. It should look like this:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 – Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. You will be taken to the Project view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Effect in the Project view." class="blog-post-section-img" target="_blank" >}}
 1. Now trigger the event **“Shellshock #1 - Play Backdrop”** by pressing the **“Trigger”** button. The background track will start playing.  
 1. At the right moment, trigger the second event **“Shellshock #1 - Play Explosion”**.  
    The explosion sound will play, followed by the ringing noise, during which the background track will be muffled.  
 1. When the ringing sound ends, everything will return to normal.  
 1. This is how it looks in the editor:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 – Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+{{< figure src="editor.jpg" link="editor.jpg" caption="Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
 1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
 
 ## Ready when you are

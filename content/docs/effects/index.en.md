@@ -22,7 +22,7 @@ Available sound effect types:
 - **Old Radio** – gives the sound an old radio or walkie-talkie tone.  
 - **Muffle** – softens the sound by reducing high frequencies.  
 
-{{< figure src="mixer.jpg" caption="Fig. 1 – Sound Effect Mixer." class="docs-img" >}}
+{{< figure src="mixer.jpg" caption="Sound Effect Mixer." class="docs-img" >}}
 
 ## How does the Effect Mixer work?
 
@@ -36,7 +36,7 @@ To use the mixer, add it to the editor, choose your desired effects, set their p
 - **Enable (input slot)** – activates the mixer.  
 - **Disable (input slot)** – deactivates the mixer.  
 
-{{< figure src="mixer_track.jpg" caption="Fig. 2 – Mixer connected to a track." class="docs-img" >}}
+{{< figure src="mixer_track.jpg" caption="Mixer connected to a track." class="docs-img" >}}
 
 ## Examples
 

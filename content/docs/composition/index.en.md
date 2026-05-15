@@ -1,56 +1,72 @@
 ﻿---
-title: "Composition"
+title: "Project"
 icon: "🧩"
-description: "Explanation of what a composition is and how to add tracks."
+description: "Explanation of what a project is and how to add tracks."
 weight: 80
 ---
 
-A composition consists of all the elements: tracks, events, playlists, controllers, and the connections between them. It’s simply the complete unit you’re currently working on.
+A project consists of all elements: tracks, events, playlists, soundboards, and cinematic techniques. It’s the complete unit you’re currently working on.
 
-In the composition view (left side), you can see the main elements added to the composition, which can later be moved into playlists (right side). These are mainly tracks and events.
+## Media (left column)
 
-{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Fig. 1 - Composition and filled playlists." class="docs-img" >}}
+The left column contains two tabs:
+* **Tracks**: all tracks added to the project.
+* **Events**: events created automatically by cinematic techniques or created manually in the editor.
+
+Tracks and events can be added to playlists.
+
+## Playlists and Cinematic Techniques (middle column)
+
+The middle column is split into two parts:
+* **Playlists & Soundboards**: the top part contains playlists and soundboards. This is where you set up your playlists and add sound effects for quick access during a session.
+* **Cinematiques**: the bottom part contains the list of cinematic techniques added to the project.
+
+## Inspector (right column)
+
+The right column is the **Inspector**, where properties of the selected items are displayed. You can edit properties of tracks and cinematic techniques there.
+
+{{< figure src="project_view_full.jpg" link="project_view_full.jpg" target="_blank" caption="Example project." class="docs-img" >}}
 
 ## Adding tracks {#adding-tracks}
 
-To add a track to the composition, click the main menu button (top-left corner). After menu expands, select "Add tracks..." or "Add folder..." options. Then select the appropriate files or folders you want to add.
+To add tracks to the project:
+1. In the left column, click **Import** (the large plus icon) and choose **"Import files..."** or **"Import folder..."** from the dropdown menu.
+1. Select the files or folders you want to add.
+1. After confirming, supported audio files will be added to the project tree.
 
-{{< figure src="add_tracks.jpg" caption="Fig. 2 - Main menu." class="docs-img" >}}
-
-{{< tip icon="ok" title="Hint" >}}
-You can also add any track or entire folder by clicking and dragging it into the application window.
-{{< /tip >}}
+{{< figure src="add_tracks.jpg" caption="Import menu" class="docs-img" >}}
 
 Supported audio file formats:
 - .wav  
 - .mp3  
 - .ogg  
 
-{{< tip icon="question" title="Watch out!" >}}
-The same audio file can be added multiple times to the same composition. To avoid confusion, it’s best to rename such tracks after adding them. Simply double-click (or right-click once) the track’s name and enter a new one.
+{{< tip icon="ok" title="Hint" >}}
+You can also add a track or an entire folder by dragging it directly into the application window.
 {{< /tip >}}
 
 ## Removing tracks {#removing-tracks}
 
-To remove a track from the composition, click the "trash" icon located to its right.
-
-{{< figure src="delete_track.jpg" caption="Fig. 3 - Deleting a track." class="docs-img" >}}
+To remove tracks from the project, select them and click the **trash** icon.
 
 {{< tip icon="shock" title="Oops!" >}}
-Removing a track from the composition will also remove it from all other places — playlists, the editor, and playback. All connections to and from that element will be lost.
+Removing a track from the project tree will remove it from everywhere — playlists, soundboards, and cinematic techniques. All connections created in the editor to and from that element will be lost.
 {{< /tip >}}
 
-## Saving and loading Compositions {#saving}
+## Saving and loading projects {#saving}
 
-Each composition can be saved to a file (with the .mm extension) and later reloaded from it.
+Each project can be saved to a file (with the `.mm` extension) and later loaded again.
 
-Use the main menu on the top-left to:
-- **"New Composition..."** -> create new (clear) the composition
-- **"Save Composition..."** -> save the composition to a file  
-- **"Load Composition..."** -> load the composition from a file  
+{{< figure src="main_menu.jpg" caption="Main menu" class="docs-img" >}}
+
+Using the main menu (top-left corner), you can:
+- **"New Project..."**: create a new empty project.
+- **"Save Project..."**: save the project to a file.
+- **"Load Project..."**: load the project from a file.
+- **"Load Autosave"**: load the auto-saved project.
 
 {{< tip icon="question" title="Watch out!" >}}
-The file stores relative paths to the audio files. This means that if you move any track to a different folder, the composition containing it will not load correctly. To avoid this issue, it’s best to save the composition in the same folder as your audio files.
+The file stores relative paths to audio files. This means that if you move a track to a different folder, the project containing it will not load correctly. To avoid problems, it’s best to save the project in the same folder as your audio files.
 {{< /tip >}}
 
 # Have questions?

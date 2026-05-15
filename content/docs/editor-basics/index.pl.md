@@ -9,21 +9,19 @@ weight: 40
 
 Choć z podstawowych funkcji można korzystać bez niego, to warto dobrze poznać edytor, aby w pełni wykorzystać zaawansowane możliwości aplikacji.
 
-Wszystkie wpisy na **[blogu](blog/)** opierają się na właściwym użyciu edytora.
-
 ## Widok edytora
 
 Aby otworzyć widok edytora, kliknij **ikonę edytora** w menu bocznym.
 
-{{< figure src="editor_icon.png" caption="Rys. 1 - Ikona edytora." class="docs-img-icon" >}}
+{{< figure src="editor_icon.png" caption="Ikona edytora." class="docs-img-icon" >}}
 
 Edytor można wyobrazić sobie jako „płótno”, na którym dodajesz różne elementy kompozycji i łączysz je ze sobą. Jeśli kompozycja jest pusta, edytor nie zawiera żadnych elementów.
 
-{{< figure src="editor_view.jpg" link="editor_view.jpg" target="_blank" caption="Rys. 2 - Widok edytora." class="docs-img" >}}
+{{< figure src="editor_view.jpg" link="editor_view.jpg" target="_blank" caption="Widok edytora." class="docs-img" >}}
 
 Na górnej krawędzi edytora znajduje się **górne menu**.
 
-{{< figure src="editor_menu.jpg" caption="Rys. 3 - Górne menu edytora." class="docs-img" >}}
+{{< figure src="editor_menu.jpg" caption="Górne menu edytora." class="docs-img" >}}
 
 Za pomocą górnego menu możesz (w kolejności):
 - zmniejszyć przybliżenie  
@@ -41,7 +39,7 @@ Elementy dodaje się za pomocą menu podręcznego. Aby je wywołać:
 - **Komputer:** kliknij prawym przyciskiem myszy w wolnym miejscu edytora.  
 - **Tablet:** dotknij pustego miejsca w edytorze i przytrzymaj przez chwilę.  
 
-{{< figure src="popup_menu.jpg" caption="Rys. 4 - Menu podręczne." class="docs-img" >}}
+{{< figure src="popup_menu.jpg" caption="Menu podręczne." class="docs-img" >}}
 
 Z menu podręcznego wybierz element, który chcesz dodać do edytora.  
 Element pojawi się w miejscu wywołania menu, ale można go łatwo przenieść w inne miejsce.
@@ -52,13 +50,13 @@ Aby dodać utwór (lub cały folder), wybierz z menu podręcznego opcję **„Ad
 
 Pojawi się okno wyboru plików. Wybierz pliki (lub foldery), które chcesz dodać do edytora. Po zatwierdzeniu utwory zostaną przetworzone i dodane obok siebie.
 
-{{< figure src="tracks_added.jpg" caption="Rys. 5 - Utwory dodane do edytora." class="docs-img" >}}
+{{< figure src="tracks_added.jpg" caption="Utwory dodane do edytora." class="docs-img" >}}
 
 ## Zaznaczanie i przesuwanie elementów
 
 Aby przesunąć element w edytorze, najpierw zaznacz go, klikając na niego. Górny pasek elementu zmieni kolor na jaśniejszy.
 
-{{< figure src="selected_element.jpg" caption="Rys. 6 - Zaznaczony element (z lewej) i niezaznaczony (z prawej)." class="docs-img" >}}
+{{< figure src="selected_element.jpg" caption="Zaznaczony element (z lewej) i niezaznaczony (z prawej)." class="docs-img" >}}
 
 Następnie możesz swobodnie przesuwać element po całym płótnie edytora.  
 Kliknij i przytrzymaj lewy przycisk myszy, przeciągnij element w wybrane miejsce, a następnie puść przycisk.
@@ -69,7 +67,7 @@ Każdy element w edytorze posiada **sloty**, które można łączyć z innymi sl
 
 Aby **utworzyć połączenie** między dwoma slotami, kliknij pierwszy slot (duża kropka), przytrzymaj przycisk myszy, przeciągnij do drugiego slotu w innym elemencie i puść przycisk. Spowoduje to utworzenie połączenia między nimi.
 
-{{< figure src="connections.jpg" caption="Rys. 7 - Połączenie pomiędzy dwoma utworami." class="docs-img" >}}
+{{< figure src="connections.jpg" caption="Połączenie pomiędzy dwoma utworami." class="docs-img" >}}
 
 Aby **zerwać połączenie**, kliknij prawy slot połączenia, przeciągnij go lekko w bok i puść przycisk myszy.
 

@@ -20,7 +20,7 @@ Dostępne zdarzenia utworów:
 - **Loop / On Loop** — zapętlenie (moment przejścia z końca na początek)  
 - **Finish / On Finish** — zakończenie utworu  
 
-{{< figure src="events.jpg" caption="Rys. 1 – Zdarzenia przypisane do utworu." class="docs-img" >}}
+{{< figure src="events.jpg" caption="Zdarzenia przypisane do utworu." class="docs-img" >}}
 
 ## Jak działają zdarzenia utworu?
 
@@ -34,7 +34,7 @@ W ten sposób możesz projektować złożone reakcje – na przykład, by zakoń
 
 ## Przykład 1: zdarzenie utworu *Play / On Play*
 
-{{< figure src="play_example.jpg" caption="Rys. 2 – przykład użycia zdarzenia Play." class="docs-img" >}}
+{{< figure src="play_example.jpg" caption="Przykład użycia zdarzenia Play." class="docs-img" >}}
 
 W tym przykładzie połączyliśmy zdarzenia **Play** dwóch utworów.  
 
@@ -45,7 +45,7 @@ Ten z kolei jest połączony ze zdarzeniem **Play** drugiego utworu, co powoduje
 
 ## Przykład 2: zdarzenie utworu *Finish / On Finish*
 
-{{< figure src="finish_example.jpg" caption="Rys. 3 – Przykład użycia zdarzenia Finish." class="docs-img" >}}
+{{< figure src="finish_example.jpg" caption="Przykład użycia zdarzenia Finish." class="docs-img" >}}
 
 Tutaj połączyliśmy zdarzenie **Finish** pierwszego utworu (a konkretnie jego węzeł wyjściowy) ze zdarzeniem **Play** drugiego.  
 
@@ -59,7 +59,7 @@ Co do zasady - **jeśli węzły innych elementów mają ten sam kolor (np. róż
 
 Dzięki temu można tworzyć przeróżne kombinacje!
 
-{{< figure src="trigger_example.jpg" caption="Rys. 4 – Połączenie pomiędzy węzłem zdarzenia a węzłem wejściowym utworu." class="docs-img" >}}
+{{< figure src="trigger_example.jpg" caption="Połączenie pomiędzy węzłem zdarzenia a węzłem wejściowym utworu." class="docs-img" >}}
 
 # Masz pytania?
 

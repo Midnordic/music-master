@@ -5,34 +5,31 @@ description: "Blend multiple tracks into one cohesive experience."
 weight: 30
 ---
 
-Mixes are tracks composed of several other tracks. They are used to create various effects by layering audio tracks on top of each other. Each mix type was originally designed to support one of the cinematic techniques available in the app. However, mixes can also be used freely in your own creative ways.
+Mixes are tracks composed of several other tracks. They are used to create various effects by layering audio tracks on top of each other. Each mix type was created to support one of the cinematic techniques available in the app. However, mixes can also be used in your own creative ways.
 
-## Adding Mixes
+## Adding mixes
 
-Mixes can be added manually from the editor. From the **editor menu**, select one of the available mixes.
+Mixes can be added manually from the editor. From the **editor menu**, select one of the mixes to add.
 
-{{< figure src="popup_menu.jpg" caption="Fig. 1 - Editor menu." class="docs-img" >}}
+{{< figure src="popup_menu.jpg" caption="Editor menu." class="docs-img" >}}
 
-## Types of Mixes
+## Types of mixes
 
-There are three types of mixes you can experiment with:
-- Ambient Mix  
-- Crossfade Mix  
-- Creeping Dread Mix  
+There are two types of mixes you can experiment with:
+- Ambient Mix (*Ambient Mix*)
+- Crossfade Mix (*Crossfade Mix*)
 
-{{< figure src="mixes_all.jpg" link="mixes_all.jpg" caption="Fig. 2 - All mix types." class="docs-img" >}}
-
-All mixes share some common features:
-- mix name (editable in the editor or Composition view)
-- playback buttons (visible in the editor and main playlist)
+Each mix shares some common features:
+- mix name (editable in the editor or Project view)
+- playback buttons (visible in the editor and the main playlist)
 - volume, speed, and stereo position controls
 - ability to attach sound effects (*Output*)
 - *Play, Pause, Resume, Stop* events
-- “Add Track” button for adding tracks (editor view only)
+- **Add Track** button for adding tracks (editor view only)
 
 ## Ambient Mix
 
-The Ambient Mix is designed for creating **soundscapes** — layered sets of sounds that simulate a specific environment.  
+The Ambient Mix is designed for creating **soundscapes** — layered sets of sounds that simulate a specific environment.
 
 For example, to recreate the interior of a tavern, you might combine the sound of conversations, clinking mugs, and muffled rain outside the window. All of these should play simultaneously.
 
@@ -40,88 +37,57 @@ The Ambient Mix allows you to play multiple tracks at once and easily manage the
 
 ### Presets
 
-This mix allows you to define **presets**, which you can switch between with a single click.  
-This means you can store multiple soundscapes inside one mix — simply configure each as a separate preset and switch between them during playback.
+This mix allows you to define presets, which you can switch between with a single click. This way, you can keep multiple soundscapes in a single mix — configure each as a separate preset and switch between them during playback.
 
-A preset remembers:
-- volume levels of all attached tracks  
-- the mix’s own parameters (volume, speed, position)
+A preset remembers the volume level of each attached track and the mix’s own parameters (volume, speed, position).
 
-To **rename** a preset, click the ✏️ button and enter a new name.  
-To **save** a preset, click the 💾 button.  
+To **rename** a preset, click the ✏️ button and enter a new name.
 
-To adjust the transition time between presets, set the value in the **“Transition duration”** field (in seconds).
+To **save** a preset, click the 💾 button.
 
-{{< tip icon="ok" title="Hint" >}}
-Don’t forget to save the preset after adjusting track volumes!
+To change the transition time between presets, set the value in the **Transition duration** field (in seconds).
+
+{{< tip icon="shock" title="Oops!" >}}
+Don’t forget to save the preset after adjusting track volumes.
 {{< /tip >}}
 
-{{< figure src="mix_ambient_editor.jpg" link="mix_ambient_editor.jpg" caption="Fig. 3 - Ambient mix with attached tracks." class="docs-img" >}}
+{{< figure src="mix_ambient_editor.jpg" link="mix_ambient_editor.jpg" caption="Ambient mix with attached tracks." class="docs-img" >}}
 
-### Now Playing View
+### Now Playing view
 
 When the mix is playing, it looks like this:
 
-{{< figure src="mix_ambient_playing.jpg" link="mix_ambient_playing.jpg" caption="Fig. 4 - Ambient mix during playback." class="docs-img" >}}
+{{< figure src="mix_ambient_playing.jpg" link="mix_ambient_playing.jpg" caption="Ambient mix during playback." class="docs-img" >}}
 
 From this view, you have access to all mix features except changing attached tracks — that can only be done in the editor.
 
 ## Crossfade Mix
 
-The Crossfade Mix allows smooth transitions between tracks during playback.  
-The selected track’s volume gradually increases while the others fade out, creating a seamless crossfade effect.
+The Crossfade Mix allows smooth transitions between tracks during playback. The selected track’s volume gradually increases while the others fade out, creating a seamless crossfade effect.
 
-{{< figure src="mix_crossfade_editor.jpg" link="mix_crossfade_editor.jpg" caption="Fig. 5 - Crossfade mix with attached tracks." class="docs-img" >}}
+{{< figure src="mix_crossfade_editor.jpg" link="mix_crossfade_editor.jpg" caption="Crossfade mix with attached tracks." class="docs-img" >}}
 
-### Transition Time and Buttons
+### Transition time and buttons
 
 The mix includes a **transition duration** parameter, which determines how many seconds the smooth transition takes.
 
 Each attached track has a **transition button**, which raises the volume of the selected track and fades out the others.
 
-### Now Playing View
+### Now Playing view
 
 When the mix is playing, it looks like this:
 
-{{< figure src="mix_crossfade_playing.jpg" link="mix_crossfade_playing.jpg" caption="Fig. 6 - Crossfade mix during playback." class="docs-img" >}}
+{{< figure src="mix_crossfade_playing.jpg" link="mix_crossfade_playing.jpg" caption="Crossfade mix during playback." class="docs-img" >}}
 
-From this view, you have access to all mix features except modifying attached tracks — that is only possible in the editor.
+From this view, you have access to all mix features except modifying attached tracks — that can only be done in the editor.
 
-## Creeping Dread Mix
-
-The Creeping Dread Mix was created to support the *Creeping Dread* cinematic effect.  
-It transforms a familiar track into something unsettling by:
-- slowing down the main track  
-- layering a second, disturbing audio track on top  
-
-{{< tip icon="ok" title="Hint" >}}
-This mix supports only two tracks.
-{{< /tip >}}
-
-{{< figure src="mix_dread_editor.jpg" link="mix_dread_editor.jpg" caption="Fig. 7 - Creeping Dread mix with attached tracks." class="docs-img" >}}
-
-### Transition Time and Controls
-
-The mix includes a **transition duration** parameter, which determines how long the full transformation takes.
-
-To **start the transformation**, press the **“Activate”** button.  
-To **reverse the transformation**, press the **“Deactivate”** button.
-
-### Now Playing View
-
-When the mix is playing, it looks like this:
-
-{{< figure src="mix_dread_playing.jpg" link="mix_dread_playing.jpg" caption="Fig. 8 - Creeping Dread mix during playback." class="docs-img" >}}
-
-From this view, you can access all mix features except modifying attached tracks — that can only be done in the editor.
-
-## Sound Effects
+## Sound effects
 
 You can attach an effects mixer to any mix.
 
-From the editor, create an effects mixer and connect it to the mix’s **“Output”**. Then you can add sound effects to the mixer.
+From the editor, create an effects mixer and connect it to the mix’s **Output**. Then you can add sound effects to the mixer.
 
-{{< figure src="effects.jpg" link="effects.jpg" caption="Fig. 9 - Mix with attached effects mixer." class="docs-img" >}}
+{{< figure src="effects.jpg" link="effects.jpg" caption="Mix with attached sound effects mixer." class="docs-img" >}}
 
 # Have Questions?
 

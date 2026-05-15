@@ -9,6 +9,7 @@ Utwór można odegrać na wiele sposobów:
 - z głównej listy odtwarzania
 - z listy efektów dźwiękowych
 - za pomocą zdarzeń
+- z widoku projektu
 - z widoku edytora
 - z widoku odtwarzanych utworów
 
@@ -45,33 +46,33 @@ Utwory znajdujące się na liście odtwarzania mają przyciski, służące rozpo
 
 Przycisk zapauzowania pojawia się gdy utwór jest odgrywany.
 
-{{< figure src="playlist_buttons.jpg" caption="Rys. 1 - Przycisk odgrywania z listy odtwarzania." class="docs-img" >}}
+{{< figure src="playlist_buttons.jpg" caption="Przycisk odgrywania z listy odtwarzania." class="docs-img" >}}
 
 ## Odgrywanie utworów z listy efektów dźwiękowych (tryb warstwowy) {#sfx}
 
 Utwory znajdujące się na liście efektów dźwiękowych przybierają formę przycisków z symbolami. Aby odtworzyć dany utwór, należy nacisnąć odpowiadający mu przycisk.
 
-{{< figure src="playlist_buttons2.jpg" caption="Rys. 2 - Przyciski odtwarzania z listy efektów dźwiękowych." class="docs-img" >}}
+{{< figure src="playlist_buttons2.jpg" caption="Przyciski odtwarzania z listy efektów dźwiękowych." class="docs-img" >}}
 
 ## Odgrywanie utworów za pomocą zdarzeń (tryb pojedyńczy) {#events}
 
-Zdarzenia można dodawać zarówno do głównych listy odtwarzania, jak i do list efektów dźwiękowych.
+Zdarzenia można dodawać tylko do list efektów dźwiękowych.
 
-Jeśli zdarzenie zostanie dodane do głównej listy, zawiera ono przycisk **"Trigger"**, dzięki któremu można dane zdarzenie wywołać. Jeśli dane zdarzenie ma za zadanie uruchomić utwór, to zostanie on odtworzony. 
-
-{{< figure src="playlist_buttons3.jpg" caption="Rys. 3 - Przycisk zdarzenia w głównej liście odtwarzania." class="docs-img" >}}
+Jeśli zdarzenie zostanie dodane do listy:
+* w widoku Projektu zawiera ono przycisk **"Trigger"**, dzięki któremu można dane zdarzenie wywołać.
+* w widoku Odtwarzanych Utworów wygląda jak przycisk, po naciśnięciu którego zdarzenie zostanie wywołane.
 
 ## Odgrywanie utworów z widoku edytora (tryb pojedyńczy)
 
 Każdy utwór można odnaleźć w edytorze. Jest on reprezentowany przez węzeł (bloczek). Wystarczy kliknąć na ikonę "Play" danego węzła, aby odtworzyć dany utwór w trybie pojedyńczym.
 
-{{< figure src="editor_buttons.jpg" caption="Rys. 4 - Przyciski odtwarzania z węzła w edytorze." class="docs-img" >}}
+{{< figure src="editor_buttons.jpg" caption="Przyciski odtwarzania z węzła w edytorze." class="docs-img" >}}
 
 ## Odgrywanie utworów z widoku "Odtwarzane Utwory" {#nowplaying}
 
 W widoku "Odtwarzane Utwory" znajdują się wszystkie aktualnie odgrywane utwory. Przy każdym z nich znajdują się przyciski służące do kontroli nad utworem, w taki sam sposób jak na liście odtwarzania.
 
-{{< figure src="nowplaying_buttons.jpg" caption="Rys. 5 - Utwór w widoku 'Odtwarzane Utwory'." class="docs-img" >}}
+{{< figure src="nowplaying_buttons.jpg" caption="Utwór w widoku 'Odtwarzane Utwory'." class="docs-img" >}}
 
 ## Manipulowanie wszystkimi odgrywanymi utworami {#nowplaying2}
 
@@ -80,7 +81,7 @@ Na górze widoku "Odtwarzane Utwory" znajdują się również przyciski służą
 - zapauzować wszystkie utwory
 - zatrzymać wszystkie utwory
 
-{{< figure src="nowplaying_buttons_global.jpg" caption="Rys. 6 - Przyciski do manipulacji wszystkimi utworami." class="docs-img" >}}
+{{< figure src="nowplaying_buttons_global.jpg" caption="Przyciski do manipulacji wszystkimi utworami." class="docs-img" >}}
 
 Przyciski te są przydatne gdy użytkownik chce zatrzymać wszystko na raz, bez klikania w poszczególne utwory.
 
@@ -90,15 +91,12 @@ Poniższe parametry utworu można zmieniać w trakcie odtwarzania.
 - głośność (0 - 100%)
 - prędkość (0.1 - 2.0x)
 - pozycja (tylko lewy głośnik - oba głośniki - tylko prawy głośnik)
-Przyciski ze strzałkami służą do powracania do wartości domyślnych.
-
+- zapętlenie (0 nieskończoność - 100x)
 {{< tip icon="ok" title="Wskazówka" >}}
 Zmiana prędkości zmienia również wysokość dźwięku. Aby zmienić samą prędkość, bez zmiany wysokości dźwięku, trzeba użyć efektów dźwiękowych.
 {{< /tip >}}
 
-Można również zapętlić utwór. Aby to zrobić, trzeba zaznaczyć pole wyboru "Loop". Można ustawić ilość powtórzeń w zakresie 0 (nieskończoność) - 100x. 
-
-{{< figure src="track_params.jpg" caption="Rys. 7 - Parametry utworu." class="docs-img" >}}
+{{< figure src="track_params.jpg" caption="Parametry utworu." class="docs-img" >}}
 
 # Masz pytania?
 

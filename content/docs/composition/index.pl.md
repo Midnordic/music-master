@@ -1,53 +1,66 @@
 ﻿---
-title: "Kompozycja"
+title: "Projekt"
 icon: "🧩"
-description: "Wyjaśnienie czym jest kompozycja i jak dodawać utwory."
+description: "Wyjaśnienie czym jest projekt i jak dodawać utwory."
 weight: 80
 ---
+Projekt składa się ze wszystkich elementów: utworów, zdarzeń, list odtwarzania, soundboardów oraz technik filmowych. Jest to pewna całość, nad którą aktualnie pracujesz.
 
-Kompozycja składa się ze wszystkich elementów: utworów, zdarzeń, list odtwarzania, sterowników oraz połączeń między nimi. Jest to po prostu całość, nad którą aktualnie pracujesz.
+## Media (lewa kolumna)
 
-W widoku kompozycji (lewa strona) widoczne są główne elementy dodane do kompozycji, które można później przenosić do list odtwarzania (prawa strona). Są to przede wszystkim utwory i zdarzenia.
+Lewa kolumna zawiera dwie zakładki:
+* **Tracks**: znajdują się tutaj wszystkie utwory dodane do projektu.
+* **Events**: znajdują się tutaj zdarzenia utworzone automatycznie przez techniki filmowe lub za stworzone ręcznie za pomocą edytora.
 
-{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Rys. 1 - Kompozycja i wypełnione listy odtwarzania." class="docs-img" >}}
+Utwory i zdarzenia można dodawać do list odtwarzania.
 
-## Dodawanie utworów {#adding-tracks}
+## Listy Odtwarzania i Techniki Filmowe (środkowa kolumna)
+Środkowa kolumna jest podzielona na dwie części:
+* **Playlists & Soundboards**: górna część zawiera listy odtwarzania oraz soundboardy. To właśnie tutaj ustawiasz swoje playlisty oraz dodajesz efekty dźwiękowe do szybkiego odtwarzania w trakcie sesji.
+* **Cinematiques**: dolna część zawiera listę technik filmowych dodanych do projektu.
 
-Aby dodać utwór do kompozycji, kliknij przycisk menu głównego (lewy górny róg). Po rozwinięciu menu wybierz opcję „Add tracks...” lub „Add folder...”, a następnie wskaż odpowiednie pliki lub foldery.
+## Inspektor (prawa kolumna)
+Prawa kolumna to tzw. **Inspektor**, gdzie wyświetlane są właściwości zaznaczonych rzeczy. Można tam zmieniać właściwości utworów oraz technik filmowych.
 
-{{< figure src="add_tracks.jpg" caption="Rys. 2 - Menu główne." class="docs-img" >}}
+{{< figure src="project_view_full.jpg" link="project_view_full.jpg" target="_blank" caption="Przykładowy projekt." class="docs-img" >}}
 
-{{< tip icon="ok" title="Wskazówka" >}}
-Możesz również dodać utwór lub cały folder, przeciągając go bezpośrednio do okna aplikacji.
-{{< /tip >}}
+## Dodawanie utworów do projektu {#adding-tracks}
+
+Aby dodać utwór do Projektu:
+1. W lewej kolumnie naciśnij przycisk "Import" (ikona dużego plusa) i z menu rozwijanego wybierz "Import files..." lub "Import folder...".
+1. Wybierz pliki lub foldery, które chcesz dodać do projektu.
+1. Po zatwierdzeniu pliki w obsługiwanych formatach zostaną dodane do drzewka projektu.
+
+{{< figure src="add_tracks.jpg" caption="Menu importu" class="docs-img" >}}
 
 Obsługiwane formaty plików audio:
 - .wav  
 - .mp3  
 - .ogg  
 
-{{< tip icon="question" title="Uważaj!" >}}
-Ten sam plik audio można dodać wielokrotnie do tej samej kompozycji. Aby uniknąć pomyłek, warto zmienić nazwę takiego utworu po jego dodaniu. Wystarczy dwukrotnie kliknąć (lub kliknąć prawym przyciskiem myszy) nazwę utworu i wpisać nową.
+{{< tip icon="ok" title="Wskazówka" >}}
+Możesz również dodać utwór lub cały folder, przeciągając go bezpośrednio do okna aplikacji.
 {{< /tip >}}
 
-## Usuwanie utworów {#removing-tracks}
+## Usuwanie utworów z projektu {#removing-tracks}
 
-Aby usunąć utwór z kompozycji, kliknij ikonę „kosza” znajdującą się po jego prawej stronie.
-
-{{< figure src="delete_track.jpg" caption="Rys. 3 - Usuwanie utworu." class="docs-img" >}}
+Aby usunąć utwory z projektu, zaznacz je a następnie kliknij w ikonę „kosza”.
 
 {{< tip icon="shock" title="Ups!" >}}
-Usunięcie utworu z kompozycji spowoduje jego usunięcie ze wszystkich miejsc — list odtwarzania, edytora oraz odtwarzania. Wszystkie połączenia do i z tego elementu zostaną utracone.
+Usunięcie utworu z drzewka projektu spowoduje jego usunięcie ze wszystkich miejsc — list odtwarzania oraz technik filmowych. Wszystkie połączenia stworzone w edytorze do i z tego elementu zostaną utracone.
 {{< /tip >}}
 
-## Zapisywanie i wczytywanie kompozycji {#saving}
+## Zapisywanie i wczytywanie projektu {#saving}
 
-Każdą kompozycję można zapisać do pliku (z rozszerzeniem .mm), a następnie wczytać ponownie.
+Każdy projekt można zapisać do pliku (z rozszerzeniem .mm), a następnie wczytać ponownie.
+
+{{< figure src="main_menu.jpg" caption="Główne menu" class="docs-img" >}}
 
 Za pomocą menu głównego (lewy górny róg) możesz:
-- **"New Composition..."** -> utworzyć nową (wyczyścić) kompozycję 
-- **"Save Composition..."** -> zapisać kompozycję do pliku 
-- **"Load Composition..."** -> wczytać kompozycję z pliku
+- **"New Project..."**: utworzyć nowy pusty projekt.
+- **"Save Project..."**: zapisać projekt do pliku.
+- **"Load Project..."**: wczytać projekt z pliku.
+- **"Load Autosave"**: wczytać autozapisany projekt.
 
 {{< tip icon="question" title="Uważaj!" >}}
 W pliku zapisywane są ścieżki względne do plików audio. Oznacza to, że jeśli przeniesiesz utwór do innego folderu, kompozycja zawierająca ten utwór nie wczyta się poprawnie. Aby uniknąć problemów, najlepiej zapisywać kompozycję w tym samym folderze co pliki audio.

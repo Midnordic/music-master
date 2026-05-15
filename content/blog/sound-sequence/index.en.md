@@ -43,16 +43,16 @@ Use this technique for:
 
 1. From the main menu, select **"Create Cinematique..."**. The Cinematic Techniques Assistant window will appear.  
 1. Choose the **"Sound Sequence"** technique by clicking the **"Select"** button.  
-{{< figure src="effect.jpg" caption="Fig. 1 - Sound Sequence." class="blog-post-section-img" target="_blank" >}}
+{{< figure src="effect.jpg" caption="Sound Sequence." class="blog-post-section-img" target="_blank" >}}
 1. In the next window, fill in the all of the tracks you want. They will be played one after another. It is required to use at least two tracks.
 1. (Optional) If you don't have suitable tracks, click the **"Use Samples"** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
 1. Click the **"Create"** button.  
-1. You will be taken to the Composition view. It should look like this:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Fig. 2 - Effect in the Composition view." class="blog-post-section-img" target="_blank" >}}
+1. You will be taken to the Project view. It should look like this:  
+{{< figure src="ready.jpg" link="ready.jpg" caption="Effect in the Project view." class="blog-post-section-img" target="_blank" >}}
 1. Now trigger the event **"Sound Sequence #1 - Start Sequence"** by pressing the **"Trigger"** button.
 1. The sequence will start. After ending one track, the next one is played automatically.
 1. This is how it looks in the editor:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Fig. 3 - Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
+{{< figure src="editor.jpg" link="editor.jpg" caption="Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
 1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
 
 ## Ready when you are

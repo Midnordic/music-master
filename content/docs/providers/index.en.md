@@ -26,11 +26,11 @@ Controllers automatically manage a track’s parameters (such as volume or speed
 When a controller is connected to a track parameter, that parameter cannot be changed manually — it is controlled by the controller. The last manually set value is marked by a **vertical line** on the parameter’s slider. Some controllers (e.g. *Crossfade*) can adapt to manually set values — in that case, manual changes will still work as expected.
 {{< /tip >}}
 
-{{< figure src="connected_provider.jpg" caption="Fig. 1 – Controller connected to a track parameter." class="docs-img" >}}
+{{< figure src="connected_provider.jpg" caption="Controller connected to a track parameter." class="docs-img" >}}
 
 ## Fixed Value
 
-{{< figure src="provider_fixed.jpg" caption="Fig. 2 – Fixed Value controller." class="docs-img" >}}
+{{< figure src="provider_fixed.jpg" caption="Fixed Value controller." class="docs-img" >}}
 
 The **Fixed Value** controller allows quick switching between several predefined values.  
 Each row (index) defines a value and the time it takes to reach it.
@@ -43,7 +43,7 @@ This lets you quickly change volume or playback speed depending on the situation
 
 ## Randomizer
 
-{{< figure src="provider_randomizer.jpg" caption="Fig. 3 – Randomizer controller." class="docs-img" >}}
+{{< figure src="provider_randomizer.jpg" caption="Randomizer controller." class="docs-img" >}}
 
 The **Randomizer** controller generates random values within a defined range.  
 
@@ -59,7 +59,7 @@ The Randomizer is perfect for introducing subtle unpredictability — such as sl
 
 ## Crossfade
 
-{{< figure src="provider_crossfade.jpg" caption="Fig. 5 – Crossfade controller." class="docs-img" >}}
+{{< figure src="provider_crossfade.jpg" caption="Crossfade controller." class="docs-img" >}}
 
 The **Crossfade** controller enables smooth transitions between multiple **track groups**.  
 It has several output slots (A, B, C...), allowing transitions between sets of tracks.  

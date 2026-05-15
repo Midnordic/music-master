@@ -10,27 +10,27 @@ weight: 45
 
 Przycięty utwór będzie odtwarzał tylko tą część, która została wybrana.
 
-{{< tip icon="ok" title="Wskazówka" >}}
-Aby pociąć utwór na wiele różnych części, należy skopiować go kilkukrotnie i pociąć każdą kopię z osobna.
-{{< /tip >}}
-
 ## Jak przyciąć utwór?
 
-Przycinanie utworów możliwe jest z widoku edytora. Aby włączyć widok edytora, należy kilknąć w **ikonę edytora** z bocznego menu.
+Przycinanie utworów możliwe jest z:
+- widoku Projektu (Inspektor).
+- widoku Edytora.
 
-{{< figure src="editor_icon.png" caption="Rys. 1 - Ikona edytora." class="docs-img-icon" >}}
-
-Każdy dodany utwór wyświetla podgląd utworu. Przy nim znajdują się kontrolki początku i końca utworu.
+Każdy utwór wyświetla jego podgląd. Przy nim znajdują się kontrolki początku i końca utworu.
 
 Utwór można przyciąć na dwa sposoby:
 - Przeciągając **kolorowe kontrolki** znajdujące się na podglądzie utworu. Lewa kontrola oznacza początek, prawa koniec utworu.
 - Zmieniając wartość w kontrolkach **początku** (*start*) i **końca** (*end*) utworu. 
 
+{{< figure src="uncut.jpg" caption="Kontrolki." class="docs-img" >}}
+
 W obu przypadkach początek utworu musi być przed jego końcem.
 
 Przycięta część jest oznaczona innym kolorem na podglądzie utworu.
 
-{{< figure src="cutted_track.jpg" caption="Rys. 2 - Przycięty utwór." class="docs-img" >}}
+{{< figure src="cut.jpg" caption="Przycięty utwór." class="docs-img" >}}
+
+Podgląd utworu domyślnie jest pokazany w **trybie kompaktowym** (*compact*). Aby uzyskać lepszą rozdzielczość, należy odznaczyć przycisk "Compact" znajdujący się pod podglądem. Wtedy podgląd rozszerzy się i będziemy mogli wybrać miejsce rozpoczęcia i zakończenia z większą precyzją.
 
 # Masz pytania?
 

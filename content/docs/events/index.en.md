@@ -44,7 +44,7 @@ Available event types:
 The activation time is randomized between the Min and Max values. To make the event trigger at a fixed interval, set both values to the same number.
 
 {{< tip icon="question" title="Watch out!" >}}
-The event always starts disabled, even after loading a composition. You must enable it manually, for example, using the **Enable** slot. This is intentional to prevent time-based events from starting unexpectedly after loading a composition.
+The event always starts disabled, even after loading a project. You must enable it manually, for example, using the **Enable** slot. This is intentional to prevent time-based events from starting unexpectedly after loading a project.
 {{< /tip >}}
 
 {{< figure src="timer_activate.jpg" caption="Fig. 3 – Activating a timer event." class="docs-img" >}}

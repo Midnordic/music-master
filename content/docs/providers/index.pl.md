@@ -25,11 +25,11 @@ Sterowniki automatycznie kontrolują parametry utworu (takie jak głośność cz
 Jeśli sterownik jest połączony z parametrem utworu, nie można zmieniać tego parametru ręcznie — jest on wtedy kontrolowany przez sterownik. Ostatnia wartość ustawiona przez użytkownika jest oznaczona **pionową kreską** na pasku wartości danego parametru. Niektóre sterowniki (np. *Crossfade*) potrafią dostosować się do wartości ustawionej ręcznie — w takim przypadku zmiana parametru nadal przyniesie oczekiwany efekt.
 {{< /tip >}}
 
-{{< figure src="connected_provider.jpg" caption="Rys. 1 – Sterownik połączony z parametrem utworu." class="docs-img" >}}
+{{< figure src="connected_provider.jpg" caption="Sterownik połączony z parametrem utworu." class="docs-img" >}}
 
 ## Fixed Value
 
-{{< figure src="provider_fixed.jpg" caption="Rys. 2 – Sterownik Fixed Value." class="docs-img" >}}
+{{< figure src="provider_fixed.jpg" caption="Sterownik Fixed Value." class="docs-img" >}}
 
 Sterownik **Fixed Value** pozwala na szybkie przełączanie pomiędzy kilkoma zdefiniowanymi wartościami.  
 Każdy wiersz (indeks) określa wartość i czas, po którym dana wartość ma zostać osiągnięta.
@@ -42,7 +42,7 @@ Dzięki temu możesz szybko zmieniać poziom głośności lub prędkości w zale
 
 ## Randomizer
 
-{{< figure src="provider_randomizer.jpg" caption="Rys. 3 – Sterownik Randomizer." class="docs-img" >}}
+{{< figure src="provider_randomizer.jpg" caption="Sterownik Randomizer." class="docs-img" >}}
 
 Sterownik **Randomizer** losuje wartość z określonego zakresu.  
 
@@ -58,7 +58,7 @@ Randomizer świetnie nadaje się do wprowadzania nieprzewidywalnych zmian — np
 
 ## Crossfade
 
-{{< figure src="provider_crossfade.jpg" caption="Rys. 5 – Sterownik Crossfade." class="docs-img" >}}
+{{< figure src="provider_crossfade.jpg" caption="Sterownik Crossfade." class="docs-img" >}}
 
 Sterownik **Crossfade** umożliwia płynne przejścia między kilkoma **zestawami utworów**. Sterownik posiada wiele węzłów wyjściowych (A, B, C...), co pozwala tworzyć przejścia pomiędzy różnymi zestawami. Do każdego węzła wyjściowego można podłączyć więcej niż jeden utwór, tworząc "zestaw".
 

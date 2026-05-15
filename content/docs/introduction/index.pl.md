@@ -9,19 +9,19 @@ weight: 90
 
 Po uruchomieniu aplikacji pokazuje się główne okno programu.
 
-Zaraz po uruchomieniu programu zawsze wyświetlany jest widok kompozycji.
+Zaraz po uruchomieniu programu zawsze wyświetlany jest widok **Projektu**.
 
 Widok wyświetlany w tym oknie zależy od tego, co zostało wybrane z menu bocznego. Menu boczne znajdujące się przy lewej krawędzi okna i umożliwia przełączanie się pomiędzy poszczególnymi widokami.
 
-{{< figure src="main_window.jpg" link="main_window.jpg" target="_blank" caption="Rys. 1 - Widok kompozycji" class="docs-img" >}}
+{{< figure src="main_window.jpg" link="main_window.jpg" target="_blank" caption="Widok Projektu" class="docs-img" >}}
 
 ## Menu boczne
 Menu boczne umożliwia przełączanie pomiędzy następującymi widokami:
-- Kompozycja
+- Projekt
 - Odtwarzane Utwory
 - Edytor
-- Ustawienia
 - O programie
+- Ustawienia
 - Wyjście
 
 Wybranie ostatniej opcji (Wyjście) zamyka aplikację. Jeśli bieżąca kompozycja nie została zapisana, aplikacja zapyta, czy na pewno nie chcesz jej zapisać.

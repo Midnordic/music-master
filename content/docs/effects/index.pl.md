@@ -21,7 +21,7 @@ Dostępne rodzaje efektów dźwiękowych:
 - **Old Radio** – nadaje brzmienie starego radia lub krótkofalówki.  
 - **Muffle** – wytłumia wysokie częstotliwości, nadając dźwiękowi miękkości.  
 
-{{< figure src="mixer.jpg" caption="Rys. 1 – Mikser efektów dźwiękowych." class="docs-img" >}}
+{{< figure src="mixer.jpg" caption="Mikser efektów dźwiękowych." class="docs-img" >}}
 
 ## Jak działa mikser efektów dźwiękowych?
 
@@ -35,7 +35,7 @@ Aby skorzystać z miksera, dodaj go do edytora, wybierz efekty, ustaw ich parame
 - **Enable (węzeł wejściowy)** – aktywuje mikser.  
 - **Disable (węzeł wejściowy)** – dezaktywuje mikser.  
 
-{{< figure src="mixer_track.jpg" caption="Rys. 2 – Mikser połączony z utworem." class="docs-img" >}}
+{{< figure src="mixer_track.jpg" caption="Mikser połączony z utworem." class="docs-img" >}}
 
 ## Przykłady
 

@@ -7,104 +7,86 @@ weight: 70
 
 Playlists are used to categorize elements (tracks, events) according to the user’s needs.
 
-Each new composition contains at least two playlists to which elements can be added: the **main playlist** and the **sound effects playlist**.
+Each new project contains at least two playlists you can add elements to: the main playlist and a soundboard.
 
-## Types of Playlists {#kinds}
+## Types of playlists {#kinds}
 
 There are two types of playlists:
-- main (located in the upper part of the screen)
-- sound effects (located in the lower part of the screen)
+- main playlist (*playlist*)
+- soundboard (*soundboard*)
 
-{{< figure src="composition_view.jpg" link="composition_view.jpg" target="_blank" caption="Fig. 1 - Two types of playlists." class="docs-img" >}}
+{{< figure src="playlists.jpg" link="playlists.jpg" target="_blank" caption="Two types of playlists." class="docs-img" >}}
 
-### Main Playlist
+### Main playlist (*playlist*)
 
-The main playlist is designed to hold tracks that should be played in a specific order.
+The main playlist is designed to store songs that should be played in a specific order.
 
-Playback from the main playlist works similarly to other music players:
-- only one track from the main playlist can play at a time
+Playback from the main playlist works like in other music players:
+- only one track from the main playlist can play at the same time
 - tracks play one after another
 - you can enable playlist looping (*repeat*)
-- you can enable random order (*shuffle*)
-- you can disable automatic transition to the next track (*auto-advance*)
+- you can enable random track order (*shuffle*)
+- you can enable track transitions (*crossfade*)
+- you can disable automatically moving to the next track (*auto-play*)
 
-To play a track from the playlist, click the **“Play”** button located to its right.
+To play a track from the playlist, click the **Play** button on the right side of the track in the playlist.
 
-### Sound Effects Playlist
+### Soundboard (*soundboard*)
 
-The sound effects playlist is designed for quickly triggering short sound effects.
+A soundboard is designed for quickly triggering short sound effects.
 
-After adding a track or event to this playlist, it appears as a button with a symbol. You can choose the symbol from a list of available icons.
+Items in a soundboard can be assigned a symbol that will be displayed as a button in the player view.
 
-Playback from this playlist works differently:
+Playback from a soundboard works a bit differently:
 - any number of tracks can be played at the same time
-- tracks are played only when their button is clicked
+- tracks are played only when the button is clicked
 
-To play a track, simply click its corresponding button.
+To play a track from the list, click the **Play** button on the right side of the track in the playlist.
 
-## Creating a New Playlist {#new-list}
+## Creating a new playlist {#new-list}
 
-To create a new playlist (of any type), click the **plus icon** located to the right of the last playlist tab.
+To create a new playlist, click the plus icon. A menu will appear where you choose whether you want to create a regular playlist or a soundboard.
 
-{{< figure src="add_playlist_button.jpg" caption="Fig. 2 - Add new playlist button." class="docs-img" >}}
+{{< figure src="add_playlist_button.jpg" caption="Adding a new playlist." class="docs-img" >}}
 
-A new playlist will be created with a default name.
+The new playlist will be created with a default name that you can change later.
 
-## Renaming
+## Renaming a playlist
 
-To rename a playlist, click the **ellipsis icon** and select **“Rename playlist”** from the dropdown menu, then enter the new name.
-
-{{< figure src="rename_playlist.jpg" caption="Fig. 3 - Renaming a playlist." class="docs-img" >}}
+To rename a playlist, click the pencil icon and enter a new name.
 
 {{< tip icon="shock" title="Oops!" >}}
 Playlist names must be unique.
 {{< /tip >}}
 
-## Deleting
+## Deleting a playlist
 
-To delete a playlist, click the **ellipsis icon** and select **“Delete playlist.”** The playlist will be removed.
+To delete a playlist, click the trash icon. The playlist will be removed.
 
-{{< figure src="delete_playlist.jpg" caption="Fig. 4 - Deleting a playlist." class="docs-img" >}}
+## Copying (duplicating) a playlist
 
-## Duplicating
+You can copy a playlist along with all its elements. To do this, click the duplicate icon. The playlist will be copied, and its name will have “(copy)” appended at the end.
 
-You can duplicate a playlist along with all its elements.  
-To do this, click the **ellipsis icon** and select **“Duplicate playlist.”**  
-A copy of the playlist will be created with “(copy)” added to its name.
+## Adding tracks to a playlist
 
-You can remove this suffix by renaming the playlist.
+To add tracks to a playlist:
+1. Select the playlist you want to add tracks to.
+1. Select tracks in the Media column.
+1. Click the **Add to Playlist** button.
 
-{{< figure src="duplicate_playlist.jpg" caption="Fig. 5 - Duplicating a playlist." class="docs-img" >}}
+{{< figure src="adding.jpg" link="adding.jpg" target="_blank" caption="Adding tracks to a playlist." class="docs-img" >}}
 
-## Adding Elements
+## Removing tracks from a playlist
 
-Elements can be moved to a playlist from the **Composition** view.  
-Select the Composition view from the side menu.
+To remove tracks from a playlist, select the tracks and click the trash icon.
 
-To move an element, click and drag it from the composition onto the playlist on the right side of the window.
+This removes the selected tracks only from the current playlist. If the element was present in other playlists, it will remain there.
 
-You can also select multiple elements using the checkbox on the left side of each item and move them together.
-
-Clicking the **“select / deselect all”** icon allows you to quickly select or unselect all elements in the composition.
-
-{{< figure src="adding_to_playlist.jpg" link="adding_to_playlist.jpg" target="_blank" caption="Fig. 6 - Adding elements to a playlist." class="docs-img" >}}
-
-## Removing Elements
-
-To remove an element from a playlist, click the **lightning / more options icon**, then select **“Remove”** from the dropdown menu.
-
-This removes the element only from the current playlist.  
-If the same element exists in other playlists, it will remain there.
-
-{{< figure src="removing_from_playlist.jpg" link="removing_from_playlist.jpg" target="_blank" caption="Fig. 7 - Removing an element from a playlist." class="docs-img" >}}
-
-## Changing Element Order
+## Changing element order
 
 Elements in a playlist can be arranged in any order.
 
-To change the order, click the **drag handle icon** on the left side of an element, drag it to a new position, and release the mouse button.
-
-{{< figure src="reorder_elements.jpg" caption="Fig. 8 - Reordering playlist elements." class="docs-img" >}}
+To change the order, click the drag handle icon on the left side of an element, drag the element to a new position, and release the mouse button.
 
 # Have Questions?
 

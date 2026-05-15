@@ -9,31 +9,31 @@ weight: 90
 
 When you launch the application, the main window appears.
 
-Right after startup, the **composition view** is always displayed first.
+Right after startup, the **Project** view is always displayed first.
 
 The view shown in this window depends on what is selected from the side menu.  
 The side menu, located along the left edge of the window, lets you switch between different views.
 
-{{< figure src="main_window.jpg" link="main_window.jpg" target="_blank" caption="Fig. 1 - Composition view" class="docs-img" >}}
+{{< figure src="main_window.jpg" link="main_window.jpg" target="_blank" caption="Project view" class="docs-img" >}}
 
 ## Side menu
 
 The side menu allows switching between the following views:
-- Composition  
+- Project  
 - Now Playing
 - Editor  
-- Settings  
 - About  
+- Settings  
 - Exit  
 
 Selecting the last option (**Exit**) closes the application.  
-If the current composition hasn’t been saved, the app will ask if you’re sure you want to exit without saving.
+If the current project hasn’t been saved, the app will ask if you’re sure you want to exit without saving.
 
 ## Basic functions
 
 You can use the app as a regular music player. See how to:
 - [add and remove tracks](docs/composition#adding-tracks)  
-- [save and load compositions](docs/composition#saving)  
+- [save and load projects](docs/composition#saving)  
 - [create playlists](docs/playlists#new-list)  
 - [queue tracks](docs/queues#enqueue)  
 - [play tracks](docs/play)
