@@ -35,19 +35,11 @@ Używaj tej techniki do:
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Dostępne są dwa presety przełączające się między sobą. Pierwsze przejście zaczyna się około 00:20." >}}
 
-1. Z menu głównego wybierz **„Create Cinematique...”**. Pojawi się okno asystenta technik filmowych.  
-1. Wybierz technikę **„Ambient Mix”**, klikając przycisk **„Select”**.  
-{{< figure src="effect.jpg" caption="Rys. 1 - Miks Ambientowy." class="blog-post-section-img" target="_blank" >}}
-1. W kolejnym oknie uzupełnij wszystkie utwory, które chcesz wykorzystać. Będą one odtwarzane równocześnie. Wymagany jest co najmniej jeden utwór.  
-1. (Opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij przycisk **„Use Samples”** i wybierz jeden z dostępnych przykładów. Pola zostaną automatycznie wypełnione utworami dołączonymi do programu.  
-1. Kliknij przycisk **„Create”**.  
-1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 - Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}
-1. Teraz odtwórz miks **„Ambient Mix #1”** z listy odtwarzania, naciskając przycisk **„Play”**.  
-1. Miks rozpocznie odtwarzanie. W widoku **„Teraz Odtwarzane”** możesz regulować głośność poszczególnych utworów oraz ustawiać presety.  
-1. Tak wygląda to w edytorze:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 - Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}
-1. Za pomocą edytora możesz dopasować efekt do własnych potrzeb. Spróbuj poeksperymentować!
+1. Z widoku Projektu kliknij na ikonę plusa w sekcji **"Cinematiques"**.
+1. Zaznacz technikę **"Ambient Mix"** i naciśnij przycisk **"Add"**.
+1. Zaznacz dodaną technikę, zostanie ona wyświetlona w panelu Inspektora.
+1. W panelu Inspektora możesz dopasować technikę do własnych potrzeb. Spróbuj poeksperymentować!
+1. Gdy będziesz gotowy, uruchom technikę w poziomu widoku Teraz Odtwarzane.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

@@ -41,24 +41,11 @@ Jest szczególnie skuteczna, gdy twoi gracze czują się bezpiecznie — wtedy t
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Przejście zaczyna się około 0:26, po czym płynnie powraca do normalności." caption2="'Let Me Call You Sweetheart' Henry’ego Burra i Peerless Quartet; 'Horror Suspense' Davida Krulica" >}}
 
-1. Z menu głównego wybierz opcję **"Create Cinematique..."**. Pojawi się okno asystenta technik filmowych.
-1. Wybierz technikę **"Creeping Dread"** klikając przycisk **"Select"**.
-{{< figure src="effect.jpg" caption="Rys. 1 – Creeping Dread." class="blog-post-section-img" target="_blank" >}}  
-
-1. W kolejnym oknie podaj następujące utwory:
-	1. **Song track (required)** - główny utwór, który zostanie zniekształcony. Najlepszy efekt osiąga się, gdy w utworze występuje wokal.
-	1. **Dread overlay track (required)** - utwór wprowadzający napięcie i horror. Będzie on grać równocześnie z głównym utworem.
-1. (opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij na przycisk **Use Samples** i wybierz z listy jeden z przykładów. Powyższe pola zostaną automatycznie wypełnione utworami dołączonymi do programu.
-1. Kliknij przycisk **"Create"**.
-1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:
-{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 – Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}  
-1. Rozpocznij odgrywanie głównego utworu poprzez kliknięcie na przycisk **"Play"** ma miksie **"Creeping Dread Mix #1"**.
-1. Przejdź do okna "Teraz Odtwarzane" *(Now Playing)*, będzie tam widoczny odtwarzany miks.
-1. Aby zacząć koszmarną transformację, kliknij na przycisk **"Activate"**.
-1. Aby cofnąć trasnformację, kliknij na przycisk **"Deactivate"**.
-1. A tak efekt wygląda w edytorze:
-{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 – Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}  
-1. Za pomocą edytora możesz dopasować efekt do swoich upodobań. Spróbuj poeksperymentować!
+1. Z widoku Projektu kliknij na ikonę plusa w sekcji **"Cinematiques"**.
+1. Zaznacz technikę **"Creeping Dread"** i naciśnij przycisk **"Add"**.
+1. Zaznacz dodaną technikę, zostanie ona wyświetlona w panelu Inspektora.
+1. W panelu Inspektora możesz dopasować technikę do własnych potrzeb. Spróbuj poeksperymentować!
+1. Gdy będziesz gotowy, uruchom technikę w poziomu widoku Teraz Odtwarzane.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

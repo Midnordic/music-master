@@ -45,19 +45,11 @@ Używaj tej techniki do:
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt." >}}
 
-1. Z menu głównego wybierz **„Create Cinematique...”**. Pojawi się okno asystenta technik filmowych.  
-1. Wybierz technikę **„Sound Sequence”**, klikając przycisk **„Select”**.  
-{{< figure src="effect.jpg" caption="Rys. 1 - Sekwencja dźwięków." class="blog-post-section-img" target="_blank" >}}
-1. W kolejnym oknie wybierz wszystkie utwory, które chcesz wykorzystać. Zostaną one odegrane jeden po drugim. Wymagane są co najmniej dwa utwory.  
-1. (Opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij przycisk **„Use Samples”** i wybierz jeden z dostępnych przykładów. Pola zostaną automatycznie wypełnione utworami dołączonymi do programu.  
-1. Kliknij przycisk **„Create”**.  
-1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 - Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}
-1. Wywołaj zdarzenie **„Sound Sequence #1 - Start Sequence”**, naciskając przycisk **„Trigger”**.  
-1. Sekwencja rozpocznie się. Po zakończeniu jednego utworu kolejny zostanie odtworzony automatycznie.  
-1. Tak wygląda to w edytorze:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 - Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}
-1. Za pomocą edytora możesz dopasować efekt do własnych potrzeb. Spróbuj poeksperymentować!
+1. Z widoku Projektu kliknij na ikonę plusa w sekcji **"Cinematiques"**.
+1. Zaznacz technikę **"Sound Sequence"** i naciśnij przycisk **"Add"**.
+1. Zaznacz dodaną technikę, zostanie ona wyświetlona w panelu Inspektora.
+1. W panelu Inspektora możesz dopasować technikę do własnych potrzeb. Spróbuj poeksperymentować!
+1. Gdy będziesz gotowy, uruchom technikę w poziomu widoku Teraz Odtwarzane.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

@@ -33,27 +33,11 @@ Używaj tej techniki do:
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Slowmo zaczyna się w 00:25, a powrót następuje w 0:52." >}}
 
-1. Z menu głównego wybierz **„Create Cinematique...”**. Pojawi się okno asystenta technik filmowych.  
-1. Wybierz technikę **„Slow Motion”**, klikając przycisk **„Select”**.  
-{{< figure src="effect.jpg" caption="Rys. 1 - Efekt Slowmo." class="blog-post-section-img" target="_blank" >}}
-1. W kolejnym oknie uzupełnij następujące pola:  
-   1. **Backdrop track (required)** – utwór grający w tle przez całą scenę. Zostanie on spowolniony podczas efektu.  
-   1. **Speed (percent)** – prędkość odtwarzania podczas slow motion; 1.0 oznacza 100% prędkości, 0.5 oznacza połowę prędkości itd.  
-   1. **Transition duration** – czas transformacji w sekundach.  
-   1. **Muffle** – zaznacz, jeśli chcesz, aby muzyka i dźwięki zostały dodatkowo wytłumione.  
-   1. **Muffle gain (dB)** – o ile zwiększyć głośność efektu; ustaw wyższą wartość, jeśli nie chcesz zbyt mocno obniżać ogólnej głośności.  
-   1. **Sfx1 .. Sfx5** – wybierz efekty dźwiękowe, na które również ma zostać nałożony efekt. Opcjonalne.  
-1. (Opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij przycisk **„Use Samples”** i wybierz jeden z dostępnych przykładów. Pola zostaną automatycznie wypełnione utworami dołączonymi do programu.  
-1. Kliknij przycisk **„Create”**.  
-1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 - Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}
-1. Wywołaj zdarzenie **„SlowMo #1 - Play Backdrop”**, naciskając przycisk **„Trigger”**. Utwór tła zacznie grać.  
-1. W odpowiednim momencie wywołaj zdarzenie **„SlowMo #1 - Enable”**. Rozpocznie to przejście do slow motion.  
-1. Utwór tła oraz wybrane efekty dźwiękowe zostaną spowolnione, a efekt wytłumienia zostanie zastosowany (jeśli zaznaczono).  
-1. Baw się dobrze w zwolnionym tempie! Możesz odtwarzać efekty dźwiękowe — również zostaną spowolnione.  
-1. Wywołaj zdarzenie **„SlowMo #1 - Disable”**, aby wyłączyć efekt.  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 - Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}
-1. Za pomocą edytora możesz dopasować efekt do własnych potrzeb. Spróbuj poeksperymentować!
+1. Z widoku Projektu kliknij na ikonę plusa w sekcji **"Cinematiques"**.
+1. Zaznacz technikę **"Slowmo"** i naciśnij przycisk **"Add"**.
+1. Zaznacz dodaną technikę, zostanie ona wyświetlona w panelu Inspektora.
+1. W panelu Inspektora możesz dopasować technikę do własnych potrzeb. Spróbuj poeksperymentować!
+1. Gdy będziesz gotowy, uruchom technikę w poziomu widoku Teraz Odtwarzane.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

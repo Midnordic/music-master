@@ -39,20 +39,11 @@ To **niewidoczne narzędzie**, które utrzymuje graczy w **immersji** i nadaje t
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Przejście zaczyna się około 0:16, po czym płynnie powraca do normalności." caption2="'Badass' autorstwa Chrisa Wolverine’a Matthew; 'Horror Mystery' Rafaela Kruxa" >}}
 
-1. Z menu głównego wybierz opcję **"Create Cinematique..."**. Pojawi się okno asystenta technik filmowych.
-1. Wybierz technikę **"Crossfade Mix"** klikając przycisk **"Select"**.
-{{< figure src="effect.jpg" caption="Rys. 1 – Crossfade Mix." class="blog-post-section-img" target="_blank" >}}  
-
-1. W kolejnym oknie podaj co najmniej dwa utwory (oznaczone jako *required*), pomiędzy którymi będziesz się przełączał. Maksymalnie można użyć 6 utworów.
-1. (opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij na przycisk **Use Samples** i wybierz z listy jeden z przykładów. Powyższe pola zostaną automatycznie wypełnione utworami dołączonymi do programu.
-1. Kliknij przycisk **"Create"**.
-1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:
-{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 – Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}  
-1. Aby rozpocząć odtwarzanie, kliknij w przycisk **"Play"** na miksie **"Crossfade Mix #1"**.
-1. Gdy chcesz przełączyć na inny utwór, w oknie "Teraz Odtwarzane" (*Now Playing*) kliknij na ikonę dwóch strzałek przy utworze, który chcesz usłyszeć.
-1. A tak wygląda to w edytorze:
-{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 – Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}  
-1. Za pomocą edytora możesz dopasować efekt do swoich upodobań. Spróbuj poeksperymentować!
+1. Z widoku Projektu kliknij na ikonę plusa w sekcji **"Cinematiques"**.
+1. Zaznacz technikę **"Crossfade"** i naciśnij przycisk **"Add"**.
+1. Zaznacz dodaną technikę, zostanie ona wyświetlona w panelu Inspektora.
+1. W panelu Inspektora możesz dopasować technikę do własnych potrzeb. Spróbuj poeksperymentować!
+1. Gdy będziesz gotowy, uruchom technikę w poziomu widoku Teraz Odtwarzane.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

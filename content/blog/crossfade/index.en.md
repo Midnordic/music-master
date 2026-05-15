@@ -39,19 +39,11 @@ It's an invisible tool that keeps your players **immersed** and gives your sessi
 
 {{< audio preload="false" src="sample.mp3" caption1="Final effect. The transition starts around 0:16, then smoothly returns to normal." caption2="'Badass' by Chris Wolverine Matthew; 'Horror Mystery' by Rafael Krux" >}}
 
-1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
-1. Choose the **“Crossfade Mix”** technique by clicking the **“Select”** button.  
-{{< figure src="effect.jpg" caption="Crossfade Mix." class="blog-post-section-img" target="_blank" >}}
-1. In the next window, provide at least two tracks (marked as *required*) between which you will switch. You can use up to 6 tracks in total.  
-1. (Optional) If you don’t have suitable tracks, click the **“Use Samples”** button and select one of the available examples. The required fields will be filled automatically with tracks included in the program.  
-1. Click the **“Create”** button.  
-1. You will be taken to the Project view. It should look like this:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Effect in the Project view." class="blog-post-section-img" target="_blank" >}}
-1. To start playback, click the **“Play”** button on **“Crossfade Mix #1”**.  
-1. When you want to switch to another track, go to the **“Now Playing”** view and click the two-arrows icon next to the track you want to hear.  
-1. This is how it looks in the editor:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
-1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
+1. From the Project view, click the plus icon in the **"Cinematiques"** section.
+1. Select the **"Crossfade"** technique and click **"Add"**.
+1. Select the added technique; it will be shown in the Inspector.
+1. In the Inspector, you can adjust the technique to your needs. Try experimenting.
+1. When you’re ready, trigger the technique from the Now Playing view.
 
 ## Ready when you are
 

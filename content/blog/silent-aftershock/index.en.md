@@ -36,26 +36,11 @@ After a short pause, bring back faint sounds - echoing wind, flickering fire, or
 
 {{< audio preload="false" src="sample.mp3" caption1="Final effect. The action starts around 0:20." caption2="'Bavarian Seascape' – Anonymus; 'Gunshots' – ShawnyBoy; 'Crowd Scream' – IENBA; 'Action Strike' – Rafael Krux" >}}
 
-1. From the main menu, select **“Create Cinematique...”**. The Cinematic Techniques Assistant window will appear.  
-1. Choose the **“Silent Aftershock”** technique by clicking the **“Select”** button.  
-{{< figure src="effect.jpg" caption="Silent Aftershock." class="blog-post-section-img" target="_blank" >}}
-1. In the next window, fill in the following fields:  
-   1. **Backdrop track (required)** – the first track that will play in the background. Usually something calm or cheerful.  
-   1. **Trigger track (required)** – a sound effect that triggers the silence, e.g., gunshots.  
-   1. **After event 1 (required)** – the main track that will play after the silence. Typically action music.  
-   1. **Silence (seconds)** – set the duration of the silence in seconds.  
-   1. **After event 2** – another track (optional) that will play after the silence, e.g., crowd screams.  
-   1. **After event 3** – an additional track (optional) that will play after the silence.  
-1. (Optional) If you don’t have suitable tracks, click the **“Use Samples”** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
-1. Click the **“Create”** button.  
-1. You will be taken to the Project view. It should look like this:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Effect in the Project view." class="blog-post-section-img" target="_blank" >}}
-1. Now trigger the event **“Silent Aftershock #1 - Play Backdrop”** by pressing the **“Trigger”** button. The background track will begin playing.  
-1. At the right moment, trigger the second event **“Silent Aftershock #1 - Trigger Aftershock”**. The gunshot sound will play, followed by silence...  
-1. After a short silence, all remaining tracks will play — for example, crowd screams and action music.  
-1. This is how it looks in the editor:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
-1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
+1. From the Project view, click the plus icon in the **"Cinematiques"** section.
+1. Select the **"Silent Aftershock"** technique and click **"Add"**.
+1. Select the added technique; it will be shown in the Inspector.
+1. In the Inspector, you can adjust the technique to your needs. Try experimenting.
+1. When you’re ready, trigger the technique from the Now Playing view.
 
 ## Ready when you are
 

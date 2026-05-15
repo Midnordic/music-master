@@ -33,26 +33,11 @@ Use this technique for:
 
 {{< audio preload="false" src="sample.mp3" caption1="Final effect. Slowmo starts at 00:25, and reverts at 0:52." >}}
 
-1. From the main menu, select **"Create Cinematique..."**. The Cinematic Techniques Assistant window will appear.  
-1. Choose the **"Slow Motion"** technique by clicking the **"Select"** button.  
-{{< figure src="effect.jpg" caption="Slowmo effect." class="blog-post-section-img" target="_blank" >}}
-1. In the next window, fill in the following fields:  
-	1. **Backdrop track (required)** - the track playing in the background during the entire scene. It will be slowed down during the effect.   1. **Speed (percent)** - playback speed during slow motion, 1.0 means 100% speed , 0.5 means half speed, etc.
-	1. **Transition duration** - transformation time in seconds.
-	1. **Muffle** - check this if you want for the music and sounds to be muffled.
-	1. **Muffle gain (dB)** - how much volume to add to the effect. Keep it high if you don't want to lower the volume too much.
-	1. **Sfx1 .. Sfx5** - select sound effects that you want to apply the effect to. Optional.
-1. (Optional) If you don't have suitable tracks, click the **"Use Samples"** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
-1. Click the **"Create"** button.  
-1. You will be taken to the Project view. It should look like this:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Effect in the Project view." class="blog-post-section-img" target="_blank" >}}
-1. Now trigger the event **"SlowMo #1 - Play Backdrop"** by pressing the **"Trigger"** button. The background track will begin playing.
-1. At the right moment, trigger the event **"SlowMo #1 - Enable"**. That will trigger the slowmo transition.
-1. The backdrop track and sfx tracks will slow down, and muffle effect will be applied (if selected).
-1. Have fun during the slow motion! You can play sound effects, and they will be slowed down as well.
-1. Trigger the event **"Muffle #1 - Disable"** to turn off the effect.
-{{< figure src="editor.jpg" link="editor.jpg" caption="Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
-1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
+1. From the Project view, click the plus icon in the **"Cinematiques"** section.
+1. Select the **"Slowmo"** technique and click **"Add"**.
+1. Select the added technique; it will be shown in the Inspector.
+1. In the Inspector, you can adjust the technique to your needs. Try experimenting.
+1. When you’re ready, trigger the technique from the Now Playing view.
 
 ## Ready when you are
 

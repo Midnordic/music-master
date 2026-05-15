@@ -38,24 +38,11 @@ To prosty trik, który zamienia zwykłą scenę walki w filmowe przeżycie, a ta
 
 ⚠️ Uważaj na dźwięk dzwonienia — może być nieprzyjemny dla ucha, więc lepiej **ścisz trochę głośność**.
 
-1. Z menu głównego wybierz opcję **"Create Cinematique..."**. Pojawi się okno asystenta technik filmowych.
-1. Wybierz technikę **"Shellshock Effect"** klikając przycisk **"Select"**.
-{{< figure src="effect.jpg" caption="Rys. 1 – Shellshock Effect." class="blog-post-section-img" target="_blank" >}}  
-
-1. W kolejnym oknie uzupełnij następujące pola:
-	1. **Bakcdrop track (required)** - utwór grający w tle podczas całej sceny. Zostanie on wytłumiony.
-	1. **Explosion track (required)** - krótki efekt dźwiękowy, po którym zostanie włączony efekt. Zwykle jest to dźwięk wybuchu.
-	1. **Noise track (required)** - długi efekt dźwiękowy, podczas którego będzie włączone wytłumienie. Zwykle jest to tzw. dźwięk dzwonienia w uszach.
-1. (opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij na przycisk **Use Samples** i wybierz z listy jeden z przykładów. Powyższe pola zostaną automatycznie wypełnione utworami dołączonymi do programu.
-1. Kliknij przycisk **"Create"**.
-1. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:
-{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 – Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}  
-1. Teraz wystarczy wywołać zdarzenie **"Shellshock #1 - Play Backdrop"** poprzez naciśnięcie przycisku **"Trigger"**. Utwór tła rozpocznie odgrywanie.
-1. W odpowiednim momencie wywołaj drugie zdarzenie **"Shellshock #1 - Play Explosion"**. Zostanie odegrany efekt wybuchu, po nim odegra się dzwonienie w uszach, w trakcie którego utwór tła będzie wytłumiony.
-1. Gdy dźwięk dzwonienia w uszach ustanie, wszystko wróci do normy.
-1. A tak wygląda to w edytorze:
-{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 – Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}  
-1. Za pomocą edytora możesz dopasować efekt do swoich upodobań. Spróbuj poeksperymentować!
+1. Z widoku Projektu kliknij na ikonę plusa w sekcji **"Cinematiques"**.
+1. Zaznacz technikę **"Shellshock"** i naciśnij przycisk **"Add"**.
+1. Zaznacz dodaną technikę, zostanie ona wyświetlona w panelu Inspektora.
+1. W panelu Inspektora możesz dopasować technikę do własnych potrzeb. Spróbuj poeksperymentować!
+1. Gdy będziesz gotowy, uruchom technikę w poziomu widoku Teraz Odtwarzane.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

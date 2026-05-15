@@ -33,25 +33,11 @@ Używaj tej techniki do:
 
 {{< audio preload="false" src="sample.mp3" caption1="Końcowy efekt. Przejście zaczyna się w 00:16, a powrót w 0:28." >}}
 
-1. Z menu głównego wybierz **„Create Cinematique...”**. Pojawi się okno asystenta technik filmowych.  
-2. Wybierz technikę **„Muffle Effect”**, klikając przycisk **„Select”**.  
-{{< figure src="effect.jpg" caption="Rys. 1 – Efekt Wytłumienia." class="blog-post-section-img" target="_blank" >}}
-3. W kolejnym oknie uzupełnij następujące pola:  
-   1. **Backdrop track (required)** – utwór grający w tle podczas całej sceny. Zostanie on wytłumiony w trakcie efektu.  
-   2. **Muffle gain (dB)** – o ile zwiększyć głośność efektu. Ustaw wyższą wartość, jeśli nie chcesz zbyt mocno obniżać ogólnej głośności.  
-   3. **Transition duration** – czas transformacji w sekundach.  
-
-4. (Opcjonalnie) Jeśli nie masz odpowiednich utworów, kliknij przycisk **„Use Samples”** i wybierz jeden z dostępnych przykładów. Pola zostaną automatycznie wypełnione utworami dołączonymi do programu.  
-5. Kliknij przycisk **„Create”**.  
-6. Zostaniesz przeniesiony do widoku kompozycji. Powinien on wyglądać następująco:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Rys. 2 – Efekt w widoku kompozycji." class="blog-post-section-img" target="_blank" >}}
-7. Wywołaj zdarzenie **„Muffle #1 - Play Backdrop”**, naciskając przycisk **„Trigger”**. Utwór tła zacznie grać.  
-8. W odpowiednim momencie wywołaj zdarzenie **„Muffle #1 - Enable”**. Rozpocznie to przejście do efektu wytłumienia.  
-9. W czasie trwania przejścia siła efektu będzie stopniowo wzrastać do 100%.  
-10. Wywołaj zdarzenie **„Muffle #1 - Disable”**, aby stopniowo wyłączyć efekt.  
-11. Tak wygląda to w edytorze:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Rys. 3 – Efekt w widoku edytora." class="blog-post-section-img" target="_blank" >}}
-12. Za pomocą edytora możesz dopasować efekt do swoich potrzeb. Spróbuj poeksperymentować!
+1. Z widoku Projektu kliknij na ikonę plusa w sekcji **"Cinematiques"**.
+1. Zaznacz technikę **"Muffle"** i naciśnij przycisk **"Add"**.
+1. Zaznacz dodaną technikę, zostanie ona wyświetlona w panelu Inspektora.
+1. W panelu Inspektora możesz dopasować technikę do własnych potrzeb. Spróbuj poeksperymentować!
+1. Gdy będziesz gotowy, uruchom technikę w poziomu widoku Teraz Odtwarzane.
 
 ## Chcesz wypróbować tę nową sztuczkę?
 

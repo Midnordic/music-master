@@ -35,19 +35,11 @@ Use this technique for:
 
 {{< audio preload="false" src="sample.mp3" caption1="Final effect. There are two presets that swap between each other. First transition starts around 00:20." >}}
 
-1. From the main menu, select **"Create Cinematique..."**. The Cinematic Techniques Assistant window will appear.  
-1. Choose the **"Ambient Mix"** technique by clicking the **"Select"** button.  
-{{< figure src="effect.jpg" caption="Ambient Mix." class="blog-post-section-img" target="_blank" >}}
-1. In the next window, fill in the all of the tracks you want. They will be played simultaniously. It is required to use at least one track.
-1. (Optional) If you don't have suitable tracks, click the **"Use Samples"** button and choose one of the available examples. The fields above will be filled automatically with tracks included in the program.  
-1. Click the **"Create"** button.  
-1. You will be taken to the Project view. It should look like this:  
-{{< figure src="ready.jpg" link="ready.jpg" caption="Effect in the Project view." class="blog-post-section-img" target="_blank" >}}
-1. Now play the mix called **"Ambient Mix #1"** from the playlist by pressing the **"Play"** button.
-1. The mix will start. In the **"Now Playing"** view you can adjust the track volumes and set presets.
-1. This is how it looks in the editor:  
-{{< figure src="editor.jpg" link="editor.jpg" caption="Effect in the Editor view." class="blog-post-section-img" target="_blank" >}}
-1. Using the editor, you can fine-tune the effect to your liking. Try experimenting!
+1. From the Project view, click the plus icon in the **"Cinematiques"** section.
+1. Select the **"Ambient Mix"** technique and click **"Add"**.
+1. Select the added technique; it will be shown in the Inspector.
+1. In the Inspector, you can adjust the technique to your needs. Try experimenting.
+1. When you’re ready, trigger the technique from the Now Playing view.
 
 ## Ready when you are
 
