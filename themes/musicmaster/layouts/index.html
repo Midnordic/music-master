@@ -4,8 +4,12 @@
 <section class="hero" id="home">
     <div class="container">
         <div class="hero-content">
-            <div class="hero-logo">
+            <div class="hero-logo" style="display:flex; flex-direction:column; align-items:center;">
                 <img src="{{ "images/logo_big.webp" | relURL }}" alt="{{ .Site.Title }}" class="logo-image">
+
+                <div class="hero-social" style="display:flex; justify-content:center; margin-top: 0.75rem;">
+                    {{ partial "social-links.html" . }}
+                </div>
             </div>                
             <div class="hero-text">
                 <h1 class="hero-title">{{ .Params.hero.title | default .Site.Params.hero_title}}</h1>

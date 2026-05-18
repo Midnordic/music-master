@@ -1,13 +1,12 @@
 <!-- Footer Partial -->
 <footer class="footer">
-    <div class="container">
+    <div class="container">        
         <div class="footer-bottom">
-            <p>                
-                <a href="{{ "privacy" | relLangURL }}">{{ i18n "text_footer_privacy_policy" }}</a>
-            </p>            
-            <p>
-                &copy; Copyright {{ now.Format "2006" }}. {{ i18n "text_footer_all_rights" }}
-            </p>            
+            <p>&copy; Copyright {{ now.Format "2006" }}. {{ i18n "text_footer_all_rights" }}</p>            
+            <div>
+                {{ partial "social-links.html" . }}
+            </div>            
+            <p><a href="{{ "privacy" | relLangURL }}">{{ i18n "text_footer_privacy_policy" }}</a></p>                        
         </div>
     </div>
 </footer>

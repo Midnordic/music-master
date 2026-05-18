@@ -1,0 +1,41 @@
+{{/* Social media links partial
+   Expects icon files in: static/images/social/{name}.webp
+*/}}
+
+<div class="social-links" aria-label="Social media links">
+  {{ if .Site.Params.facebook_url }}
+  <a href="{{ .Site.Params.facebook_url }}" class="social-link" title="Facebook" target="_blank" rel="noopener noreferrer">
+    <img src="{{ "images/social/facebook.webp" | relURL }}" alt="Facebook" width="24" height="24" loading="lazy">
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.instagram_url }}
+  <a href="{{ .Site.Params.instagram_url }}" class="social-link" title="Instagram" target="_blank" rel="noopener noreferrer">
+    <img src="{{ "images/social/instagram.webp" | relURL }}" alt="Instagram" width="24" height="24" loading="lazy">
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.mastodon_url }}
+  <a href="{{ .Site.Params.mastodon_url }}" class="social-link" title="Mastodon" target="_blank" rel="me noopener noreferrer">
+    <img src="{{ "images/social/mastodon.webp" | relURL }}" alt="Mastodon" width="24" height="24" loading="lazy">
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.discord_url }}
+  <a href="{{ .Site.Params.discord_url }}" class="social-link" title="Discord" target="_blank" rel="noopener noreferrer">
+    <img src="{{ "images/social/discord.webp" | relURL }}" alt="Discord" width="24" height="24" loading="lazy">
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.bluesky_url }}
+  <a href="{{ .Site.Params.bluesky_url }}" class="social-link" title="Bluesky" target="_blank" rel="noopener noreferrer">
+    <img src="{{ "images/social/bluesky.webp" | relURL }}" alt="Bluesky" width="24" height="24" loading="lazy">
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.youtube_url }}
+  <a href="{{ .Site.Params.youtube_url }}" class="social-link" title="YouTube" target="_blank" rel="noopener noreferrer">
+    <img src="{{ "images/social/youtube.webp" | relURL }}" alt="YouTube" width="24" height="24" loading="lazy">
+  </a>
+  {{ end }}
+</div>

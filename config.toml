@@ -10,6 +10,10 @@ theme = 'musicmaster'
   discord_url = 'https://discord.gg/p3TraAhmJu'
   demo_url = 'https://midnordic.itch.io/music-master-demo'
   facebook_url = 'https://www.facebook.com/profile.php?id=61577534844024'
+  instagram_url = 'https://www.instagram.com/midnordicsoft/'
+  mastodon_url = 'https://mastodon.social/@midnordic/'
+  bluesky_url = 'https://bsky.app/profile/midnordic.bsky.social'
+  youtube_url = 'https://www.youtube.com/@midnordic'
 
 [params.languageIcons]
   en = "images/english.png"

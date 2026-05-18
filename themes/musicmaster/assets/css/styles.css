@@ -1758,3 +1758,25 @@ strong {
 .social-link:active {
     transform: translateY(0);
 }
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-links img {
+  display: block;
+}
+
+/* Optional: slightly faded until hover for nicer look */
+.social-link img {
+  opacity: 0.9;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.social-link:hover img,
+.social-link:focus img {
+  opacity: 1;
+}
