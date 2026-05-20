@@ -481,6 +481,22 @@ li code {
     font-size: 1.0rem;
 }
 
+/* Blog figure images */
+figure.blog-img {
+    text-align: center;
+}
+
+figure.blog-img img {
+    display: block;
+    width: 100%;    
+    height: auto;
+    margin: 0 auto;
+}
+
+figure.blog-img figcaption,
+figure.blog-img figcaption p {
+    font-style: italic;
+}
 
 /* Blog Post Lists */
 .blog-post-section ul,
