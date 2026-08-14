@@ -13,6 +13,10 @@ Więcej informacji: https://www.elgato.com/ww/pl/p/stream-deck
 
 Stream Deck może stać się **wygodnym kontrolerem do Music Mastera** - zamiast klikać w interfejsie, można szybko wywoływać muzykę, soundboardy, techniki filmowe i inne funkcje programu za pomocą przycisku na konsolecie.
 
+{{< tip icon="shock" title="Ups!" >}}
+Ta funkcja jest dostępna tylko w pełnej wersji Music Mastera dla systemu Windows. Nie jest dostępna na Androidzie ani w wersji demonstracyjnej.
+{{< /tip >}}
+
 ## Instalacja pluginu
 
 Należy przejść przez następujące kroki:
@@ -39,7 +43,7 @@ Po instalacji pluginu, w aplikacji Stream Deck pojawi się pozycja "Music Master
 Znajdują się tam wszystkie przyciski dostępne w pluginie. Aby ustawić jeden z nich, wystarczy przeciągnąć go na odpowiednie puste pole.
 
 ### Przyciski ogólne
-- Hotkey - ogólny przycisk skrótu, który może być używany podczas przypisywania klawiszy skrótu w Music Masterze. Aby go użyć, należy wybrać odpowiedni skrót (*hotkey*)w aplikacji i nacisnąć na konsolecie ten przycisk. Skrót zostanie przypisany do tego przycisku. Można przypisywać skróty globalne jak i do poszczególnych utworów.
+- Hotkey - ogólny przycisk skrótu, który może być używany podczas przypisywania klawiszy skrótu w Music Masterze. Aby go użyć, należy wybrać odpowiedni skrót *(hotkey)* w aplikacji i nacisnąć na konsolecie ten przycisk. Skrót zostanie przypisany do tego przycisku. Można przypisywać skróty globalne jak i do poszczególnych utworów.
 
 ### Przyciski głośności
 - Master Volume Up - podnosi głośność o 5%.

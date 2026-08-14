@@ -13,6 +13,10 @@ More information: https://www.elgato.com/ww/en/p/stream-deck
 
 Stream Deck can become a **convenient controller for Music Master** — instead of clicking in the interface, you can quickly trigger music, soundboards, cinematic techniques, and other program functions using a button on the controller.
 
+{{< tip icon="shock" title="Oops!" >}}
+This feature is available in the full Windows version of Music Master. It is not available on Android or in the demo version.
+{{< /tip >}}
+
 ## Plugin installation
 
 Go through the following steps:

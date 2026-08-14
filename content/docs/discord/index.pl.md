@@ -13,6 +13,10 @@ Więcej informacji: https://discord.com/
 
 Music Master może zintegrować się z Discordem poprzez bota, który służy do **streamowania audio na kanał głosowy** (np. podczas grania online).
 
+{{< tip icon="shock" title="Ups!" >}}
+Ta funkcja jest dostępna tylko w pełnej wersji Music Mastera dla systemu Windows. Nie jest dostępna na Androidzie ani w wersji demonstracyjnej.
+{{< /tip >}}
+
 ## Instalacja i używanie bota bota
 
 Należy przejść przez następujące kroki:

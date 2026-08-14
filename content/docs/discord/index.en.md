@@ -13,6 +13,10 @@ More information: https://discord.com/
 
 Music Master can integrate with Discord through a bot used for **streaming audio to a voice channel** (for example while playing online).
 
+{{< tip icon="shock" title="Oops!" >}}
+This feature is available in the full Windows version of Music Master. It is not available on Android or in the demo version.
+{{< /tip >}}
+
 ## Bot installation and usage
 
 Go through the following steps:
