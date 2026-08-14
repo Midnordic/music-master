@@ -69,4 +69,4 @@ We may update this Privacy Policy occasionally to reflect legal or technical cha
 ## 11. Contact
 
 If you have any questions about this Privacy Policy or how your data is handled, you can reach us at:
-**📧 contact@midnordic.net**
+**📧 [support@midnordic.net](mailto:support@midnordic.net)**

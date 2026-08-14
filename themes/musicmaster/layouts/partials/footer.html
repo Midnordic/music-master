@@ -5,7 +5,8 @@
             <p>&copy; Copyright {{ now.Format "2006" }}. {{ i18n "text_footer_all_rights" }}</p>            
             <div>
                 {{ partial "social-links.html" . }}
-            </div>            
+            </div>
+            <p><a href="mailto:{{ .Site.Params.support_email }}">{{ i18n "text_footer_support" }}</a></p>
             <p><a href="{{ "privacy" | relLangURL }}">{{ i18n "text_footer_privacy_policy" }}</a></p>                        
         </div>
     </div>

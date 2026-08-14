@@ -74,4 +74,4 @@ Aktualizacje zawsze będą publikowane na tej stronie, z wyraźnie zaznaczoną d
 ## 11. Kontakt
 
 Jeśli masz jakiekolwiek pytania dotyczące tej Polityki Prywatności lub sposobu, w jaki przetwarzamy dane, możesz się z nami skontaktować pod adresem:  
-📧 **contact@midnordic.net**
+📧 **[support@midnordic.net](mailto:support@midnordic.net)**
