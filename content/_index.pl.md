@@ -6,8 +6,7 @@ layout: "index"
 # Hero Section
 hero:
   title: "Zostań Mistrzem Muzyki!"
-  subtitle: "**Music Master** to praktyczne narzędzie umożliwiające przejęcie pełnej kontroli nad muzyką i dźwiękiem podczas sesji.<br/><br/>  
-  Aplikacja została stworzona z myślą o Mistrzach Gry i pozwala tworzyć **dynamiczne, sterowane zdarzeniami pejzaże dźwiękowe** reagujące na fabularne elementy sesji. Możesz nakładać na siebie ścieżki dźwiękowe, automatyzować przejścia pomiędzy utworami i tworzyć filmowe sceny — a wszystko to jednym kliknięciem."
+  subtitle: "**Music Master** to wszechstronna aplikacja muzyczna stworzona specjalnie dla Mistrzów Gry.<br/><br/>Rozgrywki staną się jeszcze lepsze dzięki muzycznym technikom filmowym i dynamicznym efektom dźwiękowym. Wykorzystaj listy odtwrzania muzyki i efektów dźwiękowych, podkłady ambientowe z wieloma ścieżkami, automatyzację i kontrolę na dźwiękiem w czasie rzeczywistym."
   cta_text: "Pobierz"  
 
 # Features Section
