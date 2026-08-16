@@ -5,7 +5,29 @@ document.addEventListener('DOMContentLoaded', function() {
     initHeaderEffects();
     initInteractiveElements();
     initHamburgerMenu();
+    initJourneyReveal();
 });
+
+function initJourneyReveal() {
+    const steps = document.querySelectorAll('.journey-step');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!steps.length || reduceMotion || !('IntersectionObserver' in window)) {
+        steps.forEach(step => step.classList.add('is-visible'));
+        return;
+    }
+
+    document.body.classList.add('reveal-ready');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+        });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+    steps.forEach(step => observer.observe(step));
+}
 
 // Hamburger menu functionality
 function initHamburgerMenu() {
