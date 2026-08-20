@@ -65,30 +65,7 @@
 <section id="download" class="features-section">
     <div class="container">
         <h2 class="section-title">{{ .Params.download.title }}</h2>            
-        <div class="download-grid">           
-            <!-- DEMO Version Card -->
-            <div class="download-card">
-                <div class="download-content">
-                    <div class="download-image">
-                        <img src="{{ "images/SplashDemo.webp" | relURL }}" alt="{{ .Params.download.demo.title }}">
-                    </div>
-                    <div class="download-header">
-                        <h3>{{ .Params.download.demo.title }}</h3>
-                    </div>
-                    <div class="download-actions">
-                        <a href="{{ .Site.Params.demo_url }}" target="_blank" class="btn btn-primary btn-large">{{ .Params.download.demo.button_text }}</a>
-                    </div>
-                    <p class="download-description">{{ .Params.download.demo.description }}</p>
-                    {{ if .Params.download.demo.features }}
-                    <ul class="download-features">
-                        {{ range .Params.download.demo.features }}
-                        <li>{{ . }}</li>
-                        {{ end }}
-                    </ul>
-                    {{ end }}
-                </div>
-            </div>
-            
+        <div class="download-grid">
             <!-- FULL Version Card -->
             <div class="download-card">
                 <div class="download-content">
@@ -99,16 +76,9 @@
                         <h3>{{ .Params.download.full.title }}</h3>
                     </div>
                     <div class="download-actions">
-                        <a href="{{ .Site.Params.discord_url }}" target="_blank" class="btn btn-primary btn-large">{{ .Params.download.full.button_text }}</a>
+                        <button type="button" class="btn btn-primary btn-large" disabled>{{ .Params.download.full.button_text }}</button>
                     </div>
                     <p class="download-description">{{ .Params.download.full.description }}</p>
-                    {{ if .Params.download.full.features }}
-                    <ul class="download-features">
-                        {{ range .Params.download.full.features }}
-                        <li>{{ . }}</li>
-                        {{ end }}
-                    </ul>
-                    {{ end }}
                 </div>
             </div>
         </div>

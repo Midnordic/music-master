@@ -57,26 +57,10 @@ features:
 # Download Section
 download:
   title: "Get Latest Version"
-  demo:
-    title: "DEMO Version"
-    description: "Try the Demo to see how the app works. It's FREE!"
-    features:
-      - "Limited feature set."
-      - "No subscriptions."
-      - "Works offline."      
-      - "Personal use only."      
-    button_text: "Download from Itch.io"
   full:
     title: "FULL Version"
-    description: "Join our Discord to get the full version for free. This is a time limited offer!"
-    features:
-      - "Full feature set!"      
-      - "No subscriptions."
-      - "Works offline."
-      - "Personal and commercial use."
-      - "One license for multiple devices."      
-      - "Priority support."
-    button_text: "Join our Discord"
+    description: "Full release in September!"
+    button_text: "Coming Soon!"
 
 # Blog Section
 blog:

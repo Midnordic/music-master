@@ -57,26 +57,10 @@ features:
 # Download Section
 download:
   title: "Pobierz najnowszą wersję"
-  demo:
-    title: "Wersja DEMO"
-    description: "Wypróbuj Demo aby zobaczyć, jak działa aplikacja."
-    features:
-      - "Ograniczone niektóre funkcje."
-      - "Bez subskrypcji."
-      - "Działa offline."
-      - "Tylko do użytku prywatnego."
-    button_text: "Pobierz z Itch.io"
   full:
     title: "PEŁNA wersja"
-    description: "Dołącz do naszego Discorda aby dostać pełną wersję ZA DARMO. Oferta jest ograniczona czasowo!"
-    features:
-      - "Pełna funkcjonalność."
-      - "Bez subskrypcji."
-      - "Działa offline."
-      - "Do użytku prywatnego i komercyjnego."
-      - "Jedna licencja na kilka urządzeń."
-      - "Wsparcie techniczne."
-    button_text: "Dołącz do Discord"
+    description: "Pełna wersja już we wrześniu!"
+    button_text: "Już wkrótce!"
 
 # Blog Section
 blog:
