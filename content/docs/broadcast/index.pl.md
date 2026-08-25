@@ -48,6 +48,10 @@ Każdy słuchacz powinien:
 
 Jeżeli przeglądarka blokuje automatyczne odtwarzanie dźwięku, słuchacz może być zmuszony do interakcji ze stroną lub zezwolenia karcie przeglądarki na odtwarzanie audio.
 
+{{< tip icon="question" title="Uwaga!" >}}
+Ze względu na ograniczenia techniczne słuchacze mają maksymalnie **5:00 minut** na połączenie od momentu utworzenia pokoju. Osoby, które już się połączyły, mogą nadal słuchać po upływie tego czasu.
+{{< /tip >}}
+
 ## Głośność i wyciszenie
 
 Suwak głośności w oknie Broadcast zmienia poziom dźwięku wysyłanego słuchaczom. Ustawienie wpływa wyłącznie na transmisję i nie zmienia głównej głośności Music Mastera.

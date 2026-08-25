@@ -48,6 +48,10 @@ Each listener should:
 
 If the browser blocks automatic audio playback, the listener may need to interact with the page or allow audio playback for the site.
 
+{{< tip icon="question" title="Watch out!" >}}
+Due to technical limitations, listeners have up to **5:00 minutes** after the room is created to connect. Listeners who are already connected can continue listening after this time.
+{{< /tip >}}
+
 ## Volume and mute controls
 
 Use the volume slider in the Broadcast window to change the level sent to listeners. This adjustment affects only the broadcast and does not change Music Master's main output volume.
