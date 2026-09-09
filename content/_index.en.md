@@ -2,7 +2,7 @@
 title: "Music Master - Make the players feel the scene"
 description: "Live control over music, ambience and sound effects for Game Masters."
 layout: "index"
-hero: { title: "Make the players feel the scene!", subtitle: "Music Master gives Game Masters live control over music, ambience and sound effects - from simple playlists and soundboards to reactive transitions, cinematic effects and automated soundscapes.", cta_text: "Download", platform_note: "Windows & Android · Free sample pack included" }
+hero: { title: "Become a Music Master!", subtitle: "Music Master gives you live control over music, ambience and sound effects - from simple playlists and soundboards to reactive transitions, cinematic effects and soundscapes.", cta_text: "Download", platform_note: "Windows & Android · Free audio pack included" }
 main_features:
   - type: cinematiques
     title: Cinematiques
@@ -11,10 +11,14 @@ main_features:
     slides:
       - { title: "Creeping Dread", description: "Transform well-known, peaceful track into a nightmare.", image: "en/blog/creeping-dread/thumbnail.jpg", alt: "Creeping Dread cinematic audio technique", url: "blog/creeping-dread/" }
       - { title: "Shellshock", description: "A classic cinematic way to simulate disorientation and trauma.", image: "en/blog/shellshock/thumbnail.jpg", alt: "Shellshock cinematic audio technique", url: "blog/shellshock/" }
-      - { title: "Slow Motion", description: "stretch and emphasise a decisive action or intense moment.", image: "en/blog/slowmo/thumbnail.jpg", alt: "Slow Motion cinematic audio technique", url: "blog/slowmo/" }
+      - { title: "Slow Motion", description: "Stretch and emphasise a decisive action or intense moment.", image: "en/blog/slowmo/thumbnail.jpg", alt: "Slow Motion cinematic audio technique", url: "blog/slowmo/" }
       - { title: "Ambient Mix", description: "Ambient mix weaves background sounds together to support mood, pacing, and narrative.", image: "en/blog/ambient-mix/thumbnail.jpg", alt: "Ambient Mix cinematic audio technique", url: "blog/ambient-mix/" }
+      - { title: "Crossfade", description: "Create natural shifts from peaceful moments to intense encounters.", image: "en/blog/crossfade/thumbnail.jpg", alt: "Crossfade cinematic audio technique", url: "blog/crossfade/" }
+      - { title: "Muffle", description: "Makes everything feel like listening underwater or through a closed door.", image: "en/blog/muffle/thumbnail.jpg", alt: "Muffle cinematic audio technique", url: "blog/muffle/" }
+      - { title: "Silent Aftershock", description: "Amplify dramatic moments with silence.", image: "en/blog/silent-aftershock/thumbnail.jpg", alt: "Silent Aftershock cinematic audio technique", url: "blog/silent-aftershock/" }
+      - { title: "Sound Sequence", description: "Chain sounds together to create a dramatic moment. Line them up!", image: "en/blog/sound-sequence/thumbnail.jpg", alt: "Sound Sequence cinematic audio technique", url: "blog/sound-sequence/" }
     points:
-      - { title: "Ready-made dramatic techniques", description: "Choose a proven film-inspired effect instead of building every dramatic beat from scratch." }
+      - { title: "Premade dramatic techniques", description: "Choose a proven film-inspired effect instead of building every dramatic beat from scratch." }
       - { title: "Trigger them live", description: "Launch a Cinematique exactly when the story reaches its turning point." }
       - { title: "Shape familiar music", description: "Transform tracks your players recognize to create surprise, dread or impact." }
       - { title: "Make every beat your own", description: "Assign your own tracks and adapt each technique to the scene." }
@@ -22,9 +26,9 @@ main_features:
     title: "Reactive Audio"
     subtitle: "Make the soundtrack obey your imagination."
     introduction: "Make your soundtrack respond to what happens in the game. Set up custom reactions for any moment - trigger music, sounds, effects, transitions or ambience changes from events, timers or other tracks, and let Music Master handle them during play."
-    image: "images/features/automation.png"
+    image: "images/features/automation.webp"
     alt: "Music Master visual node editor with connected tracks, events and controllers"
-    flow: ["Event triggered", "Music fades", "Ambience changes", "New track begins"]
+    flow: ["Use Visual Editor to create your own flows and triggers."]
     points:
       - { title: "Build tension automatically", description: "Let ambience fade, music slow down or unsettling sounds appear as a scene develops." }
       - { title: "Create seamless transitions", description: "Start the next track, crossfade into a new mood or change several audio layers at once when the moment calls for it." }
@@ -34,9 +38,8 @@ main_features:
     title: "Layered Soundscapes"
     subtitle: "Build worlds your players can hear."
     introduction: "Combine music, ambience and sound effects to create places that feel alive. Layer multiple sounds at once and change them independently as the scene evolves."
-    image: "images/features/journey-worlds.jpg"
+    image: "images/features/ambient_mix.webp"
     alt: "Tracks connected to an Ambient Mix in the Music Master editor"
-    layers: ["Tavern Music", "Rain", "Fireplace", "Crowd", "Wind"]
     points:
       - { title: "Bring locations to life", description: "Layer rain, wind, crowds, fire, wildlife or machinery beneath your music to give every place its own atmosphere." }
       - { title: "Change the scene without replacing it", description: "Fade individual layers in and out as the players move, discover something or alter the environment." }

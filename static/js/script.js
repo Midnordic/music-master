@@ -16,6 +16,8 @@ function initCinematiquesCarousel() {
         const dots = [...carousel.querySelectorAll('.carousel-dots button')];
         const counter = carousel.querySelector('.carousel-counter');
         let current = 0;
+        let autoAdvance;
+        let paused = false;
         const show = index => {
             current = (index + slides.length) % slides.length;
             track.style.transform = `translateX(-${current * 100}%)`;
@@ -27,22 +29,40 @@ function initCinematiquesCarousel() {
             dots.forEach((dot, i) => i === current ? dot.setAttribute('aria-current', 'true') : dot.removeAttribute('aria-current'));
             counter.textContent = `${current + 1} / ${slides.length}`;
         };
-        carousel.querySelector('.carousel-prev').addEventListener('click', () => show(current - 1));
-        carousel.querySelector('.carousel-next').addEventListener('click', () => show(current + 1));
-        dots.forEach((dot, i) => dot.addEventListener('click', () => show(i)));
+        const startAutoAdvance = () => {
+            window.clearInterval(autoAdvance);
+            if (!paused) autoAdvance = window.setInterval(() => show(current + 1), 6000);
+        };
+        const navigate = index => { show(index); startAutoAdvance(); };
+        carousel.querySelector('.carousel-prev').addEventListener('click', () => navigate(current - 1));
+        carousel.querySelector('.carousel-next').addEventListener('click', () => navigate(current + 1));
+        dots.forEach((dot, i) => dot.addEventListener('click', () => navigate(i)));
         carousel.addEventListener('keydown', event => {
-            if (event.key === 'ArrowLeft') { event.preventDefault(); show(current - 1); }
-            if (event.key === 'ArrowRight') { event.preventDefault(); show(current + 1); }
+            if (event.key === 'ArrowLeft') { event.preventDefault(); navigate(current - 1); }
+            if (event.key === 'ArrowRight') { event.preventDefault(); navigate(current + 1); }
         });
         let touchStart = null;
         carousel.addEventListener('touchstart', event => { touchStart = event.changedTouches[0].clientX; }, { passive: true });
         carousel.addEventListener('touchend', event => {
             if (touchStart === null) return;
             const distance = event.changedTouches[0].clientX - touchStart;
-            if (Math.abs(distance) > 45) show(current + (distance < 0 ? 1 : -1));
+            if (Math.abs(distance) > 45) navigate(current + (distance < 0 ? 1 : -1));
             touchStart = null;
         }, { passive: true });
+        carousel.addEventListener('mouseenter', () => window.clearInterval(autoAdvance));
+        carousel.addEventListener('mouseleave', startAutoAdvance);
+        carousel.addEventListener('focusin', () => window.clearInterval(autoAdvance));
+        carousel.addEventListener('focusout', event => {
+            if (!carousel.contains(event.relatedTarget)) startAutoAdvance();
+        });
+        pauseButton.addEventListener('click', () => {
+            paused = !paused;
+            pauseButton.textContent = paused ? 'Play' : 'Pause';
+            pauseButton.setAttribute('aria-label', paused ? 'Play carousel' : 'Pause carousel');
+            startAutoAdvance();
+        });
         show(0);
+        startAutoAdvance();
     });
 }
 
