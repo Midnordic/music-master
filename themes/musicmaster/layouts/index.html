@@ -1,5 +1,9 @@
 ﻿{{ define "main" }}
 
+{{ if eq .Lang "en" }}
+{{ partial "landing-en.html" . }}
+{{ else }}
+
 <!-- Hero Section -->
 <section class="hero" id="home">
     <div class="container">
@@ -208,4 +212,5 @@
     </div>
 </section>
 
+{{ end }}
 {{ end }}

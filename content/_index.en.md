@@ -1,202 +1,80 @@
-﻿---
-title: "Music Master - Become a Music Master"
-description: "Music Master is a powerful audio tool that puts sound in your hands and unleashes your creativity. Built for Game Masters."
+---
+title: "Music Master - Make the players feel the scene"
+description: "Live control over music, ambience and sound effects for Game Masters."
 layout: "index"
-
-# Hero Section
-hero:
-  title: "Become a Music Master!"
-  subtitle: "**Music Master** is a powerful audio tool built for Dungeon Masters.<br/><br/>Bring cinematic, reactive audio to your sessions with playlists, soundboards, layered ambience, effects, automation, and live audio control."
-  cta_text: "Download"  
-
-# Features Section
-features:
-  title: "Run the story. Music Master follows."
-  description: "Move from quiet exploration to cinematic impact without taking your attention away from the table."
-  show_data_features: true
-  technical_label: "Features in use"
-  journey:
-    - kicker: "At the table"
-      title: "Control the whole scene"
-      description: "Keep every active layer within reach. Pause the room, soften the rain, or bring the battle theme forward while your players stay inside the moment."
-      image: "images/features/journey-now-playing.jpg"
-      alt: "Music Master Now Playing interface controlling an Ambient Mix"
-      caption: "Now Playing turns a complex soundscape into a focused live control surface."
-      features:
-        - "Now Playing"
-        - "Live playback controls"
-        - "Effects and recording"
-    - kicker: "Set the atmosphere"
-      title: "Build worlds, not playlists"
-      description: "Layer music, crowds, weather, and details into one living location. Save the mix as a reusable scene, then trigger key sounds from playlists and soundboards."
-      image: "images/features/journey-worlds.jpg"
-      alt: "Tracks connected to an Ambient Mix in Music Master's node editor"
-      caption: "Ambient Mix combines independent tracks into a scene you can reshape live."
-      features:
-        - "Ambient Mix"
-        - "Layered ambience"
-        - "Playlists and soundboards"
-      scenario:
-        label: "A scene in motion"
-        steps:
-          - "Quiet tavern"
-          - "Crowd grows restless"
-          - "Threat enters"
-    - kicker: "Let the story drive"
-      title: "Make the soundtrack react"
-      description: "Prepare the dramatic timing once. During play, events and controllers can start tracks, fade layers, and change sound automatically as the scene unfolds."
-      image: "images/features/automation.png"
-      alt: "Music Master node-based Editor with connected tracks, events, and automation controllers"
-      caption: "The node-based Editor makes reactive audio logic visible and reusable."
-      features:
-        - "Node-based Editor"
-        - "Events and controllers"
-        - "Automation and custom mixes"
-    - kicker: "Hit the dramatic beat"
-      title: "One click. Cinematic impact."
-      description: "Turn safety into dread, blur time, or leave the party reeling without building the effect from scratch. Choose a technique, assign your tracks, and trigger it live."
-      image: "images/features/journey-cinematiques.jpg"
-      alt: "Cinematiques chooser in Music Master"
-      caption: "Cinematiques package film-inspired audio techniques into ready-to-run moments."
-      featured: true
-      features:
-        - "Creeping Dread"
-        - "Shellshock"
-        - "Slow Motion"
-      scenario:
-        label: "One trigger"
-        steps:
-          - "Familiar melody"
-          - "Creeping Dread"
-          - "Something is wrong"
-    - kicker: "Share the final mix"
-      title: "Bring everyone into the soundscape"
-      description: "Send Music Master's final audio to remote players, let browser listeners join by link and PIN, or keep essential controls under your fingertips."
-      visual_type: "integrations"
-      alt: "Music Master Broadcast, Discord, and Stream Deck integrations"
-      platform_note: "Broadcast, Discord, and Stream Deck are available in the Full Windows version. Broadcast and Discord cannot run at the same time."
-      features:
-        - "Browser Broadcast"
-        - "Discord voice streaming"
-        - "Stream Deck"
-      media:
-        - image: "images/features/journey-broadcast.webp"
-          label: "Broadcast"
-        - image: "images/features/journey-discord.webp"
-          label: "Discord"
-        - image: "images/features/journey-streamdeck.webp"
-          label: "Stream Deck"
-
-comparison:
-  title: "Demo or Full?"
-  description: "Try the core Music Master workflow for free, then unlock the complete toolkit when your sessions need more."
-  labels:
-    feature: "Feature"
-    demo: "Demo"
-    full: "Full"
-  highlights:
-    - icon: "💻"
-      text: "Music Master is available for Windows and Android."
-    - icon: "🎁"
-      text: "The free sample pack is included in both Demo and Full."
-    - icon: "🔊"
-      text: "Full supports up to 12 simultaneous audio streams."
-    - icon: "🪟"
-      text: "Discord, Browser Broadcast, and Stream Deck require Full Windows."
-  items:
-    - feature: "Track import and playback"
-      demo: "Included, with demo limits"
-      full: "Included"
-    - feature: "Projects, bundles, and autosave"
-      demo: "Included"
-      full: "Included"
-    - feature: "Playlists and soundboards"
-      demo: "Up to 5 items each"
-      full: "Effectively unrestricted"
-    - feature: "Now Playing controls"
-      demo: "Included"
-      full: "Included"
-    - feature: "Audio recording"
-      demo: "Up to 31 seconds"
-      full: "Effectively unrestricted"
-    - feature: "Node editor and automation"
-      demo: "Not available"
-      full: "Included"
-    - feature: "Events, controllers, and custom mixes"
-      demo: "Not available"
-      full: "Included"
-    - feature: "Effects"
-      demo: "Muffle and Old Radio unavailable"
-      full: "All effects"
-    - feature: "Cinematiques"
-      demo: "Slow Motion, Shellshock, and Muffle unavailable"
-      full: "All techniques"
-    - feature: "Free sample pack"
-      demo: "Included"
-      full: "Included"
-    - feature: "Paid sample packs"
-      demo: "Not available"
-      full: "Lemon Squeezy on Windows; Google Play on Android"
-    - feature: "License activation"
-      demo: "Not required"
-      full: "Required"
-    - feature: "Built-in updater"
-      demo: "Not available"
-      full: "Windows only"
-    - feature: "Discord, Browser Broadcast, and Stream Deck"
-      demo: "Not available"
-      full: "Windows only"
-    - feature: "Touch and portrait interface"
-      demo: "Android"
-      full: "Android"
-  limits_title: "Demo limits at a glance"
-  limits:
-    - value: "10"
-      label: "tracks per project"
-    - value: "5"
-      label: "items per playlist or soundboard"
-    - value: "4"
-      label: "simultaneous audio streams"
-    - value: "4:30"
-      label: "maximum imported track length"
-    - value: "31 sec"
-      label: "maximum recording length"
-    - value: "No editor"
-      label: "event editing and custom automation"
-    - value: "2 effects"
-      label: "Muffle and Old Radio unavailable"
-    - value: "3 techniques"
-      label: "Slow Motion, Shellshock, and Muffle unavailable"
-  footnote: "Discord and Browser Broadcast cannot run at the same time because both use Music Master's final external audio stream. Android updates are handled outside the Windows-only in-app updater."
-
-# Download Section
+hero: { title: "Make the players feel the scene!", subtitle: "Music Master gives Game Masters live control over music, ambience and sound effects - from simple playlists and soundboards to reactive transitions, cinematic effects and automated soundscapes.", cta_text: "Download", platform_note: "Windows & Android · Free sample pack included" }
+main_features:
+  - type: cinematiques
+    title: Cinematiques
+    subtitle: "Turn ordinary moments into unforgettable ones."
+    introduction: "Use techniques inspired by movie sound design straight to your tabletop sessions. Pick from premade techniques to create tension, shock, suspense and other dramatic moments, just like in your favourite movies."
+    slides:
+      - { title: "Creeping Dread", description: "Transform well-known, peaceful track into a nightmare.", image: "en/blog/creeping-dread/thumbnail.jpg", alt: "Creeping Dread cinematic audio technique", url: "blog/creeping-dread/" }
+      - { title: "Shellshock", description: "A classic cinematic way to simulate disorientation and trauma.", image: "en/blog/shellshock/thumbnail.jpg", alt: "Shellshock cinematic audio technique", url: "blog/shellshock/" }
+      - { title: "Slow Motion", description: "stretch and emphasise a decisive action or intense moment.", image: "en/blog/slowmo/thumbnail.jpg", alt: "Slow Motion cinematic audio technique", url: "blog/slowmo/" }
+      - { title: "Ambient Mix", description: "Ambient mix weaves background sounds together to support mood, pacing, and narrative.", image: "en/blog/ambient-mix/thumbnail.jpg", alt: "Ambient Mix cinematic audio technique", url: "blog/ambient-mix/" }
+    points:
+      - { title: "Ready-made dramatic techniques", description: "Choose a proven film-inspired effect instead of building every dramatic beat from scratch." }
+      - { title: "Trigger them live", description: "Launch a Cinematique exactly when the story reaches its turning point." }
+      - { title: "Shape familiar music", description: "Transform tracks your players recognize to create surprise, dread or impact." }
+      - { title: "Make every beat your own", description: "Assign your own tracks and adapt each technique to the scene." }
+  - type: reactive
+    title: "Reactive Audio"
+    subtitle: "Make the soundtrack obey your imagination."
+    introduction: "Make your soundtrack respond to what happens in the game. Set up custom reactions for any moment - trigger music, sounds, effects, transitions or ambience changes from events, timers or other tracks, and let Music Master handle them during play."
+    image: "images/features/automation.png"
+    alt: "Music Master visual node editor with connected tracks, events and controllers"
+    flow: ["Event triggered", "Music fades", "Ambience changes", "New track begins"]
+    points:
+      - { title: "Build tension automatically", description: "Let ambience fade, music slow down or unsettling sounds appear as a scene develops." }
+      - { title: "Create seamless transitions", description: "Start the next track, crossfade into a new mood or change several audio layers at once when the moment calls for it." }
+      - { title: "Trigger whole sequences with one action", description: "A single event can launch music, sound effects, fades and other reactions together - so complex moments stay easy to run during play." }
+      - { title: "Make it entirely your own", description: "Use Music Master’s visual editor to connect tracks, events, controllers and effects into custom audio logic built around your ideas." }
+  - type: layers
+    title: "Layered Soundscapes"
+    subtitle: "Build worlds your players can hear."
+    introduction: "Combine music, ambience and sound effects to create places that feel alive. Layer multiple sounds at once and change them independently as the scene evolves."
+    image: "images/features/journey-worlds.jpg"
+    alt: "Tracks connected to an Ambient Mix in the Music Master editor"
+    layers: ["Tavern Music", "Rain", "Fireplace", "Crowd", "Wind"]
+    points:
+      - { title: "Bring locations to life", description: "Layer rain, wind, crowds, fire, wildlife or machinery beneath your music to give every place its own atmosphere." }
+      - { title: "Change the scene without replacing it", description: "Fade individual layers in and out as the players move, discover something or alter the environment." }
+      - { title: "Mix multiple sounds naturally", description: "Play several tracks at once and control their volume, balance and behavior separately to create richer, more believable soundscapes." }
+      - { title: "Keep everything ready for the table", description: "Organize your ambience, music and effects into playlists, soundboards and mixes so you can quickly shape the scene during play." }
+  - type: connections
+    title: "Play Offline or Online"
+    subtitle: "Run the game your way, wherever your table is."
+    introduction: "Music Master works fully offline, so you can run your session without relying on an internet connection. When you play remotely, you can stream the final mix directly to your players’ browsers or through Discord."
+    points:
+      - { title: "Run sessions without an internet connection", description: "Your music, soundscapes, effects and automation all work locally, so you are not dependent on a connection during offline games." }
+      - { title: "Stream directly to your players’ browsers", description: "Create a Broadcast room and share a link and PIN. Your players can listen in a modern browser without installing Music Master or creating any accounts." }
+      - { title: "Use Discord for remote sessions", description: "Music Master can also stream its audio through Discord, keeping your soundtrack inside the platform your group already uses." }
+      - { title: "Integrate with Stream Deck", description: "Connect Music Master with Stream Deck for fast physical controls during play." }
+full_features:
+  - { title: "Playback & Organization", items: ["Playlists and soundboards", "Track looping, trimming, speed, volume and panning", "Smooth crossfades between tracks", "Simultaneous layered playback", "Boundle your projects into a single file"] }
+  - { title: "Soundscapes & Mixing", items: ["Layer music, ambience and sound effects", "Mix various audio effects", "Smooth timed transitions", "Ambient Mixes with multiple presets", "Up to 12 simultaneous audio streams"] }
+  - { title: "Automation & Reactive Audio", items: ["Visual node-based editor", "Manual and timed events", "Reactions to play, pause, stop, loop and finish", "Trigger multiple actions from a single event", "Automate volume, speed and other parameters"] }
+  - { title: "Effects & Cinematiques", items: ["Audio effects: amplify, echo, chamber echo, swirler, pitch shift, old radio and muffle", "Premade Cinematiques: Ambient Mix, Creeping Dread, Crossfade, Muffle, Shellshock, Silent Aftershock, Slow Motion and Sound Sequence", "Chain multiple audio effects together", "Build or customize your own cinematic audio behavior"] }
+  - { title: "Live Play", items: ["Dedicated Now Playing view for controlling everything", "Trigger tracks, events and Cinematiques during the session", "Global pause, resume and stop controls", "Adjust playing tracks in real time", "Soundboards for quick effects and actions", "Record audio directly inside Music Master"] }
+  - { title: "Online & Integrations", items: ["Fully functional offline play", "Browser Broadcast for remote players", "Share a link and PIN — no listener account or installation needed", "Up to 6 browser listeners", "Discord audio streaming", "Stream Deck integration", "Windows and Android support"] }
 download:
-  title: "Get Latest Version"
-  demo:
-    title: "DEMO Version"
-    description: "Try the Demo to see how the app works. It's FREE!"
-    features:
-      - "Limited feature set."
-      - "No subscriptions."
-      - "Works offline."      
-      - "Personal use only."      
-    button_text: "Download from Itch.io"
-  full:
-    title: "FULL Version"
-    description: "Join our Discord to get the full version for free. This is a time limited offer!"
-    features:
-      - "Full feature set!"      
-      - "No subscriptions."
-      - "Works offline."
-      - "Personal and commercial use."
-      - "One license for multiple devices."      
-      - "Priority support."
-    button_text: "Join our Discord"
-
-# Blog Section
-blog:
-  title: "Top blog picks"
-  description: "Use cinematic sound techniques in your game."
-  show_count: 3
-  read_more_text: "Read more on our blog"
-------
+  title: "Get Music Master"
+  demo: { title: "TRIAL Version", image: "images/SplashDemo.webp", url: "https://midnordic.itch.io/music-master-demo", button_text: "Download from Itch.io", description: "Try Music Master with the included free sample pack.", features: ["No subscriptions.", "Works offline.", "Personal use only."] }
+  full: { title: "FULL Version", image: "images/SplashFull.webp", url: "https://discord.gg/xdX3r6A7qD", button_text: "Join our Discord", description: "Join our Discord to get the full version for free. This is a time limited offer!", features: ["Full feature set.", "No subscriptions.", "Works offline.", "Personal and commercial use."] }
+comparison:
+  title: "Trial vs Full"
+  labels: { feature: "Capability", demo: "Trial", full: "Full" }
+  items:
+    - { feature: "Project size", demo: "10 tracks", full: "✓ Unlimited" }
+    - { feature: "Track Length", demo: "4:30", full: "✓ Unlimited" }
+    - { feature: "Playlist / soundboard", demo: "5 tracks", full: "✓ Unlimited" }
+    - { feature: "Simultaneous audio", demo: "4 streams", full: "✓ 12 streams" }
+    - { feature: "Effects", demo: "Limited selection", full: "✓ All effects" }
+    - { feature: "Cinematiques", demo: "Limited selection", full: "✓ All Cinematiques" }
+    - { feature: "Editor and events", demo: "Not included", full: "✓ Full automation" }
+    - { feature: "Recording", demo: "Up to 31 seconds", full: "✓ Unlimited" }
+    - { feature: "Sample Pack Shop", demo: "Free packs", full: "✓ Full shop access" }
+    - { feature: "Integrations", demo: "Not included", full: "✓ Broadcast, Discord, Stream Deck" }
+blog: { title: "Top blog picks", description: "Use cinematic sound techniques in your game.", show_count: 3, read_more_text: "Read more on our blog" }
+---

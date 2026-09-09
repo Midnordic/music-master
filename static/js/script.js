@@ -6,7 +6,45 @@ document.addEventListener('DOMContentLoaded', function() {
     initInteractiveElements();
     initHamburgerMenu();
     initJourneyReveal();
+    initCinematiquesCarousel();
 });
+
+function initCinematiquesCarousel() {
+    document.querySelectorAll('.cinematiques-carousel').forEach(carousel => {
+        const track = carousel.querySelector('.carousel-track');
+        const slides = [...carousel.querySelectorAll('.carousel-slide')];
+        const dots = [...carousel.querySelectorAll('.carousel-dots button')];
+        const counter = carousel.querySelector('.carousel-counter');
+        let current = 0;
+        const show = index => {
+            current = (index + slides.length) % slides.length;
+            track.style.transform = `translateX(-${current * 100}%)`;
+            slides.forEach((slide, i) => {
+                const hidden = i !== current;
+                slide.setAttribute('aria-hidden', hidden);
+                slide.querySelectorAll('a, button').forEach(control => control.tabIndex = hidden ? -1 : 0);
+            });
+            dots.forEach((dot, i) => i === current ? dot.setAttribute('aria-current', 'true') : dot.removeAttribute('aria-current'));
+            counter.textContent = `${current + 1} / ${slides.length}`;
+        };
+        carousel.querySelector('.carousel-prev').addEventListener('click', () => show(current - 1));
+        carousel.querySelector('.carousel-next').addEventListener('click', () => show(current + 1));
+        dots.forEach((dot, i) => dot.addEventListener('click', () => show(i)));
+        carousel.addEventListener('keydown', event => {
+            if (event.key === 'ArrowLeft') { event.preventDefault(); show(current - 1); }
+            if (event.key === 'ArrowRight') { event.preventDefault(); show(current + 1); }
+        });
+        let touchStart = null;
+        carousel.addEventListener('touchstart', event => { touchStart = event.changedTouches[0].clientX; }, { passive: true });
+        carousel.addEventListener('touchend', event => {
+            if (touchStart === null) return;
+            const distance = event.changedTouches[0].clientX - touchStart;
+            if (Math.abs(distance) > 45) show(current + (distance < 0 ? 1 : -1));
+            touchStart = null;
+        }, { passive: true });
+        show(0);
+    });
+}
 
 function initJourneyReveal() {
     const steps = document.querySelectorAll('.journey-step');
