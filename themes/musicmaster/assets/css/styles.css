@@ -2346,7 +2346,11 @@ strong {
 .hero-download-button svg { width:1.2rem; height:1.2rem; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
 .hero-three-column { overflow:hidden; }
 .hero-three-column > .container { max-width:none; padding-inline:clamp(2rem,5vw,6rem); }
-.hero-three-column .hero-content { grid-template-columns:minmax(180px,.7fr) minmax(272px,.92fr) minmax(290px,1.2fr); gap:1.5rem; }
+.hero-three-column .hero-content { grid-template-columns:minmax(320px,.9fr) minmax(420px,1.1fr); grid-template-areas:"logo devices" "text devices"; gap:.5rem 2.5rem; }
+.hero-three-column .hero-logo { grid-area:logo; align-self:end; }
+.hero-three-column .hero-logo .logo-image { max-width:310px; }
+.hero-three-column .hero-text { grid-area:text; align-self:start; }
+.hero-three-column .hero-devices { grid-area:devices; }
 .hero-three-column .hero-title { font-size:2.8rem; }
 .hero-three-column .hero-subtitle { font-size:1.05rem; margin-bottom:2rem; }
 .hero-three-column .hero-text { background:transparent; backdrop-filter:none; -webkit-backdrop-filter:none; }
@@ -2435,7 +2439,7 @@ strong {
 .license-price strong { color:#225c37; font-family:'Cormorant Garamond',serif; font-size:2.15rem; line-height:1; }
 
 @media (max-width:1100px) {
-  .hero-three-column .hero-content { grid-template-columns:1fr; gap:2rem; }.hero-three-column .hero-logo { order:1; }.hero-three-column .hero-text { order:2; }.hero-three-column .hero-devices { order:3; max-width:560px; margin-inline:auto; }.hero-three-column .hero-devices img { width:100%; transform:none; }
+  .hero-three-column .hero-content { grid-template-columns:1fr; grid-template-areas:"logo" "text" "devices"; gap:2rem; }.hero-three-column .hero-logo { order:1; }.hero-three-column .hero-text { order:2; }.hero-three-column .hero-devices { order:3; max-width:560px; margin-inline:auto; }.hero-three-column .hero-devices img { width:100%; transform:none; }
 }
 
 @media (max-width:900px) {
