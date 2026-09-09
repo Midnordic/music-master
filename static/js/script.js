@@ -5,7 +5,87 @@ document.addEventListener('DOMContentLoaded', function() {
     initHeaderEffects();
     initInteractiveElements();
     initHamburgerMenu();
+    initJourneyReveal();
+    initCinematiquesCarousel();
 });
+
+function initCinematiquesCarousel() {
+    document.querySelectorAll('.cinematiques-carousel').forEach(carousel => {
+        const track = carousel.querySelector('.carousel-track');
+        const slides = [...carousel.querySelectorAll('.carousel-slide')];
+        const dots = [...carousel.querySelectorAll('.carousel-dots button')];
+        const counter = carousel.querySelector('.carousel-counter');
+        let current = 0;
+        let autoAdvance;
+        let paused = false;
+        const show = index => {
+            current = (index + slides.length) % slides.length;
+            track.style.transform = `translateX(-${current * 100}%)`;
+            slides.forEach((slide, i) => {
+                const hidden = i !== current;
+                slide.setAttribute('aria-hidden', hidden);
+                slide.querySelectorAll('a, button').forEach(control => control.tabIndex = hidden ? -1 : 0);
+            });
+            dots.forEach((dot, i) => i === current ? dot.setAttribute('aria-current', 'true') : dot.removeAttribute('aria-current'));
+            counter.textContent = `${current + 1} / ${slides.length}`;
+        };
+        const startAutoAdvance = () => {
+            window.clearInterval(autoAdvance);
+            if (!paused) autoAdvance = window.setInterval(() => show(current + 1), 6000);
+        };
+        const navigate = index => { show(index); startAutoAdvance(); };
+        carousel.querySelector('.carousel-prev').addEventListener('click', () => navigate(current - 1));
+        carousel.querySelector('.carousel-next').addEventListener('click', () => navigate(current + 1));
+        dots.forEach((dot, i) => dot.addEventListener('click', () => navigate(i)));
+        carousel.addEventListener('keydown', event => {
+            if (event.key === 'ArrowLeft') { event.preventDefault(); navigate(current - 1); }
+            if (event.key === 'ArrowRight') { event.preventDefault(); navigate(current + 1); }
+        });
+        let touchStart = null;
+        carousel.addEventListener('touchstart', event => { touchStart = event.changedTouches[0].clientX; }, { passive: true });
+        carousel.addEventListener('touchend', event => {
+            if (touchStart === null) return;
+            const distance = event.changedTouches[0].clientX - touchStart;
+            if (Math.abs(distance) > 45) navigate(current + (distance < 0 ? 1 : -1));
+            touchStart = null;
+        }, { passive: true });
+        carousel.addEventListener('mouseenter', () => window.clearInterval(autoAdvance));
+        carousel.addEventListener('mouseleave', startAutoAdvance);
+        carousel.addEventListener('focusin', () => window.clearInterval(autoAdvance));
+        carousel.addEventListener('focusout', event => {
+            if (!carousel.contains(event.relatedTarget)) startAutoAdvance();
+        });
+        pauseButton.addEventListener('click', () => {
+            paused = !paused;
+            pauseButton.textContent = paused ? 'Play' : 'Pause';
+            pauseButton.setAttribute('aria-label', paused ? 'Play carousel' : 'Pause carousel');
+            startAutoAdvance();
+        });
+        show(0);
+        startAutoAdvance();
+    });
+}
+
+function initJourneyReveal() {
+    const steps = document.querySelectorAll('.journey-step');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!steps.length || reduceMotion || !('IntersectionObserver' in window)) {
+        steps.forEach(step => step.classList.add('is-visible'));
+        return;
+    }
+
+    document.body.classList.add('reveal-ready');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+        });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+    steps.forEach(step => observer.observe(step));
+}
 
 // Hamburger menu functionality
 function initHamburgerMenu() {

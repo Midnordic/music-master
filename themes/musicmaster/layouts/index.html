@@ -1,5 +1,9 @@
 ﻿{{ define "main" }}
 
+{{ if eq .Lang "en" }}
+{{ partial "landing-en.html" . }}
+{{ else }}
+
 <!-- Hero Section -->
 <section class="hero" id="home">
     <div class="container">
@@ -24,48 +28,142 @@
     </div>
 </section>
 
-<!-- Feature Showcase Section -->
+<!-- Feature Journey Section -->
 <section id="feature-showcase" class="feature-showcase-section">
     <div class="container">
         <h2 class="section-title">{{ .Params.features.title }}</h2>
         <p class="section-description">{{ .Params.features.description }}</p>
-        
-        <div class="feature-showcase-content">
-            <!-- Features on the left -->
-            <div class="showcase-features">                
-                <ul class="features-list">
-                    {{ range .Params.features.items }}
-                    <li class="feature-item">
-                        <span class="feature-icon">{{ .icon | safeHTML }}</span>
-                        <span class="feature-text"><strong>{{ .title }}</strong> - {{ .description }}</span>
-                    </li>
+
+        <div class="feature-journey">
+            {{ range .Params.features.journey }}
+            <article class="journey-step{{ if .featured }} journey-step-featured{{ end }}">
+                <div class="journey-copy">
+                    <span class="journey-kicker">{{ .kicker }}</span>
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .description }}</p>
+                    {{ with .features }}
+                    <ul class="journey-feature-list" aria-label="{{ $.Params.features.technical_label }}">
+                        {{ range . }}<li>{{ . }}</li>{{ end }}
+                    </ul>
                     {{ end }}
-                </ul>
-            </div>
-            
-            <!-- Video on the right -->
-            <div class="showcase-video">
-                <div class="video-container">
-                    <div class="video-wrapper">
-                        <iframe 
-                            src="https://www.youtube.com/embed/_3DJf3wOtdA" 
-                            title="Music Master release showcase!" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin"
-                            allowfullscreen></iframe>        
+                    {{ with .platform_note }}
+                    <p class="journey-platform-note">{{ . }}</p>
+                    {{ end }}
+                    {{ with .scenario }}
+                    <div class="journey-scenario" aria-label="{{ .label }}">
+                        <span class="journey-scenario-label">{{ .label }}</span>
+                        <div class="journey-scenario-flow">
+                            {{ range $index, $step := .steps }}
+                            {{ if $index }}<span class="journey-scenario-arrow" aria-hidden="true">→</span>{{ end }}
+                            <span>{{ $step }}</span>
+                            {{ end }}
+                        </div>
                     </div>
+                    {{ end }}
                 </div>
-            </div>
+
+                {{ if eq .visual_type "integrations" }}
+                <div class="journey-visual journey-integrations" aria-label="{{ .alt }}">
+                    {{ range .media }}
+                    <figure class="integration-preview">
+                        <img src="{{ .image | relURL }}" alt="" loading="lazy">
+                        <figcaption>{{ .label }}</figcaption>
+                    </figure>
+                    {{ end }}
+                </div>
+                {{ else }}
+                <figure class="journey-visual">
+                    <img src="{{ .image | relURL }}" alt="{{ .alt }}" loading="lazy">
+                    {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+                </figure>
+                {{ end }}
+            </article>
+            {{ end }}
         </div>
     </div>
 </section>
+
+{{ with .Params.comparison }}
+{{ $comparison := . }}
+<section id="comparison" class="comparison-section">
+    <div class="container">
+        <h2 class="section-title">{{ .title }}</h2>
+        <p class="section-description">{{ .description }}</p>
+
+        <div class="availability-highlights">
+            {{ range .highlights }}
+            <div class="availability-highlight">
+                <span class="availability-highlight-icon" aria-hidden="true">{{ .icon | safeHTML }}</span>
+                <p>{{ .text }}</p>
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="comparison-table-wrapper">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th scope="col">{{ .labels.feature }}</th>
+                        <th scope="col">{{ .labels.demo }}</th>
+                        <th scope="col">{{ .labels.full }}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range .items }}
+                    <tr>
+                        <th scope="row">{{ .feature }}</th>
+                        <td data-label="{{ $comparison.labels.demo }}">{{ .demo }}</td>
+                        <td data-label="{{ $comparison.labels.full }}">{{ .full }}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="demo-limits">
+            <h3>{{ .limits_title }}</h3>
+            <div class="demo-limits-grid">
+                {{ range .limits }}
+                <div class="demo-limit">
+                    <strong>{{ .value }}</strong>
+                    <span>{{ .label }}</span>
+                </div>
+                {{ end }}
+            </div>
+            <p class="comparison-footnote">{{ .footnote }}</p>
+        </div>
+    </div>
+</section>
+{{ end }}
 
 <!-- Get Latest Version Section -->
 <section id="download" class="features-section">
     <div class="container">
         <h2 class="section-title">{{ .Params.download.title }}</h2>            
-        <div class="download-grid">
+        <div class="download-grid">           
+            <!-- DEMO Version Card -->
+            <div class="download-card">
+                <div class="download-content">
+                    <div class="download-image">
+                        <img src="{{ "images/SplashDemo.webp" | relURL }}" alt="{{ .Params.download.demo.title }}">
+                    </div>
+                    <div class="download-header">
+                        <h3>{{ .Params.download.demo.title }}</h3>
+                    </div>
+                    <div class="download-actions">
+                        <a href="{{ .Site.Params.demo_url }}" target="_blank" class="btn btn-primary btn-large">{{ .Params.download.demo.button_text }}</a>
+                    </div>
+                    <p class="download-description">{{ .Params.download.demo.description }}</p>
+                    {{ if .Params.download.demo.features }}
+                    <ul class="download-features">
+                        {{ range .Params.download.demo.features }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
+            
             <!-- FULL Version Card -->
             <div class="download-card">
                 <div class="download-content">
@@ -76,9 +174,16 @@
                         <h3>{{ .Params.download.full.title }}</h3>
                     </div>
                     <div class="download-actions">
-                        <button type="button" class="btn btn-primary btn-large" disabled>{{ .Params.download.full.button_text }}</button>
+                        <a href="{{ .Site.Params.discord_url }}" target="_blank" class="btn btn-primary btn-large">{{ .Params.download.full.button_text }}</a>
                     </div>
                     <p class="download-description">{{ .Params.download.full.description }}</p>
+                    {{ if .Params.download.full.features }}
+                    <ul class="download-features">
+                        {{ range .Params.download.full.features }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
                 </div>
             </div>
         </div>
@@ -107,4 +212,5 @@
     </div>
 </section>
 
+{{ end }}
 {{ end }}
