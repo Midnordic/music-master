@@ -55,7 +55,7 @@ main_features:
       - { title: "Use Discord for remote sessions", description: "Music Master can also stream its audio through Discord, keeping your soundtrack inside the platform your group already uses." }
       - { title: "Integrate with Stream Deck", description: "Connect Music Master with Stream Deck for fast physical controls during play." }
 full_features:
-  - { title: "Playback & Organization", items: ["Playlists and soundboards", "Track looping, trimming, speed, volume and panning", "Smooth crossfades between tracks", "Simultaneous layered playback", "Boundle your projects into a single file"] }
+  - { title: "Playback & Organization", items: ["Playlists and soundboards", "Track looping, trimming, speed, volume and panning", "Smooth crossfades between tracks", "Simultaneous layered playback", "Bundle your projects into a single file"] }
   - { title: "Soundscapes & Mixing", items: ["Layer music, ambience and sound effects", "Mix various audio effects", "Smooth timed transitions", "Ambient Mixes with multiple presets", "Up to 12 simultaneous audio streams"] }
   - { title: "Automation & Reactive Audio", items: ["Visual node-based editor", "Manual and timed events", "Reactions to play, pause, stop, loop and finish", "Trigger multiple actions from a single event", "Automate volume, speed and other parameters"] }
   - { title: "Effects & Cinematiques", items: ["Audio effects: amplify, echo, chamber echo, swirler, pitch shift, old radio and muffle", "Premade Cinematiques: Ambient Mix, Creeping Dread, Crossfade, Muffle, Shellshock, Silent Aftershock, Slow Motion and Sound Sequence", "Chain multiple audio effects together", "Build or customize your own cinematic audio behavior"] }
