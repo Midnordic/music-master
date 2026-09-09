@@ -7,7 +7,7 @@ main_features:
   - type: cinematiques
     title: Cinematiques
     subtitle: "Turn ordinary moments into unforgettable ones."
-    introduction: "Use techniques inspired by movie sound design straight to your tabletop sessions. Pick from premade techniques to create tension, shock, suspense and other dramatic moments, just like in your favourite movies."
+    introduction: "Bring movie-inspired sound design to your tabletop. Use premade techniques to create tension, shock, suspense and other dramatic moments."
     slides:
       - { title: "Creeping Dread", description: "Transform well-known, peaceful track into a nightmare.", image: "en/blog/creeping-dread/thumbnail.jpg", alt: "Creeping Dread cinematic audio technique", url: "blog/creeping-dread/" }
       - { title: "Shellshock", description: "A classic cinematic way to simulate disorientation and trauma.", image: "en/blog/shellshock/thumbnail.jpg", alt: "Shellshock cinematic audio technique", url: "blog/shellshock/" }
@@ -18,42 +18,42 @@ main_features:
       - { title: "Silent Aftershock", description: "Amplify dramatic moments with silence.", image: "en/blog/silent-aftershock/thumbnail.jpg", alt: "Silent Aftershock cinematic audio technique", url: "blog/silent-aftershock/" }
       - { title: "Sound Sequence", description: "Chain sounds together to create a dramatic moment. Line them up!", image: "en/blog/sound-sequence/thumbnail.jpg", alt: "Sound Sequence cinematic audio technique", url: "blog/sound-sequence/" }
     points:
-      - { title: "Premade dramatic techniques", description: "Choose a proven film-inspired effect instead of building every dramatic beat from scratch." }
-      - { title: "Trigger them live", description: "Launch a Cinematique exactly when the story reaches its turning point." }
-      - { title: "Shape familiar music", description: "Transform tracks your players recognize to create surprise, dread or impact." }
-      - { title: "Make every beat your own", description: "Assign your own tracks and adapt each technique to the scene." }
+      - { title: "Premade dramatic techniques", description: "Create film-inspired moments without building effects from scratch." }
+      - { title: "Trigger them live", description: "Launch a Cinematique at the story’s turning point." }
+      - { title: "Shape familiar music", description: "Transform recognizable tracks into surprise, dread or impact." }
+      - { title: "Make every beat your own", description: "Use your own tracks and adapt each technique." }
   - type: reactive
     title: "Reactive Audio"
     subtitle: "Make the soundtrack obey your imagination."
-    introduction: "Make your soundtrack respond to what happens in the game. Set up custom reactions for any moment - trigger music, sounds, effects, transitions or ambience changes from events, timers or other tracks, and let Music Master handle them during play."
-    image: "images/features/automation.webp"
+    introduction: "Make your soundtrack respond to the game. Trigger music, effects, transitions and ambience changes from events, timers or other tracks—then let Music Master handle them live."
+    image: "images/features/automation_editor.webp"
     alt: "Music Master visual node editor with connected tracks, events and controllers"
     flow: ["Use Visual Editor to create your own flows and triggers."]
     points:
-      - { title: "Build tension automatically", description: "Let ambience fade, music slow down or unsettling sounds appear as a scene develops." }
-      - { title: "Create seamless transitions", description: "Start the next track, crossfade into a new mood or change several audio layers at once when the moment calls for it." }
-      - { title: "Trigger whole sequences with one action", description: "A single event can launch music, sound effects, fades and other reactions together - so complex moments stay easy to run during play." }
-      - { title: "Make it entirely your own", description: "Use Music Master’s visual editor to connect tracks, events, controllers and effects into custom audio logic built around your ideas." }
+      - { title: "Build tension automatically", description: "Fade ambience, slow music or reveal unsettling sounds as scenes develop." }
+      - { title: "Create seamless transitions", description: "Crossfade moods or change several audio layers at once." }
+      - { title: "Trigger whole sequences with one action", description: "Launch music, effects and fades together from a single event." }
+      - { title: "Make it entirely your own", description: "Connect tracks, events, controllers and effects around your ideas." }
   - type: layers
     title: "Layered Soundscapes"
     subtitle: "Build worlds your players can hear."
-    introduction: "Combine music, ambience and sound effects to create places that feel alive. Layer multiple sounds at once and change them independently as the scene evolves."
-    image: "images/features/ambient_mix.webp"
+    introduction: "Combine music, ambience and effects into places that feel alive. Play multiple sounds together and shape each one as the scene evolves."
+    image: "images/features/soundscapes_ambient.webp"
     alt: "Tracks connected to an Ambient Mix in the Music Master editor"
     points:
-      - { title: "Bring locations to life", description: "Layer rain, wind, crowds, fire, wildlife or machinery beneath your music to give every place its own atmosphere." }
-      - { title: "Change the scene without replacing it", description: "Fade individual layers in and out as the players move, discover something or alter the environment." }
-      - { title: "Mix multiple sounds naturally", description: "Play several tracks at once and control their volume, balance and behavior separately to create richer, more believable soundscapes." }
-      - { title: "Keep everything ready for the table", description: "Organize your ambience, music and effects into playlists, soundboards and mixes so you can quickly shape the scene during play." }
+      - { title: "Bring locations to life", description: "Layer weather, crowds, fire, wildlife or machinery beneath your music." }
+      - { title: "Change the scene without replacing it", description: "Fade individual layers as players move or alter the environment." }
+      - { title: "Mix multiple sounds naturally", description: "Control each track separately for richer, believable soundscapes." }
+      - { title: "Keep everything ready for the table", description: "Organize sounds into playlists, soundboards and reusable mixes." }
   - type: connections
-    title: "Play Offline or Online"
+    title: "Play Online or Offline"
     subtitle: "Run the game your way, wherever your table is."
-    introduction: "Music Master works fully offline, so you can run your session without relying on an internet connection. When you play remotely, you can stream the final mix directly to your players’ browsers or through Discord."
+    introduction: "Run every sound locally without an internet connection. For remote games, stream the final mix to your players through their browsers or Discord."
     points:
-      - { title: "Run sessions without an internet connection", description: "Your music, soundscapes, effects and automation all work locally, so you are not dependent on a connection during offline games." }
-      - { title: "Stream directly to your players’ browsers", description: "Create a room and share a link and PIN. Your players can listen in a modern browser without installing Music Master or creating any accounts." }
-      - { title: "Use Discord for remote sessions", description: "Music Master can also stream its audio through Discord, keeping your soundtrack inside the platform your group already uses." }
-      - { title: "Integrate with Stream Deck", description: "Connect Music Master with Stream Deck for fast physical controls during play." }
+      - { title: "Run sessions without an internet connection", description: "Music, effects and automation all work locally." }
+      - { title: "Stream directly to your players’ browsers", description: "Share a link and PIN—no installation or listener accounts needed." }
+      - { title: "Use Discord for remote sessions", description: "Keep your soundtrack inside the platform your group already uses." }
+      - { title: "Integrate with Stream Deck", description: "Use fast physical controls during play." }
 full_features:
   - { title: "Playback & Organization", items: ["Playlists and soundboards", "Track looping, trimming, speed, volume and panning", "Smooth crossfades between tracks", "Simultaneous layered playback", "Bundle your projects into a single file"] }
   - { title: "Soundscapes & Mixing", items: ["Layer music, ambience and sound effects", "Mix various audio effects", "Smooth timed transitions", "Ambient Mixes with multiple presets", "Up to 12 simultaneous audio streams"] }
@@ -62,7 +62,7 @@ full_features:
   - { title: "Live Play", items: ["Dedicated Now Playing view for controlling everything", "Trigger tracks, events and Cinematiques during the session", "Global pause, resume and stop controls", "Adjust playing tracks in real time", "Soundboards for quick effects and actions", "Record audio directly inside Music Master"] }
   - { title: "Online & Integrations", items: ["Fully functional offline play", "Browser Broadcast for remote players", "Share a link and PIN — no listener account or installation needed", "Up to 6 browser listeners", "Discord audio streaming", "Stream Deck integration", "Windows and Android support"] }
 download:
-  title: "Get Music Master"
+  title: "Try Music Master"
   demo: { title: "TRIAL Version", image: "images/SplashDemo.webp", url: "https://midnordic.itch.io/music-master-demo", button_text: "Download from Itch.io", description: "Try Music Master with the included free sample pack.", features: ["No subscriptions.", "Works offline.", "Personal use only."] }
   full: { title: "FULL Version", image: "images/SplashFull.webp", url: "https://discord.gg/xdX3r6A7qD", button_text: "Join our Discord", description: "Join our Discord to get the full version for free. This is a time limited offer!", features: ["Full feature set.", "No subscriptions.", "Works offline.", "Personal and commercial use."] }
 comparison:

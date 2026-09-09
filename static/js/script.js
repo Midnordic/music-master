@@ -10,14 +10,18 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initCinematiquesCarousel() {
-    document.querySelectorAll('.cinematiques-carousel').forEach(carousel => {
+    document.querySelectorAll('.feature-carousel').forEach(carousel => {
         const track = carousel.querySelector('.carousel-track');
         const slides = [...carousel.querySelectorAll('.carousel-slide')];
         const dots = [...carousel.querySelectorAll('.carousel-dots button')];
         const counter = carousel.querySelector('.carousel-counter');
+        const previousButton = carousel.querySelector('.carousel-prev');
+        const nextButton = carousel.querySelector('.carousel-next');
+
+        if (!track || !slides.length || !counter || !previousButton || !nextButton) return;
+
         let current = 0;
         let autoAdvance;
-        let paused = false;
         const show = index => {
             current = (index + slides.length) % slides.length;
             track.style.transform = `translateX(-${current * 100}%)`;
@@ -31,11 +35,11 @@ function initCinematiquesCarousel() {
         };
         const startAutoAdvance = () => {
             window.clearInterval(autoAdvance);
-            if (!paused) autoAdvance = window.setInterval(() => show(current + 1), 6000);
+            autoAdvance = window.setInterval(() => show(current + 1), 6000);
         };
         const navigate = index => { show(index); startAutoAdvance(); };
-        carousel.querySelector('.carousel-prev').addEventListener('click', () => navigate(current - 1));
-        carousel.querySelector('.carousel-next').addEventListener('click', () => navigate(current + 1));
+        previousButton.addEventListener('click', () => navigate(current - 1));
+        nextButton.addEventListener('click', () => navigate(current + 1));
         dots.forEach((dot, i) => dot.addEventListener('click', () => navigate(i)));
         carousel.addEventListener('keydown', event => {
             if (event.key === 'ArrowLeft') { event.preventDefault(); navigate(current - 1); }
@@ -54,12 +58,6 @@ function initCinematiquesCarousel() {
         carousel.addEventListener('focusin', () => window.clearInterval(autoAdvance));
         carousel.addEventListener('focusout', event => {
             if (!carousel.contains(event.relatedTarget)) startAutoAdvance();
-        });
-        pauseButton.addEventListener('click', () => {
-            paused = !paused;
-            pauseButton.textContent = paused ? 'Play' : 'Pause';
-            pauseButton.setAttribute('aria-label', paused ? 'Play carousel' : 'Pause carousel');
-            startAutoAdvance();
         });
         show(0);
         startAutoAdvance();
