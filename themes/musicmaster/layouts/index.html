@@ -2,6 +2,8 @@
 
 {{ if eq .Lang "en" }}
 {{ partial "landing-en.html" . }}
+{{ else if eq .Lang "pl" }}
+{{ partial "landing-pl.html" . }}
 {{ else }}
 
 <!-- Hero Section -->

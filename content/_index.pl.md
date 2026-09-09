@@ -6,8 +6,84 @@ layout: "index"
 # Hero Section
 hero:
   title: "Zostań Mistrzem Muzyki!"
-  subtitle: "**Music Master** to wszechstronna aplikacja muzyczna stworzona specjalnie dla Mistrzów Gry.<br/><br/>Rozgrywki staną się jeszcze lepsze dzięki muzycznym technikom filmowym i dynamicznym efektom dźwiękowym. Wykorzystaj listy odtwrzania muzyki i efektów dźwiękowych, podkłady ambientowe z wieloma ścieżkami, automatyzację i kontrolę na dźwiękiem w czasie rzeczywistym."
-  cta_text: "Pobierz"  
+  subtitle: "Music Master daje Ci pełną kontrolę na żywo nad muzyką, ambientem i efektami dźwiękowymi — od prostych playlist i soundboardów po reaktywne przejścia, efekty filmowe i wielowarstwowe pejzaże dźwiękowe."
+  tagline: "Stworzony specjalnie dla Mistrzów Gry."
+  cta_text: "Pobierz"
+
+main_features:
+  - type: cinematiques
+    title: "Cinematiques"
+    subtitle: "Zmień zwykłe chwile w niezapomniane sceny."
+    introduction: "Wprowadź do sesji filmowe techniki dźwiękowe. Korzystaj z gotowych rozwiązań, by budować napięcie, szokować i podkreślać dramatyczne momenty."
+    slides:
+      - { title: "Creeping Dread", description: "Zmień dobrze znany, spokojny utwór w koszmar.", image: "en/blog/creeping-dread/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Creeping Dread", url: "blog/creeping-dread/" }
+      - { title: "Shellshock", description: "Klasyczny filmowy sposób na oddanie dezorientacji i traumy.", image: "en/blog/shellshock/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Shellshock", url: "blog/shellshock/" }
+      - { title: "Slow Motion", description: "Rozciągnij i podkreśl decydującą akcję lub intensywny moment.", image: "en/blog/slowmo/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Slow Motion", url: "blog/slowmo/" }
+      - { title: "Ambient Mix", description: "Połącz dźwięki tła, aby wspierały nastrój, tempo i narrację.", image: "en/blog/ambient-mix/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Ambient Mix", url: "blog/ambient-mix/" }
+      - { title: "Crossfade", description: "Płynnie przechodź od spokojnych chwil do intensywnych starć.", image: "en/blog/crossfade/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Crossfade", url: "blog/crossfade/" }
+      - { title: "Muffle", description: "Nadaj dźwiękom brzmienie słyszane pod wodą lub zza zamkniętych drzwi.", image: "en/blog/muffle/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Muffle", url: "blog/muffle/" }
+      - { title: "Silent Aftershock", description: "Wzmocnij dramatyczne momenty ciszą.", image: "en/blog/silent-aftershock/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Silent Aftershock", url: "blog/silent-aftershock/" }
+      - { title: "Sound Sequence", description: "Połącz dźwięki w sekwencję tworzącą dramatyczny moment.", image: "en/blog/sound-sequence/thumbnail.jpg", alt: "Filmowa technika dźwiękowa Sound Sequence", url: "blog/sound-sequence/" }
+    points:
+      - { title: "Gotowe techniki dramatyczne", description: "Twórz filmowe chwile bez budowania efektów od zera." }
+      - { title: "Uruchamiaj je na żywo", description: "Włącz Cinematique dokładnie w punkcie zwrotnym historii." }
+      - { title: "Odmieniaj znajomą muzykę", description: "Zmieniaj utwory w źródło zaskoczenia, grozy lub dramatyzmu." }
+      - { title: "Dopasuj każdy moment", description: "Używaj własnych utworów i dostosowuj każdą technikę." }
+  - type: reactive
+    title: "Reaktywne audio"
+    subtitle: "Niech ścieżka dźwiękowa podąża za Twoją wyobraźnią."
+    introduction: "Spraw, by dźwięk reagował na wydarzenia w grze. Uruchamiaj muzykę, efekty, przejścia i zmiany ambientu za pomocą zdarzeń, timerów lub innych utworów."
+    image: "images/features/automation_editor.webp"
+    alt: "Wizualny edytor Music Mastera z połączonymi utworami, zdarzeniami i kontrolerami"
+    flow: ["Twórz własne przepływy i wyzwalacze w Edytorze Wizualnym."]
+    points:
+      - { title: "Automatycznie buduj napięcie", description: "Wyciszaj ambient, zwalniaj muzykę lub wprowadzaj niepokojące dźwięki." }
+      - { title: "Twórz płynne przejścia", description: "Przenikaj między nastrojami lub zmieniaj kilka warstw jednocześnie." }
+      - { title: "Uruchamiaj całe sekwencje", description: "Włącz muzykę, efekty i wyciszenia jednym zdarzeniem." }
+      - { title: "Twórz po swojemu", description: "Łącz utwory, zdarzenia, kontrolery i efekty według własnych pomysłów." }
+  - type: layers
+    title: "Wielowarstwowe pejzaże dźwiękowe"
+    subtitle: "Buduj światy, które gracze mogą usłyszeć."
+    introduction: "Łącz muzykę, ambient i efekty w miejsca, które brzmią żywo. Odtwarzaj wiele dźwięków jednocześnie i kształtuj każdy z nich wraz z rozwojem sceny."
+    image: "images/features/soundscapes_ambient.webp"
+    alt: "Utwory połączone z Ambient Mixem w edytorze Music Mastera"
+    points:
+      - { title: "Ożywiaj lokacje", description: "Dodawaj pod muzyką pogodę, tłum, ogień, zwierzęta lub maszyny." }
+      - { title: "Zmieniaj scenę bez jej zastępowania", description: "Wyciszaj pojedyncze warstwy, gdy gracze się przemieszczają lub zmieniają otoczenie." }
+      - { title: "Naturalnie miksuj dźwięki", description: "Steruj każdym utworem osobno, tworząc bogate i wiarygodne pejzaże." }
+      - { title: "Miej wszystko pod ręką", description: "Porządkuj dźwięki w playlistach, soundboardach i miksach wielokrotnego użytku." }
+  - type: connections
+    title: "Graj online lub offline"
+    subtitle: "Prowadź grę po swojemu, niezależnie od miejsca."
+    introduction: "Odtwarzaj wszystko lokalnie bez połączenia z internetem. Podczas sesji zdalnych przesyłaj końcowy miks do przeglądarek graczy lub przez Discord."
+    points:
+      - { title: "Prowadź sesje bez internetu", description: "Muzyka, efekty i automatyzacja działają w pełni lokalnie." }
+      - { title: "Przesyłaj dźwięk do przeglądarek", description: "Udostępnij link i PIN — bez instalacji i kont słuchaczy." }
+      - { title: "Korzystaj z Discorda", description: "Odtwarzaj ścieżkę dźwiękową na platformie używanej przez grupę." }
+      - { title: "Połącz ze Stream Deckiem", description: "Steruj sesją szybko za pomocą fizycznych przycisków." }
+
+full_features:
+  - { title: "Odtwarzanie i organizacja", items: ["Playlisty i soundboardy", "Zapętlanie, przycinanie, tempo, głośność i panoramowanie", "Płynne przejścia między utworami", "Jednoczesne odtwarzanie warstw", "Pakowanie projektów do jednego pliku"] }
+  - { title: "Pejzaże dźwiękowe i miksowanie", items: ["Warstwy muzyki, ambientu i efektów", "Różnorodne efekty audio", "Płynne przejścia czasowe", "Ambient Mix z wieloma ustawieniami", "Do 12 jednoczesnych strumieni audio"] }
+  - { title: "Automatyzacja i reaktywne audio", items: ["Wizualny edytor węzłowy", "Zdarzenia ręczne i czasowe", "Reakcje na odtwarzanie, pauzę, zatrzymanie, pętlę i zakończenie", "Wiele akcji uruchamianych jednym zdarzeniem", "Automatyzacja głośności, tempa i innych parametrów"] }
+  - { title: "Efekty i Cinematiques", items: ["Efekty audio: wzmocnienie, echo, echo komorowe, swirler, zmiana wysokości, stare radio i tłumienie", "Gotowe Cinematiques: Ambient Mix, Creeping Dread, Crossfade, Muffle, Shellshock, Silent Aftershock, Slow Motion i Sound Sequence", "Łączenie wielu efektów audio", "Własne filmowe zachowania audio"] }
+  - { title: "Gra na żywo", items: ["Widok Teraz odtwarzane do sterowania wszystkim", "Uruchamianie utworów, zdarzeń i Cinematiques podczas sesji", "Globalna pauza, wznowienie i zatrzymanie", "Regulacja utworów w czasie rzeczywistym", "Soundboardy do szybkich efektów i akcji", "Nagrywanie audio bezpośrednio w Music Masterze"] }
+  - { title: "Online i integracje", items: ["Pełna funkcjonalność offline", "Browser Broadcast dla zdalnych graczy", "Link i PIN — bez konta i instalacji", "Do 6 słuchaczy w przeglądarce", "Transmisja audio przez Discord", "Integracja ze Stream Deckiem", "Obsługa Windows i Androida"] }
+
+landing_comparison:
+  labels: { feature: "Możliwość", trial: "Trial", full: "Pełna wersja" }
+  items:
+    - { feature: "Cena", trial: "Za darmo", full: "24,99 USD" }
+    - { feature: "Rozmiar projektu", trial: "10 utworów", full: "✓ Bez ograniczeń" }
+    - { feature: "Długość utworu", trial: "4:30", full: "✓ Bez ograniczeń" }
+    - { feature: "Playlista / soundboard", trial: "5 utworów", full: "✓ Bez ograniczeń" }
+    - { feature: "Jednoczesne audio", trial: "4 strumienie", full: "✓ 12 strumieni" }
+    - { feature: "Efekty", trial: "Ograniczony wybór", full: "✓ Wszystkie efekty" }
+    - { feature: "Cinematiques", trial: "Ograniczony wybór", full: "✓ Wszystkie Cinematiques" }
+    - { feature: "Edytor i zdarzenia", trial: "Niedostępne", full: "✓ Pełna automatyzacja" }
+    - { feature: "Nagrywanie", trial: "Do 31 sekund", full: "✓ Bez ograniczeń" }
+    - { feature: "Sklep z paczkami sampli", trial: "Darmowe paczki", full: "✓ Pełny dostęp do sklepu" }
+    - { feature: "Integracje", trial: "Niedostępne", full: "✓ Broadcast, Discord, Stream Deck" }
 
 # Features Section
 features:
