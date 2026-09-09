@@ -6,7 +6,7 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
         
-    {{ $style := resources.Get "css/styles.css" }}
+    {{ $style := resources.Get "css/styles.css" | minify | fingerprint }}
     {{ if $style }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     {{ else }}
@@ -42,7 +42,7 @@
     {{ if $script }}
     <script src="{{ $script.Permalink }}"></script>
     {{ else }}
-    <script src="{{ "js/script.js" | relURL }}"></script>
+    <script src="{{ "js/script.js" | relURL }}?v={{ now.Unix }}"></script>
     {{ end }}
 
     <!-- Docs navigation script -->
