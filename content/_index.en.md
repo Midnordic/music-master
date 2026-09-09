@@ -51,7 +51,7 @@ main_features:
     introduction: "Music Master works fully offline, so you can run your session without relying on an internet connection. When you play remotely, you can stream the final mix directly to your players’ browsers or through Discord."
     points:
       - { title: "Run sessions without an internet connection", description: "Your music, soundscapes, effects and automation all work locally, so you are not dependent on a connection during offline games." }
-      - { title: "Stream directly to your players’ browsers", description: "Create a Broadcast room and share a link and PIN. Your players can listen in a modern browser without installing Music Master or creating any accounts." }
+      - { title: "Stream directly to your players’ browsers", description: "Create a room and share a link and PIN. Your players can listen in a modern browser without installing Music Master or creating any accounts." }
       - { title: "Use Discord for remote sessions", description: "Music Master can also stream its audio through Discord, keeping your soundtrack inside the platform your group already uses." }
       - { title: "Integrate with Stream Deck", description: "Connect Music Master with Stream Deck for fast physical controls during play." }
 full_features:

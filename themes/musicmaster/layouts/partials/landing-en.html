@@ -16,7 +16,7 @@
   {{ else if eq $feature.type "layers" }}
   <figure class="feature-visual layers-visual"><a href="{{ $feature.image | relURL }}" target="_blank" rel="noopener noreferrer"><img src="{{ $feature.image | relURL }}" alt="{{ $feature.alt }}" loading="lazy"></a><figcaption class="reaction-flow">Control each ambient layer during live playback.</figcaption></figure>
   {{ else }}
-  <div class="connection-diagram" role="img" aria-label="Music Master connects to an in-person table, Browser Broadcast, Discord and Stream Deck"><div class="diagram-hub">Music Master</div><div class="diagram-path"><span aria-hidden="true">→</span><strong>In-person table</strong><small>No internet required</small></div><div class="diagram-path"><span aria-hidden="true">→</span><strong>Browser Broadcast → Players</strong><small>Link + PIN</small></div><div class="diagram-path"><span aria-hidden="true">→</span><strong>Discord → Players</strong></div><div class="diagram-integration"><span aria-hidden="true">↔</span> Stream Deck</div></div>
+  <figure class="feature-visual integrations-visual"><img src="{{ "images/features/integrations.webp" | relURL }}" alt="Music Master integrations for Discord, browser play and Stream Deck" loading="lazy"><figcaption class="reaction-flow">Play online using Discord or browsers. Integrate with Stream Deck.</figcaption></figure>
   {{ end }}
   <div class="supporting-points">{{ range $feature.points }}<div class="supporting-point"><h3>{{ .title }}</h3><p>{{ .description }}</p></div>{{ end }}</div>
 </div></div></section>
