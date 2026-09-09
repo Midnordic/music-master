@@ -2352,7 +2352,9 @@ strong {
 .hero-three-column .hero-text { grid-area:text; align-self:start; }
 .hero-three-column .hero-devices { grid-area:devices; }
 .hero-three-column .hero-title { font-size:2.8rem; }
-.hero-three-column .hero-subtitle { font-size:1.05rem; margin-bottom:2rem; }
+.hero-three-column .hero-subtitle { font-size:1.05rem; margin-bottom:1.25rem; }
+.hero-tagline-divider { width:100%; height:1px; margin:0 0 1rem; border:0; background:#d6bcfa; }
+.hero-tagline { margin:0 0 2rem; color:#4a5568; font-size:1rem; font-weight:700; }
 .hero-three-column .hero-text { background:transparent; backdrop-filter:none; -webkit-backdrop-filter:none; }
 .hero-three-column .hero-logo, .hero-three-column .hero-text, .hero-three-column .hero-devices { order:0; }
 .hero-devices { display:flex; align-items:center; justify-content:center; min-width:0; }

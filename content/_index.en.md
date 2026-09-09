@@ -2,7 +2,7 @@
 title: "Music Master - Make the players feel the scene"
 description: "Live control over music, ambience and sound effects for Game Masters."
 layout: "index"
-hero: { title: "Become a Music Master!", subtitle: "Music Master gives you live control over music, ambience and sound effects - from simple playlists and soundboards to reactive transitions, cinematic effects and soundscapes.", cta_text: "Download", platform_note: "Windows & Android · Free audio pack included" }
+hero: { title: "Become a Music Master!", subtitle: "Music Master gives you live control over music, ambience and sound effects - from simple playlists and soundboards to reactive transitions, cinematic effects and soundscapes.", tagline: "Built specifically for tabletop Game Masters.", cta_text: "Download", platform_note: "Windows & Android · Free audio pack included" }
 main_features:
   - type: cinematiques
     title: Cinematiques
