@@ -25,8 +25,25 @@
 
 <section class="showcase-video-section" aria-labelledby="showcase-video-title"><div class="container"><h2 id="showcase-video-title" class="section-title">See Music Master in action</h2><div class="showcase-video"><div class="video-container"><div class="video-wrapper"><iframe src="https://www.youtube.com/embed/_3DJf3wOtdA" title="Music Master release showcase" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div></div><div class="full-features-section"><details class="full-features"><summary>Full feature list</summary><div class="full-features-grid">{{ range .Params.full_features }}<section><h3>{{ .title }}</h3><ul>{{ range .items }}<li>{{ . }}</li>{{ end }}</ul></section>{{ end }}</div></details></div></div></section>
 
-<section id="download" class="features-section landing-download"><div class="container"><h2 class="section-title">{{ .Params.download.title }}</h2><div class="download-grid">
-{{ with .Params.download.full }}<div class="download-card"><div class="download-content"><div class="download-image"><img src="{{ .image | relURL }}" alt="{{ .title }} splash screen"></div><div class="download-header"><h3>{{ .title }}</h3></div><div class="download-actions"><a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">{{ .button_text }}</a></div><p class="download-description">{{ .description }}</p>{{ with .features }}<ul class="download-features">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}</div></div>{{ end }}
-</div>{{ with .Params.comparison }}<div id="comparison" class="landing-comparison"><h2 class="section-title">{{ .title }}</h2><div class="comparison-table-wrapper"><table class="comparison-table"><thead><tr><th scope="col">{{ .labels.feature }}</th><th scope="col">{{ .labels.demo }}</th><th scope="col" class="full-column">{{ .labels.full }}</th></tr></thead><tbody>{{ range .items }}<tr><th scope="row">{{ .feature }}</th><td>{{ .demo }}</td><td class="full-column">{{ .full }}</td></tr>{{ end }}</tbody></table></div></div>{{ end }}</div></section>
+<section id="download" class="features-section landing-download">
+  <div class="container">
+    <h2 class="section-title">{{ .Params.download.title }}</h2>
+    <div class="download-panel">
+      <div class="download-primary">
+        {{ with .Params.download.full }}<div class="download-image"><img src="{{ .image | relURL }}" alt="Music Master splash screen"></div>{{ end }}
+        <div class="platform-downloads" aria-label="Download Music Master">
+          <button type="button" class="platform-button windows-button"><img src="{{ "images/windows.svg" | relURL }}" alt=""><span>Download for Windows</span></button>
+          <button type="button" class="platform-button google-play-button"><img src="{{ "images/google-play-white.png" | relURL }}" alt="Get it on Google Play"></button>
+        </div>
+        <p class="purchase-note">One-time purchase · 3 devices · No subscription</p>
+      </div>
+      <section class="licensing-block" aria-labelledby="licensing-title">
+        <header><h2 id="licensing-title">Simple licensing</h2><p>One purchase. No subscriptions.</p></header>
+        <div class="licensing-benefits"><article><span class="licensing-icon" aria-hidden="true">▣</span><div><h3>3 devices</h3><p>One Music Master license can be activated on up to three of your devices.</p></div></article><article><span class="licensing-icon" aria-hidden="true">↛</span><div><h3>No subscription</h3><p>Pay once. There are no monthly or yearly fees.</p></div></article><article><span class="licensing-icon" aria-hidden="true">∞</span><div><h3>Yours forever</h3><p>Once you buy Music Master, you can keep using it for as long as you want.</p></div></article></div>
+      </section>
+      {{ with .Params.comparison }}<div id="comparison" class="landing-comparison"><p class="comparison-intro">Trial license if free forever. You can upgrade to Full version from within the app.</p><div class="comparison-table-wrapper"><table class="comparison-table"><thead><tr><th scope="col">{{ .labels.feature }}</th><th scope="col">{{ .labels.demo }}</th><th scope="col" class="full-column">{{ .labels.full }}</th></tr></thead><tbody>{{ range .items }}<tr><th scope="row">{{ .feature }}</th><td>{{ .demo }}</td><td class="full-column">{{ .full }}</td></tr>{{ end }}</tbody></table></div></div>{{ end }}
+    </div>
+  </div>
+</section>
 
 <section id="blog" class="features-section"><div class="container"><h2 class="section-title">{{ .Params.blog.title }}</h2><p class="section-description">{{ .Params.blog.description }}</p><div class="blog-grid">{{ $posts := sort (where .Site.RegularPages "Section" "blog") ".Params.date" "desc" }}{{ range first 3 $posts }}{{ partial "blog-post-card.html" . }}{{ end }}</div><div style="text-align:center;margin-top:3rem"><a href="{{ "blog" | relLangURL }}" class="btn btn-outline">{{ .Params.blog.read_more_text }}</a></div></div></section>

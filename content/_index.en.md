@@ -69,6 +69,7 @@ comparison:
   title: "Trial vs Full"
   labels: { feature: "Capability", demo: "Trial", full: "Full" }
   items:
+    - { feature: "Price", demo: "Free", full: "$24.99" }
     - { feature: "Project size", demo: "10 tracks", full: "✓ Unlimited" }
     - { feature: "Track Length", demo: "4:30", full: "✓ Unlimited" }
     - { feature: "Playlist / soundboard", demo: "5 tracks", full: "✓ Unlimited" }
@@ -78,6 +79,6 @@ comparison:
     - { feature: "Editor and events", demo: "Not included", full: "✓ Full automation" }
     - { feature: "Recording", demo: "Up to 31 seconds", full: "✓ Unlimited" }
     - { feature: "Sample Pack Shop", demo: "Free packs", full: "✓ Full shop access" }
-    - { feature: "Integrations", demo: "Not included", full: "✓ Broadcast, Discord, Stream Deck" }
+    - { feature: "Integrations", demo: "Not included", full: "✓ Broadcast, Discord, Stream Deck" } 
 blog: { title: "Top blog picks", description: "Use cinematic sound techniques in your game.", show_count: 3, read_more_text: "Read more on our blog" }
 ---
