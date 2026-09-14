@@ -71,7 +71,7 @@ full_features:
   - { title: "Online i integracje", items: ["Pełna funkcjonalność offline", "Browser Broadcast dla zdalnych graczy", "Link i PIN — bez konta i instalacji", "Do 6 słuchaczy w przeglądarce", "Transmisja audio przez Discord", "Integracja ze Stream Deckiem", "Obsługa Windows i Androida"] }
 
 landing_comparison:
-  labels: { feature: "Możliwość", trial: "Trial", full: "Pełna wersja" }
+  labels: { feature: "Możliwość", trial: "Darmowa wersja", full: "Pełna wersja" }
   items:
     - { feature: "Cena", trial: "Za darmo", full: "24,99 USD" }
     - { feature: "Rozmiar projektu", trial: "10 utworów", full: "✓ Bez ograniczeń" }

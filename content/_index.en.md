@@ -66,8 +66,8 @@ download:
   demo: { title: "TRIAL Version", image: "images/SplashDemo.webp", url: "https://midnordic.itch.io/music-master-demo", button_text: "Download from Itch.io", description: "Try Music Master with the included free sample pack.", features: ["No subscriptions.", "Works offline.", "Personal use only."] }
   full: { title: "FULL Version", image: "images/SplashFull.webp", url: "https://discord.gg/xdX3r6A7qD", button_text: "Join our Discord", description: "Join our Discord to get the full version for free. This is a time limited offer!", features: ["Full feature set.", "No subscriptions.", "Works offline.", "Personal and commercial use."] }
 comparison:
-  title: "Trial vs Full"
-  labels: { feature: "Capability", demo: "Trial", full: "Full" }
+  title: "Free vs Full"
+  labels: { feature: "Feature", demo: "Free", full: "Full" }
   items:
     - { feature: "Price", demo: "Free", full: "$24.99" }
     - { feature: "Project size", demo: "10 tracks", full: "✓ Unlimited" }
