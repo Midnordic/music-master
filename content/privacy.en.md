@@ -8,7 +8,7 @@ layout: document
 
 ## 1. Introduction
 
-Music Master is developed and operated by Midnordic ("we", "us", or "our"). We value your privacy and are committed to protecting your information.
+Music Master is developed and operated by Midnordic ("we", "us", or "our"), a trading name operated by Przemysław Kociołek. We value your privacy and are committed to protecting your information.
 
 This Privacy Policy explains what information is processed when you use Music Master, why it is needed, and what rights and choices you have.
 
@@ -116,19 +116,23 @@ Technical logs are retained only for as long as reasonably necessary for securit
 
 Local data is controlled by you and remains on your device until you remove it.
 
-## 11. Cookies and Website Use
+## 11. Data Security
+
+Information transmitted between Music Master and Midnordic's online services is protected in transit using HTTPS/TLS. Device identifiers used for license verification are stored as derived/hashed identifiers rather than the underlying device information. Midnordic does not receive or store complete payment-card details.
+
+## 12. Cookies and Website Use
 
 Music Master does not include advertising trackers.
 
 Our website and the services used to host, protect, or display it may process ordinary technical information, such as your IP address, browser information, requested page, and request time. Third-party websites and services linked from our website are governed by their own privacy policies and may use cookies or similar technologies.
 
-## 12. Children's Privacy
+## 13. Children's Privacy
 
 Music Master is not directed to children under 13. We do not knowingly collect personal information from children under 13.
 
 If you believe a child has provided personal information to us, please contact us so that we can investigate and take appropriate action.
 
-## 13. Your Rights and Choices
+## 14. Your Rights and Choices
 
 Depending on where you live, you may have the right to request access to, correction of, deletion of, restriction of, or portability of your personal information. You may also have the right to object to certain processing or complain to your local data-protection authority.
 
@@ -138,15 +142,15 @@ For requests concerning information held by Midnordic, contact us using the addr
 
 For information controlled independently by a payment or integration service, contact that service directly.
 
-## 14. International Processing
+## 15. International Processing
 
 Our service providers may process information in countries other than the country where you live. Where required, we rely on appropriate safeguards for international data transfers.
 
-## 15. Changes to This Policy
+## 16. Changes to This Policy
 
 We may update this Privacy Policy to reflect changes in Music Master, our services, or legal obligations. The current version will be published with its last-updated date.
 
-## 16. Contact
+## 17. Contact
 
 For privacy questions or requests, contact:
 
