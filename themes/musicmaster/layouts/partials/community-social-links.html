@@ -1,0 +1,6 @@
+<nav class="community-social-links" aria-label="{{ if eq .Lang "pl" }}Pozostałe media społecznościowe{{ else }}More social media links{{ end }}">
+    {{ with .Site.Params.instagram_url }}<a href="{{ . }}" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/instagram.webp" | relURL }}" alt="Instagram" width="24" height="24" loading="lazy"></a>{{ end }}
+    {{ with .Site.Params.mastodon_url }}<a href="{{ . }}" title="Mastodon" target="_blank" rel="me noopener noreferrer"><img src="{{ "images/social/mastodon.webp" | relURL }}" alt="Mastodon" width="24" height="24" loading="lazy"></a>{{ end }}
+    {{ with .Site.Params.bluesky_url }}<a href="{{ . }}" title="Bluesky" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/bluesky.webp" | relURL }}" alt="Bluesky" width="24" height="24" loading="lazy"></a>{{ end }}
+    {{ with .Site.Params.youtube_url }}<a href="{{ . }}" title="YouTube" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/youtube.webp" | relURL }}" alt="YouTube" width="24" height="24" loading="lazy"></a>{{ end }}
+</nav>

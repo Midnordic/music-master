@@ -72,6 +72,19 @@
                 <div class="licensing-benefits"><article><img class="licensing-icon" src="{{ "images/emoji_shock.png" | relURL }}" alt=""><div><h3>3 devices</h3><p>One Music Master license can be activated on up to three of your devices.</p></div></article><article><img class="licensing-icon" src="{{ "images/emoji_question.png" | relURL }}" alt=""><div><h3>No subscription</h3><p>Pay once. There are no monthly or yearly fees.</p></div></article><article><img class="licensing-icon" src="{{ "images/emoji_ok.png" | relURL }}" alt=""><div><h3>Yours forever</h3><p>Once you buy Music Master, you can keep using it for as long as you want.</p></div></article></div><div class="license-price"><span>One-time price</span><strong>$24.99</strong></div>
             </section>
             {{ with .Params.comparison }}<div id="comparison" class="landing-comparison"><p class="comparison-intro">The Free version is always available. You can upgrade to Full version from within the app.</p><div class="comparison-table-wrapper"><table class="comparison-table"><thead><tr><th scope="col">{{ .labels.feature }}</th><th scope="col">{{ .labels.demo }}</th><th scope="col" class="full-column">{{ .labels.full }}</th></tr></thead><tbody>{{ range .items }}<tr><th scope="row">{{ .feature }}</th><td>{{ .demo }}</td><td class="full-column">{{ .full }}</td></tr>{{ end }}</tbody></table></div></div>{{ end }}
+            <details class="purchase-faq">
+                <summary>Purchase FAQ</summary>
+                <div class="purchase-faq-grid">
+                    <section><h3>Is Music Master a subscription?</h3><p>No. The Full version is a one-time purchase with no monthly or yearly subscription fees.</p></section>
+                    <section><h3>What do I receive after purchasing?</h3><p>You receive an email containing your license key. Enter the key and your purchase email in Music Master to activate the Full version.</p></section>
+                    <section><h3>Which platforms are supported?</h3><p>Music Master supports Windows and Android. Windows is offered as an installer or standalone download; Android is available through Google Play.</p></section>
+                    <section><h3>How many devices can I activate?</h3><p>One Music Master license can be activated on up to three of your devices.</p></section>
+                    <section><h3>Can I try Music Master before buying?</h3><p>Yes. The Free version is always available and can be upgraded to the Full version from within the app.</p></section>
+                    <section><h3>Can I use my own audio files?</h3><p>Yes. Music Master lets you import, use and record your own audio. You are responsible for having the rights and permissions required to use that material.</p></section>
+                    <section><h3>What is the refund policy?</h3><p>Refund eligibility follows applicable consumer law and the policy of the payment provider or Merchant of Record used at checkout. <a href="{{ "refund-policy" | relLangURL }}">Read the Refund Policy</a>.</p></section>
+                    <section><h3>How do I contact support?</h3><p>Need help before or after purchase? Email <a href="mailto:{{ .Site.Params.support_email }}">{{ .Site.Params.support_email }}</a>.</p></section>
+                </div>
+            </details>
         </div>
     </div>
 </section>
@@ -90,6 +103,7 @@
                 <a class="community-button community-button-primary" href="{{ .Site.Params.discord_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/discord.webp" | relURL }}" alt=""><span><strong>Discord</strong><small>Chat, feedback and community</small></span></a>
                 <a class="community-button community-button-secondary" href="{{ .Site.Params.facebook_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/facebook.webp" | relURL }}" alt=""><span><strong>Facebook</strong><small>News, releases and updates</small></span></a>
             </div>
+            {{ partial "community-social-links.html" . }}
         </div>
     </div>
 </section>

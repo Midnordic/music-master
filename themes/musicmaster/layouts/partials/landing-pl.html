@@ -60,6 +60,7 @@
                 <a class="community-button community-button-primary" href="{{ .Site.Params.discord_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/discord.webp" | relURL }}" alt=""><span><strong>Discord</strong><small>Rozmowy, opinie i społeczność</small></span></a>
                 <a class="community-button community-button-secondary" href="{{ .Site.Params.facebook_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/facebook.webp" | relURL }}" alt=""><span><strong>Facebook</strong><small>Aktualności, wydania i nowości</small></span></a>
             </div>
+            {{ partial "community-social-links.html" . }}
         </div>
     </div>
 </section>
