@@ -55,12 +55,12 @@ main_features:
   - type: connections
     title: "Graj online lub offline"
     subtitle: "Prowadź grę po swojemu, niezależnie od miejsca."
-    introduction: "Odtwarzaj wszystko lokalnie bez połączenia z internetem. Podczas sesji zdalnych przesyłaj końcowy miks do przeglądarek graczy lub przez Discord."
+    introduction: "Odtwarzaj wszystko lokalnie bez połączenia z internetem. Podczas sesji zdalnych przesyłaj końcowy miks do przeglądarek graczy lub przez Discord (tylko Windows)."
     points:
       - { title: "Prowadź sesje bez internetu", description: "Muzyka, efekty i automatyzacja działają w pełni lokalnie." }
       - { title: "Przesyłaj dźwięk do przeglądarek", description: "Udostępnij link i PIN — bez instalacji i kont słuchaczy." }
-      - { title: "Korzystaj z Discorda", description: "Odtwarzaj ścieżkę dźwiękową na platformie używanej przez grupę." }
-      - { title: "Połącz ze Stream Deckiem", description: "Steruj sesją szybko za pomocą fizycznych przycisków." }
+      - { title: "Korzystaj z Discorda", description: "Odtwarzaj ścieżkę dźwiękową na platformie używanej przez grupę (tylko Windows)." }
+      - { title: "Połącz ze Stream Deckiem", description: "Steruj sesją za pomocą fizycznych przycisków (tylko Windows)." }
 
 full_features:
   - { title: "Odtwarzanie i organizacja", items: ["Playlisty i soundboardy", "Zapętlanie, przycinanie, tempo, głośność i panoramowanie", "Płynne przejścia między utworami", "Jednoczesne odtwarzanie warstw", "Pakowanie projektów do jednego pliku"] }
@@ -68,7 +68,7 @@ full_features:
   - { title: "Automatyzacja i reaktywne audio", items: ["Wizualny edytor węzłowy", "Zdarzenia ręczne i czasowe", "Reakcje na odtwarzanie, pauzę, zatrzymanie, pętlę i zakończenie", "Wiele akcji uruchamianych jednym zdarzeniem", "Automatyzacja głośności, tempa i innych parametrów"] }
   - { title: "Efekty i Cinematiques", items: ["Efekty audio: wzmocnienie, echo, echo komorowe, swirler, zmiana wysokości, stare radio i tłumienie", "Gotowe Cinematiques: Ambient Mix, Creeping Dread, Crossfade, Muffle, Shellshock, Silent Aftershock, Slow Motion i Sound Sequence", "Łączenie wielu efektów audio", "Własne filmowe zachowania audio"] }
   - { title: "Gra na żywo", items: ["Widok Teraz odtwarzane do sterowania wszystkim", "Uruchamianie utworów, zdarzeń i Cinematiques podczas sesji", "Globalna pauza, wznowienie i zatrzymanie", "Regulacja utworów w czasie rzeczywistym", "Soundboardy do szybkich efektów i akcji", "Nagrywanie audio bezpośrednio w Music Masterze"] }
-  - { title: "Online i integracje", items: ["Pełna funkcjonalność offline", "Browser Broadcast dla zdalnych graczy", "Link i PIN — bez konta i instalacji", "Do 6 słuchaczy w przeglądarce", "Transmisja audio przez Discord", "Integracja ze Stream Deckiem", "Obsługa Windows i Androida"] }
+  - { title: "Online i integracje", items: ["Pełna funkcjonalność offline", "Browser Broadcast dla zdalnych graczy (tylko Windows)", "Link i PIN — bez konta i instalacji", "Do 6 słuchaczy w przeglądarce", "Transmisja audio przez Discord (tylko Windows)", "Integracja ze Stream Deckiem (tylko Windows)", "Podstawowa aplikacja obsługuje Windows i Androida"] }
 
 landing_comparison:
   labels: { feature: "Możliwość", trial: "Darmowa wersja", full: "Pełna wersja" }
@@ -83,7 +83,7 @@ landing_comparison:
     - { feature: "Edytor i zdarzenia", trial: "Niedostępne", full: "✓ Pełna automatyzacja" }
     - { feature: "Nagrywanie", trial: "Do 31 sekund", full: "✓ Bez ograniczeń" }
     - { feature: "Sklep z paczkami sampli", trial: "Darmowe paczki", full: "✓ Pełny dostęp do sklepu" }
-    - { feature: "Integracje", trial: "Niedostępne", full: "✓ Broadcast, Discord, Stream Deck" }
+    - { feature: "Integracje", trial: "Niedostępne", full: "✓ Broadcast, Discord, Stream Deck (tylko Windows)" }
 
 # Features Section
 features:

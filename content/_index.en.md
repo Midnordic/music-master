@@ -48,19 +48,19 @@ main_features:
   - type: connections
     title: "Play Online or Offline"
     subtitle: "Run the game your way, wherever your table is."
-    introduction: "Run every sound locally without an internet connection. For remote games, stream the final mix to your players through their browsers or Discord."
+    introduction: "Run every sound locally without an internet connection. For remote games, stream the final mix to your players through their browsers or Discord (Windows only)."
     points:
       - { title: "Run sessions without an internet connection", description: "Music, effects and automation all work locally." }
       - { title: "Stream directly to your players’ browsers", description: "Share a link and PIN—no installation or listener accounts needed." }
-      - { title: "Use Discord for remote sessions", description: "Keep your soundtrack inside the platform your group already uses." }
-      - { title: "Integrate with Stream Deck", description: "Use fast physical controls during play." }
+      - { title: "Use Discord for remote sessions", description: "Keep your soundtrack inside the platform your group already uses (Windows only)." }
+      - { title: "Integrate with Stream Deck", description: "Use fast physical controls during play (Windows only)." }
 full_features:
   - { title: "Playback & Organization", items: ["Playlists and soundboards", "Track looping, trimming, speed, volume and panning", "Smooth crossfades between tracks", "Simultaneous layered playback", "Bundle your projects into a single file"] }
   - { title: "Soundscapes & Mixing", items: ["Layer music, ambience and sound effects", "Mix various audio effects", "Smooth timed transitions", "Ambient Mixes with multiple presets", "Up to 12 simultaneous audio streams"] }
   - { title: "Automation & Reactive Audio", items: ["Visual node-based editor", "Manual and timed events", "Reactions to play, pause, stop, loop and finish", "Trigger multiple actions from a single event", "Automate volume, speed and other parameters"] }
   - { title: "Effects & Cinematiques", items: ["Audio effects: amplify, echo, chamber echo, swirler, pitch shift, old radio and muffle", "Premade Cinematiques: Ambient Mix, Creeping Dread, Crossfade, Muffle, Shellshock, Silent Aftershock, Slow Motion and Sound Sequence", "Chain multiple audio effects together", "Build or customize your own cinematic audio behavior"] }
   - { title: "Live Play", items: ["Dedicated Now Playing view for controlling everything", "Trigger tracks, events and Cinematiques during the session", "Global pause, resume and stop controls", "Adjust playing tracks in real time", "Soundboards for quick effects and actions", "Record audio directly inside Music Master"] }
-  - { title: "Online & Integrations", items: ["Fully functional offline play", "Browser Broadcast for remote players", "Share a link and PIN — no listener account or installation needed", "Up to 6 browser listeners", "Discord audio streaming", "Stream Deck integration", "Windows and Android support"] }
+  - { title: "Online & Integrations", items: ["Fully functional offline play", "Browser Broadcast for remote players (Windows only)", "Share a link and PIN — no listener account or installation needed", "Up to 6 browser listeners", "Discord audio streaming (Windows only)", "Stream Deck integration (Windows only)", "The core application supports Windows and Android"] }
 download:
   title: "Try Music Master"
   demo: { title: "TRIAL Version", image: "images/SplashDemo.webp", url: "https://midnordic.itch.io/music-master-demo", button_text: "Download from Itch.io", description: "Try Music Master with the included free sample pack.", features: ["No subscriptions.", "Works offline.", "Personal use only."] }
@@ -79,6 +79,6 @@ comparison:
     - { feature: "Editor and events", demo: "Not included", full: "✓ Full automation" }
     - { feature: "Recording", demo: "Up to 31 seconds", full: "✓ Unlimited" }
     - { feature: "Sample Pack Shop", demo: "Free packs", full: "✓ Full shop access" }
-    - { feature: "Integrations", demo: "Not included", full: "✓ Broadcast, Discord, Stream Deck" } 
+    - { feature: "Integrations", demo: "Not included", full: "✓ Broadcast, Discord, Stream Deck (Windows only)" }
 blog: { title: "Top blog picks", description: "Use cinematic sound techniques in your game.", show_count: 3, read_more_text: "Read more on our blog" }
 ---
