@@ -1,0 +1,80 @@
+End User License Agreement (EULA) for Music Master
+
+1. Agreement
+
+By downloading, installing, or using Music Master ("Application"), developed and managed by Midnordic ("Company"), you agree to be bound by this End User License Agreement ("Agreement").
+If you do not agree to this Agreement, do not install or use the Application.
+
+2. License Grant
+
+The Company grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the Application for personal, non-commercial use in accordance with this Agreement.
+
+The Application includes a Free tier with limited features and a Full tier that requires a valid purchase and license activation. Some features may be available only on supported platforms or may require internet access or third-party services.
+
+3. Restrictions
+
+You agree not to, and will not permit others to:
+
+License, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose, or otherwise commercially exploit the Application or make the Application available to any third party.
+
+Modify, make derivative works of, disassemble, decrypt, reverse compile, or reverse engineer any part of the Application, except where permitted by applicable law.
+
+Circumvent the Application's license validation, activation limits, Free limitations, or purchase verification.
+
+Remove, alter, or obscure any proprietary notice, including copyright or trademark notices, of the Company or its affiliates, partners, and licensors.
+
+4. Purchases and Licensing
+
+The Application may offer purchases for Full access and additional content through authorized payment providers.
+
+Purchases are subject to the applicable payment provider's terms and refund policies. A purchase may require a valid email address, license activation, and occasional online validation.
+
+If a purchase is refunded, revoked, canceled, or found to be invalid, the related access may be removed. The Application may return to the Free tier when a Full license is no longer valid.
+
+5. Use of User-Provided Content
+
+The Application allows you to import, use, record, and transmit your own audio and other content.
+You are solely responsible for ensuring that you have the appropriate rights and permissions to use that content.
+The Company assumes no responsibility for infringement or misuse resulting from imported or user-provided material.
+
+6. Optional Online Features
+
+The Application may provide optional online features and integrations, including licensing, downloads, updates, Broadcast, Discord, Stream Deck, and other third-party services.
+
+Your use of third-party services is also subject to their respective terms and policies. The Company does not guarantee that third-party services will remain available or compatible with the Application.
+
+7. Intellectual Property
+
+All intellectual property rights in the Application, including but not limited to its design, graphics, functionality, content, and documentation, are owned by or legally licensed to the Company.
+This Agreement does not transfer any Company or third-party intellectual property to you.
+
+8. Termination
+
+This Agreement remains in effect until terminated by you or the Company.
+The Company may suspend or terminate your license if you breach this Agreement or no longer hold a valid entitlement.
+Upon termination, you must cease all use of the Application and delete all copies from your devices.
+
+9. Disclaimer of Warranties
+
+The Application is provided "as is" and "as available" without warranty of any kind, express or implied.
+The Company does not warrant that the Application will meet your requirements, remain available, operate uninterrupted, or be error-free.
+Nothing in this Agreement limits rights that cannot be excluded under applicable law.
+
+10. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the Company shall not be liable for indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Application.
+The Company's total liability for any claim shall not exceed the amount paid by you for the Application.
+
+11. Severability
+
+If any provision of this Agreement is held to be unenforceable or invalid, that provision will be interpreted to accomplish its objectives to the fullest extent permitted by law, and the remaining provisions will continue in effect.
+
+12. Amendments to this Agreement
+
+The Company may update this Agreement to reflect changes to the Application or applicable requirements. Material changes will be communicated or presented for acceptance where required.
+
+13. Contact Information
+
+If you have questions about this Agreement, contact:
+
+support@midnordic.com
