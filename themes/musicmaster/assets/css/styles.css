@@ -2414,10 +2414,11 @@ strong {
 .full-features summary:focus-visible { outline:3px solid #fd7e14; outline-offset:-3px; }
 .full-features-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; padding:0 1.7rem 1.7rem; }
 .full-features-grid h3 { color:#6f42c1; font-size:1.25rem; }.full-features-grid li { font-size:.88rem; margin-bottom:.3rem; }
-.landing-download { padding:5rem 0; background:#faf5ff; }.landing-comparison { grid-column:1 / -1; margin-top:0; padding-top:0; }
+.landing-download { padding:5rem 0; background:#faf5ff; }.landing-comparison { grid-column:1 / -1; min-width:0; max-width:100%; margin-top:0; padding-top:0; }
 .landing-comparison .full-column { background:transparent; color:inherit; font-weight:700; }
 .comparison-intro { margin:0 0 1.5rem; padding:1rem 1.25rem; border:1px solid #d6bcfa; border-radius:10px; background:#fff; color:#6f42c1; font-size:1rem; font-weight:700; line-height:1.6; text-align:center; }
 .download-panel { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); gap:3rem; align-items:start; width:100%; margin-top:2rem; padding:2.5rem; border:1px solid #e9d8fd; border-radius:18px; background:#fff; box-shadow:0 10px 28px rgba(71,42,120,.08); }
+.download-panel > * { min-width:0; }
 .download-primary .download-image { height:auto; margin:0 auto 2rem; }
 .download-primary .download-image img { display:block; width:100%; height:auto; object-fit:contain; }
 .platform-downloads { display:grid; gap:1.5rem; width:100%; }
@@ -2488,7 +2489,7 @@ strong {
   .landing-feature-grid > :nth-child(2), .landing-feature-reverse .landing-feature-grid > :nth-child(2) { grid-column:1; grid-row:2; }
   .supporting-points, .landing-feature-reverse .supporting-points { grid-column:1; grid-row:3; }
   .full-features-grid { grid-template-columns:repeat(2,1fr); }
-  .download-panel { grid-template-columns:1fr; }.licensing-block > header { text-align:center; }.purchase-faq-grid { grid-template-columns:1fr; }
+  .landing-download { padding:4rem 0; }.download-panel { grid-template-columns:minmax(0,1fr); gap:2.5rem; padding:2rem; }.licensing-block > header { text-align:center; }.purchase-faq-grid { grid-template-columns:1fr; }
 }
 @media (max-width:600px) {
   .hero-three-column > .container { padding-inline:1.25rem; }
@@ -2496,11 +2497,15 @@ strong {
   .supporting-points, .full-features-grid { grid-template-columns:1fr; }
   .connection-diagram { grid-template-columns:1fr; }.diagram-hub { grid-row:auto; }.diagram-integration { grid-column:auto; }
   .carousel-slide-copy { min-height:205px; }.carousel-controls { padding-inline:1rem; gap:.5rem; }
-  .landing-comparison .comparison-table-wrapper { overflow-x:auto; -webkit-overflow-scrolling:touch; }
-  .landing-comparison .comparison-table { min-width:620px; display:table; }.landing-comparison .comparison-table thead { display:table-header-group; }
+  .landing-download { padding:3rem 0; }.landing-download > .container { width:100%; padding-inline:1rem; }.landing-download .section-title { font-size:2.25rem; }
+  .landing-comparison .comparison-table-wrapper { max-width:100%; overflow-x:auto; overscroll-behavior-inline:contain; -webkit-overflow-scrolling:touch; }
+  .landing-comparison .comparison-table { width:560px; min-width:560px; display:table; font-size:.82rem; }.landing-comparison .comparison-table thead { display:table-header-group; }
   .landing-comparison .comparison-table tbody { display:table-row-group; }.landing-comparison .comparison-table tr { display:table-row; }
-  .landing-comparison .comparison-table th, .landing-comparison .comparison-table td { display:table-cell; min-width:auto; }
-  .download-panel { padding:1.25rem; gap:2rem; }.platform-choice { grid-template-columns:1fr; }.platform-choice h3 { justify-content:center; text-align:center; }.platform-choice-buttons { justify-content:center; }.platform-attribution { grid-column:1; text-align:center; }.platform-button { flex-basis:100%; width:100%; min-width:0; }.licensing-benefits { gap:1.4rem; }
+  .landing-comparison .comparison-table th, .landing-comparison .comparison-table td { display:table-cell; min-width:auto; padding:.75rem .65rem; }
+  .download-panel { margin-top:1.25rem; padding:1rem; gap:2rem; border-radius:14px; }.download-primary .download-image { margin-bottom:1.25rem; }.platform-downloads { gap:1.25rem; }.platform-choice { grid-template-columns:minmax(0,1fr); gap:.75rem; }.platform-choice h3 { justify-content:center; text-align:center; }.platform-choice-buttons { width:100%; justify-content:center; gap:.65rem; }.platform-attribution { grid-column:1; text-align:center; }.platform-button { flex:1 1 100%; width:100%; max-width:100%; min-width:0; height:56px; padding-inline:.75rem; }.google-play-button img { width:min(170px,100%); }.licensing-block > header { margin-bottom:1.25rem; }.licensing-block > header h2 { font-size:1.75rem; }.licensing-benefits { gap:1.15rem; }.licensing-benefits article { grid-template-columns:4rem minmax(0,1fr); gap:.75rem; }.licensing-icon { width:4rem; height:4rem; }.license-price { padding:.85rem 1rem; }.license-price strong { font-size:1.8rem; white-space:nowrap; }.comparison-intro { padding:.85rem; font-size:.9rem; }.purchase-faq summary { padding:1rem; }.purchase-faq-grid { gap:1.1rem; padding:0 1rem 1.1rem; }
   .community-section { padding-bottom:3.5rem; }.community-panel { grid-template-columns:1fr; padding:1.5rem; text-align:center; }.community-mascot { margin-inline:auto; }.community-copy h2 { font-size:1.65rem; }.community-actions { grid-column:1; flex-direction:column; }.community-button { min-width:0; text-align:left; }
+}
+@media (max-width:400px) {
+  .landing-download > .container { padding-inline:.65rem; }.download-panel { padding:.8rem; }.licensing-benefits article { grid-template-columns:3.5rem minmax(0,1fr); }.licensing-icon { width:3.5rem; height:3.5rem; }.license-price { flex-direction:column; gap:.35rem; text-align:center; }
 }
 @media (prefers-reduced-motion:reduce) { .carousel-track { transition:none; } }
