@@ -7,7 +7,13 @@ weight: 100
 
 ## Installing the application
 
-1. The download link for the latest version of the app is included in the **email** you received after purchase. Check your inbox and make sure the message didn’t end up in the SPAM folder.
+Download Music Master before purchasing or upgrading:
+
+- **Windows:** download the Installer or Standalone version from the [Music Master website]({{< relref "/_index.en.md#download" >}}).
+- **Android:** install Music Master from **Google Play**.
+
+On Windows:
+
 1. If you downloaded the **.msi** installer:
    1. Run it and follow the installer instructions. The installer will place the app in the default user folder.
       {{< figure src="msi.jpg" caption="Installer window" class="docs-img" >}}
@@ -19,7 +25,9 @@ weight: 100
 
 {{< figure src="icon.jpg" caption="Application icon" class="docs-img" >}}
 
-## Activating the application
+On Android, complete the installation in Google Play and open Music Master from your device.
+
+## Starting and upgrading the application
 
 When you start the app for the first time, you’ll see the welcome screen. Click **Next** to proceed.
 
@@ -29,7 +37,9 @@ Next, you'll be asked to read the EULA (end user license agreement) and accept i
 
 {{< figure src="activation2.jpg" link="activation2.jpg" target="_blank" caption="EULA screen" class="docs-img" >}}
 
-On the last screen, you'll be asked to enter your email address and license key.
+You can use the Free version before purchasing. To unlock the Full version, choose the upgrade option from within Music Master and complete the purchase using the payment provider presented by the app.
+
+For purchases fulfilled with a license key, you will receive the key by email after the purchase is completed. Use the activation screen inside Music Master to enter your details:
 
 1. The license key is included in the email received after purchase.
 1. The email address linked to the key is the one you provided during purchase.
@@ -41,7 +51,7 @@ Click **Activate** and wait a moment while the server verifies your email and li
 
 **An active internet connection is required!**
 
-If everything goes well, the main application window will appear immediately.
+After successful verification, the Full version will be activated.
 
 # Have questions?
 

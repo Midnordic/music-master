@@ -6,7 +6,13 @@ weight: 100
 ---
 ## Instalacja aplikacji
 
-1. Link do pobrania najnowszej wersji aplikacji znajduje się w **mailu**, który przyszedł po zakupie na podany przez ciebie adres e-mail. Sprawdź swoją pocztę i upewnij się, że wiadomość nie wylądowała w folderze SPAM.
+Pobierz Music Mastera przed zakupem lub przejściem na pełną wersję:
+
+- **Windows:** pobierz Instalator lub Wersję samodzielną ze [strony Music Mastera]({{< relref "/_index.pl.md#download" >}}).
+- **Android:** zainstaluj Music Mastera z **Google Play**.
+
+W systemie Windows:
+
 1. Jeśli ściągneliśmy instalator **.msi**:
 	1. Należy go uruchomić i podązać za instrukcjami instalatora. Instalator zainstaluje aplikację w domyślnym folderze użytkownika. {{< figure src="msi.jpg" caption="Okno instalatora" class="docs-img" >}}
 	1. Po instalacji należy uruchomić skrót "Music Master" znajdujący się na pulpicie.
@@ -16,7 +22,9 @@ weight: 100
 
 {{< figure src="icon.jpg" caption="Ikona programu" class="docs-img" >}}
 
-## Aktywacja programu
+W systemie Android dokończ instalację w Google Play i uruchom Music Mastera na swoim urządzeniu.
+
+## Uruchomienie i przejście na pełną wersję
 
 Po uruchomieniu aplikacji po raz pierwszy, pojawi się okno powitalne. Naciśnij przycisk "Next" aby przejść dalej.
 
@@ -26,7 +34,9 @@ Następnie zostaniesz poproszony o przeczytanie umowy licencyjnej (EULA) i jej z
 
 {{< figure src="activation2.jpg" link="activation2.jpg" target="_blank" caption="Okno umowy licencyjnej" class="docs-img" >}}
 
-W ostatnim oknie pojawi się prośba o podanie adresu e-mail oraz klucza licencyjnego. 
+Przed zakupem możesz korzystać z wersji Free. Aby odblokować pełną wersję, wybierz opcję zakupu bezpośrednio w Music Masterze i dokończ transakcję za pośrednictwem operatora płatności wskazanego w aplikacji.
+
+W przypadku zakupu realizowanego za pomocą klucza licencyjnego otrzymasz klucz e-mailem po zakończeniu transakcji. Wprowadź dane na ekranie aktywacji w Music Masterze:
 
 1. Klucz licencyjny znajduje się w mailu otrzymanym po zakupie.
 1. E-mail powiązany z kluczem to ten podany podczas zakupu aplikacji.
@@ -38,7 +48,7 @@ Kliknij przycisk "Activate" i poczekaj chwilę, aż serwer sprawdzi czy podany e
 
 **Konieczne jest połączenie z internetem!**
 
-Jeśli wszystko pójdzie dobrze, od razu pokaże się główne okno aplikacji.
+Po pomyślnej weryfikacji pełna wersja zostanie aktywowana.
 
 # Masz pytania?
 
