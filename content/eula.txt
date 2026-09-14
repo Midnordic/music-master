@@ -7,9 +7,9 @@ If you do not agree to this Agreement, do not install or use the Application.
 
 2. License Grant
 
-The Company grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the Application for personal, non-commercial use in accordance with this Agreement.
+The Company grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the Application for personal and non-commercial use in accordance with this Agreement.
 
-The Application includes a Free tier with limited features and a Full tier that requires a valid purchase and license activation. Some features may be available only on supported platforms or may require internet access or third-party services.
+The Application includes a Free tier with limited features and a Full tier that requires a valid purchase and license activation. Some features may be available only on supported platforms or may require internet access or third-party services. Commercial use is granted only for Full tier license.
 
 3. Restrictions
 
