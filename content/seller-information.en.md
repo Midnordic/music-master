@@ -11,7 +11,7 @@ layout: document
 **Trading and brand name:** Midnordic  
 **Legal business operator:** Przemysław Kociołek  
 **Country:** Poland  
-**Business address:** Sopotnia Wielka 330, 31-340 Jeleśnia, Poland  
+**Business address:** Sopotnia Wielka 330, 34-340 Jeleśnia, Poland  
 **Support and contact:** [support@midnordic.net](mailto:support@midnordic.net)
 
 Midnordic is a trading name operated by Przemysław Kociołek.
