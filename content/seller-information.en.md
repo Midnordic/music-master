@@ -11,8 +11,10 @@ layout: document
 **Trading and brand name:** Midnordic  
 **Legal business operator:** Przemysław Kociołek  
 **Country:** Poland  
-**Business address:** Armii Krajowej 6, 30-150 Cracow, Poland  
+**Business address:** Sopotnia Wielka 330, 31-340 Jeleśnia, Poland  
 **Support and contact:** [support@midnordic.net](mailto:support@midnordic.net)
+
+Midnordic is a trading name operated by Przemysław Kociołek.
 
 Midnordic develops and supports Music Master, a downloadable audio application for tabletop Game Masters.
 
