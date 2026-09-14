@@ -46,7 +46,12 @@ Your use of third-party services is also subject to their respective terms and p
 7. Intellectual Property
 
 All intellectual property rights in the Application, including but not limited to its design, graphics, functionality, content, and documentation, are owned by or legally licensed to the Company.
+
 This Agreement does not transfer any Company or third-party intellectual property to you.
+
+Paid audio packs offered through Music Master contain audio for which Midnordic owns the applicable intellectual property rights. We do not sell third-party audio libraries or products under resale or master-resell licenses.
+
+Free sample packs may contain audio released under CC0 or equivalent public-domain terms. Such material is provided to Music Master users free of charge and is not sold as a paid product. Source and licensing information is provided with the relevant pack where applicable.
 
 8. Termination
 
