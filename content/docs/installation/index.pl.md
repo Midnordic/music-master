@@ -1,9 +1,10 @@
-﻿---
+---
 title: "Instalacja i aktywacja"
 icon: "⚙️"
 description: "Jak w kilku prostych krokach zainstalować i aktywować Music Mastera."
 weight: 100
 ---
+
 ## Instalacja aplikacji
 
 Pobierz Music Mastera przed zakupem lub przejściem na pełną wersję:
@@ -13,12 +14,14 @@ Pobierz Music Mastera przed zakupem lub przejściem na pełną wersję:
 
 W systemie Windows:
 
-1. Jeśli ściągneliśmy instalator **.msi**:
-	1. Należy go uruchomić i podązać za instrukcjami instalatora. Instalator zainstaluje aplikację w domyślnym folderze użytkownika. {{< figure src="msi.jpg" caption="Okno instalatora" class="docs-img" >}}
-	1. Po instalacji należy uruchomić skrót "Music Master" znajdujący się na pulpicie.
-1. Jeśli ściągnęliśmy wersję **.zip**:
-	1. Należy wypakować go do dowolnego folderu na dysku. {{< figure src="zip.jpg" caption="Wypakowywanie pliku .zip" class="docs-img" >}}
-	1. Następnie uruchomić plik "MusicMaster.exe" z tego folderu.
+1. Jeśli pobierzesz instalator **.msi**:
+   1. Uruchom go i postępuj zgodnie z instrukcjami instalatora. Aplikacja zostanie zainstalowana w domyślnym folderze użytkownika.
+      {{< figure src="msi.jpg" caption="Okno instalatora" class="docs-img" >}}
+   1. Po instalacji uruchom skrót **Music Master** znajdujący się na pulpicie.
+1. Jeśli pobierzesz wersję **.zip**:
+   1. Wypakuj ją do dowolnego folderu na dysku.
+      {{< figure src="zip.jpg" caption="Wypakowywanie pliku .zip" class="docs-img" >}}
+   1. Następnie uruchom plik **MusicMaster.exe** z tego folderu.
 
 {{< figure src="icon.jpg" caption="Ikona programu" class="docs-img" >}}
 
@@ -26,29 +29,30 @@ W systemie Android dokończ instalację w Google Play i uruchom Music Mastera na
 
 ## Uruchomienie i przejście na pełną wersję
 
-Po uruchomieniu aplikacji po raz pierwszy, pojawi się okno powitalne. Naciśnij przycisk "Next" aby przejść dalej.
+Music Master uruchamia się w wersji darmowej. Aby odblokować pełną wersję:
 
-{{< figure src="activation1.jpg" link="activation1.jpg" target="_blank" caption="Okno powitalne" class="docs-img" >}}
+* Kliknij przycisk **Upgrade** w aplikacji Music Master.
 
-Następnie zostaniesz poproszony o przeczytanie umowy licencyjnej (EULA) i jej zaakceptowanie. Kliknij na przycisk "I accept EULA", a następnie na przycisk "Next".
+{{< figure src="activate1.webp" caption="Przycisk Upgrade" class="docs-img" >}}
 
-{{< figure src="activation2.jpg" link="activation2.jpg" target="_blank" caption="Okno umowy licencyjnej" class="docs-img" >}}
+* Kliknij przycisk **Purchase a new license**.
 
-Przed zakupem możesz korzystać z wersji Free. Aby odblokować pełną wersję, wybierz opcję zakupu bezpośrednio w Music Masterze i dokończ transakcję za pośrednictwem operatora płatności wskazanego w aplikacji.
+{{< figure src="activate2.webp" caption="Przycisk zakupu" class="docs-img" >}}
 
-W przypadku zakupu realizowanego za pomocą klucza licencyjnego otrzymasz klucz e-mailem po zakończeniu transakcji. Wprowadź dane na ekranie aktywacji w Music Masterze:
+* Wprowadź swój adres e-mail i przejdź do strony płatności. Klucz licencyjny zostanie wysłany na ten adres.
 
-1. Klucz licencyjny znajduje się w mailu otrzymanym po zakupie.
-1. E-mail powiązany z kluczem to ten podany podczas zakupu aplikacji.
-1. Wprowadź adres e-mail oraz klucz licencyjny w odpowiednie pola. 
+{{< figure src="activate3.webp" caption="Adres e-mail i przejście do płatności" class="docs-img" >}}
 
-{{< figure src="activation3.jpg" link="activation3.jpg" target="_blank" caption="Aktywacja programu" class="docs-img" >}}
+* Wykonaj kroki podane na stronie płatności, aby dokończyć zakup.
+* Poczekaj chwilę, aż serwer zweryfikuje Twój adres e-mail i klucz licencyjny.
+* Po zakończeniu zakupu otrzymasz wiadomość e-mail z kluczem licencyjnym.
+* Wróć do Music Mastera i na ekranie aktywacji wprowadź ten sam adres e-mail oraz klucz licencyjny.
 
-Kliknij przycisk "Activate" i poczekaj chwilę, aż serwer sprawdzi czy podany e-mail oraz klucz licencyjny są prawidłowe. 
+{{< figure src="activate4.webp" caption="Aktywacja" class="docs-img" >}}
 
-**Konieczne jest połączenie z internetem!**
+Po pomyślnej weryfikacji pełna wersja zostanie odblokowana.
 
-Po pomyślnej weryfikacji pełna wersja zostanie aktywowana.
+**Podczas tego procesu wymagane jest aktywne połączenie z internetem!**
 
 # Masz pytania?
 

@@ -29,29 +29,30 @@ On Android, complete the installation in Google Play and open Music Master from 
 
 ## Starting and upgrading the application
 
-When you start the app for the first time, you’ll see the welcome screen. Click **Next** to proceed.
+Music Master starts in the Free tier. To unlock the Full tier:
 
-{{< figure src="activation1.jpg" link="activation1.jpg" target="_blank" caption="Welcome screen" class="docs-img" >}}
+* Click **Upgrade** button in Music Master app.
 
-Next, you'll be asked to read the EULA (end user license agreement) and accept it. Click **I accept EULA**, then click **Next**.
+{{< figure src="activate1.webp" caption="Upgrade button" class="docs-img" >}}
 
-{{< figure src="activation2.jpg" link="activation2.jpg" target="_blank" caption="EULA screen" class="docs-img" >}}
+* Click **Purchase a new license** button.
 
-You can use the Free version before purchasing. To unlock the Full version, choose the upgrade option from within Music Master and complete the purchase using the payment provider presented by the app.
+{{< figure src="activate2.webp" caption="Purchase button" class="docs-img" >}}
 
-For purchases fulfilled with a license key, you will receive the key by email after the purchase is completed. Use the activation screen inside Music Master to enter your details:
+* Enter your email address and continue to checkout. That email will be used to send license key to.
 
-1. The license key is included in the email received after purchase.
-1. The email address linked to the key is the one you provided during purchase.
-1. Enter both your email address and license key into the appropriate fields.
+{{< figure src="activate3.webp" caption="Email and checkout" class="docs-img" >}}
 
-{{< figure src="activation3.jpg" link="activation3.jpg" target="_blank" caption="Activation" class="docs-img" >}}
+* Follow the steps on the checkout page to complete your purchase.
+* Wait a moment while the server verifies your email and license key.
+* After the purchase is completed, you will receive an email containing your license key.
+* Return to Music Master and enter the same email address and the license key on the activation screen.
 
-Click **Activate** and wait a moment while the server verifies your email and license key.
+{{< figure src="activate4.webp" caption="Activation" class="docs-img" >}}
 
-**An active internet connection is required!**
+After successful verification, the Full tier will be unlocked.
 
-After successful verification, the Full version will be activated.
+**An active internet connection is required during the process!**
 
 # Have questions?
 
