@@ -77,3 +77,19 @@
 </section>
 
 <section id="blog" class="features-section"><div class="container"><h2 class="section-title">{{ .Params.blog.title }}</h2><p class="section-description">{{ .Params.blog.description }}</p><div class="blog-grid">{{ $posts := sort (where .Site.RegularPages "Section" "blog") ".Params.date" "desc" }}{{ range first 3 $posts }}{{ partial "blog-post-card.html" . }}{{ end }}</div><div style="text-align:center;margin-top:3rem"><a href="{{ "blog" | relLangURL }}" class="btn btn-outline">{{ .Params.blog.read_more_text }}</a></div></div></section>
+
+<section class="community-section" aria-labelledby="community-title">
+    <div class="container">
+        <div class="community-panel">
+            <img class="community-mascot" src="{{ "images/emoji_ok.png" | relURL }}" alt="" loading="lazy">
+            <div class="community-copy">
+                <h2 id="community-title">Join the Music Master community</h2>
+                <p>Follow development, share your ideas, ask questions, and connect with other Game Masters.</p>
+            </div>
+            <div class="community-actions">
+                <a class="community-button community-button-primary" href="{{ .Site.Params.discord_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/discord.webp" | relURL }}" alt=""><span><strong>Discord</strong><small>Chat, feedback and community</small></span></a>
+                <a class="community-button community-button-secondary" href="{{ .Site.Params.facebook_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ "images/social/facebook.webp" | relURL }}" alt=""><span><strong>Facebook</strong><small>News, releases and updates</small></span></a>
+            </div>
+        </div>
+    </div>
+</section>
