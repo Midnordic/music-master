@@ -12,8 +12,13 @@
                 <a href="{{ "seller-information" | relLangURL }}">Seller information</a>
             </nav>
             {{ else }}
-            <p><a href="mailto:{{ .Site.Params.support_email }}">{{ i18n "text_footer_support" }}</a></p>
-            <p><a href="{{ "privacy" | relLangURL }}">{{ i18n "text_footer_privacy_policy" }}</a></p>
+            <nav class="footer-legal-links" aria-label="Informacje prawne i dane firmy">
+                <a href="mailto:{{ .Site.Params.support_email }}">Kontakt</a>
+                <a href="{{ "privacy" | relLangURL }}">Polityka prywatności</a>
+                <a href="{{ "eula.txt" | relURL }}" target="_blank" rel="noopener noreferrer">Warunki / EULA</a>
+                <a href="{{ "refund-policy" | relLangURL }}">Polityka zwrotów</a>
+                <a href="{{ "seller-information" | relLangURL }}">Informacje o sprzedawcy</a>
+            </nav>
             {{ end }}
         </div>
     </div>

@@ -1,77 +1,87 @@
-﻿---
-title: "Polityka prywatności"
-subtitle: "Ostatnia aktualizacja: październik 2025"
-date: 2025-10-08
+---
+title: "Polityka prywatności Music Mastera"
+subtitle: "Ostatnia aktualizacja: 14 września 2026"
+date: 2026-09-14
 author: "Midnordic"
 layout: document
 ---
 
 ## 1. Wprowadzenie
 
-Dziękujemy za zainteresowanie aplikacją **Music Master**, stworzoną przez **Midnordic**. Cenimy Twoją prywatność i dokładamy wszelkich starań, by Twoje dane były bezpieczne. Niniejsza Polityka Prywatności wyjaśnia, jakie informacje są gromadzone, w jaki sposób są wykorzystywane oraz jakie prawa Ci przysługują.
+Music Master jest tworzony i prowadzony przez Midnordic („my”, „nas” lub „nasze”). Cenimy Twoją prywatność i dbamy o ochronę informacji. Niniejsza polityka wyjaśnia, jakie informacje są przetwarzane, dlaczego są potrzebne oraz jakie prawa i możliwości Ci przysługują.
 
-## 2. Jakie dane zbieramy
+## 2. Przetwarzane informacje
 
-Aplikacja **Music Master** sama w sobie nie zbiera, nie przechowuje ani nie przesyła żadnych danych osobowych.  
+Music Master przechowuje projekty, ustawienia, importowane pliki audio, nagrania i inne dane aplikacji na Twoim urządzeniu.
 
-Działa w pełni na Twoim urządzeniu i funkcjonuje całkowicie offline, z wyjątkiem momentu aktywacji lub weryfikacji licencji — wtedy łączy się z naszymi serwerami. Jednak **nie przechowujemy żadnych danych osobowych na naszych serwerach**.
+Podczas korzystania z funkcji online możemy przetwarzać i przechowywać ograniczone informacje niezbędne do ich działania, w tym dane potrzebne do tworzenia, aktywacji i zarządzania licencją; potwierdzania zakupów i dostępu do treści; obsługi integracji; zabezpieczania i diagnozowania usług oraz informacje przekazane podczas kontaktu z pomocą.
 
-Jedyną informacją osobistą związaną z Twoim zakupem jest **adres e-mail**, zbierany przez dostawcę płatności wyłącznie w celu przetwarzania transakcji, dostarczenia zakupu oraz zapewnienia wsparcia klienta.
+Nie wykorzystujemy tych informacji do reklam i nie sprzedajemy danych osobowych.
 
-## 3. Weryfikacja licencji
+## 3. Cele przetwarzania
 
-Aby chronić przed nieautoryzowanym użyciem, **Music Master** generuje odcisk urządzenia (tzw. *fingerprint*), utworzony z ograniczonych, nieosobistych informacji o sprzęcie.
+Przetwarzamy informacje wyłącznie w zakresie niezbędnym do zarządzania licencjami i limitami urządzeń, potwierdzania zakupów, przywracania dostępu, udostępniania pobrań i aktualizacji, wysyłania wiadomości związanych z zakupem, obsługi funkcji online, zapobiegania nadużyciom, diagnozowania problemów, udzielania pomocy i realizacji obowiązków prawnych.
 
-Ten odcisk jest przechowywany lokalnie na Twoim urządzeniu, a jego zahaszowana wartość zapisywana jest w bazie danych dostawcy płatności w celu weryfikacji licencji.  
+Podstawą przetwarzania może być realizacja żądanej usługi, obowiązek prawny, uzasadniony interes związany z prowadzeniem i zabezpieczeniem Music Mastera albo Twoja zgoda.
 
-Hash nie może zostać wykorzystany do zidentyfikowania Ciebie, ani do odtworzenia szczegółów Twojego sprzętu.
+## 4. Weryfikacja licencji
 
-Służy on wyłącznie do potwierdzania ważności licencji i zapewnienia, że Twoja kopia aplikacji pozostaje aktywna.
+Music Master tworzy odcisk urządzenia na podstawie ograniczonych informacji o urządzeniu. Odcisk jest bezpiecznie haszowany, dlatego nie można z niego odtworzyć informacji źródłowych.
 
-## 4. Dostęp do mikrofonu / nagrywanie dźwięku
+Hash służy do rozpoznawania aktywowanych urządzeń, egzekwowania limitów i sprawdzania ważności licencji. Przechowujemy również informacje potrzebne do administrowania licencją, potwierdzania własności i zapobiegania nieuprawnionemu użyciu.
 
-Music Master może poprosić o dostęp do mikrofonu urządzenia wyłącznie wtedy, gdy użytkownik korzysta z funkcji nagrywania dźwięku.
+Chronione informacje licencyjne są zapisywane lokalnie, a aplikacja okresowo łączy się z usługami w celu walidacji lub odnowienia dostępu. Korzystanie z funkcji licencjonowanych może zatem wymagać sporadycznego dostępu do internetu.
 
-Nagrany dźwięk jest wykorzystywany wyłącznie do działania tej funkcji. Nagrania są przechowywane jedynie na urządzeniu użytkownika.
+## 5. Zakupy i zakupione treści
 
-Music Master nie przesyła, nie udostępnia ani nie sprzedaje nagrań dźwiękowych podmiotom trzecim.
+Zakupy obsługują zewnętrzne usługi płatnicze zgodnie z własnymi politykami prywatności. Midnordic nie otrzymuje pełnych danych kart płatniczych.
 
-Dostęp do mikrofonu jest opcjonalny i używany tylko wtedy, gdy użytkownik sam zainicjuje nagrywanie.
+Otrzymujemy ograniczone dane potrzebne do potwierdzenia zakupu, utworzenia lub aktualizacji licencji, udostępnienia i przywrócenia treści, obsługi zwrotów lub cofnięć, zapobiegania oszustwom, pomocy klientom oraz realizacji obowiązków prawnych i księgowych. Adres e-mail użyty przy zakupie może zostać powiązany z licencją i wykorzystany do wiadomości dotyczących zakupu lub licencji.
 
-## 5. Usługi zewnętrzne
+## 6. Mikrofon i nagrania audio
 
-Podczas zakupu **Music Master** transakcja jest obsługiwana przez zewnętrznego operatora płatności. Zapoznaj się z ich własną polityką prywatności, aby dowiedzieć się, jak przetwarzają Twoje dane.
+Music Master prosi o dostęp do mikrofonu tylko wtedy, gdy wybierzesz funkcję nagrywania. Dostęp jest opcjonalny i nie jest używany bez Twojego działania. Nagrania są zwykle przetwarzane i zapisywane lokalnie we wskazanym miejscu; aplikacja nie przesyła ich do usług licencyjnych ani sklepu.
 
-Nie kontrolujemy ani nie ponosimy odpowiedzialności za sposób, w jaki podmioty trzecie przetwarzają Twoje dane.
+## 7. Opcjonalne funkcje online
 
-## 6. Pliki cookie i śledzenie
+Opcjonalne funkcje obejmują integrację głosową, transmisję, sklep z samplami, pobieranie treści i aktualizacje. My i zaangażowani usługodawcy możemy przetwarzać ograniczone dane konta, połączenia, zakupu lub dane techniczne potrzebne do działania tych funkcji. Audio jest przesyłane tylko wtedy, gdy świadomie użyjesz funkcji wysyłającej je innym uczestnikom lub usłudze zewnętrznej.
 
-Nasza strona internetowa **nie używa plików cookie ani technologii śledzących**.  
+Informacje o integracjach mogą być przechowywane lokalnie. Możesz nie korzystać z opcjonalnych integracji i odłączyć je, jeśli aplikacja udostępnia taką możliwość. Usługi zewnętrzne działają zgodnie z własnymi zasadami.
 
-Jeśli odwiedzasz stronę aplikacji w sklepie (np. platformę sprzedażową), ta platforma może stosować pliki cookie zgodnie ze swoją polityką prywatności.
+## 8. Dane lokalne
 
-## 7. Udostępnianie danych
+Projekty, importowane audio, nagrania, zainstalowane paczki sampli, ustawienia i pamięć podręczna przebiegów fal zwykle pozostają na urządzeniu, chyba że zdecydujesz się je udostępnić, wyeksportować lub transmitować. Dane pozostają tam do czasu ich usunięcia, wyczyszczenia pamięci podręcznej, odinstalowania aplikacji lub usunięcia ich przez system operacyjny.
 
-Nie sprzedajemy, nie wymieniamy ani nie udostępniamy Twoich danych osobowych żadnym podmiotom trzecim.
+## 9. Udostępnianie danych
 
-## 8. Prywatność dzieci
+Nie sprzedajemy ani nie wymieniamy danych osobowych. Udostępniamy je tylko usługodawcom pomagającym prowadzić Music Mastera, operatorom płatności, odbiorcom i integracjom wybranym przez użytkownika, gdy wymaga tego prawo lub bezpieczeństwo, albo w ramach przeniesienia działalności z odpowiednimi zabezpieczeniami.
 
-Aplikacja **Music Master** nie jest skierowana do dzieci poniżej 13. roku życia.  
-Nie zbieramy świadomie żadnych danych osobowych od dzieci.
+## 10. Okres przechowywania
 
-## 9. Twoje prawa
+Dane licencji, zakupów i kont przechowujemy tak długo, jak jest to rozsądnie potrzebne do zapewnienia zakupionego dostępu, przywracania zakupów, administrowania licencjami, zapobiegania oszustwom, rozstrzygania sporów i realizacji obowiązków prawnych lub księgowych. Logi techniczne są przechowywane tylko tak długo, jak wymaga tego bezpieczeństwo i diagnostyka. Dane tymczasowe funkcji online są usuwane lub wygasają, gdy nie są już potrzebne.
 
-Ponieważ sami **nie przechowujemy żadnych danych osobowych**, nie ma danych użytkownika, do których można by uzyskać dostęp, które można by poprawić lub usunąć.  
+## 11. Pliki cookie i strona internetowa
 
-W przypadku danych związanych z płatnością (np. adres e-mail powiązany z zakupem) prosimy o bezpośredni kontakt z dostawcą płatności.
+Music Master nie zawiera trackerów reklamowych. Nasza strona i usługi używane do jej hostowania, ochrony lub wyświetlania mogą przetwarzać zwykłe dane techniczne, takie jak adres IP, informacje o przeglądarce, żądana strona i czas żądania. Zewnętrzne strony działają zgodnie z własnymi politykami i mogą używać plików cookie.
 
-## 10. Zmiany w niniejszej polityce
+## 12. Prywatność dzieci
 
-Możemy od czasu do czasu aktualizować niniejszą Politykę Prywatności, aby odzwierciedlić zmiany prawne lub techniczne.  
+Music Master nie jest skierowany do dzieci poniżej 13 lat i nie zbieramy świadomie ich danych osobowych. Jeśli uważasz, że dziecko przekazało nam dane, skontaktuj się z nami.
 
-Aktualizacje zawsze będą publikowane na tej stronie, z wyraźnie zaznaczoną datą ostatniej rewizji.
+## 13. Twoje prawa i wybory
 
-## 11. Kontakt
+W zależności od miejsca zamieszkania możesz mieć prawo do dostępu, sprostowania, usunięcia, ograniczenia lub przeniesienia danych, wniesienia sprzeciwu albo skargi do organu ochrony danych.
 
-Jeśli masz jakiekolwiek pytania dotyczące tej Polityki Prywatności lub sposobu, w jaki przetwarzamy dane, możesz się z nami skontaktować pod adresem:  
-📧 **[support@midnordic.net](mailto:support@midnordic.net)**
+Możesz zrezygnować z opcjonalnych funkcji mikrofonu, sklepu, transmisji, głosu i innych funkcji online oraz usuwać dane lokalne za pomocą aplikacji lub systemu. W sprawach dotyczących danych Midnordic skontaktuj się z nami; możemy potrzebować potwierdzić Twoją tożsamość. Niektóre dane mogą wymagać zachowania ze względu na zakupiony dostęp, bezpieczeństwo, spory lub obowiązki prawne. W sprawach danych kontrolowanych niezależnie przez operatora płatności lub integracji skontaktuj się bezpośrednio z nim.
+
+## 14. Przetwarzanie międzynarodowe
+
+Nasi usługodawcy mogą przetwarzać informacje poza krajem Twojego zamieszkania. Tam, gdzie jest to wymagane, stosujemy odpowiednie zabezpieczenia transferu międzynarodowego.
+
+## 15. Zmiany polityki
+
+Możemy aktualizować tę politykę, aby odzwierciedlała zmiany w Music Masterze, usługach lub obowiązkach prawnych. Aktualna wersja będzie publikowana wraz z datą ostatniej zmiany.
+
+## 16. Kontakt
+
+W sprawach prywatności skontaktuj się z Midnordic: [support@midnordic.net](mailto:support@midnordic.net).
