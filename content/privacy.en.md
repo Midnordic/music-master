@@ -18,11 +18,12 @@ Music Master stores your projects, settings, imported audio, recordings, and oth
 
 When you use online features, we may process and retain limited information required to provide those features. This may include:
 
-- information needed to create, activate, verify, and manage your license;
-- information needed to confirm purchases and provide access to purchased content;
-- information required to operate optional online integrations;
-- technical information needed to secure, diagnose, and maintain the application and its services;
+- **User email** — collected during purchase and used to associate the purchase with your license;
+- **Purchase history** — collected during purchase and used to confirm transactions, provide purchased content, and restore access;
+- **Device ID** — a hashed device fingerprint used to recognize activated devices, enforce device limits, and verify your license;
 - information you choose to provide when contacting support.
+
+We do **not** collect any payment card or bank account information. Payment and billing details are handled by the selected third party payment providers under their own privacy policy.
 
 We do not use this information for advertising and do not sell personal information.
 
@@ -52,7 +53,7 @@ Music Master stores protected license information locally on your device and per
 
 ## 5. Purchases and Purchased Content
 
-Purchases are handled by third-party payment services. Those services process payment and billing information under their own privacy policies. Midnordic does not receive complete payment-card details.
+Purchases are handled by third-party payment services. Those services process payment and billing information under their own privacy policies. Midnordic does not collect payment-card or bank-account information.
 
 We receive and retain the limited purchase information required to:
 
@@ -118,7 +119,7 @@ Local data is controlled by you and remains on your device until you remove it.
 
 ## 11. Data Security
 
-Information transmitted between Music Master and Midnordic's online services is protected in transit using HTTPS/TLS. Device identifiers used for license verification are stored as derived/hashed identifiers rather than the underlying device information. Midnordic does not receive or store complete payment-card details.
+Information transmitted between Music Master and Midnordic's online services is protected in transit using HTTPS/TLS. Device identifiers used for license verification are stored as derived/hashed identifiers rather than the underlying device information. Midnordic does not collect payment-card or bank-account information.
 
 ## 12. Cookies and Website Use
 

@@ -18,11 +18,12 @@ Music Master przechowuje projekty, ustawienia, importowane pliki audio, nagrania
 
 Podczas korzystania z funkcji online możemy przetwarzać i przechowywać ograniczone informacje niezbędne do świadczenia tych funkcji. Mogą one obejmować:
 
-- informacje potrzebne do utworzenia, aktywacji, weryfikacji i zarządzania licencją;
-- informacje potrzebne do potwierdzania zakupów i zapewniania dostępu do zakupionych treści;
-- informacje wymagane do obsługi opcjonalnych integracji online;
-- informacje techniczne potrzebne do zabezpieczania, diagnozowania i utrzymywania aplikacji oraz jej usług;
+- **Adres e-mail użytkownika** — zbierany podczas zakupu i używany do powiązania zakupu z licencją;
+- **Historia zakupów** — zbierana podczas zakupu i używana do potwierdzania transakcji, udostępniania zakupionych treści i przywracania dostępu;
+- **Identyfikator urządzenia** — zahaszowany odcisk urządzenia używany do rozpoznawania aktywowanych urządzeń, egzekwowania limitów i weryfikacji licencji;
 - informacje, które zdecydujesz się przekazać podczas kontaktu z pomocą techniczną.
+
+Nie zbieramy **żadnych danych kart płatniczych ani rachunków bankowych**. Dane płatnicze i rozliczeniowe są obsługiwane przez wybranego zewnętrznego operatora płatności zgodnie z jego własną polityką prywatności.
 
 Nie wykorzystujemy tych informacji do celów reklamowych i nie sprzedajemy danych osobowych.
 
@@ -52,7 +53,7 @@ Music Master przechowuje chronione informacje licencyjne lokalnie na Twoim urzą
 
 ## 5. Zakupy i zakupione treści
 
-Zakupy są obsługiwane przez zewnętrzne usługi płatnicze. Usługi te przetwarzają dane płatnicze i rozliczeniowe zgodnie z własnymi politykami prywatności. Midnordic nie otrzymuje pełnych danych kart płatniczych.
+Zakupy są obsługiwane przez zewnętrzne usługi płatnicze. Usługi te przetwarzają dane płatnicze i rozliczeniowe zgodnie z własnymi politykami prywatności. Midnordic nie zbiera danych kart płatniczych ani rachunków bankowych.
 
 Otrzymujemy i przechowujemy ograniczone informacje o zakupie niezbędne, aby:
 
@@ -118,7 +119,7 @@ Masz kontrolę nad danymi lokalnymi, które pozostają na urządzeniu do czasu i
 
 ## 11. Bezpieczeństwo danych
 
-Informacje przesyłane między Music Masterem a usługami online Midnordic są chronione podczas transmisji za pomocą HTTPS/TLS. Identyfikatory urządzeń używane do weryfikacji licencji są przechowywane jako identyfikatory pochodne lub zahaszowane, a nie jako źródłowe informacje o urządzeniu. Midnordic nie otrzymuje ani nie przechowuje pełnych danych kart płatniczych.
+Informacje przesyłane między Music Masterem a usługami online Midnordic są chronione podczas transmisji za pomocą HTTPS/TLS. Identyfikatory urządzeń używane do weryfikacji licencji są przechowywane jako identyfikatory pochodne lub zahaszowane, a nie jako źródłowe informacje o urządzeniu. Midnordic nie zbiera danych kart płatniczych ani rachunków bankowych.
 
 ## 12. Pliki cookie i korzystanie ze strony
 
