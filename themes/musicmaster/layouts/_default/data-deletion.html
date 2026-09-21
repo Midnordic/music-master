@@ -1,0 +1,96 @@
+{{ define "main" }}
+{{ $isPolish := eq .Lang "pl" }}
+<main id="main-content" class="deletion-page">
+    <section class="deletion-header" aria-labelledby="deletion-title">
+        <div class="container">
+            <p class="deletion-eyebrow">{{ if $isPolish }}Prywatność w Music Master{{ else }}Music Master privacy{{ end }}</p>
+            <h1 id="deletion-title">{{ .Title }}</h1>
+            {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+        </div>
+    </section>
+
+    <section class="deletion-content">
+        <div class="container">
+            <div class="deletion-card">
+                <div class="deletion-introduction">
+                    {{ .Content }}
+                </div>
+
+                <form id="data-deletion-form"
+                      class="deletion-form"
+                      action="mailto:{{ .Site.Params.support_email }}"
+                      method="post"
+                      enctype="text/plain">
+                    <div class="form-field">
+                        <label for="deletion-email">{{ if $isPolish }}Adres e-mail{{ else }}Email address{{ end }}</label>
+                        <input id="deletion-email" name="email" type="email" autocomplete="email" required
+                               aria-describedby="email-help">
+                        <p id="email-help" class="field-help">{{ if $isPolish }}Podaj adres powiązany z licencją Music Master.{{ else }}Use the address associated with your Music Master license.{{ end }}</p>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="deletion-license">{{ if $isPolish }}Klucz licencyjny{{ else }}License key{{ end }}</label>
+                        <input id="deletion-license" name="license_key" type="text" autocomplete="off" required
+                               aria-describedby="license-help">
+                        <p id="license-help" class="field-help">{{ if $isPolish }}Pomoże nam to odnaleźć i zweryfikować właściwą licencję.{{ else }}This helps us locate and verify the correct license.{{ end }}</p>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="deletion-message">{{ if $isPolish }}Wiadomość <span class="optional-label">(opcjonalnie)</span>{{ else }}Message <span class="optional-label">(optional)</span>{{ end }}</label>
+                        <textarea id="deletion-message" name="message" rows="5"></textarea>
+                    </div>
+
+                    <p class="retention-note">{{ if $isPolish }}<strong>Uwaga:</strong> Niektóre dane dotyczące transakcji, podatków, zapobiegania oszustwom lub księgowości mogą być przechowywane, jeżeli wymagają tego przepisy prawa.{{ else }}<strong>Please note:</strong> Some transaction, tax, fraud-prevention, or accounting records may be retained where required by law.{{ end }}</p>
+
+                    <button type="submit" class="btn btn-primary">{{ if $isPolish }}Poproś o usunięcie danych{{ else }}Request Data Deletion{{ end }}</button>
+
+                    <div id="deletion-confirmation" class="deletion-confirmation" role="status" aria-live="polite" tabindex="-1" hidden>
+                        {{ if $isPolish }}<strong>Twoje zgłoszenie jest gotowe.</strong> Aplikacja pocztowa powinna otworzyć wiadomość zaadresowaną do
+                        {{ else }}<strong>Your request is ready.</strong> Your email app should open with a message addressed to{{ end }}
+                        <a href="mailto:{{ .Site.Params.support_email }}">{{ .Site.Params.support_email }}</a>.
+                        {{ if $isPolish }}Wyślij tę wiadomość, aby dokończyć zgłoszenie.{{ else }}Send that message to complete your request.{{ end }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('data-deletion-form');
+    const confirmation = document.getElementById('deletion-confirmation');
+    if (!form || !confirmation) return;
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+
+        const email = document.getElementById('deletion-email').value.trim();
+        const licenseKey = document.getElementById('deletion-license').value.trim();
+        const message = document.getElementById('deletion-message').value.trim();
+        const subject = {{ if $isPolish }}'Prośba o usunięcie danych Music Master'{{ else }}'Music Master data deletion request'{{ end }};
+        const body = [
+            {{ if $isPolish }}
+            'Proszę o usunięcie danych osobowych powiązanych z moją licencją Music Master.',
+            '',
+            'Adres e-mail: ' + email,
+            'Klucz licencyjny: ' + licenseKey,
+            'Opcjonalna wiadomość: ' + (message || 'Brak')
+            {{ else }}
+            'Please delete the personal data associated with my Music Master license.',
+            '',
+            'Email address: ' + email,
+            'License key: ' + licenseKey,
+            'Optional message: ' + (message || 'None')
+            {{ end }}
+        ].join('\n');
+
+        confirmation.hidden = false;
+        confirmation.focus({ preventScroll: true });
+        window.location.href = 'mailto:{{ .Site.Params.support_email }}?subject=' +
+            encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+});
+</script>
+{{ end }}
