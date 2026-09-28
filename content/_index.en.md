@@ -69,7 +69,7 @@ comparison:
   title: "Free vs Full"
   labels: { feature: "Feature", demo: "Free", full: "Full" }
   items:
-    - { feature: "Price", demo: "Free", full: "$24.99" }
+    - { feature: "Price", demo: "Free", full: "Paid" }
     - { feature: "Project size", demo: "10 tracks", full: "✓ Unlimited" }
     - { feature: "Track Length", demo: "4:30", full: "✓ Unlimited" }
     - { feature: "Playlist / soundboard", demo: "5 tracks", full: "✓ Unlimited" }

@@ -73,7 +73,7 @@ full_features:
 landing_comparison:
   labels: { feature: "Możliwości", trial: "Darmowa wersja", full: "Pełna wersja" }
   items:
-    - { feature: "Cena", trial: "Za darmo", full: "24,99 dolarów" }
+    - { feature: "Cena", trial: "Za darmo", full: "Płatna" }
     - { feature: "Rozmiar projektu", trial: "10 plików", full: "✓ Bez ograniczeń" }
     - { feature: "Długość utworu", trial: "4:30 min.", full: "✓ Bez ograniczeń" }
     - { feature: "Playlista / soundboard", trial: "5 plików", full: "✓ Bez ograniczeń" }
