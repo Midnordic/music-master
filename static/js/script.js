@@ -17,6 +17,7 @@ function initCinematiquesCarousel() {
         const counter = carousel.querySelector('.carousel-counter');
         const previousButton = carousel.querySelector('.carousel-prev');
         const nextButton = carousel.querySelector('.carousel-next');
+        const autoAdvanceEnabled = carousel.dataset.autoAdvance !== 'false';
 
         if (!track || !slides.length || !counter || !previousButton || !nextButton) return;
 
@@ -28,13 +29,14 @@ function initCinematiquesCarousel() {
             slides.forEach((slide, i) => {
                 const hidden = i !== current;
                 slide.setAttribute('aria-hidden', hidden);
-                slide.querySelectorAll('a, button').forEach(control => control.tabIndex = hidden ? -1 : 0);
+                slide.querySelectorAll('a, button, iframe').forEach(control => control.tabIndex = hidden ? -1 : 0);
             });
             dots.forEach((dot, i) => i === current ? dot.setAttribute('aria-current', 'true') : dot.removeAttribute('aria-current'));
             counter.textContent = `${current + 1} / ${slides.length}`;
         };
         const startAutoAdvance = () => {
             window.clearInterval(autoAdvance);
+            if (!autoAdvanceEnabled) return;
             autoAdvance = window.setInterval(() => show(current + 1), 6000);
         };
         const navigate = index => { show(index); startAutoAdvance(); };
