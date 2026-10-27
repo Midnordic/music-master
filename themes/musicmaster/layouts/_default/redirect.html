@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ .Site.Params.StripeUrl | safeURL }}">
+    <link rel="canonical" href="{{ .Site.Params.StripeUrl | safeURL }}">
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <p>Redirecting to checkout… <a href="{{ .Site.Params.StripeUrl | safeURL }}">Continue to Stripe</a>.</p>
+    <script>window.location.replace({{ .Site.Params.StripeUrl | jsonify | safeJS }});</script>
+</body>
+</html>
